@@ -1,0 +1,10 @@
+{
+  "type" : "sfdc_enablement__videoLesson",
+  "title" : "Watch A Successful Discovery Call",
+  "contentBody" : {
+    "description" : "Understand where you’re headed and how to get there in a remote selling environment",
+    "time" : 15.0,
+    "videoUrl" : "https://play.vidyard.com/dYBe3SBNaAGKsUwrjiVxT5"
+  },
+  "urlName" : "watch-a-successful-discovery-call"
+}

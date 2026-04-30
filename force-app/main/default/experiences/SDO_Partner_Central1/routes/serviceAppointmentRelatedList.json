@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "e44ac9f7-8035-4125-8efc-c685a1501957",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Service_Appointment_Related_List__c",
+  "id" : "f84c0788-cc57-4ba9-9d80-3fe46bcb6615",
+  "label" : "Service Appointment Related List",
+  "routeType" : "relatedlist-08p",
+  "type" : "route",
+  "urlPrefix" : "support/serviceappointment"
+}

@@ -1,0 +1,116 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "32e9ae29-a4f0-465f-93ce-cc2c19540f97",
+  "label" : "Article Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e680fba9-0a23-4750-ba11-2acdbf6b3046",
+          "columns" : [ {
+            "UUID" : "b2757554-f85c-4cae-a6ed-de3e22417c3b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "c6a2a247-a3c9-4dd2-9508-5933b153c57b",
+            "columnKey" : "47b1f",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e680fba9-0a23-4750-ba11-2acdbf6b3046",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableVoting" : true,
+            "recordId" : "{!recordId}",
+            "showTitleInArticleHeader" : true,
+            "showTopicPills" : false,
+            "urlName" : "{!urlName}"
+          },
+          "componentName" : "selfService:singleArticleView",
+          "id" : "975c3a9c-0a4d-43cd-a8ed-f518cb70e602",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<!-- Community & Support -->\n<div class=\"list-container slds-m-bottom_xx-small slds-m-top_xx-large\">\n    <div class=\"slds-align_absolute-center\">\n        <H2>Have a question or need help?</H2>\n    </div>\n    <div class=\"slds-align_absolute-center\">\n        <span class=\"slds-m-right_large\">\n            <p>\n                <a style=\"color:#666666\" href=\"{!Global.PathPrefix}/community\">\n                    <i class=\"fa-regular fa-comments fa-lg\"></i> &nbsp; Community</a>\n            </p>\n        </span>\n        <span>\n            <p>\n                <a style=\"color:#666666\" href=\"{!Global.PathPrefix}/support\">\n                    <i class=\"fa-regular fa-circle-question fa-lg\"></i> &nbsp; Support</a>\n            </p>\n        </span>\n    </div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "e7bbe312-d8e2-4881-8a74-d29d78f8745f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b2757554-f85c-4cae-a6ed-de3e22417c3b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "numberOfItems" : 5,
+            "showViewCounts" : false,
+            "title" : "Related Issues"
+          },
+          "componentName" : "selfService:similarArticles42",
+          "id" : "1d23ceb3-317c-463d-8c1d-76f2b9f93c24",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<!-- Community & Support -->\n<div class=\"list-container slds-m-top_xx-large slds-m-bottom_xx-small\">\n        <H2>Have a question or need help?</H2>\n        <div class=\"slds-m-bottom_x-small\">\n            <p class=\"slds-m-bottom_x-small slds-m-left_small\">\n                <a style=\"color:#666666\" href=\"{!Global.PathPrefix}/community\">\n                <i class=\"fa-regular fa-comments fa-lg fa-fw\"></i> &nbsp; Community</a>\n            </p>\n\t\t\t<p class=\"slds-m-left_small\">\n                <a style=\"color:#666666\" href=\"{!Global.PathPrefix}/support\">\n                <i class=\"fa-regular fa-circle-question fa-lg fa-fw\"></i> &nbsp; Support</a>\n            </p>\n        </div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "06115ab3-02b4-457a-830a-1c53b5fc27d6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c6a2a247-a3c9-4dd2-9508-5933b153c57b",
+        "regionLabel" : "Column 2",
+        "regionName" : "47b1f",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "117c91d6-eb09-430b-a427-8e3647e2596f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "{!Record.Summary}",
+        "title" : "{!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "080f9beb-8246-4f86-99c3-3f2d064f331e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4eb2407a-f58b-4c64-8929-69b341b70bbd",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "article"
+}

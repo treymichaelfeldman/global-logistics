@@ -1,0 +1,369 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "88cbc214-4ca9-48bc-a7ba-bb0af8c558f6",
+  "label" : "Marketing Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "2f7c9baa-d5ee-4dfc-a80e-aa987dcf7adc",
+          "columns" : [ {
+            "UUID" : "1e261426-11fb-4e02-99cb-a8599274ce49",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "5c417aa0-f259-48e2-a0fe-8e3c136b0e9a",
+            "columnKey" : "69ce7",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "2f7c9baa-d5ee-4dfc-a80e-aa987dcf7adc",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong>Elevate Your Marketing Strategy</strong></h2><p>Unlock powerful marketing tools designed to enhance your campaigns and boost your reach. Access comprehensive campaigns, explore a wealth of marketing collateral, and manage your development funds efficiently.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "947c7bd2-1284-45de-befe-7d8c34897601",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "rgba(55, 126, 81, 0)",
+            "bannerPosition" : "right",
+            "bannerSizePercent" : 90,
+            "borderRadius" : 0,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "icon",
+            "tileMenuEditor" : "SDO_Partner_Marketing_Navigation",
+            "titleColor" : "rgb(102, 102, 102)",
+            "titleFontSize" : "small",
+            "titleHorizontalAlign" : "left"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "deb24e8d-a712-46ed-a463-17f3e42cda86",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1e261426-11fb-4e02-99cb-a8599274ce49",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/wx6rYKa0uOc?si=k0PaFnAL4hFPV5t4\" src=\"https://www.youtube.com/embed/wx6rYKa0uOc?si=k0PaFnAL4hFPV5t4\"></iframe></div><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e70ebdd4-199a-4ec2-abca-99722b8cd3d9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5c417aa0-f259-48e2-a0fe-8e3c136b0e9a",
+        "regionLabel" : "Column 2",
+        "regionName" : "69ce7",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(244,244,244)",
+        "backgroundOverlay" : "rgba(244, 244, 244, 0)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "ab27f998-23ac-4a82-a07f-46a057607578",
+          "columns" : [ {
+            "UUID" : "b0b515fd-f932-40ff-978e-5d1a4803d10c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ab27f998-23ac-4a82-a07f-46a057607578",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Ready to Create a Marketing Fund Request?</span></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3bbc1377-852e-4ae8-b381-2236563093f9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "align" : "Center",
+            "applyCardBackground" : false,
+            "autoLaunchFlow" : false,
+            "buttonBackgroundColor" : "",
+            "buttonBorderRadius" : "10px",
+            "buttonHeight" : "60px",
+            "buttonLabel" : "Request Funds",
+            "buttonTextColor" : "",
+            "buttonTextSize" : "",
+            "buttonWidth" : "300px",
+            "closeButtonText" : "Close",
+            "fixedButtonWidthHeight" : true,
+            "fixedModalWidthHeight" : false,
+            "flowInputVariablesString" : "",
+            "flowModalHeader" : "",
+            "flowName" : "SDO_Community_Partner_Central_Fund_Request",
+            "hideButton" : false,
+            "hideFlowTransitionOverlay" : true,
+            "hideModalCloseButton" : false,
+            "modalHeight" : "600px",
+            "modalWidth" : "800px",
+            "redirectUrlOnFlowCompletion" : "",
+            "refreshPageOnFlowCompletion" : false,
+            "renderFooter" : false
+          },
+          "componentName" : "sf_flowmodal:ccp_launchFlowModal",
+          "id" : "416e7c0f-ebbf-47fc-a63a-683e1c912f0d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b0b515fd-f932-40ff-978e-5d1a4803d10c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "95f27a96-cbd0-4df3-af1e-868021f41288",
+          "columns" : [ {
+            "UUID" : "b7a57151-8de4-43a7-b6ab-d8aa384fd39e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "2ee0092e-321d-4404-993a-7d1cc85f2616",
+            "columnKey" : "3f544",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "95f27a96-cbd0-4df3-af1e-868021f41288",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Campaigns in Progress</h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "257c7dae-8aad-4ba9-ae7f-0fef7dc1254e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bodyField" : "Description",
+            "categoryField" : "Type",
+            "dataFieldsConfig" : "",
+            "highlight" : "Status",
+            "highlightColor" : "#007DB8",
+            "listLabel" : "",
+            "listViewName" : "SDO_Status_In_Progress",
+            "showImage" : true,
+            "sortBy" : "Name",
+            "sortOrder" : "Ascending",
+            "titleField" : "Name"
+          },
+          "componentName" : "forceCommunity:campaignTileList",
+          "id" : "d0a2160d-d612-4074-8a02-a151bb05b713",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Your Active Campaigns</h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "6696084c-307d-4173-9496-4c5a1ff403de",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bodyField" : "Description",
+            "categoryField" : "Type",
+            "dataFieldsConfig" : "",
+            "highlight" : "Status",
+            "highlightColor" : "#007DB8",
+            "listLabel" : "",
+            "listViewName" : "MyActiveCampaigns",
+            "showImage" : true,
+            "sortBy" : "Name",
+            "sortOrder" : "Ascending",
+            "titleField" : "Name"
+          },
+          "componentName" : "forceCommunity:campaignTileList",
+          "id" : "5f21ec73-4535-4a50-a473-687f6624fd61",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b7a57151-8de4-43a7-b6ab-d8aa384fd39e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Manage Your Market Development Funds</h2><p>Optimize your marketing initiatives with Market Development Funds (MDF). Take control of your budget, track fund requests, and accelerate your impact with targeted campaigns and strategic investments.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "834892b5-c91e-48e0-8e74-928100e3ec3f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "My_Partner_Marketing_Budgets",
+            "layout" : "STANDARD",
+            "pageSize" : 3,
+            "scope" : "PartnerMarketingBudget",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "bc184b3d-6ac6-4ba9-9b70-432cfc7fd026",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "My_Partner_Fund_Requests",
+            "layout" : "STANDARD",
+            "pageSize" : 3,
+            "scope" : "PartnerFundRequest",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "ba9bfebb-da5d-4bab-a956-633756173368",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "My_Partner_Fund_Claims",
+            "layout" : "STANDARD",
+            "pageSize" : 3,
+            "scope" : "PartnerFundClaim",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "6c7c458c-24a4-4e65-901f-89977643fdd3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><strong style=\"color: rgb(230, 0, 0); font-size: 22px;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.sfbuilderlogo.1}\"></strong></h2>\n<h2 style=\"text-align: center;\"><strong>Distributed Marketing Instructions</strong></h2>\n<p>To show Distributed Marketing, SEs need to connect the IDO to a Marketing Cloud environment with Distributed Marketing enabled. For details, refer to steps <a href=\"https://solutionscentral.io/posts/180ad0a0-6f79-11eb-b402-ad32e68ecd2f/distributed-marketing--sdo/\" rel=\"noopener noreferrer\" target=\"null\">here</a>.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7116b3c6-7b2f-4eb4-88cc-3036c4f11239",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2ee0092e-321d-4404-993a-7d1cc85f2616",
+        "regionLabel" : "Column 2",
+        "regionName" : "3f544",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8af843cf-93df-46ff-b4fd-0e400a85771f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Marketing"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c54247a1-0058-4181-8bc2-d287e56533e8",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "045b72af-4ec3-4989-a3a9-2242783f4e58",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "f8pFGPSSlDiwf2mPU6Xc4MGMnnEAvE",
+  "type" : "view",
+  "viewType" : "custom-marketing-home"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "ba0760e5-481c-402e-af3d-f03560a076a3",
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "configurationTags" : [ ],
+  "devName" : "Training__c",
+  "id" : "206d71d0-dfa0-4da8-ae45-5943bfd61dd0",
+  "label" : "Training",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-training",
+  "type" : "route",
+  "urlPrefix" : "training"
+}

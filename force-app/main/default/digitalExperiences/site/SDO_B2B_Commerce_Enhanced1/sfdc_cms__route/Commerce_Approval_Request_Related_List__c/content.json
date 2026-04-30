@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Commerce Approval Request Related List",
+  "contentBody" : {
+    "activeViewId" : "Commerce_Approval_Request_Related_List",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "relatedlist-FSL__Custom_Gantt_Action__c",
+    "urlPrefix" : "sdo-scom-ooa-commerce-approval-requests"
+  },
+  "urlName" : "commerce-approval-request-related-list"
+}

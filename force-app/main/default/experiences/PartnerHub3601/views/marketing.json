@@ -1,0 +1,80 @@
+{
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "a34a12e9-2b8e-4f28-b8e8-4102d78a898b",
+  "label" : "Marketing",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "181c828d-1cf0-4692-adbf-971c9b87dc6a",
+          "columns" : [ {
+            "UUID" : "51d654c8-1a7b-4547-b748-348a440a5a40",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "181c828d-1cf0-4692-adbf-971c9b87dc6a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bodyField" : "Description",
+            "categoryField" : "Type",
+            "dataFieldsConfig" : "",
+            "highlight" : "__",
+            "highlightColor" : "#007DB8",
+            "listLabel" : "",
+            "listViewName" : "SDO_All_Campaigns",
+            "showImage" : true,
+            "sortBy" : "StartDate",
+            "sortOrder" : "Ascending",
+            "titleField" : "Name"
+          },
+          "componentName" : "forceCommunity:campaignTileList",
+          "id" : "301c20de-3a37-43c6-bbd6-2ad575becbde",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "51d654c8-1a7b-4547-b748-348a440a5a40",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "afd17aaa-07dd-4896-8048-0c1622518389",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Marketing"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6d26ebc8-dab4-4d3c-8d19-0087bca6e18f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b647fa1b-125a-474e-a03e-2116109aed1f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-marketing"
+}

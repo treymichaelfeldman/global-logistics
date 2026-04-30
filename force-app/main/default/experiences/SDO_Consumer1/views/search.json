@@ -1,0 +1,97 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "c101aef4-14f9-48aa-b984-a013df7682a5",
+  "label" : "Search",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 95,
+        "sectionConfig" : {
+          "UUID" : "ef4d2c35-2c7d-4c42-8a1b-9ed2f52b6b7d",
+          "columns" : [ {
+            "UUID" : "8c805ceb-f0ce-4714-9e8d-a66321a49ef0",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "9",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "77d8590c-e8c7-4836-a53b-2ed2f6228e12",
+            "columnKey" : "3202f",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ef4d2c35-2c7d-4c42-8a1b-9ed2f52b6b7d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "scopes" : [ {
+              "isPublic" : true,
+              "name" : "Knowledge__kav"
+            }, {
+              "isPublic" : true,
+              "name" : "FeedPost"
+            }, {
+              "isPublic" : true,
+              "name" : "Topic"
+            }, {
+              "isPublic" : true,
+              "name" : "User"
+            }, {
+              "isPublic" : true,
+              "name" : "ManagedContentVersion"
+            }, {
+              "isPublic" : false,
+              "name" : "Case"
+            }, {
+              "isPublic" : false,
+              "name" : "ContentDocument"
+            }, {
+              "isPublic" : false,
+              "name" : "WorkOrder"
+            }, {
+              "isPublic" : false,
+              "name" : "Asset"
+            } ],
+            "searchResultFiltering" : true,
+            "searchTerm" : "{!term}",
+            "showTopResults" : true
+          },
+          "componentName" : "forceCommunity:search",
+          "id" : "29686844-fed3-4d60-bc14-ec8a18c6eaeb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8c805ceb-f0ce-4714-9e8d-a66321a49ef0",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "77d8590c-e8c7-4836-a53b-2ed2f6228e12",
+        "regionLabel" : "Column 2",
+        "regionName" : "3202f",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "06f11359-0953-42bc-b6bc-999b677edb50",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "global-search"
+}

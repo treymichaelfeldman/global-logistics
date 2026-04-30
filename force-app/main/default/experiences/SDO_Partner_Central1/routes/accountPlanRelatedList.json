@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7719c727-0231-4e7a-bf7a-a9214a74b247",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Account_Plan_Related_List",
+  "id" : "b945bff3-467a-40dd-ba8d-c31de7cb18ef",
+  "label" : "Account Plan Related List",
+  "routeType" : "relatedlist-252",
+  "type" : "route",
+  "urlPrefix" : "accountplan"
+}

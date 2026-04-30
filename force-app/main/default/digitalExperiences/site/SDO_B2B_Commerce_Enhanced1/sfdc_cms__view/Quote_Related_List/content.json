@@ -1,0 +1,52 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Quote Related List",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"d106042d-65ed-43ba-a3cf-b73150a818dd\",\"columns\":[{\"UUID\":\"3ff3b24d-dc38-4c26-974b-5a34b45dd062\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "3ff3b24d-dc38-4c26-974b-5a34b45dd062",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d106042d-65ed-43ba-a3cf-b73150a818dd",
+          "type" : "component"
+        } ],
+        "id" : "17f96f0a-149d-47d1-9665-7f92952d5313",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "8eecf75b-7e62-4c2e-921a-3e650cf88ea6",
+          "type" : "component"
+        } ],
+        "id" : "1460fe8f-c61d-46bb-ace4-5c83d662fc1d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "587b3f02-3287-43dd-a032-5647585a9500",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "relatedlist-0Q0"
+  },
+  "urlName" : "quote-related-list"
+}

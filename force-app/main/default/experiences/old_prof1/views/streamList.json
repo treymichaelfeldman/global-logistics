@@ -1,0 +1,15 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "fb902cac-164d-4ecd-9b55-b71e9424fbb8",
+  "label" : "Stream List",
+  "regions" : [ {
+    "id" : "39a11286-8df5-4ab8-81cd-dfc99733ed5c",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-0Fq"
+}

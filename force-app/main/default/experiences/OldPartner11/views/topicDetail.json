@@ -1,0 +1,42 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "74d48d75-0d1c-4449-b8ef-13beea96e600",
+  "label" : "Topic Detail",
+  "regions" : [ {
+    "id" : "8f6707ec-763e-4d16-b830-f7f87aead17a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "dbf7810d-2f0a-476b-8fa6-c94c10f0bc50",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "88fd538a-4199-4601-93e4-1170e12907fd",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "8ad674fd-1685-4d59-8fab-6fed05473da7",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "{!Record.Description}",
+        "title" : "{!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4575cab7-ccb2-435b-8849-e1439d587321",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "57047121-b763-45c0-a8b4-c7beb5bc974e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "topic"
+}

@@ -1,0 +1,35 @@
+{
+  "appPageId" : "3a241bdb-3c0c-4a4f-b277-1b94130c2d69",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "4823d530-79e2-45ca-8a59-fd31ad45eb57",
+  "label" : "Payment Processing",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"4142364e-328a-4d93-9103-ced644911f2a\",\"columns\":[{\"UUID\":\"9824be5e-917b-4610-9f36-b3448ab33da3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "4142364e-328a-4d93-9103-ced644911f2a",
+      "regions" : [ {
+        "id" : "9824be5e-917b-4610-9f36-b3448ab33da3",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "33b69bba-1aee-4cc9-8cf4-bbc91cab95b8",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "payment-processing"
+}

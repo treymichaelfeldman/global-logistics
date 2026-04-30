@@ -1,0 +1,129 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "b2088083-6b8c-4424-8e85-deffdbbc9849",
+  "label" : "Opportunities",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b913597e-6ad7-4c4f-8b72-00534f44dfce",
+          "columns" : [ {
+            "UUID" : "7f1cb7c1-6c18-444d-9312-02e0e2fc93b3",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b913597e-6ad7-4c4f-8b72-00534f44dfce",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Opportunities</h1><p>Welcome to the Opportunities page, your central hub for tracking and managing potential sales deals. Here, you can view, analyze, and update your ongoing opportunities, helping you stay organized and focused on closing deals. Utilize the tools and resources available to optimize your sales pipeline and drive your business forward. Dive into detailed records, collaborate with your team, and keep your sales momentum strong. Let's turn prospects into successes!</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a90fc95c-ba04-4a60-9740-d27e9aaeb100",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7f1cb7c1-6c18-444d-9312-02e0e2fc93b3",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "ca6b2045-8c33-4187-aa00-ce09b0352453",
+          "columns" : [ {
+            "UUID" : "01495ad9-ff65-4207-b90d-c98d1e0ac29c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ca6b2045-8c33-4187-aa00-ce09b0352453",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "MyOpportunities",
+            "layout" : "STANDARD",
+            "pageSize" : 5,
+            "scope" : "Opportunity",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "65e57570-592d-43b7-be42-b79d6a589a9c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "AllOpportunities",
+            "layout" : "STANDARD",
+            "pageSize" : 10,
+            "scope" : "Opportunity",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "384fd131-246b-4956-8e87-d08b68ff89d7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "01495ad9-ff65-4207-b90d-c98d1e0ac29c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0ddf8085-84f1-422c-b021-0924ed53d360",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-006"
+}

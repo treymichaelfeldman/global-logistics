@@ -1,0 +1,581 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "2a1b6bd9-336b-4ff4-8160-b055f5bc4eb0",
+  "label" : "Training Course List (Flex)",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "62b233ef-240a-4ba2-9085-13051e338b9d",
+          "columns" : [ {
+            "UUID" : "d198d2d1-b4c3-4e89-b5c4-2c294b9d8415",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "d3857f89-a9f4-45ab-8bb4-f322ad9290cc",
+            "columnKey" : "083a3",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "62b233ef-240a-4ba2-9085-13051e338b9d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong style=\"color: rgb(68, 68, 68);\">My Training Enrollments</strong></h2><p><span style=\"font-size: 14px;\">Monitor and manage your enrolled training courses conveniently from one place. Stay updated on progress, upcoming sessions, and completion status for a seamless learning experience.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7729a2aa-067b-43d5-94fd-d3a3ac8d3ae6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "My_Enrollments",
+            "layout" : "STANDARD",
+            "pageSize" : 25,
+            "scope" : "SDO_Community_Course_Enrollment__c",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "910b6d1a-061a-43c1-8e01-d7f00f91461e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d198d2d1-b4c3-4e89-b5c4-2c294b9d8415",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong style=\"color: rgb(68, 68, 68);\">My Certifications</strong></h2><p>View and track your earned certifications to showcase your expertise and accomplishments. Access details on certification validity, renewal requirements, and download digital copies for professional recognition.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "36268503-3ed2-46d3-be10-e02da52458b2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "SDO_Experience_My_Certifications",
+            "layout" : "STANDARD",
+            "pageSize" : 25,
+            "scope" : "SDO_ChannelPartner_Certification__c",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "55ac9d26-ddd7-486f-8dc4-619a91ac431c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d3857f89-a9f4-45ab-8bb4-f322ad9290cc",
+        "regionLabel" : "Column 2",
+        "regionName" : "083a3",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(244,244,244)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 94,
+        "sectionConfig" : {
+          "UUID" : "48e1d46e-8833-4d13-85e5-0b20b803f9fd",
+          "columns" : [ {
+            "UUID" : "7dbddac8-2960-40ce-8588-b343d7bde945",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "48e1d46e-8833-4d13-85e5-0b20b803f9fd",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong style=\"color: rgb(68, 68, 68);\">Uncover Insights By Exploring Our Dynamic Articles</strong></h2><p><span style=\"font-size: 14px;\">Explore a wealth of knowledge and insights in our curated Articles section. From the latest industry news to blog posts by our favorite writers, discover valuable resources that inform and inspire. Dive into staff favorites and popular knowledge base articles to deepen your understanding of key topics.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "79a238bd-204a-4d36-ab11-f74c1cd16b2f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "none",
+                  "limitItems" : 5,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "transitionSpeed" : 600,
+                  "transitionType" : "slide"
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarousel"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Community_Home_Slider1"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "borderColor" : "rgba(212, 212, 212, 0)",
+                  "componentBorderStyles" : "",
+                  "componentHoverEffect" : "none",
+                  "componentPadding" : "medium",
+                  "contentBackgroundColor" : "rgba(255, 255, 255, 0)",
+                  "contentOffset" : "0",
+                  "contentOffsetBackgroundColor" : "rgba(255, 255, 255, 0)",
+                  "contentOffsetPadding" : "30",
+                  "contentVerticalAlignment" : "center",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagConstraints" : "media",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "imageAlignment" : "left",
+                  "imageAltText" : "",
+                  "imageBorderColor" : "#ffffff",
+                  "imageBorderStyles" : "{\"borderStyle\":\"hidden\",\"borderTopLeftRadius\":{\"value\":\"10\",\"isPx\":true},\"borderTopRightRadius\":{\"value\":\"10\",\"isPx\":true},\"borderBottomRightRadius\":{\"value\":\"10\",\"isPx\":true},\"borderBottomLeftRadius\":{\"value\":\"10\",\"isPx\":true}}",
+                  "imageUrl" : "{!CurrentItem.bannerImage.url}",
+                  "imageWidth" : "40",
+                  "mediaAspectRatio" : "16:9",
+                  "mediaHeight" : "300",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "",
+                  "metadataTextDecoration" : "",
+                  "showDateTime" : true,
+                  "showExcerpt" : true,
+                  "showEyebrow" : true,
+                  "showEyebrowHighlight" : false,
+                  "showFeaturedMedia" : true,
+                  "showFlag" : true,
+                  "showMetadata1" : true,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : true,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "{!CurrentItem.excerpt}",
+                  "subTitleFontSize" : "regular",
+                  "subTitleTextColor" : "",
+                  "textAlignment" : "left",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.title}",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:cardLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "36c98c31-79e9-4358-b84e-2ed95d72fcc3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7dbddac8-2960-40ce-8588-b343d7bde945",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "0d1d4d40-70e5-440e-9ea8-ec57dad671e7",
+          "columns" : [ {
+            "UUID" : "8107a01b-8bd5-406c-8841-83d01ed1951f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "f09f8e3f-a6cc-4ea6-9631-b020d1989a3f",
+            "columnKey" : "4c538",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "0d1d4d40-70e5-440e-9ea8-ec57dad671e7",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong style=\"color: rgb(68, 68, 68);\">Featured Training Courses</strong></h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "33c5ae7d-fde4-47b0-a66e-4ef0c0ce2647",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "collectionTitle" : "",
+                  "collectionTitleHeadingTag" : "h2",
+                  "columns" : "2",
+                  "rows" : 2,
+                  "showCollectionTitle" : true,
+                  "showViewMoreButton" : true,
+                  "spacing" : "medium",
+                  "viewMoreButtonBackgroundColor" : "rgba(55, 126, 81, 0)",
+                  "viewMoreButtonBackgroundColorHover" : "rgba(40, 90, 58, 0)",
+                  "viewMoreButtonBorderColor" : "rgba(55, 126, 81, 0)",
+                  "viewMoreButtonBorderColorHover" : "rgba(40, 90, 58, 0)",
+                  "viewMoreButtonLabel" : "Load More",
+                  "viewMoreButtonPlacement" : "center",
+                  "viewMoreButtonRadius" : 4,
+                  "viewMoreButtonTextColor" : "rgb(55, 126, 81)",
+                  "viewMoreButtonTextColorHover" : "rgb(41, 92, 60)"
+                },
+                "componentName" : "forceCommunity:dynamicCollectionGrid"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Training_All_Available_Courses1"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "borderColor" : "rgb(221, 221, 221)",
+                  "componentBorderStyles" : "{\"borderStyle\":\"solid\",\"borderTopLeftRadius\":{\"value\":\"12\",\"isPx\":true},\"borderTopRightRadius\":{\"value\":\"12\",\"isPx\":true},\"borderBottomRightRadius\":{\"value\":\"12\",\"isPx\":true},\"borderBottomLeftRadius\":{\"value\":\"12\",\"isPx\":true}}",
+                  "componentHoverEffect" : "none",
+                  "componentPadding" : "none",
+                  "contentBackgroundColor" : "#ffffff",
+                  "contentOffset" : "0",
+                  "contentOffsetBackgroundColor" : "#ffffff",
+                  "contentOffsetPadding" : "medium",
+                  "contentPosition" : "center",
+                  "contentWidth" : 100,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagConstraints" : "media",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "imageAlignment" : "top",
+                  "imageAltText" : "",
+                  "imageBorderColor" : "#ffffff",
+                  "imageBorderStyles" : "",
+                  "imageUrl" : "{!CurrentItem.Course_Image__c}",
+                  "mediaAspectRatio" : "16:9",
+                  "mediaHeight" : "110",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "",
+                  "metadataTextDecoration" : "",
+                  "showDateTime" : true,
+                  "showExcerpt" : true,
+                  "showEyebrow" : true,
+                  "showEyebrowHighlight" : false,
+                  "showFeaturedMedia" : true,
+                  "showFlag" : true,
+                  "showMetadata1" : true,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : true,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "{!CurrentItem.Short_Description__c}",
+                  "subTitleFontSize" : "regular",
+                  "subTitleTextColor" : "rgb(102, 102, 102)",
+                  "textAlignment" : "left",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.Name}",
+                  "titleFontSize" : "small",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextColor" : "",
+                  "titleTextDecoration" : "{\"bold\":true}",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:flexTileLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "d1c22c23-9150-4264-8d3e-3a8c6b2bbe2d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8107a01b-8bd5-406c-8841-83d01ed1951f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong style=\"color: rgb(68, 68, 68);\">Webinars &amp; Workshops</strong></h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2f005f48-298f-4879-9501-b563fd0249bc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "collectionTitle" : "",
+                  "collectionTitleHeadingTag" : "h2",
+                  "columns" : "1",
+                  "rows" : "3",
+                  "showCollectionTitle" : true,
+                  "showViewMoreButton" : false,
+                  "spacing" : "medium",
+                  "viewMoreButtonBackgroundColor" : "",
+                  "viewMoreButtonBackgroundColorHover" : "",
+                  "viewMoreButtonBorderColor" : "",
+                  "viewMoreButtonBorderColorHover" : "",
+                  "viewMoreButtonLabel" : "View More Items",
+                  "viewMoreButtonPlacement" : "center",
+                  "viewMoreButtonRadius" : 4,
+                  "viewMoreButtonTextColor" : "",
+                  "viewMoreButtonTextColorHover" : ""
+                },
+                "componentName" : "forceCommunity:dynamicCollectionGrid"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Upcoming_Events"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "borderColor" : "rgba(212, 212, 212, 0)",
+                  "componentBorderStyles" : "",
+                  "componentHoverEffect" : "none",
+                  "componentPadding" : "none",
+                  "contentBackgroundColor" : "#ffffff",
+                  "contentOffset" : "0",
+                  "contentOffsetBackgroundColor" : "#ffffff",
+                  "contentOffsetPadding" : "0",
+                  "contentVerticalAlignment" : "center",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagConstraints" : "media",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "imageAlignment" : "left",
+                  "imageAltText" : "",
+                  "imageBorderColor" : "#ffffff",
+                  "imageBorderStyles" : "{\"borderStyle\":\"hidden\",\"borderTopLeftRadius\":{\"value\":\"6\",\"isPx\":true},\"borderTopRightRadius\":{\"value\":\"6\",\"isPx\":true},\"borderBottomRightRadius\":{\"value\":\"6\",\"isPx\":true},\"borderBottomLeftRadius\":{\"value\":\"6\",\"isPx\":true}}",
+                  "imageUrl" : "{!CurrentItem.alternateImage.url}",
+                  "imageWidth" : "20",
+                  "mediaAspectRatio" : "16:9",
+                  "mediaHeight" : "100",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "",
+                  "metadataTextDecoration" : "",
+                  "showDateTime" : false,
+                  "showExcerpt" : true,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFeaturedMedia" : true,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "{!CurrentItem.excerpt}",
+                  "subTitleFontSize" : "regular",
+                  "subTitleTextColor" : "",
+                  "textAlignment" : "left",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.title}",
+                  "titleFontSize" : "small",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextColor" : "rgb(51, 51, 51)",
+                  "titleTextDecoration" : "{\"bold\":true}",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:cardLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "2c873e4f-a9dd-4c2a-883c-0e6f79a44129",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f09f8e3f-a6cc-4ea6-9631-b020d1989a3f",
+        "regionLabel" : "Column 2",
+        "regionName" : "4c538",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c553dd8c-163d-40b4-8fdf-de0056a6a965",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "fCcrmwdEirbGoDiHullFCyQdIcfnc1",
+  "type" : "view",
+  "viewType" : "list-a1R"
+}

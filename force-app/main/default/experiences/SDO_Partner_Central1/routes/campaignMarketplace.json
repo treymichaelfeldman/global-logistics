@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "75994d98-58f0-4567-8c1f-3f491bb8bff3",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Campaign_Marketplace__c",
+  "id" : "1c23cdea-316f-484a-b937-a2e5e348139b",
+  "label" : "Campaign Marketplace",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-campaign-marketplace",
+  "type" : "route",
+  "urlPrefix" : "marketing/campaign-marketplace"
+}

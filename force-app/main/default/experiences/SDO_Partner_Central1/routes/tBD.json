@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "b1f6fee9-6979-4685-8add-f9e473bee78e",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "TBD__c",
+  "id" : "5939e431-81c5-4a38-a44a-9fa974c5e5cb",
+  "label" : "TBD",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-tbd",
+  "type" : "route",
+  "urlPrefix" : "tbd"
+}

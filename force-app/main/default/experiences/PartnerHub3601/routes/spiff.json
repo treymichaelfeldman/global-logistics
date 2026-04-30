@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "9b46f863-1b6e-443f-b2ae-a8e141ec5ca6",
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "configurationTags" : [ ],
+  "devName" : "Spiff__c",
+  "id" : "4da8a05f-b125-4401-8f3d-e1427577d83e",
+  "label" : "Spiff",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-spiff",
+  "type" : "route",
+  "urlPrefix" : "spiff"
+}

@@ -1,0 +1,10 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Register for Our Monthly Webinars",
+  "contentBody" : {
+    "description" : "Cirrus holds monthly webinars to gather all of our partners and foster community and give updates. Register here!",
+    "externalLink" : "https://www.salesforce.com/resources/webinars/#!page=1&tags=sales",
+    "time" : 5.0
+  },
+  "urlName" : "register-for-our-monthly-webinars"
+}

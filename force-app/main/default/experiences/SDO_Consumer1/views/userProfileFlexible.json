@@ -1,0 +1,146 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "442d80ca-3061-47f1-80d2-741841f45346",
+  "label" : "User Profile (Flexible)",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 95,
+        "sectionConfig" : {
+          "UUID" : "467c7612-1597-4e86-96c1-d787c971098b",
+          "columns" : [ {
+            "UUID" : "b0d7dc5e-c72c-4c86-b32e-ff2b57932788",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "cd2d822e-e456-4b8a-82ad-ce4afd3be02a",
+            "columnKey" : "2eb92",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "467c7612-1597-4e86-96c1-d787c971098b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "showFullPhotoAsCircle" : true,
+            "showReputation" : false,
+            "userId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:userProfileHeaderDetail",
+          "id" : "8dcb2174-8e77-4927-b4e2-e3609769d707",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "canChangeSorting" : true,
+            "defaultFilter" : "",
+            "defaultSortOrderHomeFeed" : "Relevance",
+            "defaultSortOrderTopicsFeed" : "Relevance",
+            "feedDesign" : "DEFAULT",
+            "hasFeedSearch" : true,
+            "subjectId" : "{!recordId}",
+            "type" : "UserProfile"
+          },
+          "componentName" : "forceCommunity:forceCommunityFeed",
+          "id" : "e2853b0a-7201-44de-980a-7fe134a2d77f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b0d7dc5e-c72c-4c86-b32e-ff2b57932788",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "buttonAlignment" : "center",
+            "buttonBgColor" : "",
+            "buttonBgHoverColor" : "",
+            "buttonBorderColor" : "",
+            "buttonMaxWidth" : 100,
+            "buttonRadius" : 50,
+            "buttonTextColor" : "",
+            "buttonTextHoverColor" : "",
+            "recordId" : "{!recordId}",
+            "showNotificationMenu" : false
+          },
+          "componentName" : "forceCommunity:follow",
+          "id" : "af77f265-9e0d-46db-a787-029195b71f99",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "showReputation" : true,
+            "userId" : "{!recordId}",
+            "userStatsTitle" : "Influence"
+          },
+          "componentName" : "forceCommunity:userProfileStats",
+          "id" : "76e0d672-48fa-4827-9ce8-347e816257bb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "knowledgeableAboutTitle" : "Knows About",
+            "maxTopics" : 5,
+            "userId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:userProfileKnowledgeableAbout",
+          "id" : "b2191398-dadf-4b9c-aa2c-8b6d57a61f62",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonLabel" : "Give",
+            "userBadgesTitle" : "Recognition Badges",
+            "userId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:userRecognitions",
+          "id" : "fa1eae83-4d03-4ebd-b10b-3e11ef819324",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "userId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:userRelatedList",
+          "id" : "2ef80f9e-e7bb-498f-8b4c-d3874eaa0428",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "cd2d822e-e456-4b8a-82ad-ce4afd3be02a",
+        "regionLabel" : "Column 2",
+        "regionName" : "2eb92",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2f9ea4f3-d38c-403d-a255-9ce2ec1adff9",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-005"
+}

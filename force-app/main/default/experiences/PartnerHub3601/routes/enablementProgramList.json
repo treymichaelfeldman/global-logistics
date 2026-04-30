@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "6fca2eec-6e03-4a21-a1fb-e9c03d23c296",
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "configurationTags" : [ ],
+  "devName" : "View_Enablement_Program_List",
+  "id" : "1764cc25-0542-4e5c-9a0b-5b34fa128452",
+  "label" : "Enablement Program List",
+  "pageAccess" : "UseParent",
+  "routeType" : "enablement-program-list",
+  "type" : "route",
+  "urlPrefix" : "enablement-program-list"
+}

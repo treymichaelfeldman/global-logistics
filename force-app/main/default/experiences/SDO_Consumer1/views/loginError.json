@@ -1,0 +1,77 @@
+{
+  "appPageId" : "0aa1833f-211a-419b-9aa6-055ab5e53898",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "701df38f-cd6a-4b09-a777-c04f7bf1ddbe",
+  "label" : "Login Error",
+  "regions" : [ {
+    "id" : "3e311770-7d2f-403d-b0d6-957f109e4f34",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"text-align: center;\">Invalid Page</div>"
+      },
+      "componentName" : "forceCommunity:richText",
+      "id" : "1ce12a5a-95ea-40b4-887b-e7bda962c315",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "de" : "d92fdf06-fd0d-465a-bc07-533bf32e6d8a"
+      },
+      "renditions" : [ {
+        "id" : "d92fdf06-fd0d-465a-bc07-533bf32e6d8a",
+        "renditionValue" : {
+          "componentAttributes" : { }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "1e09e3a7-3696-490d-8584-c78c6fdd8213",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b15e3d8a-c369-474e-86f9-748fa48a2dda",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Login Error"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "83585aa1-0f2a-4638-afb7-b426c1ec0251",
+      "renditionMap" : {
+        "de" : "a71c4da4-3eec-4437-a388-81bca0acd08a",
+        "fr" : "11726a37-00c5-4790-ac2b-8c40b890089e"
+      },
+      "renditions" : [ {
+        "id" : "a71c4da4-3eec-4437-a388-81bca0acd08a",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Login Error"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "11726a37-00c5-4790-ac2b-8c40b890089e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Login Error"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "57f16a50-8e0a-4887-9b48-1f175f2722cf",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "login-error"
+}

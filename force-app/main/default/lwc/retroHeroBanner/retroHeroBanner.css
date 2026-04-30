@@ -1,0 +1,59 @@
+.hero-container {
+    text-align: center;
+    padding: 40px 20px;
+    border: 5px ridge #888;
+    margin: 20px 0;
+    background-color: #333; /* Fallback */
+    background-repeat: repeat;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px dashed #FFFF00;
+    padding: 20px;
+    display: inline-block;
+}
+
+.hero-title {
+    font-family: "Arial Black", Arial, sans-serif;
+    color: #FF00FF;
+    font-size: 3em;
+    text-shadow: 3px 3px 0 #00FFFF;
+    margin-bottom: 20px;
+}
+
+.images-container {
+    margin-bottom: 30px;
+}
+
+.hero-img {
+    margin: 0 15px;
+}
+
+.action-table {
+    margin: 0 auto;
+}
+
+.retro-btn {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 4px outset #ccc;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.retro-btn:active {
+    border-style: inset;
+}
+
+.primary {
+    background-color: #FF0000;
+    color: #FFFF00;
+}
+
+.secondary {
+    background-color: #0000FF;
+    color: #00FFFF;
+}

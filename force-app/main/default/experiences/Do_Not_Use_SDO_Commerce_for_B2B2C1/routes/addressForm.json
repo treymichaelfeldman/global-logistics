@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "e768c5e2-c0e6-4697-9792-0b35525627a7",
+  "appPageId" : "3a241bdb-3c0c-4a4f-b277-1b94130c2d69",
+  "configurationTags" : [ ],
+  "devName" : "Address_Form",
+  "id" : "70a8d8fb-2796-4f41-8d66-e8ad4ba6fee8",
+  "label" : "Address Form",
+  "routeType" : "address-form",
+  "type" : "route",
+  "urlPrefix" : "addressForm"
+}

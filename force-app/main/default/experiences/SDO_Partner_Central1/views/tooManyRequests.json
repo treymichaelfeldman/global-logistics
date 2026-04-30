@@ -1,0 +1,32 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "66687aa3-d11e-4a15-88c1-650a74832103",
+  "label" : "Too Many Requests",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"slds-grid slds-wrap site-error\" style=\"margin-top: 100px;\">\n  <div class=\"slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-p-around_medium\">\n    <!-- Content for the first column -->\n    <div class=\"slds-box\">\n      <img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.tooManyRequests.1}\" style=\"width: 100%; height: auto;\">\n    </div>\n  </div>\n  <div class=\"slds-col slds-size_1-of-1 slds-medium-size_2-of-3 slds-p-around_medium\">\n    <!-- Content for the second column -->\n    <div class=\"slds-box\">\n      <h1 class=\"slds-text-heading_large\">Power Surge Alert!</h1>\n      <p>Uh-oh! Our energy servers are feeling the buzz from all of these requests. Give them a moment to recharge, and we'll have you back in the energy flow shortly. Thank you for your enthusiasm!</p>\n      <p>We will redirect you in a moment...</p>\n    </div>\n  </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "6ce60a28-4e63-451f-9769-3798fa0059dd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "forceCommunity:autoRefresh",
+      "id" : "5615c94e-84c5-44c4-96fd-3880c2cb043d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a13a7851-fa80-47d6-b630-778b911e772f",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ServiceNotAvailable",
+  "type" : "view",
+  "viewType" : "too-many-requests"
+}

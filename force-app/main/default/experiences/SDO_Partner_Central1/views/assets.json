@@ -1,0 +1,208 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "a9c7bed9-48cd-4781-808e-e01578b678e4",
+  "label" : "Assets",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a36abb98-a9ce-487a-afbc-60e73a04e2cd",
+          "columns" : [ {
+            "UUID" : "aed261a6-db47-4cda-a1c5-42d1469310a9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a36abb98-a9ce-487a-afbc-60e73a04e2cd",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>My Account</h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0fa2ba09-397c-441b-8c4a-81eb71b65a04",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "aed261a6-db47-4cda-a1c5-42d1469310a9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "2897257f-19d1-42f6-84c9-b0d2b5ccbe46",
+          "columns" : [ {
+            "UUID" : "48f2bafa-b931-43fe-baff-d861b32e0230",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "edd97d0e-37d2-48ad-a9d5-ccd6e57c7614",
+            "columnKey" : "c8148",
+            "columnName" : "Column 2",
+            "columnWidth" : "9",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "2897257f-19d1-42f6-84c9-b0d2b5ccbe46",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Personal Settings</h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "83e51135-826d-48f9-8308-361f27106397",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "rgba(55, 126, 81, 0)",
+            "bannerPosition" : "left",
+            "bannerSizePercent" : 100,
+            "borderRadius" : 0,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "icon",
+            "tileMenuEditor" : "SDO_Partner_Personal_Settings",
+            "titleColor" : "rgb(102, 102, 102)",
+            "titleFontSize" : "small",
+            "titleHorizontalAlign" : "left"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "48adca69-a69f-4be1-a265-4a25362c61b1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Account Settings</h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "bb07900d-c4a9-41f5-8edb-e47a3cadce36",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "rgba(55, 126, 81, 0)",
+            "bannerPosition" : "left",
+            "bannerSizePercent" : 100,
+            "borderRadius" : 0,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "icon",
+            "tileMenuEditor" : "SDO_Partner_Account_Settings",
+            "titleColor" : "rgb(102, 102, 102)",
+            "titleFontSize" : "small",
+            "titleHorizontalAlign" : "left"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "157ea160-0736-4c58-a755-ba9fd3b24eeb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "48f2bafa-b931-43fe-baff-d861b32e0230",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong>Assets</strong></h2><p>View detailed information about your registered assets, including Asset Name, Serial Number, Account Name, and Purchase Date. Stay organized and keep track of all your assets for easy management and reference.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "1b331717-396f-4f25-b836-012b2b5b0104",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "My_Assets",
+            "layout" : "STANDARD",
+            "pageSize" : 10,
+            "scope" : "Asset",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "555b6963-8c22-4604-a7d8-16f08e9be174",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "edd97d0e-37d2-48ad-a9d5-ccd6e57c7614",
+        "regionLabel" : "Column 2",
+        "regionName" : "c8148",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fe790ae2-03c5-458d-974f-258eb208c525",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Assets"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2eac2c37-c7ee-4c74-9528-bcb81a4dfa86",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eb83acd2-567c-41e1-bd3d-18b3f1aa5db1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-assets"
+}

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_enablement__textLesson",
+  "title" : "Cirrus Starter Kit Comparison Cheat Sheet",
+  "contentBody" : {
+    "sections" : [ {
+      "content" : "<div>| Criteria       | Competitor A | Competitor B | Cirrus Starter Kit  |</div><div>|-----------------------|------------------------|------------------------|---------------------|</div><div>| Energy Efficiency (%) | 97           | 95           | 99         |</div><div>| Setup Costs ($) | 4,500         | 6,000         | 3,800        |</div><div>| Price per PB ($)  | 3.00          | 2.50          | 3.50        |</div><div>| Upkeep Costs (%)   | 0.5          | 0.8          | 0.3         |</div><div>| Return on Investment (%) | 12         | 10           | 15         |</div><div>| RTO (hrs)    | 6          | 4           | 2         |</div><div>| P1 Support SLA (min)| 60          | 30           | 15         |</div><div><br /></div><div>Notes:</div><div>1. <strong style=\"font-size: 13px;\">Energy Efficiency (%): </strong>The percentage of energy dedicated.</div><div>2. <strong style=\"font-size: 13px;\">Setup Costs ($): </strong>The estimated cost of installing a starter kit system per use case [actual price will vary by use case].</div><div>3. <strong style=\"font-size: 13px;\">Price per MWh ($):</strong>The cost of energy.</div><div>4. <strong style=\"font-size: 13px;\">Upkeep Costs (%):</strong> Annual maintenance costs as a percentage of the setup cost.</div><div>5. <strong style=\"font-size: 13px;\">Return on Investment (%): </strong>The percentage return on the initial investment over 5 years of using the service.</div><div>6. <strong style=\"font-size: 13px;\">PTO (hrs): </strong>Worst-case Recovery Time Objective for recovering energy in a event of a failure.</div><div>7. <strong style=\"font-size: 13px;\">P1 Support SLA (min): </strong>The support SLA for P1 support cases</div><div><br /></div><div>Please replace the values in this table with accurate and up-to-date information based on your research or specific product details. Additionally, you may want to include additional criteria based on your project&#39;s requirements.</div>",
+      "sectionTime" : 1.0
+    } ],
+    "totalTime" : 1
+  },
+  "urlName" : "pp-data-protection-comparison-cheat-sheet"
+}

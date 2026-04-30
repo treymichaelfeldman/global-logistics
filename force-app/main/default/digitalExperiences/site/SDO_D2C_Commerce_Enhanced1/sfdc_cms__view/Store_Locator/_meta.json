@@ -1,0 +1,5 @@
+{
+  "apiName" : "Store_Locator",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

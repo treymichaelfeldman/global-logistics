@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "5934c8a1-412a-4831-8f49-95d53f706d0e",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Learning__c",
+  "id" : "85559c38-2b3b-45c1-9a39-b1e542eddb40",
+  "label" : "Learning",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-learning",
+  "type" : "route",
+  "urlPrefix" : "learning"
+}

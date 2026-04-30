@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "4544aec8-4849-4fce-93d0-c88a481aba38",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Deal_Registration__c",
+  "id" : "7bb0d1d3-ef53-49ea-b19d-302bb3753cd2",
+  "label" : "Deal Registration",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-deal-registration",
+  "type" : "route",
+  "urlPrefix" : "deal-registration"
+}

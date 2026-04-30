@@ -1,0 +1,207 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "d4c4c51c-c5c7-4860-afb7-0b2fe6001da6",
+  "label" : "Videos",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 60,
+        "sectionConfig" : {
+          "UUID" : "a0b3d854-09f0-4010-976b-c794e95cf6c8",
+          "columns" : [ {
+            "UUID" : "e8959a4c-dc91-4661-aaf3-dfc9d65488fc",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a0b3d854-09f0-4010-976b-c794e95cf6c8",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerText" : "Using Flexible layouts to demonstrate one way to show videos. And to help you out to learn about new Experience Cloud Features",
+            "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+            "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+            "pageType" : "",
+            "showSubTopics" : true,
+            "title" : "Experience Cloud Videos!",
+            "uniqueNameOrId" : ""
+          },
+          "componentName" : "forceCommunity:headline",
+          "id" : "f94ebf30-d9df-48bc-ac6d-75771fe38f84",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/m4CfwkyCiEQ\" src=\"https://www.youtube.com/embed/m4CfwkyCiEQ\"></iframe></div><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ba0ff58f-fb5b-431b-84ec-ae63a63d04ad",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e8959a4c-dc91-4661-aaf3-dfc9d65488fc",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "bbf508d2-29a6-4ccd-b001-6cf486f18dd2",
+          "columns" : [ {
+            "UUID" : "8302d0b8-3527-432d-9939-141a0971a7fe",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "55551e38-282a-4f6d-8fe4-0c1c1bbc0a5d",
+            "columnKey" : "cad00",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "bbf508d2-29a6-4ccd-b001-6cf486f18dd2",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/cIzoxQ_bWaM\" src=\"https://www.youtube.com/embed/cIzoxQ_bWaM\"></iframe></div><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b679c311-61d8-497c-8ce5-24af75caf8d8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8302d0b8-3527-432d-9939-141a0971a7fe",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/mQsB4nCIMyg\" src=\"https://www.youtube.com/embed/mQsB4nCIMyg\"></iframe></div><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "74c5c0c0-2dfc-43eb-878f-bf8dd29d575e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "55551e38-282a-4f6d-8fe4-0c1c1bbc0a5d",
+        "regionLabel" : "Column 2",
+        "regionName" : "cad00",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c5b5532f-c68d-4dd3-8895-db208c04fa6e",
+          "columns" : [ {
+            "UUID" : "b59c0d9f-fd15-4605-8a4b-3b779231a109",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "00ccf14a-f3bc-400c-a599-4ffc59f80767",
+            "columnKey" : "5808f",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c5b5532f-c68d-4dd3-8895-db208c04fa6e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/wHkEc6DvANk\" src=\"https://www.youtube.com/embed/wHkEc6DvANk\"></iframe></div><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0fce7c7d-52ab-4627-891a-b183714a0f9a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b59c0d9f-fd15-4605-8a4b-3b779231a109",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/HHsRo1kayWc\" src=\"https://www.youtube.com/embed/HHsRo1kayWc\"></iframe></div><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "720c3ce8-146c-4962-bbe5-521ff089241e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "00ccf14a-f3bc-400c-a599-4ffc59f80767",
+        "regionLabel" : "Column 2",
+        "regionName" : "5808f",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "22e65d43-6927-4707-af59-51a4d68b462f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Videos"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2f620ec4-3a88-458f-8895-ed951f21e282",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d3caf4a7-352f-4d78-ac7c-d29db32c72b1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-videos"
+}

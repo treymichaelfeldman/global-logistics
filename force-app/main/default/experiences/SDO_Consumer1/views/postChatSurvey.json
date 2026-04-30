@@ -1,0 +1,48 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "9e7e2892-bb70-4510-ac93-27f3aab26f0b",
+  "label" : "Post Chat Survey",
+  "regions" : [ {
+    "id" : "1b45a6d8-8cfb-4361-b576-497da48f5e83",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "surveyName" : "customer_satisfaction"
+      },
+      "componentName" : "forceCommunity:surveyCommunity",
+      "id" : "ab830e76-382c-4834-a50d-418e06e2756b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4cd89683-d3e2-4c67-a403-2c10574e109e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b32675f0-2b02-4348-80bd-018febed5c9f",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Post Chat Survey"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f61fdb17-312c-44ab-99d7-b73bf3867112",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "61f21d87-e1de-45be-b389-5e6ebe694cc7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-post-chat-survey"
+}

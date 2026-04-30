@@ -1,0 +1,15 @@
+{
+  "appPageId" : "c137d4c3-cac9-43e0-b786-33aaaf4bb35c",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "477b4a06-29af-4d13-a6f4-aa5014462c2d",
+  "label" : "Too Many Requests",
+  "regions" : [ {
+    "id" : "c2319b4e-f0ad-429f-97f9-974f7d3da539",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ServiceNotAvailable",
+  "type" : "view",
+  "viewType" : "too-many-requests"
+}

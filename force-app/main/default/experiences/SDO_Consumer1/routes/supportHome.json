@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "746d8ca4-acfe-4c59-be19-091810f0af96",
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "configurationTags" : [ ],
+  "devName" : "Support_Home__c",
+  "id" : "038900fd-c866-4caf-bfae-3afd0ba53f5c",
+  "label" : "Support Home",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-support",
+  "type" : "route",
+  "urlPrefix" : "support"
+}

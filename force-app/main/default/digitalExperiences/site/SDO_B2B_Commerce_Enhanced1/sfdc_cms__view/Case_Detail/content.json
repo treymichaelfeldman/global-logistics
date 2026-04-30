@@ -1,0 +1,142 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Case Detail",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "60px",
+                "left" : "",
+                "right" : "",
+                "top" : "40px"
+              }
+            },
+            "sectionConfig" : "{\"UUID\":\"a5aa8ee9-29c9-4ce0-8c42-e43c86bef647\",\"columns\":[{\"UUID\":\"15087ba6-8098-4be4-8be4-81ec0c27cd3e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Case Detail",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "1d23059a-f87d-4949-b094-dc94d3f3b72b",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "20px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "10px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Here, you'll find comprehensive information about the case at hand, including its status, priority, and key details. Use the following sections to delve into specific details, updates, and actions taken. If you have any questions or need further assistance, feel free to reach out to our support team. We're here to ensure a seamless resolution to your case.",
+                "textAlign" : "left",
+                "textColor" : "rgb(102, 102, 102)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "fefe9912-8bfa-436b-9699-8d005be1ed77",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "rgba(255, 255, 255, 0)",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "layout" : "{!Item._layout}",
+                "mainTitlePaddingHorizontal" : "none",
+                "mainTitlePaddingVertical" : "none",
+                "mainTitleText" : "Case Detail",
+                "mainTitleTextDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}",
+                "metadata" : "{!Item._metadata._context}",
+                "recordIdFromDataProvider" : "{!Item.Id}",
+                "showTitle" : false
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "3b6e5ab9-044f-45f1-9b6c-6d32edd91890",
+                  "type" : "component"
+                } ],
+                "id" : "2c6b0d8a-48cb-4302-af7e-d6e0af512ec2",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "customCssClasses" : "record-detail",
+              "definition" : "dxp_records:detailPanel",
+              "id" : "50513d7c-4e72-46ce-b344-89a02e3c3af4",
+              "type" : "component"
+            } ],
+            "id" : "15087ba6-8098-4be4-8be4-81ec0c27cd3e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "record-detail-container",
+          "definition" : "community_layout:section",
+          "id" : "a5aa8ee9-29c9-4ce0-8c42-e43c86bef647",
+          "type" : "component"
+        } ],
+        "id" : "2ba42c8e-ee25-4af9-9ffe-9a69cb881851",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "{!Record._Object}: {!Record._Title}",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "7649affa-881f-411e-9a04-6d51bb58f8ec",
+          "type" : "component"
+        } ],
+        "id" : "35349ac8-bb39-41f3-a548-7865a61dec89",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "ff69801d-82b8-49b5-9cc5-1232d492bf23",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "detail-500"
+  },
+  "urlName" : "case-detail"
+}

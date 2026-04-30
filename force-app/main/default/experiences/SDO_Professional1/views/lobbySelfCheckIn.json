@@ -1,0 +1,71 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "f79aa125-0ca1-4b25-88ed-b3d4fb01cdce",
+  "label" : "Lobby Self Check-In",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c3c599ba-3acd-4940-9ea6-1717a263175c",
+          "columns" : [ {
+            "UUID" : "d2418e1b-c271-482c-9ffa-32207d12bdc7",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c3c599ba-3acd-4940-9ea6-1717a263175c",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "SDO_SCH_Lobby_Self_Check_in"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "33c582d4-6eab-4c96-b5c9-3190518935e9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d2418e1b-c271-482c-9ffa-32207d12bdc7",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9bcb7676-f88c-425e-b154-8208f4db0d68",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Lobby Self Check-In"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f576a041-480d-4441-8b53-aaa077de0e42",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "da776153-03e3-4b49-85e8-86d4e5a0da58",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-lobby-self-check-in"
+}

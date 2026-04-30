@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link: Email Best Practice Article",
+  "contentBody" : {
+    "externalLink" : "https://www.salesforce.com/blog/sales-emails-tips/",
+    "time" : 10.0
+  },
+  "urlName" : "link-email-best-practice-article"
+}

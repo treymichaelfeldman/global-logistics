@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Document Upload Link",
+  "contentBody" : {
+    "externalLink" : "/partnercentral/s/support",
+    "time" : 10.0
+  },
+  "urlName" : "document-upload-link"
+}

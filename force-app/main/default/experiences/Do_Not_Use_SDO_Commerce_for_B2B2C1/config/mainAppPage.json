@@ -1,0 +1,12 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "a7e15fb8-ac78-4dd7-a2a2-e48e9e0dbe1d",
+  "favIconAssetRef" : null,
+  "headMarkup" : "<!-- General -->\n<link rel=\"shortcut icon\" href=\"{basePath}/assets/favicon.ico?{versionKey}\">\n<link rel=\"stylesheet\" href=\"{basePath}/assets/css/font-awesome.css?{versionKey}\">\n<link rel=\"stylesheet\" href=\"{basePath}/assets/css/theme.css?{versionKey}\">\n\n\n<!-- webruntime-branding-shared stylesheets -->\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/salesforce-lightning-design-system.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-site-spacing-styling-hooks.min.css?{ versionKey }\" /><link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-styling-hooks.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-slds-extensions.min.css?{ versionKey }\" />\n\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/themes/alpine.css?{ versionKey }\" />\n\n<!-- webruntime-branding-shared stylesheets -->",
+  "id" : "3a241bdb-3c0c-4a4f-b277-1b94130c2d69",
+  "isLockerServiceEnabled" : false,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "b2c-lite-storefront",
+  "type" : "appPage"
+}

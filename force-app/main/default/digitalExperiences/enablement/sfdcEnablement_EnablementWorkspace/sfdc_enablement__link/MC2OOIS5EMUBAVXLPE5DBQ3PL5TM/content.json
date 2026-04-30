@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Getting Started with Partner Home",
+  "contentBody" : {
+    "description" : "Learn how the Partner Home is organized and how it connects you to resources.",
+    "externalLink" : "https://www.salesforce.com/sales/partner-cloud/"
+  },
+  "urlName" : "getting-started-with-partner-home"
+}

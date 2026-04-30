@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link - Technical document",
+  "contentBody" : {
+    "externalLink" : "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/salesforce_apex_developer_guide.pdf",
+    "time" : 10.0
+  },
+  "urlName" : "link---technical-document"
+}

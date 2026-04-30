@@ -1,0 +1,48 @@
+{
+  "appPageId" : "3a241bdb-3c0c-4a4f-b277-1b94130c2d69",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ {
+    "componentName" : "commerce_data_provider:splitShipmentDataProvider",
+    "componentAttributes" : {
+      "sfdcExpressionKey" : "SplitShipment"
+    }
+  } ],
+  "id" : "942c57c0-4527-4083-8736-f62f01e9fa97",
+  "label" : "Split Shipment",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "componentSpacerSize" : "",
+        "layoutDirectionDesktop" : "row",
+        "layoutDirectionMobile" : "column",
+        "layoutDirectionTablet" : "column",
+        "maxContentWidth" : "",
+        "sectionColumnGutterWidth" : "",
+        "sectionConfig" : "{\"UUID\":\"6faa9f3d-e35f-4104-8712-e155a865285b\",\"columns\":[{\"UUID\":\"b0caf31e-7e14-4219-bf89-85212e067aac\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+        "sectionMinHeight" : "",
+        "sectionVerticalAlign" : "flex-start"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "6faa9f3d-e35f-4104-8712-e155a865285b",
+      "regions" : [ {
+        "id" : "b0caf31e-7e14-4219-bf89-85212e067aac",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "c940a1ca-264d-4bd7-a84c-6e6cc94c3f1f",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "split-shipment"
+}

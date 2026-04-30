@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Account Management Link",
+  "contentBody" : {
+    "externalLink" : "/partnercentral/s/account-management",
+    "time" : 5.0
+  },
+  "urlName" : "account-management-link"
+}

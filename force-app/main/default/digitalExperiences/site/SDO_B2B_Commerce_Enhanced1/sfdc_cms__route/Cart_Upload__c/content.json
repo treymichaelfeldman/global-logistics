@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Cart Upload",
+  "contentBody" : {
+    "activeViewId" : "Cart_Upload",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-cart-upload",
+    "urlPrefix" : "cart-upload"
+  },
+  "urlName" : "cart-upload"
+}

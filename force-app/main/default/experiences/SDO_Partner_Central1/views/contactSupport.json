@@ -1,0 +1,103 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "dataProviders" : [ ],
+  "id" : "63e8456b-d307-44bb-9899-f7be9a437c2e",
+  "label" : "Contact Support",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"color: rgb(0, 0, 0); font-size: 28px;\">Contact Support</span></h1><p>If you need assistance or have inquiries about our products and services, you're in the right place. Our dedicated support team is here to help. </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "dfc04ef3-7c32-4f65-bc7a-130d0f070b2d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b316c447-aadc-4af3-af03-89d14d064d97",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowAttachments" : true,
+        "attachmentLabel" : "Upload File",
+        "buttonAlignment" : "left",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : "",
+        "buttonRadius" : 4,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "callToAction" : false,
+        "callToActionButtonText" : "",
+        "callToActionText" : "",
+        "callToActionUrl" : "",
+        "confirmationSubtext" : "We’ll get back to you soon.",
+        "confirmationText" : "Your case was created.",
+        "guestQuickActionName" : "SDO_Community_NewCaseUnauthenticated",
+        "headerSubtitle" : "Briefly describe your issue and what you've tried to fix it. Include relevant details like screenshots or error messages. Providing this information helps the support team to diagnose and resolve your issue efficiently.",
+        "headerTitle" : "Describe the Problem",
+        "quickActionName" : "SDO_Community_New_Case",
+        "requestSummaryText" : "Case summary"
+      },
+      "componentName" : "forceCommunity:contactSupportForm",
+      "id" : "0f699afd-389c-4bdd-8df6-e0aeb76931fc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a2564b91-7b97-44d1-b108-19e856a03dfe",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "askConfirmationQuestion" : true,
+        "confirmationMessageLabel" : "Got it!",
+        "deflectionSubtitle" : "Explore curated articles for quick solutions on renewable energy, troubleshooting, and installation tips. If you need more assistance, our support team is ready to help. Empower yourself with knowledge and get the answers you need.",
+        "deflectionTitle" : "Need Answers Fast?",
+        "firstQuestion" : "Did this content solve your issue?",
+        "maxResults" : 6,
+        "measureDeflection" : true,
+        "redirectUrl" : "",
+        "secondQuestion" : "Stop creating your case?",
+        "showArticles" : true,
+        "showDiscussions" : false,
+        "topicId" : ""
+      },
+      "componentName" : "forceCommunity:caseDeflection",
+      "id" : "cea5b7c8-8250-4e78-b45b-fd14d0b4bf7c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5570c745-0b44-4609-b546-ee50fb49019c",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "17512179-451a-41f6-a513-7649ebbe4b91",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Contact Support"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "94b04a6d-6d3e-4d8c-82e1-aca007973a30",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4bcfba1b-95dd-4ae7-bd49-750d26b5d4a6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "contactsupport"
+}

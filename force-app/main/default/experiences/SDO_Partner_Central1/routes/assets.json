@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "a9c7bed9-48cd-4781-808e-e01578b678e4",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Assets__c",
+  "id" : "b44e7780-6127-4bbb-b254-9bb6e5b92f86",
+  "label" : "Assets",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-assets",
+  "type" : "route",
+  "urlPrefix" : "comm-my-account/account-settings/assets"
+}

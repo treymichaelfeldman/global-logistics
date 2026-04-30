@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Knowledge Related List",
+  "contentBody" : {
+    "activeViewId" : "Knowledge_Related_List",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "relatedlist-kXX",
+    "urlPrefix" : "article"
+  },
+  "urlName" : "knowledge-related-list"
+}

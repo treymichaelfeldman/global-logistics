@@ -1,0 +1,92 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "6920073d-9339-47b5-ba5a-876121e7666e",
+  "label" : "Register Product",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "196703f4-c433-4ed6-8a71-c2abcb200289",
+          "columns" : [ {
+            "UUID" : "d8d95dce-6707-482c-933d-84989ad5b79e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "4d330760-9235-4a1a-b10a-87ad098e3e24",
+            "columnKey" : "f8134",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "196703f4-c433-4ed6-8a71-c2abcb200289",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Register Your Product</h1><p>Please take a moment to register your product with us. Registering provides you with faster support and issue resolution, proactive alerts, and an upgrade notifications.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0b794e93-a9bb-4865-9bfd-639c1095fa4a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "SDO_Service_Register_New_Product"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "25261cb4-2ef8-4540-a858-ff963ca684ed",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d8d95dce-6707-482c-933d-84989ad5b79e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "4d330760-9235-4a1a-b10a-87ad098e3e24",
+        "regionLabel" : "Column 2",
+        "regionName" : "f8134",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "882a871a-4d28-42a3-a008-6d24f0374bf6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Register Product"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "dbf31805-58ec-45a8-9020-84985314cb5e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fd6dc151-a4ee-4c2e-b7b5-a6ce43435677",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-register-product"
+}

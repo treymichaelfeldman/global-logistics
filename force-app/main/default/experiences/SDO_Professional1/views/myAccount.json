@@ -1,0 +1,182 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "ed04d737-7b76-4d4c-ad11-3a3aac2a8e13",
+  "label" : "My Account",
+  "regions" : [ {
+    "id" : "65f802da-fe0b-43ea-a7f6-02b06919fa07",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "700966f7-3d5f-4e9d-b3ee-dee9bbf50d73",
+          "columns" : [ {
+            "UUID" : "ca64929e-452d-4b14-9479-b7b8ded0ec98",
+            "columnKey" : "col1",
+            "columnName" : "column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ {
+              "attributes" : {
+                "recordId" : "{!CurrentUser.accountId}",
+                "sfdc:identifier" : "forceCommunity_recordHeadline"
+              },
+              "fqn" : "forceCommunity:recordHeadline"
+            }, {
+              "attributes" : {
+                "recordId" : "{!CurrentUser.accountId}",
+                "sfdc:identifier" : "forceCommunity_recordHomeTabs"
+              },
+              "fqn" : "forceCommunity:recordHomeTabs"
+            } ]
+          }, {
+            "UUID" : "d5fa3063-4904-48fc-94cd-2368e67e7375",
+            "columnKey" : "8beb0",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "700966f7-3d5f-4e9d-b3ee-dee9bbf50d73",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Personal Settings</h2><p>Explore and update your personal preferences and details.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0c951307-8449-41da-8cc0-4fa40a9c1921",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "rgba(255, 255, 255, 0)",
+            "bannerPosition" : "right",
+            "bannerSizePercent" : 85,
+            "borderRadius" : 10,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgba(116, 116, 116, 0)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "icon",
+            "tileMenuEditor" : "SDO_Professional_My_Account_Personal_Settings",
+            "titleColor" : "rgb(102, 102, 102)",
+            "titleFontSize" : "medium",
+            "titleHorizontalAlign" : "left"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "8de4d89f-79c0-463c-b7ac-fc2dc1dea7b0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ca64929e-452d-4b14-9479-b7b8ded0ec98",
+        "regionLabel" : "column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Account Settings</h2><p>Manage settings related to your corporate account.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "14d7a10d-e8d8-44c0-8a70-c96a7fa475bd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "rgba(255, 255, 255, 0)",
+            "bannerPosition" : "right",
+            "bannerSizePercent" : 85,
+            "borderRadius" : 10,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgba(116, 116, 116, 0)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "icon",
+            "tileMenuEditor" : "SDO_Professional_My_Account_Account_Settings",
+            "titleColor" : "rgb(102, 102, 102)",
+            "titleFontSize" : "medium",
+            "titleHorizontalAlign" : "left"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "f1e845b7-c745-45da-9bb0-ad0667de7aaa",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d5fa3063-4904-48fc-94cd-2368e67e7375",
+        "regionLabel" : "Column 2",
+        "regionName" : "8beb0",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "22978d50-52e8-4174-8716-cfbe002fcaa2",
+          "columns" : [ {
+            "UUID" : "2354e0c3-a48a-495b-a20c-149f44608e62",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "22978d50-52e8-4174-8716-cfbe002fcaa2",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<!-- Support Center -->\n<h3 class=\"slds-m-bottom_xx-small slds-align_absolute-center\">Have a question or need help?</h3>\n<div class=\"slds-align_absolute-center align-span-vertical-centered\">\n    <i class=\"fa-solid fa-headset\"></i>\n    <span>&nbsp; <a href=\"{!Global.PathPrefix}/support\">Visit the Support Center</a></span>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "d08dfa57-e9f3-44bc-87ca-50582577f988",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2354e0c3-a48a-495b-a20c-149f44608e62",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "398b521a-9b57-468c-81dc-1a70700369d6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "edf1d992-af0e-4091-94b1-7f553989bd85",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "BHm59VpIn9ANqizRT1n9dUk0OyUeJb",
+  "type" : "view",
+  "viewType" : "my-account"
+}

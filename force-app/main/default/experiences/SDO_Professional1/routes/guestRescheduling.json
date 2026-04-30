@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "0531b0c4-e525-4fde-9c10-e432a8c159d5",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "guestrescheduling__c",
+  "id" : "79c31495-9b97-4434-b16e-7ebaa2335d94",
+  "label" : "Guest Rescheduling",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-guestrescheduling",
+  "type" : "route",
+  "urlPrefix" : "salesforce-field-service/guest-appointment/guestrescheduling"
+}

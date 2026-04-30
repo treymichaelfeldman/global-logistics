@@ -1,0 +1,141 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "1f3d18e6-6579-473b-bed7-1bebaa88197c",
+  "label" : "guestscheduling",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "adf23676-f2d2-46af-82db-e96d282022ff",
+          "columns" : [ {
+            "UUID" : "47e3a547-d81e-4e47-960a-91d31039ecb1",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "adf23676-f2d2-46af-82db-e96d282022ff",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Appointment Scheduling</h1><p>Welcome to our Guest Scheduling page. Here, you can quickly set up a new appointment at your convenience. Simply fill out the form below with your preferred date and time, and we'll confirm your appointment shortly. If you need help, our support team is always available to assist you.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f8607a2a-be09-4e97-8828-f19ca96cf368",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "47e3a547-d81e-4e47-960a-91d31039ecb1",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "aeb8be51-7fab-4616-9189-dedec3f013d1",
+          "columns" : [ {
+            "UUID" : "28a2945b-64be-4aa2-a92b-4ca21e59bfb8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b37f5dd4-e081-4e89-888a-214394d90aa8",
+            "columnKey" : "f1c48",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "aeb8be51-7fab-4616-9189-dedec3f013d1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "SDO_Schedule_Inbound_New_Guest_Appointment"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "693d7400-8ac1-499d-b652-e56f4c6b1642",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "28a2945b-64be-4aa2-a92b-4ca21e59bfb8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Your Safety is our #1 Priority</h3><p>On the day of your service visit, you will receive a photo of your assigned technician for your security and peace of mind.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d9b75774-757b-4ac7-9c25-9331c74e7628",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Need Extra Assistance?</h3><p>Need assistance scheduling your service appointment? No problem. You can text or call us using the \"?\" bubble at the bottom of your screen.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "59b1a393-2975-4749-b6fa-1c43e1569492",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b37f5dd4-e081-4e89-888a-214394d90aa8",
+        "regionLabel" : "Column 2",
+        "regionName" : "f1c48",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b4c091c2-fd8b-4195-a92b-7a47ac33d691",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Guest Scheduling"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1a1729fb-e2ba-448a-8932-6713119390d9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5f9487b8-6ae4-4440-9e80-eecaf2c397ed",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-guestscheduling"
+}

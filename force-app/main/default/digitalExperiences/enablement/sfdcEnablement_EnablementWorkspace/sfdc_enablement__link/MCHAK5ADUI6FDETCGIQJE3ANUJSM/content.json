@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Community Link",
+  "contentBody" : {
+    "externalLink" : "/partnercentral/s/community",
+    "time" : 10.0
+  },
+  "urlName" : "community-link"
+}

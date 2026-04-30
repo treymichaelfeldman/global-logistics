@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Partner Central Site Walkthrough",
+  "contentBody" : {
+    "externalLink" : "/partnercentral/s/?0.promptId=PartnerCentralSiteWalkthrough",
+    "time" : 5.0
+  },
+  "urlName" : "partner-central-site-walkthrough"
+}

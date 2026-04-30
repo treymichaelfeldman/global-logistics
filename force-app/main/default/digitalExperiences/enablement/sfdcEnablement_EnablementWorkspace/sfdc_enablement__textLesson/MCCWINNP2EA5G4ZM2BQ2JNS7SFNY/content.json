@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_enablement__textLesson",
+  "title" : "Lesson - How to record a pitch",
+  "contentBody" : {
+    "sections" : [ {
+      "content" : "<h1>[This is a Sample based on Recording a call in MS Teams. This could be done with any Video Recording tool and uploaded to any Video Library for hosting and getting a URL to access]</h1><h1><br /></h1><h1>Record your call in MS Teams</h1><div>{Step in Salesforce: click link to Teams}</div><ol><li>This takes you directly to the Teams channel for Stand and Delivers.</li><li>Click Meet. <img alt=\"rtaImage\" src=\"/cms/media/MCWZKVRTGWCBH2FJCCCSMTZH56PY\" /></li><li>Click Join Now. (You may want to double check your audio and video settings, and you can give your meeting a name if you like.) <img alt=\"rtaImage (1)\" src=\"/cms/media/MC3JNJ3EITORGSLLXDINYRVYJSAE\" /></li><li>Share your screen or pull up materials as needed for the assignment. When you’re ready, start the recording. You can start speaking as soon the recording is going. <img alt=\"rtaImage (2)\" src=\"/cms/media/MCLDCFM67CTVA7TBLFHMZNWWFBCY\" /></li><li>When you’re done, just hit Leave. The recording will populate in Teams. First, you’ll see a message, “Recording has stopped. Saving recording...” Then, the recording will appear. Click the three dots, Get Link, copy the link, and head back to Salesforce. <img alt=\"rtaImage (3)\" src=\"/cms/media/MCW6NZGZEUTJCKRCGNUJJIYQJ5XE\" /></li><li>If I don’t like my recording, I just follow the steps again and copy the new link.</li></ol><div><br /></div><div><br /></div><h2><strong style=\"background-color: rgb(255, 155, 153); color: rgb(51, 51, 51);\">Important: Hit Record on your Teams call! End meeting when done</strong></h2><div><br /></div>",
+      "sectionTime" : 1.0
+    } ],
+    "totalTime" : 1.0
+  },
+  "urlName" : "lesson---how-to-record-a-pitch"
+}

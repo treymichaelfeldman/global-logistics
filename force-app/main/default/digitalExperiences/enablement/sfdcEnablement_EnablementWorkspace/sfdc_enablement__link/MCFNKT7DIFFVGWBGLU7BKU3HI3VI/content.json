@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Access Key Resources",
+  "contentBody" : {
+    "description" : "Step-by-step guide to submitting and tracking deal registrations.",
+    "externalLink" : "https://www.salesforce.com/sales/partner-cloud/"
+  },
+  "urlName" : "access-key-resources"
+}

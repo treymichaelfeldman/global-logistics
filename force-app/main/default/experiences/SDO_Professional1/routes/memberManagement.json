@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "30a701d8-713c-4170-b388-df539d139404",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Member_Directory__c",
+  "id" : "cf06a134-ecee-49e3-be4b-8b727432dc5f",
+  "label" : "Member Management",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-member-directory",
+  "type" : "route",
+  "urlPrefix" : "my-account/account-settings/member-management"
+}

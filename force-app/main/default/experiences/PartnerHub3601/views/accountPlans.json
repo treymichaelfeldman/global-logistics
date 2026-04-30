@@ -1,0 +1,83 @@
+{
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "e6f48705-249c-4a58-b081-6b9a65fe3202",
+  "label" : "Account Plans",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "716a149f-8fd3-4bf6-94f8-fae93ae7ed01",
+          "columns" : [ {
+            "UUID" : "4227f933-d0e9-4ca3-bb18-9f6ce3d4912a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "716a149f-8fd3-4bf6-94f8-fae93ae7ed01",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_Account_Plans",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "AccountPlan",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "622a7208-0399-4f9d-a596-149bde3ab186",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4227f933-d0e9-4ca3-bb18-9f6ce3d4912a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1767cee9-8cd2-499b-a582-41b38930001d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Account Plans"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "889392bf-7375-4490-917f-c76d790cc611",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bb253a59-0d00-4102-9943-228f2aa38571",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-account-plans"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "b4c2e401-106e-45b5-bb05-9757e4cc287d",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "a07a62b7-4e85-40f4-81a3-926c890fe9a7",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Support_HTML_Editor_2_Component",
+  "id" : "11f8fb58-2181-4c87-81d8-935802c4ab20",
+  "type" : "experienceVariation"
+}

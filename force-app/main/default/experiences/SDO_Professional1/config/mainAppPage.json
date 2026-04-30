@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "ab594958-4ea8-4f33-8a5a-5711f1bceecc",
+  "headMarkup" : "<!-- Style Options -->\n<style>\n:root {\n    /* To hide the hero's dark background, set the value to 0 (default 60% or .6) */\n    --hero-background-transparency: 60%;\n    \n    /* There is also a box shadow.  To remove it, set the value to 0 (default 28% or .28) */\n    --hero-box-shadow-transparency: 28%;\n    \n    /* to have square edges on the background, set the border radius to 0 */\n    --hero-border-radius: 10px;\n  \n    }\n    \n</style>\n\n\n<!-- Variables: Change site-wide values such as border radius, font sizes, etc. -->\n<link rel=\"stylesheet\" href=\"/sfsites/c/resource/SDO_Experience_SiteStyles/css-variables.css\" />\n\n<!-- Find page specific styles here -->\n<link rel=\"stylesheet\" href=\"/sfsites/c/resource/SDO_Experience_SiteStyles/content-pages.css\" />\n\n<!-- Styles specific to the header and footer of the site, such as the shadow under the header -->\n<link rel=\"stylesheet\" href=\"/sfsites/c/resource/SDO_Experience_SiteStyles/header-footer.css\" />\n\n<!-- Styles specific to the hero element -->\n<!-- To remove the hero, comment out this style -->\n<link rel=\"stylesheet\" href=\"/sfsites/c/resource/SDO_Experience_SiteStyles/hero.css\" />\n\n<!-- Various styles that impact every page of the site -->\n<link rel=\"stylesheet\" href=\"/sfsites/c/resource/SDO_Experience_SiteStyles/global.css\" />\n\n\n<!-- Font Awesome Free kit -->\n<script src=\"https://demo-studio-cdn.s3.us-west-2.amazonaws.com/fontawesome/fontawesome-free-6.6.0-web/js/all.min.js\"></script>\n\n\n\n<script>\n    window.addEventListener(\"onEmbeddedMessagingReady\", () => {\n        console.log ('Received the onEmbeddedMessagingReady event...');\n        var userId = $A.get('$SObjectType.CurrentUser.Id');\n        console.log ('Passing HiddenPrechatUserId = userId (currently Logged In User Id, or ' + userId + ')');\n        embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({'HiddenPrechatUserId' : userId});\n    });\n</script>",
+  "id" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "Service Community Template",
+  "type" : "appPage"
+}

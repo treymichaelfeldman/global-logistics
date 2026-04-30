@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link: Voice Call 2 - Product A Pitch",
+  "contentBody" : {
+    "externalLink" : "/lightning/n/SDO_Sales_Voice_Call_2",
+    "time" : 10.0
+  },
+  "urlName" : "link-voice-call-2---product-a-pitch"
+}

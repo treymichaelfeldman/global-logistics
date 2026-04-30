@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "23d58bb2-47e2-4365-b616-881991415496",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "5b198b26-80a4-461e-8c4b-3d9ed430c38c",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Topic_Detail_Rich_Content_Editor_Component",
+  "id" : "3da37583-f58c-4f04-b5ae-389e0f7c66f4",
+  "type" : "experienceVariation"
+}

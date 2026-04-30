@@ -1,0 +1,8 @@
+{
+  "type" : "sfdc_enablement__videoLesson",
+  "title" : "Video - How solar panels work",
+  "contentBody" : {
+    "videoUrl" : "https://www.youtube.com/embed/xKxrkht7CpY?si=TOy0vdZpV_bU4dZB"
+  },
+  "urlName" : "video---how-solar-panels-work"
+}

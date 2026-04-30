@@ -1,0 +1,24 @@
+<template>
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Get in Touch</h2>
+                <p>Choose the fastest way to get answers.</p>
+            </div>
+            <div class="contact-methods">
+                <div class="contact-card primary-contact">
+                    <img src={chatIcon} alt="Chat" class="method-icon" />
+                    <h3>Chat with an Expert</h3>
+                    <p>Our Agentforce and live agents are available right now.</p>
+                    <button class="btn-primary" onclick={handleChatClick}>Start Chat</button>
+                </div>
+                <div class="contact-card">
+                    <img src={supportIcon} alt="Email" class="method-icon" />
+                    <h3>Email Support</h3>
+                    <p>Send us a message and we'll reply within 24 hours.</p>
+                    <a href="mailto:support@globallogistics.com" class="btn-text">Send Email &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>

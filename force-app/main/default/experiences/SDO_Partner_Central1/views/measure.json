@@ -1,0 +1,80 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "f475cbd1-4406-49a3-a3f0-8c5c98435c1c",
+  "label" : "Measure",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "85cc9913-14a8-419c-a3dd-e8ed85f3e57f",
+          "columns" : [ {
+            "UUID" : "42648b33-2a72-4037-9c58-a47e185fd785",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "85cc9913-14a8-419c-a3dd-e8ed85f3e57f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.AstroTrailheadXSmall.1}\" style=\"width: 50px; height: 64.9219px;\"></strong><strong style=\"color: rgb(230, 0, 0);\">Sales Engineers</strong></h2>\n<p>Update this page in Experience Builder, and set the component to use the <strong>Partner Community Dashboard</strong> in settings and republish this page!</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f081b60e-18be-4794-81d6-09be2fc73fa2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "height" : "1000",
+            "recordId" : "01ZHo000001DzcyMAC"
+          },
+          "componentName" : "forceCommunity:dashboard",
+          "id" : "ca989e81-2069-432e-a313-692bcf395041",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "42648b33-2a72-4037-9c58-a47e185fd785",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3f1ad75a-80d6-4c8a-8ce2-cb3b6032ed4e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Measure"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6243e733-94e7-46cf-a269-5bd5df14d501",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "81864c1f-521b-4783-b40f-966e8b7266f1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-measure"
+}

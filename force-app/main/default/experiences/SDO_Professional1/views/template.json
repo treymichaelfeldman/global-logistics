@@ -1,0 +1,140 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "d0efd144-d13e-4c37-83a2-14593b479ccf",
+  "label" : "Template",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c66173ff-dde7-4502-9d51-b7f640025d05",
+          "columns" : [ {
+            "UUID" : "c9de4472-9c6b-4c25-a16e-b767362d364e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c66173ff-dde7-4502-9d51-b7f640025d05",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Welcome to the Template Page</h1><p>Welcome to your new custom page. Use this space to introduce the purpose of the page and provide any necessary context or instructions for your audience. Below, you can add and organize different sections and components to meet your specific needs. Whether you're showcasing data, providing resources, or facilitating interactions, this template is designed to help you create a functional and engaging page.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "75379147-3732-4029-a380-aec20f282233",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c9de4472-9c6b-4c25-a16e-b767362d364e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "62924848-cd7a-4ab4-b9bd-e4b2f0b070fa",
+          "columns" : [ {
+            "UUID" : "fe80da11-8797-42cf-a17c-0b60416d7459",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "a8ba2219-a391-4e9d-a97f-f7b1865de716",
+            "columnKey" : "6d357",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "62924848-cd7a-4ab4-b9bd-e4b2f0b070fa",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Main Content</h2><p>This is where your main content will go. Add text, images, charts, or any other components that best convey your message. You can use this space to provide detailed information, tell a story, or present key data points. Consider using headings and subheadings to organize your content and make it easy to navigate.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e11b5378-13f2-4eb9-ac57-baf3b86713bb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "fe80da11-8797-42cf-a17c-0b60416d7459",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Additional Information</h3><p>Use this section to provide supplementary information, related resources, or any other relevant content. This could include links to external websites, downloadable files, or additional reading material.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "bcbfa6a6-f3b6-4980-911c-3b35c24a299f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"slds-card slds-p-vertical_large\" style=\"text-align:center;border:none;box-shadow:none;\">\n     <a href=\"/professional/s/blog\"> \n        <button class=\"slds-button slds-button_brand\" style=\"font-size:14px; height:46px; border-radius:5px; width:100%;\">\n            Learn More\n        </button>\n    </a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "57db9b84-c51f-4347-b5d5-784101447849",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a8ba2219-a391-4e9d-a97f-f7b1865de716",
+        "regionLabel" : "Column 2",
+        "regionName" : "6d357",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9557d8da-7b07-402c-aea8-b4ea78478e05",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Template"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c2d253cb-6be3-44c7-acad-5a64a70acff2",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9e390b72-eed5-4942-8169-2201fbc3bd89",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-template"
+}

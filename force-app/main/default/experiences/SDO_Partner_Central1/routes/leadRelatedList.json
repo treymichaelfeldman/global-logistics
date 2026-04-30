@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "6b3b75e4-6a89-4558-9f5e-9adc39403eaa",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Lead_Related_List__c",
+  "id" : "342487db-a77a-4225-894e-7c2f3b5ec492",
+  "label" : "Lead Related List",
+  "routeType" : "relatedlist-00Q",
+  "type" : "route",
+  "urlPrefix" : "sales/lead"
+}

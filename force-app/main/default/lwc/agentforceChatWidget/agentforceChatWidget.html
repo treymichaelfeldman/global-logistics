@@ -1,0 +1,28 @@
+<template>
+    <div class="chat-widget-container">
+        <template if:true={isChatOpen}>
+            <div class="chat-window">
+                <div class="chat-header">
+                    <div class="chat-title">
+                        <img src={chatIcon} alt="Agentforce" class="header-icon" />
+                        <span>Agentforce Assistant</span>
+                    </div>
+                    <button class="close-btn" onclick={toggleChat}>&times;</button>
+                </div>
+                <div class="chat-body">
+                    <div class="message system">
+                        <p>Hi! I'm your Global Logistics virtual assistant. How can I help you today?</p>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" placeholder="Type a message..." />
+                    <button class="send-btn">Send</button>
+                </div>
+            </div>
+        </template>
+        
+        <button class="chat-fab" onclick={toggleChat}>
+            <img src={chatIcon} alt="Chat" />
+        </button>
+    </div>
+</template>

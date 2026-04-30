@@ -1,0 +1,48 @@
+.retro-footer {
+    background-color: #000000;
+    color: #00FF00;
+    font-family: "Times New Roman", Times, serif;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.cta-text {
+    color: #FFFF00;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.counter-text {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+.visitor-counter {
+    background-color: #000;
+    color: #FF0000;
+    border: 3px inset #666;
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.copyright {
+    font-size: 0.9em;
+    color: #AAAAAA;
+    margin-top: 15px;
+}
+.best-viewed {
+    font-size: 0.8em;
+    color: #888888;
+    font-style: italic;
+}
+.blink {
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+.globe-img {
+    margin-top: 10px;
+}

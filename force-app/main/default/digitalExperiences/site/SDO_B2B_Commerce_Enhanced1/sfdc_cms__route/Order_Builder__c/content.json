@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Order Builder",
+  "contentBody" : {
+    "activeViewId" : "Order_Builder",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-order-builder",
+    "urlPrefix" : "order-builder"
+  },
+  "urlName" : "order-builder"
+}

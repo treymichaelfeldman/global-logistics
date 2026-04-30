@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link: Knowledge Article about Policy Coverage",
+  "contentBody" : {
+    "externalLink" : "/lightning/articles/Knowledge/Frequently-asked-questions-about-policy-coverage",
+    "time" : 10.0
+  },
+  "urlName" : "link-knowledge-article-about-policy-coverage"
+}

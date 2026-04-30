@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link: Competitive Analysis Article",
+  "contentBody" : {
+    "externalLink" : "https://www.salesforce.com/au/crm/salesforce-competition/",
+    "time" : 10.0
+  },
+  "urlName" : "link-competitive-analysis-article"
+}

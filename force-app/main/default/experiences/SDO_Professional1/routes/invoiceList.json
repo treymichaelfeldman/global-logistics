@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "28ff541f-e117-4305-a564-ead94bb1d782",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Invoice_List__c",
+  "id" : "de1deb61-277a-4e7c-a586-41f0be13627a",
+  "label" : "Invoice List",
+  "objectApiName" : "SDO_Sales_Invoice_Example__c",
+  "routeType" : "list-a1S",
+  "type" : "route",
+  "urlPrefix" : "sdo-sales-invoice-example"
+}

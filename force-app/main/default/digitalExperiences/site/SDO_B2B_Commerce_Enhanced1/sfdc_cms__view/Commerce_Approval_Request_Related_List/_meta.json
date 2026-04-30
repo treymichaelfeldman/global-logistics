@@ -1,0 +1,5 @@
+{
+  "apiName" : "Commerce_Approval_Request_Related_List",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

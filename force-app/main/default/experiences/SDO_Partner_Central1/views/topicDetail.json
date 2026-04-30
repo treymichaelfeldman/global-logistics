@@ -1,0 +1,450 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "2ae7ede3-72bf-4814-b722-04ca3f7df14f",
+  "label" : "Topic Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e63bccf3-0ab6-42c1-8adc-1c17cc1791fe",
+          "columns" : [ {
+            "UUID" : "ece3489d-49a2-46d4-b75e-81e7f165c681",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e63bccf3-0ab6-42c1-8adc-1c17cc1791fe",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "maxWidth" : 100,
+            "overlayColor" : "rgba(0, 0, 0, 0)",
+            "overlayHoverColor" : "rgba(55, 126, 81, 0)",
+            "radius" : 10,
+            "showTitle" : false,
+            "textAlignment" : "center",
+            "textBgColor" : "rgba(0,0,0,0)",
+            "textBgHoverColor" : "rgba(0,0,0,0)",
+            "textColor" : "rgb(102, 102, 102)",
+            "textHoverColor" : "",
+            "textPosition" : "center center",
+            "title" : "Featured Topics"
+          },
+          "componentName" : "forceTopic:featuredTopics",
+          "id" : "85d2d95a-6677-43fa-aa9a-a101fe139210",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ece3489d-49a2-46d4-b75e-81e7f165c681",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "9fbd70b1-13f3-43a0-a0e8-b5fd04b96c28",
+          "columns" : [ {
+            "UUID" : "7947ad87-8cd1-40ce-b576-b9f75ac78b81",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "10",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "e60986c0-d56f-4470-a46f-09c68e7d1268",
+            "columnKey" : "dc125",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "9fbd70b1-13f3-43a0-a0e8-b5fd04b96c28",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerText" : "",
+            "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+            "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+            "pageType" : "topic",
+            "showSubTopics" : false,
+            "title" : "{!topicName}",
+            "uniqueNameOrId" : ""
+          },
+          "componentName" : "forceCommunity:headline",
+          "id" : "11fa1e5c-1912-4708-9edc-d594de01f65b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "title" : "",
+            "topicId" : "{!topicId}"
+          },
+          "componentName" : "forceCommunity:topicDescription",
+          "id" : "43c8b13f-1f3c-4dae-8263-190999cfeec4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7947ad87-8cd1-40ce-b576-b9f75ac78b81",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "buttonAlignment" : "center",
+            "buttonBgColor" : "",
+            "buttonBgHoverColor" : "",
+            "buttonBorderColor" : "",
+            "buttonMaxWidth" : 91,
+            "buttonRadius" : 4,
+            "buttonTextColor" : "",
+            "buttonTextHoverColor" : "",
+            "recordId" : "{!recordId}",
+            "showNotificationMenu" : true
+          },
+          "componentName" : "forceCommunity:follow",
+          "id" : "84b3fcde-c7ea-49d7-a4ba-df10c8077b42",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e60986c0-d56f-4470-a46f-09c68e7d1268",
+        "regionLabel" : "Column 2",
+        "regionName" : "dc125",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a0e061f7-0652-45c7-a0a1-ff8f220e9cca",
+          "columns" : [ {
+            "UUID" : "3066f71f-44d7-4bf3-b092-ce96c78ae0f0",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "667197f1-c2f8-47b2-9982-42bf24124ef8",
+            "columnKey" : "e06c7",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a0e061f7-0652-45c7-a0a1-ff8f220e9cca",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Trending Articles</h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2130f183-7aeb-4bc4-bef1-10bace31ab5d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bodyAttribute" : "excerpt",
+            "contentDisplayStyle" : "Grid",
+            "contentType" : "news",
+            "gridColumns" : "2",
+            "imageAttribute" : "bannerImage",
+            "imageHeight" : "110px",
+            "imagePosition" : "center",
+            "linkAttribute" : "unauthenticatedUrl",
+            "numberContentItems" : 4,
+            "pathAttribute" : "news",
+            "titleAttribute" : "title",
+            "topicId" : "{!recordId}"
+          },
+          "componentName" : "c:sdo_CMS_ContentByTopicAndType",
+          "id" : "45b693fe-12fd-4a71-ba13-5afe68de70d4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><strong><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.sfbuilderlogo.1}\"></strong></h2>\n<h2 style=\"text-align: center;\"><strong>CMS Content by Topic</strong></h2>\n<p>The CMS above is a custom solution that allows you to complement your Topic Detail (and Record Detail) page with CMS. Learn more on how to assign Topics to content <a href=\"https://help.salesforce.com/s/articleView?id=sf.community_managed_content_topics.htm&amp;type=5\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "5b198b26-80a4-461e-8c4b-3d9ed430c38c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3066f71f-44d7-4bf3-b092-ce96c78ae0f0",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Knowledge Base Articles</h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "bab29ed8-3068-4e62-9d45-0904c6f3cacb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "articleListPageSize" : 10,
+            "showTitle" : false,
+            "title" : "Articles",
+            "topicId" : "{!topicId}"
+          },
+          "componentName" : "selfService:topicRelatedArticle",
+          "id" : "0f5c09b6-3d7c-47ff-bf2e-f8954311f789",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "667197f1-c2f8-47b2-9982-42bf24124ef8",
+        "regionLabel" : "Column 2",
+        "regionName" : "e06c7",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(248,248,248)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "76b973ce-a750-4022-a399-3627d7fb3312",
+          "columns" : [ {
+            "UUID" : "c2c99c64-22fd-48ef-a90c-e01e23623052",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 180
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "76b973ce-a750-4022-a399-3627d7fb3312",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Ready to Join the Conversation?</span></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3f5f4bf4-861c-44ff-9ee5-79a95909824c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonAlignment" : "center",
+            "buttonBgColor" : "",
+            "buttonBgHoverColor" : "",
+            "buttonBorderColor" : "",
+            "buttonMaxWidth" : 30,
+            "buttonRadius" : 4,
+            "buttonTextColor" : "",
+            "buttonTextHoverColor" : "",
+            "confirmationMessage" : "Got it!",
+            "followUpPromptLabel" : "Can we close your question?",
+            "isAskFollowPromptEnabled" : true,
+            "isIncludeArticlesEnabled" : false,
+            "isIncludeDiscussionsEnabled" : true,
+            "isInitialSatisfactionPromptEnabled" : true,
+            "isPublisherDeflectionEnabled" : true,
+            "label" : "Ask a Question",
+            "maxSuggestions" : 5,
+            "satisfactionPromptLabel" : "Did we help to answer your question?",
+            "showDetails" : false,
+            "showTopics" : true,
+            "uneditableTopics" : false
+          },
+          "componentName" : "forceCommunity:askCommunity",
+          "id" : "fff3e21a-50b2-4a49-bb07-185811231fa0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c2c99c64-22fd-48ef-a90c-e01e23623052",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "46ca8d2c-8e7b-4617-bdb5-d6a05f18addc",
+          "columns" : [ {
+            "UUID" : "8bb7acab-e43b-4d53-acc9-c38383c1113a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "603acf9c-51ff-4f1e-8119-c29e24c001d9",
+            "columnKey" : "ddd50",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "46ca8d2c-8e7b-4617-bdb5-d6a05f18addc",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Discussions</h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "99842ebf-0044-49f6-a6ff-d35aa659911a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "canChangeSorting" : true,
+            "defaultFilter" : "",
+            "defaultSortOrderHomeFeed" : "Relevance",
+            "defaultSortOrderTopicsFeed" : "LastModifiedDateDesc",
+            "feedDesign" : "DEFAULT",
+            "hasFeedSearch" : true,
+            "subjectId" : "{!topicId}",
+            "type" : "Topics"
+          },
+          "componentName" : "forceCommunity:forceCommunityFeed",
+          "id" : "030bf0f4-3f62-409e-a592-0663cbc70e7d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8bb7acab-e43b-4d53-acc9-c38383c1113a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Knowledgeable People</h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "9709b57e-7b53-4f4c-b326-e59485e8af71",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "title" : "Knowledgeable People",
+            "topicId" : "{!topicId}"
+          },
+          "componentName" : "forceCommunity:knowledgeablePeople",
+          "id" : "690d343d-a2b4-4b0c-a02a-b969fae8f235",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Need Additional Support?</h2><p>Manage your open cases or contact our support team. You can also talk to our chatbot.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "5495d059-9e00-49de-b8d4-8c6c9951d936",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonAlignment" : "center",
+            "buttonBgColor" : "",
+            "buttonBgHoverColor" : "",
+            "buttonBorderColor" : "",
+            "buttonMaxWidth" : 90,
+            "buttonRadius" : 4,
+            "buttonTextColor" : "",
+            "buttonTextHoverColor" : "",
+            "label" : "Need Support?"
+          },
+          "componentName" : "forceCommunity:contactSupportButton",
+          "id" : "598a47e7-7c83-42f7-9732-c2f7a543712d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "603acf9c-51ff-4f1e-8119-c29e24c001d9",
+        "regionLabel" : "Column 2",
+        "regionName" : "ddd50",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e8e1d0f8-7f72-4f50-9481-dee58e9ddf3f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "{!Record.Description}",
+        "title" : "{!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e1d23b90-8185-4071-9010-ef656326c222",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "729c8f5a-26c7-45b8-ac19-da1c9880e82d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "topic"
+}

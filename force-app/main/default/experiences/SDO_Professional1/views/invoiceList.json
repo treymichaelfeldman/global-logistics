@@ -1,0 +1,148 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "28ff541f-e117-4305-a564-ead94bb1d782",
+  "label" : "Invoice List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "3e3da041-0ea8-4790-bcee-c58636cd76ba",
+          "columns" : [ {
+            "UUID" : "c83518eb-0e64-453f-83df-389a04de9114",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3e3da041-0ea8-4790-bcee-c58636cd76ba",
+      "regions" : [ {
+        "id" : "c83518eb-0e64-453f-83df-389a04de9114",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "2f48fa39-e3a5-4540-bcc1-98111176a4d3",
+          "columns" : [ {
+            "UUID" : "bfa6d622-709a-4d70-82d5-8efae9fbc555",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "75193330-d566-46f4-adec-ab7ce67af7a8",
+            "columnKey" : "ea818",
+            "columnName" : "Column 2",
+            "columnWidth" : "10",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "2f48fa39-e3a5-4540-bcc1-98111176a4d3",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<!-- Uses SLDS Vertical Navigation (see https://www.lightningdesignsystem.com/components/vertical-navigation/#List) -->\n\n<h1 align=\"left\" style=\"margin-bottom:12px;\">My Account</h1>\n\n<div class=\"demo-only\">\n    <div class=\"component-border slds-nav-vertical__section\">\n        <div>\n            <fieldset class=\"slds-nav-vertical\"> \n\n                <!-- Profile -->\n                <span class=\"slds-nav-vertical__item\">\n                    <!-- Add checked=\"\" to make the default -->\n                    <input type=\"radio\"/>\n                    <label class=\"slds-nav-vertical__action\">\n                        <span class=\"slds-nav-vertical_radio-faux\" style=\"margin-left:-18px;\">\n                            <a style=\"align-items: center; display: flex; text-decoration: none;\" href=\"{!Global.PathPrefix}/profile/{!CurrentUser.id}\" alt=\"Profile\"> Profile</a>\n                        </span>\n                    </label>\n                </span>\n\n                <!-- Account -->\n                <span class=\"slds-nav-vertical__item slds-m-bottom_xx-small\">\n                    <input type=\"radio\" />\n                    <label class=\"slds-nav-vertical__action\">\n                        <span class=\"slds-nav-vertical_radio-faux\" style=\"margin-left:-18px;\">\n                            <a style=\"align-items: center; display: flex; text-decoration: none;\" href=\"{!Global.PathPrefix}/comm-my-account\" alt=\"Account\"> Account</a>\n                        </span>\n                    </label>\n                </span>\n\n                <!-- Cases -->\n                <span class=\"slds-nav-vertical__item slds-m-bottom_xx-small\">\n                    <input type=\"radio\" />\n                    <label class=\"slds-nav-vertical__action\">\n                        <span class=\"slds-nav-vertical_radio-faux\" style=\"margin-left:-18px;\">\n                            <a style=\"align-items: center; display: flex; text-decoration: none;\" href=\"{!Global.PathPrefix}/help-center#mycases\" alt=\"Case\"> Cases</a>\n                        </span>\n                    </label>\n                </span>                           \n\n                <!-- Invoices -->\n                <span class=\"slds-nav-vertical__item slds-m-bottom_xx-small\">\n                    <input type=\"radio\" checked=\"\"/>\n                    <label class=\"slds-nav-vertical__action\">\n                        <span class=\"slds-nav-vertical_radio-faux\" style=\"margin-left:-18px;\">\n                            <a style=\"align-items: center; display: flex; text-decoration: none;\" href=\"{!Global.PathPrefix}/sdo-sales-invoice-example/SDO_Sales_Invoice_Example__c/Default\" alt=\"Invoices\"> Invoices</a>\n                        </span>\n                    </label>\n                </span>\n\n                <!-- Settings -->\n                <span class=\"slds-nav-vertical__item slds-m-bottom_xx-small\">\n                    <!-- Add checked=\"\" to make the default -->\n                    <input type=\"radio\"/>\n                    <label class=\"slds-nav-vertical__action\">\n                        <span class=\"slds-nav-vertical_radio-faux\" style=\"margin-left:-18px;\">\n                            <a style=\"align-items: center; display: flex; text-decoration: none;\" href=\"{!Global.PathPrefix}/settings/{!CurrentUser.id}\" alt=\"Settings\"> Settings</a>\n                        </span>\n                    </label>\n                </span>                   \n                \n                <!-- Messages -->\n                <span class=\"slds-nav-vertical__item slds-m-bottom_xx-small\">\n                    <input type=\"radio\" />\n                    <label class=\"slds-nav-vertical__action\">\n                        <span class=\"slds-nav-vertical_radio-faux\" style=\"margin-left:-18px;\">\n                            <a style=\"align-items: center; display: flex; text-decoration: none;\" href=\"{!Global.PathPrefix}/messages/Home\" alt=\"Messages\"> Messages</a>\n                        </span>\n                    </label>\n                </span>                     \n\n            </fieldset>\n        </div>\n    </div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "b5aaf7fe-63c4-48e5-879e-2424c6d6ee94",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "bfa6d622-709a-4d70-82d5-8efae9fbc555",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "All",
+            "layout" : "STANDARD",
+            "pageSize" : 25,
+            "scope" : "SDO_Sales_Invoice_Example__c",
+            "showActionBar" : false,
+            "showChartsPanel" : false,
+            "showDisplay" : "grid",
+            "showFilterPanel" : false,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : false,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "1f389569-5723-42e9-ba5e-4e9e45d81c91",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "75193330-d566-46f4-adec-ab7ce67af7a8",
+        "regionLabel" : "Column 2",
+        "regionName" : "ea818",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "07c2a255-7eb6-461e-87c1-b1718d908da0",
+          "columns" : [ {
+            "UUID" : "c1957dd1-70e2-48b5-818e-d86da3f6d2eb",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "07c2a255-7eb6-461e-87c1-b1718d908da0",
+      "regions" : [ {
+        "id" : "c1957dd1-70e2-48b5-818e-d86da3f6d2eb",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "21f19782-b8e1-4544-bd91-6144dd91740d",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-a1S"
+}

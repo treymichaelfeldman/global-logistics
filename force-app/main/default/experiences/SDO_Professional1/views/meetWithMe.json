@@ -1,0 +1,109 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "41262f86-d9fe-4260-887f-738a64ec7f26",
+  "label" : "Meet With Me",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c3c94ac1-57e4-44cf-a488-65cf26b4f35c",
+          "columns" : [ {
+            "UUID" : "734c53f3-1817-48c9-a8eb-85d6c593579f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c3c94ac1-57e4-44cf-a488-65cf26b4f35c",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><strong style=\"font-size: 16px;\">Hi! I'm Connie. Welcome to my scheduling page!</strong></h1><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">Please select a time that works for you and review the confirmation page and provide any additional notes you want to share with me.</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">I look forward to speaking with you!</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ad840040-0d99-4e2f-be5f-5fc55b7bc75e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"invitationKey\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!invitationKey}\"}]",
+            "flowName" : "SDO_Scheduler_Book_Appointment_from_Invitation"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "5fd12444-76cd-4ea9-ad36-55b93dc40f4f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "734c53f3-1817-48c9-a8eb-85d6c593579f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "712a373f-0e9c-4aa4-ae4b-328eaf661f4b",
+          "columns" : [ {
+            "UUID" : "baab319b-4889-49af-98aa-5ca2ead4c09f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "712a373f-0e9c-4aa4-ae4b-328eaf661f4b",
+      "regions" : [ {
+        "id" : "baab319b-4889-49af-98aa-5ca2ead4c09f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ee4356c3-a7af-4a2a-860c-ebeda075e1f3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Meet With Me"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1fdf5b84-f15a-43a4-a89c-99eff3318ae3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c1029556-a7d9-4c6d-9ce9-b503ffbf4003",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-meet-with-me"
+}

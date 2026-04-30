@@ -1,0 +1,55 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Store Locator",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"806c2272-abbc-481a-94b0-78bd41c0e00f\",\"columns\":[{\"UUID\":\"eadc2719-6a68-4867-9d61-e7325da866ed\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "eadc2719-6a68-4867-9d61-e7325da866ed",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "806c2272-abbc-481a-94b0-78bd41c0e00f",
+          "type" : "component"
+        } ],
+        "id" : "bc13e124-b807-4898-9e64-9f172597e5ef",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Store Locator",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "7bf66aa1-601f-416e-88a5-d1c8820b0fe4",
+          "type" : "component"
+        } ],
+        "id" : "e2a03728-1e30-4412-9cac-bd585ddccff3",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "0edac405-4a00-456e-8ae7-eefa39dca9e6",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-store-locator"
+  },
+  "urlName" : "store-locator"
+}

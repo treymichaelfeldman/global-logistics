@@ -1,0 +1,21 @@
+<template>
+    <div class="faq-container">
+        <h2 class="faq-header">Frequently Asked Questions</h2>
+        <p class="faq-subtitle">Why email when you can <span class="blink">CALL US???</span></p>
+        
+        <ul class="faq-list">
+            <template for:each={faqs} for:item="faq">
+                <li key={faq.id} class="faq-item">
+                    <div class="faq-question" data-id={faq.id} onclick={toggleFaq}>
+                        <span class="bullet">►</span> {faq.question}
+                    </div>
+                    <div class={faq.answerClass}>
+                        {faq.answer}
+                        <br/>
+                        <button class="call-btn" onclick={handleCall}>Call 1-800-GLOBAL-99 for details!</button>
+                    </div>
+                </li>
+            </template>
+        </ul>
+    </div>
+</template>

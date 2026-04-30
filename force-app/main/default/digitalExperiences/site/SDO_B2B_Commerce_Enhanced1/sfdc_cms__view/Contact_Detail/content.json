@@ -1,0 +1,133 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Contact Detail",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "60px",
+                "left" : "",
+                "right" : "",
+                "top" : "40px"
+              }
+            },
+            "sectionConfig" : "{\"UUID\":\"6bcf42f1-f965-41d6-9026-dc2cc98d6fd8\",\"columns\":[{\"UUID\":\"b1f9dcc7-dcc8-42ff-8d33-d710d3e37b55\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "User Details",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "6b2aaef0-ff8a-402c-87eb-36616ab8ec59",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "20px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "10px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Welcome to the User Detail page, where comprehensive user information awaits. Explore details, updates, and actions taken related to user profiles seamlessly. For questions or assistance, our support team is here to ensure a smooth resolution to your inquiries.",
+                "textAlign" : "left",
+                "textColor" : "rgb(102, 102, 102)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "2112dcfc-13f7-47d8-a610-b89825022810",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "layout" : "{!Item._layout}",
+                "mainTitlePaddingHorizontal" : "none",
+                "mainTitlePaddingVertical" : "none",
+                "mainTitleText" : "User",
+                "mainTitleTextDisplayInfo" : "{}",
+                "metadata" : "{!Item._metadata._context}",
+                "recordIdFromDataProvider" : "{!Item.Id}",
+                "showTitle" : false
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "771c485e-2087-4600-bfdc-fe06e57ec640",
+                  "type" : "component"
+                } ],
+                "id" : "5ed63490-a3ab-4bbd-94a9-69379c1bbac0",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "customCssClasses" : "record-detail",
+              "definition" : "dxp_records:detailPanel",
+              "id" : "12da9978-fb21-4d9b-ad1a-d550962ad6e4",
+              "type" : "component"
+            } ],
+            "id" : "b1f9dcc7-dcc8-42ff-8d33-d710d3e37b55",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "record-detail-container",
+          "definition" : "community_layout:section",
+          "id" : "6bcf42f1-f965-41d6-9026-dc2cc98d6fd8",
+          "type" : "component"
+        } ],
+        "id" : "2a7507ba-a796-4a3c-95cd-220d0f9de197",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "{!Record._Object}: {!Record._Title}",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "1b8e87b8-d27a-48a3-ab46-7d8fce7ae945",
+          "type" : "component"
+        } ],
+        "id" : "32b9232f-e809-428f-8eb8-4d314933cb34",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "ff222f85-c1b6-42ed-a8d8-e4bbc90dc2a1",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "detail-003"
+  },
+  "urlName" : "contact-detail"
+}

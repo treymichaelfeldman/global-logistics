@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "06d9b1c2-6257-447b-a4bf-77d23774b647",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "4275a275-6d25-4b79-81b1-bf0bf5ae7d71",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_Auth_Gold_Rich_Content_Editor_1_Component",
+  "id" : "27663f20-8b11-4735-90dd-621bc133ec68",
+  "type" : "experienceVariation"
+}

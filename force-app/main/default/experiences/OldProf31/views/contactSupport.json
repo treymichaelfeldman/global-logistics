@@ -1,0 +1,42 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "dataProviders" : [ ],
+  "id" : "0a3f0be4-c821-4a30-be28-3b889ce31e2f",
+  "label" : "Contact Support",
+  "regions" : [ {
+    "id" : "aa1bf34c-ac8b-4491-b53e-8d0c41df7d72",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "bcc0ff50-b6e9-403e-98e9-f38d1a013bdb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ebef84b6-b7b9-4d1b-a983-daacf498d3c6",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "a6fdf6b5-11f9-4ccf-b023-aa91396d400d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Contact Support"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "21786db1-e206-4269-a616-28a07c01eb4d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c17b42ee-100f-411a-a57a-10242e723ea5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "contactsupport"
+}

@@ -1,0 +1,67 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "79de2b8c-99f1-44e1-9531-90fd58faf8d3",
+  "label" : "Search",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"slds-m-top_small\">Search Results for \"{!term}\"</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "6b44fc55-299b-414f-abdd-3640eba46e95",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "91842d52-e409-41be-8937-5412441b85cd",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "scopes" : [ {
+          "isPublic" : true,
+          "name" : "Knowledge__kav"
+        }, {
+          "isPublic" : true,
+          "name" : "ManagedContentVersion"
+        }, {
+          "isPublic" : false,
+          "name" : "Lead"
+        }, {
+          "isPublic" : false,
+          "name" : "Opportunity"
+        }, {
+          "isPublic" : false,
+          "name" : "Campaign"
+        }, {
+          "isPublic" : false,
+          "name" : "ContentDocument"
+        }, {
+          "isPublic" : true,
+          "name" : "CollaborationGroup"
+        } ],
+        "searchResultFiltering" : true,
+        "searchTerm" : "{!term}",
+        "showTopResults" : true
+      },
+      "componentName" : "forceCommunity:search",
+      "id" : "da997543-a416-46e6-b32d-57f80dc5b596",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3c9d0c96-fb24-458a-8aa8-e26c727566ab",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "054031f8-4e36-451f-9c56-b771d2497f27",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4094dQXbdAl8DZDuvrFjVr8XJs6gc6",
+  "type" : "view",
+  "viewType" : "global-search"
+}

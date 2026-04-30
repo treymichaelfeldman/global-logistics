@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "7ee0ec92-a3cf-4fb3-a822-a85647c785a9",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Salesforce_Field_Service__c",
+  "id" : "b606243e-3822-4dd1-a8d6-d5475c643784",
+  "label" : "Salesforce Field Service",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-salesforce-field-service",
+  "type" : "route",
+  "urlPrefix" : "salesforce-field-service"
+}

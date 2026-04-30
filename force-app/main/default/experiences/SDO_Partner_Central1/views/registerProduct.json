@@ -1,0 +1,121 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "a33510d3-d955-4c06-a169-ab270712d261",
+  "label" : "Register Product",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "98ef4ad7-8adb-4647-87e8-fd3315068bf6",
+          "columns" : [ {
+            "UUID" : "bda82630-464a-4df6-ba63-76f29b89837d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "98ef4ad7-8adb-4647-87e8-fd3315068bf6",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Register Your Product</h1><p>Please take a moment to register your product with us. Registering provides you with faster support and issue resolution, proactive alerts, and an upgrade notifications.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "04bafea0-803d-46a9-aeee-144f351263ae",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "bda82630-464a-4df6-ba63-76f29b89837d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "92af3a0e-84a2-46d9-969b-e30bcd1627f0",
+          "columns" : [ {
+            "UUID" : "06c719af-80d8-47f9-804e-f6a5342d46bd",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "fb289140-e79c-4aea-81d0-69c1d4af3fcf",
+            "columnKey" : "6d357",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "92af3a0e-84a2-46d9-969b-e30bcd1627f0",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "SDO_Service_Register_New_Product"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "c66239a0-fd25-47ec-bf42-1c6c555cd0c3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "06c719af-80d8-47f9-804e-f6a5342d46bd",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "fb289140-e79c-4aea-81d0-69c1d4af3fcf",
+        "regionLabel" : "Column 2",
+        "regionName" : "6d357",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1e1cc76e-1b3c-43a4-9f20-55b43a94674b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "Template"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "33487ef3-bd57-444c-b701-4ea46aa09d47",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "26dee04e-6edf-4648-af3a-af359c8ef1c0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-register-product"
+}

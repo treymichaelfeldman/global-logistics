@@ -1,0 +1,60 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "7ee0ec92-a3cf-4fb3-a822-a85647c785a9",
+  "label" : "Salesforce Field Service",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b9b66e24-a5be-4322-8375-88c0fbcfbdfa",
+          "columns" : [ {
+            "UUID" : "88e50152-218c-4f66-b979-179a3b46331d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b9b66e24-a5be-4322-8375-88c0fbcfbdfa",
+      "regions" : [ {
+        "id" : "88e50152-218c-4f66-b979-179a3b46331d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8d368090-5101-4fef-93e9-ae14f2faa969",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Salesforce Field Service"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "180408fe-ec58-4512-9e93-a1702582de06",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9187951e-d0a8-4202-a2a6-ff62c9475372",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-salesforce-field-service"
+}

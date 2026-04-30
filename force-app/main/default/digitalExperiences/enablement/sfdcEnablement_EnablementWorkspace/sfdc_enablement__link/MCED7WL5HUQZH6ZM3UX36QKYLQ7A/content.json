@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link: Solar panel industry article",
+  "contentBody" : {
+    "externalLink" : "https://www.cbsnews.com/losangeles/news/solar-industry-facing-bankruptcies-leaving-many-with-roof-panels-that-dont-work/",
+    "time" : 10.0
+  },
+  "urlName" : "link-solar-panel-industry-article"
+}

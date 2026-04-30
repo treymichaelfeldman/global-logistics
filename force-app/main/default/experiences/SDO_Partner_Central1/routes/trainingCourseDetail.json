@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "597b3b18-223a-4edd-a58c-450085325fb1",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Training_Course_Detail__c",
+  "id" : "aca394f3-cadc-46b8-8c06-8b78375acffb",
+  "label" : "Training Course Detail",
+  "objectApiName" : "SDO_Community_Training_Course__c",
+  "routeType" : "detail-a1R",
+  "type" : "route",
+  "urlPrefix" : "learning/sdo-community-training-course"
+}

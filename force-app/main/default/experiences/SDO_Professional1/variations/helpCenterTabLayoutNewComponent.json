@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "07b4b94e-3063-47fc-9b42-8e7794a399a7",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "1778847b-7842-4ec3-871c-6916726217d2",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Help_Center_Tab_Layout_New_Component",
+  "id" : "f9d70f25-5ec2-4ee4-8d6d-b2d251eabb30",
+  "type" : "experienceVariation"
+}

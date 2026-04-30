@@ -1,0 +1,17 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Category",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        },
+        "id" : "e0b2b156-6d47-4840-8662-84ae3f99ca20"
+      } ]
+    }
+  },
+  "urlName" : "category"
+}

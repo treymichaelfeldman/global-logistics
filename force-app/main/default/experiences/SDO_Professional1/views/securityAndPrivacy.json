@@ -1,0 +1,201 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "1d44ba1c-679b-401b-959c-582f30bec561",
+  "label" : "Security and Privacy",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "6892b874-1942-40f2-975c-87e44ce26dbc",
+          "columns" : [ {
+            "UUID" : "c95f8fcc-c381-4db2-8bdd-a410390ad984",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "6892b874-1942-40f2-975c-87e44ce26dbc",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>My Account</h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "fa8f84e8-1b81-4d21-a307-72a016585c97",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c95f8fcc-c381-4db2-8bdd-a410390ad984",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b6784219-17e4-409c-b3f9-a23f0271ae55",
+          "columns" : [ {
+            "UUID" : "4c253c29-92ad-4e64-892d-dc06a1c786af",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "0fcb6b18-f3d8-4b47-85e1-6fb7e439dec7",
+            "columnKey" : "7207f",
+            "columnName" : "Column 2",
+            "columnWidth" : "9",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b6784219-17e4-409c-b3f9-a23f0271ae55",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Personal Settings</h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "bcf1b9f9-46d0-4bb8-bd16-996bdd15fcdf",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "rgba(255, 255, 255, 0)",
+            "bannerPosition" : "left",
+            "bannerSizePercent" : 100,
+            "borderRadius" : 0,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "icon",
+            "tileMenuEditor" : "SDO_Professional_My_Account_Personal_Settings",
+            "titleColor" : "rgb(102, 102, 102)",
+            "titleFontSize" : "small",
+            "titleHorizontalAlign" : "left"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "0efaaea0-846e-4d54-bdfc-91a9679779b8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Account Settings</h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3720596d-9d89-405f-9ec7-802955a08e46",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "rgba(255, 255, 255, 0)",
+            "bannerPosition" : "left",
+            "bannerSizePercent" : 100,
+            "borderRadius" : 0,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "icon",
+            "tileMenuEditor" : "SDO_Professional_My_Account_Account_Settings",
+            "titleColor" : "rgb(102, 102, 102)",
+            "titleFontSize" : "small",
+            "titleHorizontalAlign" : "left"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "b0fd48ee-cee6-47db-a436-600d4fc41fc0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4c253c29-92ad-4e64-892d-dc06a1c786af",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Security &amp; Privacy</h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "649ae907-cd2c-4063-8ad1-afcb9dd7abdd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "accountSectionTitle" : "Account",
+            "accountTabName" : "Account Management",
+            "connectedSourcesTabName" : "Connected Sources",
+            "deleteAccountButtonTitle" : "Deactivate My Account",
+            "deleteAccountConfirmationPopupBody" : "After you deactivate your account, you'll lose access to this site.",
+            "deleteAccountConfirmationPopupButtonTitle" : "Got It",
+            "deleteAccountConfirmationPopupTitle" : "Deactivate your account?",
+            "deleteAccountErrorMessage" : "Something went wrong. Contact your site administrator.",
+            "deleteAccountSectionTitle" : "Deactivate Account",
+            "emailNotificationsTitle" : "Email Notifications",
+            "emailSectionDescText" : "When email notifications are enabled, email me when someone:",
+            "hideAccountDeleteSection" : false,
+            "hideChatterNotificationSettings" : false,
+            "hideConnectedSources" : true,
+            "hideEmailNotificationSettings" : false,
+            "hideProfileVisibilitySettings" : false,
+            "id" : "{!recordId}",
+            "locationTitle" : "Location",
+            "profileSectionDescText" : "Customize who is able to see what on your profile page",
+            "profileSectionToolTipText" : "Restricted: Visible to the employees of the company that created the site. Members: Visible to logged-in members. Public: Visible to anyone viewing pages that don't require login.",
+            "profileVisibilityTitle" : "Profile Visibility",
+            "settingsPageTitle" : ""
+          },
+          "componentName" : "forceCommunity:userSettingsCustomizable",
+          "id" : "88a1c6f5-e8ee-48d8-b400-d8be4cd44829",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0fcb6b18-f3d8-4b47-85e1-6fb7e439dec7",
+        "regionLabel" : "Column 2",
+        "regionName" : "7207f",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f5bfe359-ac47-404e-ac88-644a8aded71a",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "usersettings"
+}

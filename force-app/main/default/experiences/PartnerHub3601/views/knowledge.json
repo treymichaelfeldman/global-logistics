@@ -1,0 +1,60 @@
+{
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "031635c1-d782-4e3a-9984-6923b693994d",
+  "label" : "Knowledge",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "ff3fba06-fd05-4ee4-bc80-371436b82f63",
+          "columns" : [ {
+            "UUID" : "d0eee73a-afa9-45b5-a57e-89988952e148",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ff3fba06-fd05-4ee4-bc80-371436b82f63",
+      "regions" : [ {
+        "id" : "d0eee73a-afa9-45b5-a57e-89988952e148",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "221ef187-2a59-47a5-a33b-6860bf5784bd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Knowledge"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "7fe33dd9-e26a-4923-a257-2fc51cdfcd3e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bec9459a-68fd-4889-9435-078a5846eb35",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-knowledge"
+}

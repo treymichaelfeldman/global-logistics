@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Collaboration Tools",
+  "contentBody" : {
+    "description" : "Understand how to log a case or reach support directly from the portal.",
+    "externalLink" : "https://www.salesforce.com/sales/partner-cloud/"
+  },
+  "urlName" : "collaboration-tools"
+}

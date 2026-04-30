@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "1dd63ba6-0b1e-4a7c-9be9-5bb1c6f8e6dc",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Personal_Settings__c",
+  "id" : "0c2e3900-8d37-4912-981d-99b166e39f02",
+  "label" : "Personal Settings",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-personal-settings",
+  "type" : "route",
+  "urlPrefix" : "comm-my-account/personal-settings"
+}

@@ -1,0 +1,38 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "bc644f4b-ee09-43ab-9761-e16cd3247309",
+  "label" : "Badge Detail",
+  "regions" : [ {
+    "id" : "4e7ede25-c958-49f4-893f-aaaa6cc3e438",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "110a9c2f-8021-4c1f-a428-263ff0e9781a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "42b12875-f59b-4713-af27-2a8d20a908d3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "04e6d728-bc97-495a-af12-1a915af4a74a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a374ea78-4c78-4aad-a0ed-d6ad8141e150",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0W1"
+}

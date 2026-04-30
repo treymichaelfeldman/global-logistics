@@ -1,0 +1,30 @@
+{
+  "appPageId" : "597407f6-a76e-438c-8cee-b6565ce45fb0",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "17d95ad8-7ffa-45f4-b4a9-d51f7e8bc243",
+  "label" : "Register",
+  "regions" : [ {
+    "id" : "4db44398-4f71-4379-a405-629c404568bf",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Register"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0a913a11-b8ff-46d1-8bcf-318b2b99b553",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6404a7bd-c619-4882-ba45-be599c7a8992",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "self-register"
+}

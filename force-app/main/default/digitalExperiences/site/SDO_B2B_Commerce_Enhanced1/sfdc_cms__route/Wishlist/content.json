@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Wishlist",
+  "contentBody" : {
+    "activeViewId" : "Wishlist",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "wishlist",
+    "urlPrefix" : "mylists"
+  },
+  "urlName" : "wishlist"
+}

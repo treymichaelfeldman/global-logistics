@@ -1,0 +1,24 @@
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #0000FF;
+    color: #FFFF00;
+    border: 2px solid #FFFFFF;
+    padding: 5px 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.marquee-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}

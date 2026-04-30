@@ -1,0 +1,40 @@
+{
+  "appPageId" : "3a241bdb-3c0c-4a4f-b277-1b94130c2d69",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ {
+    "componentName" : "commerce_data_provider:cartDataProvider",
+    "componentAttributes" : {
+      "sfdcExpressionKey" : "Cart"
+    }
+  } ],
+  "id" : "34595aac-1793-4dc6-8955-01d880dc8b6d",
+  "label" : "Cart",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"42a65c3e-7092-4042-a296-f2c95cf93c86\",\"columns\":[{\"UUID\":\"fb19d474-eff2-4782-a884-f564f7ecaaec\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "42a65c3e-7092-4042-a296-f2c95cf93c86",
+      "regions" : [ {
+        "id" : "fb19d474-eff2-4782-a884-f564f7ecaaec",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "c9f45444-f1b3-4518-ad8c-c1f6381c60cd",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "current-cart"
+}

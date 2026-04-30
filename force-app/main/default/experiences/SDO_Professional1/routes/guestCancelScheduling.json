@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "8e0c4318-0fe6-49c9-b02a-4539a8248fc3",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Cancel_Scheduling__c",
+  "id" : "70559d0f-d6c6-49f5-86df-3bb768ac94e7",
+  "label" : "Guest Cancel Scheduling",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-cancel-scheduling",
+  "type" : "route",
+  "urlPrefix" : "salesforce-field-service/guest-appointment/guest-cancel-scheduling"
+}

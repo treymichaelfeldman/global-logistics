@@ -1,0 +1,23 @@
+{
+  "appPageId" : "c137d4c3-cac9-43e0-b786-33aaaf4bb35c",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e36a2a50-0510-4732-bfc1-17ae814cbd2c",
+  "label" : "Action Plan Related List",
+  "regions" : [ {
+    "id" : "9e33fadc-54c8-478e-b56c-590bbcbde2c1",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "17d9d44e-08c4-4b7f-a420-c7163854594a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "74c06174-ff51-4cf7-96ed-99c718a6c4ce",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-07r"
+}

@@ -1,0 +1,65 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8795617f-363e-4f5d-afd0-929f9a070293",
+  "label" : "Topic Catalog",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Topic Catalog</h1><p>Welcome to our Topic Catalog, your gateway to a wealth of knowledge and resources on energy-related topics. Explore our comprehensive collection of articles, guides, and support materials organized under distinct categories such as Solar Power, Wind Generation, System Management, and more. Whether you're seeking information on products, documentation, customer success, or sustainability initiatives, our Topic Catalog offers curated content to empower your journey towards sustainable energy solutions.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "3eac6f7a-d810-4c13-9782-18aaebf18c12",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.topicHierarchyentry.1}\" alt=\"\"></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "a50e1767-0eff-41e8-8eb7-f88fc4c4a641",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cda5a814-e002-4d62-a1b5-3032f0299fd0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "forceCommunity:topicCatalog",
+      "id" : "ff121c91-6f1d-4df6-91bc-e09c69052cad",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5331abf4-d433-49f7-8df9-0a188b99c566",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9e35e911-fc44-4057-9f2c-3951f630eb10",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Topic Catalog"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "549a1e64-0326-4b2f-b184-a8aac1573d54",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "10c027d6-2f89-43f7-8e17-1d035540ab41",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "topic-catalog"
+}

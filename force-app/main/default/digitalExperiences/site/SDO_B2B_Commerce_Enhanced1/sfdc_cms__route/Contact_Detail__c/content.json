@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Contact Detail",
+  "contentBody" : {
+    "activeViewId" : "Contact_Detail",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "detail-003",
+    "urlPrefix" : "contact"
+  },
+  "urlName" : "contact-detail"
+}

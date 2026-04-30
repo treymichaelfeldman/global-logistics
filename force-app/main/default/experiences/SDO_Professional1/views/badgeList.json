@@ -1,0 +1,23 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "474e2f5e-6f95-48c8-8754-dad561af604b",
+  "label" : "Badge List",
+  "regions" : [ {
+    "id" : "b609f57a-4c12-4ca1-8ee4-625ca18377ae",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "12ac2a2b-5069-4f09-8fcb-875b54160dc2",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9a5b1226-b0ab-47a4-bb9f-a3462f55f5ec",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-0W1"
+}

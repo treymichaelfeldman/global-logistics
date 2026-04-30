@@ -1,0 +1,400 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "da117008-5e15-42eb-825a-f5001d061dcb",
+  "label" : "Events",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "57e3e2e7-da86-43a0-8f7c-ebdd007bbb79",
+          "columns" : [ {
+            "UUID" : "9ec3a9ad-3882-4d9a-9c6e-ede719f0afca",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "57e3e2e7-da86-43a0-8f7c-ebdd007bbb79",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Events</h1><p>Explore our calendar of current and upcoming events. Stay informed about engaging workshops, webinars, and seminars tailored for professionals in the energy sector. Discover opportunities to network, learn, and stay updated on industry trends.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3e1a53c9-0025-47dd-b92a-228c95564e7d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9ec3a9ad-3882-4d9a-9c6e-ede719f0afca",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "35d7c17f-2847-425e-a49e-76e37fc368b4",
+          "columns" : [ {
+            "UUID" : "e543c509-1f34-4547-b88c-a1125cdb7b49",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "35d7c17f-2847-425e-a49e-76e37fc368b4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong style=\"color: rgb(68, 68, 68);\">Featured Events</strong></h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "58aa798b-34ef-4508-bbdf-15ed2f485b6e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "collectionTitle" : "",
+                  "collectionTitleHeadingTag" : "h2",
+                  "columns" : "3",
+                  "rows" : "1",
+                  "showCollectionTitle" : true,
+                  "showViewMoreButton" : false,
+                  "spacing" : "medium",
+                  "viewMoreButtonBackgroundColor" : "",
+                  "viewMoreButtonBackgroundColorHover" : "",
+                  "viewMoreButtonBorderColor" : "",
+                  "viewMoreButtonBorderColorHover" : "",
+                  "viewMoreButtonLabel" : "View More Items",
+                  "viewMoreButtonPlacement" : "center",
+                  "viewMoreButtonRadius" : 4,
+                  "viewMoreButtonTextColor" : "",
+                  "viewMoreButtonTextColorHover" : ""
+                },
+                "componentName" : "forceCommunity:dynamicCollectionGrid"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Upcoming_Events"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "borderColor" : "",
+                  "componentBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"6\",\"isPx\":true},\"borderTopRightRadius\":{\"value\":\"6\",\"isPx\":true},\"borderBottomRightRadius\":{\"value\":\"6\",\"isPx\":true},\"borderBottomLeftRadius\":{\"value\":\"6\",\"isPx\":true}}",
+                  "componentHoverEffect" : "imageZoomIn",
+                  "componentPadding" : "none",
+                  "contentBackgroundColor" : "#ffffff",
+                  "contentOffset" : "0",
+                  "contentOffsetBackgroundColor" : "#ffffff",
+                  "contentOffsetPadding" : "medium",
+                  "contentPosition" : "center",
+                  "contentWidth" : 100,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagConstraints" : "media",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "imageAlignment" : "top",
+                  "imageAltText" : "",
+                  "imageBorderColor" : "#ffffff",
+                  "imageBorderStyles" : "",
+                  "imageUrl" : "{!CurrentItem.alternateImage.url}",
+                  "mediaAspectRatio" : "16:9",
+                  "mediaHeight" : "329",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "",
+                  "metadataTextDecoration" : "",
+                  "showDateTime" : true,
+                  "showExcerpt" : true,
+                  "showEyebrow" : true,
+                  "showEyebrowHighlight" : false,
+                  "showFeaturedMedia" : true,
+                  "showFlag" : true,
+                  "showMetadata1" : true,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : true,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "subTitleTextColor" : "",
+                  "textAlignment" : "left",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.title}",
+                  "titleFontSize" : "medium",
+                  "titleHeadingTag" : "h3",
+                  "titleHighlightColor" : "",
+                  "titleTextColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:flexTileLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "4faba1e4-450c-4b4e-8f1b-2e7fb55d5789",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e543c509-1f34-4547-b88c-a1125cdb7b49",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "020d81f9-d79e-4118-93cc-4f3f616c4341",
+          "columns" : [ {
+            "UUID" : "89a28f75-8dee-4b80-856c-c3af8e1a4ae8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "020d81f9-d79e-4118-93cc-4f3f616c4341",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.sfbuilderlogo.1}\"> Builder Notes</h1>\n<h2><strong>Overview:</strong></h2>\n<p>To show a calendar, you need to create a Public Calendar, create events for that calendar, and share them with the site users.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "15c3948b-02e7-46df-b2f8-668b2bb53d34",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "89a28f75-8dee-4b80-856c-c3af8e1a4ae8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d59317f5-49c7-45a1-8bfb-72fb4f0f98c1",
+          "columns" : [ {
+            "UUID" : "19e1c650-ce6d-4ff0-b146-54f01acd7a35",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "1db70921-62c5-4542-85d4-e135c302cb8e",
+            "columnKey" : "6cc3b",
+            "columnName" : "Column 2",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d59317f5-49c7-45a1-8bfb-72fb4f0f98c1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong style=\"color: rgb(68, 68, 68);\">Upcoming Events</strong></h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0ed8079b-1bac-4cd7-b773-f172ec4daca4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonsOnBottom" : true,
+            "eventDetailButtonText" : "More Info",
+            "eventLimit" : 2,
+            "hideEventDetailButton" : false,
+            "ownerId" : "",
+            "timezoneLabelsJSON" : "{\"America/Los_Angeles\":\"US Pacific Time\",\"America/Chicago\":\"US Central Time\",\"America/Denver\":\"US Mountain Time\",\"America/Indianapolis\":\"US Eastern Time\",\"GMT\":\"GMT\",\"Asia/Jakarta\":\"Western Indonesian Time\",\"Asia/Makassar\":\"Central Indonesian Time\",\"Asia/Jayapura\":\"Eastern Indonesian Time\",\"Asia/Kolkata\":\"India Standard Time\",\"Asia/Tokyo\":\"Japan Time\",\"Australia/Sydney\":\"Australian Eastern Standard Time\",\"Australia/Darwin\":\"Australian Central Standard Time\",\"Australia/Perth\":\"Australian Western Standard Time\",\"Europe/London\":\"British Time\",\"Europe/Paris\":\"Central European Time\"}",
+            "truncate" : false,
+            "truncateEachLine" : false,
+            "truncateNumberOfLinesToDisplay" : 3,
+            "whatId" : "",
+            "whoId" : ""
+          },
+          "componentName" : "cccalendar:ccUpcomingEvents",
+          "id" : "392790e8-cc00-45f0-bc6f-fbbca01f8b92",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "19e1c650-ce6d-4ff0-b146-54f01acd7a35",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "buttonsOnBottom" : true,
+            "eventDetailButtonText" : "More Info",
+            "eventLimit" : 50,
+            "futureMonths" : 6,
+            "hideDayView" : false,
+            "hideEventDetailButton" : true,
+            "hideListView" : true,
+            "hideMonthView" : false,
+            "hideTimezonePicklist" : true,
+            "hideWeekView" : false,
+            "listofTimezonesOverride" : "America/Los_Angeles,America/Chicago,America/Denver,America/Indianapolis,GMT,Europe/London,Europe/Paris,Asia/Jakarta,Asia/Makassar,Asia/Jayapura,Asia/Kolkata,Asia/Tokyo,Australia/Sydney,Australia/Darwin,Australia/Perth",
+            "overrideTimezoneList" : false,
+            "ownerId" : "",
+            "pastMonths" : 1,
+            "rangeFrequency" : "MONTH",
+            "showWeekends" : false,
+            "timezoneLabelsJSON" : "{\"America/Los_Angeles\":\"US Pacific Time\",\"America/Chicago\":\"US Central Time\",\"America/Denver\":\"US Mountain Time\",\"America/Indianapolis\":\"US Eastern Time\",\"GMT\":\"GMT\",\"Asia/Jakarta\":\"Western Indonesian Time\",\"Asia/Makassar\":\"Central Indonesian Time\",\"Asia/Jayapura\":\"Eastern Indonesian Time\",\"Asia/Kolkata\":\"India Standard Time\",\"Asia/Tokyo\":\"Japan Time\",\"Australia/Sydney\":\"Australian Eastern Standard Time\",\"Australia/Darwin\":\"Australian Central Standard Time\",\"Australia/Perth\":\"Australian Western Standard Time\",\"Europe/London\":\"British Time\",\"Europe/Paris\":\"Central European Time\"}",
+            "truncate" : false,
+            "truncateEachLine" : false,
+            "truncateNumberOfLinesToDisplay" : 2,
+            "whatId" : "",
+            "whoId" : ""
+          },
+          "componentName" : "cccalendar:cccalendar",
+          "id" : "802c8e11-65d8-4f01-a204-c416c1306a7e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1db70921-62c5-4542-85d4-e135c302cb8e",
+        "regionLabel" : "Column 2",
+        "regionName" : "6cc3b",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "41abfa83-6641-4bdc-b661-6f4a0bfdedc2",
+          "columns" : [ {
+            "UUID" : "23b9159b-6756-4b3c-9e7e-08d7eb0a9dbe",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 40
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "41abfa83-6641-4bdc-b661-6f4a0bfdedc2",
+      "regions" : [ {
+        "id" : "23b9159b-6756-4b3c-9e7e-08d7eb0a9dbe",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5390ebba-4804-4fbd-aa9f-f967eb4aebbc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Events"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c7f9e03c-a74a-465c-8a2f-598480214310",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6fe66216-975e-4f36-a0d2-51197f163124",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-events"
+}

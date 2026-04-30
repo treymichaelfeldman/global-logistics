@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "a543d9e2-68ff-45b1-b5a8-d877e1481df3",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Channel_Plan_Detail__c",
+  "id" : "238c2eab-9be6-465d-aa1d-ffa7a83aaf8b",
+  "label" : "Channel Plan Detail",
+  "objectApiName" : "SFDC_Channel_Account_Plan__c",
+  "routeType" : "detail-a1U",
+  "type" : "route",
+  "urlPrefix" : "sfdc-channel-account-plan"
+}

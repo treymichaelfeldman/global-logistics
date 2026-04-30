@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Demo & Certification Readiness",
+  "contentBody" : {
+    "description" : "Validate your knowledge to ensure readiness for customer-facing roles.",
+    "externalLink" : "https://www.salesforce.com/sales/partner-cloud/"
+  },
+  "urlName" : "demo-certification-readiness"
+}

@@ -1,0 +1,5 @@
+{
+  "apiName" : "Approvals",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

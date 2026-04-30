@@ -1,0 +1,8 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link - How to contact support",
+  "contentBody" : {
+    "externalLink" : "https://help.salesforce.com/s/articleView?id=000384365&type=1"
+  },
+  "urlName" : "link---how-to-contact-support"
+}

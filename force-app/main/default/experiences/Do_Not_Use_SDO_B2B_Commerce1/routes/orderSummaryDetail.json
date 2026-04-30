@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "79fbc612-4c8c-4c86-a12e-fad8f6369312",
+  "appPageId" : "c137d4c3-cac9-43e0-b786-33aaaf4bb35c",
+  "configurationTags" : [ ],
+  "devName" : "Order_Summary_Detail",
+  "id" : "e1885289-18af-4d3d-8c27-28c6918027e3",
+  "label" : "Order Summary Detail",
+  "routeType" : "detail-1Os",
+  "type" : "route",
+  "urlPrefix" : "OrderSummary"
+}

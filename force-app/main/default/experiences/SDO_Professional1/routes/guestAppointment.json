@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "253f7bf0-8cd0-4c33-815d-ad340002b331",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Guest_Appointment__c",
+  "id" : "6477b4e8-066b-4151-a687-2952f93b1440",
+  "label" : "Guest Appointment",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-guest-appointment",
+  "type" : "route",
+  "urlPrefix" : "salesforce-field-service/guest-appointment"
+}

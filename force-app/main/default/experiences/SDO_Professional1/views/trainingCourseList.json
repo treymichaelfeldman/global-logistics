@@ -1,0 +1,101 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "dataProviders" : [ ],
+  "id" : "73eae1a2-9d43-42a1-bdab-7a937cfff9ee",
+  "label" : "Training Course List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2><strong><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.AstroTrailheadXSmall.1}\" style=\"width: 50px; height: 64.9219px;\"> Salesforce SEs:</strong></h2>\n<p>Use this page to illustrate two important concepts for customers:</p>\n<ul>\n <li>External Learning Management System integration with Salesforce:</li>\n <li>Salesforce CMS and Custom Object Records:</li>\n</ul>\n<p>&nbsp;This page illustrates how <a href=\"https://help.salesforce.com/articleView?id=community_managed_content_overview.htm&amp;type=5\" rel=\"noopener noreferrer\" target=\"_blank\">Salesforce CMS</a> can take any object tracked in your Salesforce org and make it look like managed content. The items to the left live in the Training Course object, but have been configured into a <a href=\"https://help.salesforce.com/articleView?id=community_managed_content_creating_content-crm.htm&amp;type=5\" rel=\"noopener noreferrer\" target=\"_blank\">CMS collection</a> with images and styling. Click on the <strong>CMS Collection</strong> component to the left to see how it was set up!</p>\n<p><br></p>\n<p>Want to explore how we did this? Try the following:</p>\n<ol>\n <li>Click on the <u>CMS Collection</u> component showing <u>Featured Courses</u> to the left to see how it's configured. Note the Collection it's using. And check out the <u>Change Content Mapping</u> button to see how we made the object's fields display in our collection component!</li>\n <li>Get into this community's <u>Content Management</u> workspace, click the <u>Collections</u> tab, and check out the <u>Featured Courses</u> collection. You'll see that the items in the collection are driven by records in the <u>Training_Course__c</u> custom object. So if, for example, you had your Learning Management System pushing course records into Salesforce using that object, you could feature them in your community!</li>\n <li>The <u>All Courses</u> tab on this page has a Record List component that shows a list of records from that same object...just a different way to view the same data, just more...business-like!</li>\n <li>OPTIONAL: Add a new tab named \"New\" to the tab component. Add a <strong><u>CMS Collection</u></strong> component to that tab. Configure it to point to the <strong><u>Training: New Courses</u></strong> collection. Configure display options and field mapping according to your preferences.</li>\n</ol>\n<p><br></p>\n<p>As records are added to or updated the object in Salesforce (either manually or through an integration with another system) this list wil update acordingly. That allows you to put a fresh face on normally-mundane business data!</p>\n<p><br></p>\n<p>NOTE: You can also add myTrailhead for Communities components to this page with some setup. <a href=\"https://salesforce.quip.com/17abARF8ahjk\" rel=\"noopener noreferrer\" target=\"_blank\">Click here</a> for details!</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "5ab093d2-b530-4b01-822b-0bb808926099",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8f3dc90e-fcec-4de9-8524-45968019d60c",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h4><strong style=\"font-size: 18px; color: rgb(68, 68, 68);\">My Training Enrollments</strong></h4><p><span style=\"font-size: 14px;\">Monitor and manage your enrolled training courses conveniently from one place. Stay updated on progress, upcoming sessions, and completion status for a seamless learning experience.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "10b0b4c0-feff-49ed-9e7c-906f75f6fd83",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "My_Enrollments",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "SDO_Community_Course_Enrollment__c",
+        "showActionBar" : false,
+        "showChartsPanel" : false,
+        "showDisplay" : "grid",
+        "showFilterPanel" : false,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : false,
+        "showObjectName" : true,
+        "showPinnedList" : false,
+        "showSearchBar" : false
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "20ba4be6-ea1f-40ac-850d-767452c39cb2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c876bd17-68d4-4c6a-9ec7-d1b793c749c4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "49f71607-2dbd-46ea-9329-3191a30ef96c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h4><strong style=\"font-size: 18px;\">My Certifications</strong></h4><p><span style=\"font-size: 14px;\">View and track your earned certifications to showcase your expertise and accomplishments. Access details on certification validity, renewal requirements, and download digital copies for professional recognition.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "5a3344ee-fc55-457c-a798-41a1bf8a3ed6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "All",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "SDO_ChannelPartner_Certification__c",
+        "showActionBar" : false,
+        "showChartsPanel" : false,
+        "showDisplay" : "grid",
+        "showFilterPanel" : false,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : false,
+        "showObjectName" : true,
+        "showPinnedList" : false,
+        "showSearchBar" : false
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "9195b934-f603-4575-8fe8-4bdc5b442b49",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fa71f368-e107-4734-a270-b3a442f636e3",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-a1R"
+}

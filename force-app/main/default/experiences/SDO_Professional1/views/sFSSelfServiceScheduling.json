@@ -1,0 +1,163 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "fcfbc76d-4787-40d1-b63a-ad04acaa811c",
+  "label" : "SFS Self Service Scheduling",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d68a2147-fb98-4c1a-bd93-4a60956ffa56",
+          "columns" : [ {
+            "UUID" : "7e3bd8cb-15ec-4668-bf00-7145122cb510",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d68a2147-fb98-4c1a-bd93-4a60956ffa56",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Service Appointments</h1><p>Easily book the services you need, ensuring your appointment is booked quickly, efficiently, and at the time you want.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b4bfda90-8e22-409c-b276-c2e25f2223f1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7e3bd8cb-15ec-4668-bf00-7145122cb510",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1520591b-321e-4735-9a81-4fdb854c2fa0",
+          "columns" : [ {
+            "UUID" : "2eb814a7-1f5e-4ab1-b95f-4136e04f0ecc",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "24a685ff-f3f0-4938-b519-b9b95630b56c",
+            "columnKey" : "1c32c",
+            "columnName" : "Column 2",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1520591b-321e-4735-9a81-4fdb854c2fa0",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>My Service Appointments</h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "570887c5-1015-453e-89a4-1cf708d4d1f8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "My_ServiceAppointments",
+            "layout" : "COMPACT",
+            "pageSize" : 4,
+            "scope" : "ServiceAppointment",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "grid",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : false,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "8090c9b3-4940-43f1-befa-5a62bd2728d6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Your Safety is our #1 Priority</h2><p>On the day of your service visit, you will receive a photo of your assigned technician for your security and peace of mind.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e467d4ab-fc83-4bc1-9d60-dbc392e766f0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2eb814a7-1f5e-4ab1-b95f-4136e04f0ecc",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "SDO_SFS_Self_Service_SchedulingV2"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "515601b6-1382-4342-b3bd-0c777af922df",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "24a685ff-f3f0-4938-b519-b9b95630b56c",
+        "regionLabel" : "Column 2",
+        "regionName" : "1c32c",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7d06af75-e5ca-4068-b2c4-c7ce780dde2e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Self Service Scheduling"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2da19de4-2faf-4ef8-a4b2-3afef083091e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5902dd83-1968-4457-a8e3-e775095d0da3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sfs-self-service-scheduling"
+}

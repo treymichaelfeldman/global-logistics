@@ -1,0 +1,8 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link - Resource page",
+  "contentBody" : {
+    "externalLink" : "https://www.salesforce.com"
+  },
+  "urlName" : "link---resource-page"
+}

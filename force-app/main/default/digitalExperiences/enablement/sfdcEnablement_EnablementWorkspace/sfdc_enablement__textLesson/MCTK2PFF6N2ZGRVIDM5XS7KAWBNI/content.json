@@ -1,0 +1,13 @@
+{
+  "type" : "sfdc_enablement__textLesson",
+  "title" : "Lesson - BASHO for Sales Programs",
+  "contentBody" : {
+    "sections" : [ {
+      "content" : "<div>Hi {{{Recipient.FirstName}}},</div><div><br /></div><div>Sales programs teams are the hidden champions behind the success of any sales operation, serving as the vital lever that sales leaders pull to close their revenue gaps.</div><div><br /></div><div>The question that looms: where do these Sales Programs reside, and are they being executed to drive results?</div><div><br /></div><div>That’s why we’ve developed Sales Programs, a solution that delivers the programs you’re already running directly in Salesforce, and ties them automatically to revenue results.</div><div><br /></div><div>Customers are using Sales Programs to run:</div><ul><li>Cross-sells and up-sells plays</li><li>Pipe gen and pipe maturation programs</li><li>Competitor plays</li><li>New product introduction programs</li><li>Lead follow ups</li></ul><div>If you’re running one of these plays now, and want to do it from inside of Salesforce, we should chat.</div><div><br /></div><div>Talk soon,</div><div>SP AE</div><div><br /></div>",
+      "keyConcept" : "",
+      "sectionTime" : 1.0
+    } ],
+    "totalTime" : 1
+  },
+  "urlName" : "lesson---basho-for-sales-programs"
+}

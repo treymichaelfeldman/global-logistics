@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f290cbe9-824d-4978-b75c-7fc3ec5e809f",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Event_Related_List__c",
+  "id" : "e443ffac-b9b1-4d4a-b5ed-713507c3ccda",
+  "label" : "Event Related List",
+  "routeType" : "relatedlist-00U",
+  "type" : "route",
+  "urlPrefix" : "event"
+}

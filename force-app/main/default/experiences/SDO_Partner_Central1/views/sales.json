@@ -1,0 +1,336 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "e0108df3-c2a6-4d57-8e1e-b067ce894772",
+  "label" : "Sales",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "83edea39-470e-47cf-9a6d-fa74d8565422",
+          "columns" : [ {
+            "UUID" : "d411094f-7773-4363-9976-a44ebc8e8d95",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "cab602d4-a610-491c-8eca-8f0f629bf7a9",
+            "columnKey" : "94d90",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "83edea39-470e-47cf-9a6d-fa74d8565422",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Key Sales Tools</h2><p>Access detailed account information, manage your leads effectively, and track opportunities to drive your sales pipeline. Utilize these links to streamline your sales processes and maximize our partnership.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "6cd023fc-3468-4db4-a9c7-ce27e4cc6b83",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "rgba(55, 126, 81, 0)",
+            "bannerPosition" : "right",
+            "bannerSizePercent" : 92,
+            "borderRadius" : 0,
+            "boxShadow" : false,
+            "haveBanner" : true,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "icon",
+            "tileMenuEditor" : "SDO_Partner_Sales_Navigation",
+            "titleColor" : "rgb(102, 102, 102)",
+            "titleFontSize" : "small",
+            "titleHorizontalAlign" : "left"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "a6d97ec6-5305-442b-b1cb-ab67a8654994",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d411094f-7773-4363-9976-a44ebc8e8d95",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/JDDC5h-G1Zw?si=P3xp1oySAHavS0Ie\" src=\"https://www.youtube.com/embed/JDDC5h-G1Zw?si=P3xp1oySAHavS0Ie\"></iframe></div><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4e240870-f69c-487d-af80-f6693e562019",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "cab602d4-a610-491c-8eca-8f0f629bf7a9",
+        "regionLabel" : "Column 2",
+        "regionName" : "94d90",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "bbbd16b6-377f-4a63-a344-06b304226fb0",
+          "columns" : [ {
+            "UUID" : "45539184-ab46-4bfb-83ed-c986a58d5d68",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 400
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "bbbd16b6-377f-4a63-a344-06b304226fb0",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Pipeline &amp; Deal Registration</h2><p>Initiate new deal registrations, monitor the approval status of your registered deals, and collaborate effectively with our team on deal opportunities.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "fe97d8fe-b2bb-49ef-a16c-05f3dc3e5948",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "5139eb9f-3853-4ce9-831f-222e1fe3e605",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "1a50f953-25f7-4f64-802d-bde18420436e",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Opportunity"
+              }, {
+                "UUID" : "14a3d2e4-0a3b-4dd8-810b-c7110785175f",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "Lead"
+              } ],
+              "useOverflowMenu" : true
+            }
+          },
+          "componentName" : "forceCommunity:tabLayout",
+          "id" : "5139eb9f-3853-4ce9-831f-222e1fe3e605",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "objectApiName" : "Opportunity"
+              },
+              "componentName" : "runtime_pipeline_inspector:pipelineInspectorHomeExperienceContainer",
+              "id" : "547fea29-f4af-44d9-861b-e9b33ec6897d",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "1a50f953-25f7-4f64-802d-bde18420436e",
+            "regionLabel" : "Opportunity",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "objectApiName" : "Lead"
+              },
+              "componentName" : "runtime_pipeline_inspector:pipelineInspectorHomeExperienceContainer",
+              "id" : "993b8925-aac6-4835-9880-e07987fbdf10",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "14a3d2e4-0a3b-4dd8-810b-c7110785175f",
+            "regionLabel" : "Lead",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "45539184-ab46-4bfb-83ed-c986a58d5d68",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "small" : "1f5fe841-9d86-4189-a02d-69064bba3e80"
+      },
+      "renditions" : [ {
+        "id" : "1f5fe841-9d86-4189-a02d-69064bba3e80",
+        "renditionValue" : {
+          "isVisible" : false
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "3c68bb4c-97bb-4a3f-a706-dd5b184e7737",
+          "columns" : [ {
+            "UUID" : "1acfeaa4-d3ff-48a2-8721-0f6925a2e1d5",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "43c0388b-a751-411a-b6c5-a3226f7c6f05",
+            "columnKey" : "6a122",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3c68bb4c-97bb-4a3f-a706-dd5b184e7737",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Pipeline &amp; Deal Registration</h2><p>Initiate new deal registrations, monitor the approval status of your registered deals, and collaborate effectively with our team on deal opportunities.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "478a23da-a473-4a30-ae68-3d04b13dc8c3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "SDO_Deal_Registrations",
+            "layout" : "STANDARD",
+            "pageSize" : 5,
+            "scope" : "Lead",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "789b2c4f-1265-4bb5-8abc-95ee28496772",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "AllOpportunities",
+            "layout" : "STANDARD",
+            "pageSize" : 5,
+            "scope" : "Opportunity",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "c7def921-3593-471a-9132-575297188e60",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1acfeaa4-d3ff-48a2-8721-0f6925a2e1d5",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "canChangeSorting" : true,
+            "defaultFilter" : "",
+            "defaultSortOrderHomeFeed" : "Relevance",
+            "defaultSortOrderTopicsFeed" : "Relevance",
+            "feedDesign" : "DEFAULT",
+            "hasFeedSearch" : true,
+            "subjectId" : "{!recordId}",
+            "type" : "News"
+          },
+          "componentName" : "forceCommunity:forceCommunityFeed",
+          "id" : "0142a007-31d1-4141-8261-4b5ab89e190f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "43c0388b-a751-411a-b6c5-a3226f7c6f05",
+        "regionLabel" : "Column 2",
+        "regionName" : "6a122",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9c15750f-b9e3-49af-91ec-55892f2ca0d8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Sales"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5a655808-56f2-4281-99d9-7a34387b2578",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8d8f9249-3b84-43ec-805a-cea800b4cdff",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "f0TmSXMIGnhnQhZNmk23G59Kn1CIgA",
+  "type" : "view",
+  "viewType" : "custom-sales"
+}

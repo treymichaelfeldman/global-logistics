@@ -1,0 +1,87 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "782ea355-b729-4d6e-8e8d-3d18c20c9b76",
+  "label" : "Group List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong>Community Groups</strong></h1><p>Groups provide a place for people with shared interests to collaborate, or to get the latest updates on our products, your practice, and top provide direct feedback. Browse our featured groups, or use the group list to find the right groups to join!</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "3e3140b2-7a71-4ce5-8253-2c09f89e5122",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1044863d-4462-4a5e-a5d1-3c62ce24809e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "All_ChatterGroups",
+        "layout" : "COMPACT",
+        "pageSize" : 10,
+        "scope" : "CollaborationGroup",
+        "showActionBar" : true,
+        "showChartsPanel" : false,
+        "showDisplay" : "showall",
+        "showFilterPanel" : false,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "2699c5e5-18a9-4660-b1b1-e983d649e4c0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d7e3fbf3-050b-443c-99dd-1a3e4e97ec6e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "02457068-4316-488b-979d-2eaee8d2d101",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2>Leaderboard</h2>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c2fbd75f-087d-49ed-bab2-b4d75efd27db",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "display" : "LEVELS_POINTS",
+        "excludeInternalUsers" : true,
+        "knowledgeLabel" : "Knows about",
+        "numberOfUsers" : 5,
+        "showContextUser" : true,
+        "showTooltip" : true,
+        "showUserRank" : true,
+        "title" : "",
+        "tooltipText" : "Earn points and climb to new levels when you contribute in the experience!"
+      },
+      "componentName" : "forceCommunity:reputationLeaderboard42",
+      "id" : "5bc5e352-0512-47af-9de6-38b0b95da83a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4aa37f2f-4f92-43a3-8c24-31287c5e2d25",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-0F9"
+}

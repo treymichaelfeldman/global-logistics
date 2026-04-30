@@ -1,0 +1,65 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "ed04d737-7b76-4d4c-ad11-3a3aac2a8e13",
+  "label" : "My Account",
+  "regions" : [ {
+    "id" : "65f802da-fe0b-43ea-a7f6-02b06919fa07",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "700966f7-3d5f-4e9d-b3ee-dee9bbf50d73",
+          "columns" : [ {
+            "UUID" : "ca64929e-452d-4b14-9479-b7b8ded0ec98",
+            "columnKey" : "col1",
+            "columnName" : "column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ {
+              "attributes" : {
+                "recordId" : "{!CurrentUser.accountId}",
+                "sfdc:identifier" : "forceCommunity_recordHeadline"
+              },
+              "fqn" : "forceCommunity:recordHeadline"
+            }, {
+              "attributes" : {
+                "recordId" : "{!CurrentUser.accountId}",
+                "sfdc:identifier" : "forceCommunity_recordHomeTabs"
+              },
+              "fqn" : "forceCommunity:recordHomeTabs"
+            } ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "700966f7-3d5f-4e9d-b3ee-dee9bbf50d73",
+      "regions" : [ {
+        "id" : "ca64929e-452d-4b14-9479-b7b8ded0ec98",
+        "regionLabel" : "column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "398b521a-9b57-468c-81dc-1a70700369d6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "edf1d992-af0e-4091-94b1-7f553989bd85",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "my-account"
+}

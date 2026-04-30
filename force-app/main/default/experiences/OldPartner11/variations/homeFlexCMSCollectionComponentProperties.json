@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "a70ed8e4-d509-43e8-a338-4b9ac1a2a087",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "config/dataProviderDefinition/attributes/dataProviderInfo/apiName" : "Home_Sales_News"
+      }
+    },
+    "targetId" : "3baf6a0e-6f3b-4fe3-a96b-adadfaf7c79e",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_Flex_CMS_Collection_Component_Properties",
+  "id" : "2b484fbd-92c6-443d-b62a-7f007be3a9a0",
+  "type" : "experienceVariation"
+}

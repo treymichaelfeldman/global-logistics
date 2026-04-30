@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Troubleshooting & Optimization",
+  "contentBody" : {
+    "description" : "Review common errors and how to resolve them.",
+    "externalLink" : "https://www.salesforce.com/sales/partner-cloud/"
+  },
+  "urlName" : "troubleshooting-optimization"
+}

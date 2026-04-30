@@ -1,0 +1,125 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "a167582b-067b-4b0d-ae8e-9e08eb1ef4a2",
+  "label" : "Article Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "8e00c789-86ea-4579-9be0-aa68741af282",
+          "columns" : [ {
+            "UUID" : "e4a84453-9912-49bb-a51c-8504fb50f633",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "c3c62c6b-76cd-4fa3-9c17-3af8da3813ed",
+            "columnKey" : "cd69f",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "8e00c789-86ea-4579-9be0-aa68741af282",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableVoting" : true,
+            "recordId" : "{!recordId}",
+            "showTitleInArticleHeader" : true,
+            "showTopicPills" : false,
+            "urlName" : "{!urlName}"
+          },
+          "componentName" : "selfService:singleArticleView",
+          "id" : "84aac609-1303-404f-a347-f8aa2c66fdea",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e4a84453-9912-49bb-a51c-8504fb50f633",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "numberOfItems" : 5,
+            "showViewCounts" : false,
+            "title" : "Related Articles"
+          },
+          "componentName" : "selfService:similarArticles42",
+          "id" : "72b07a6d-6897-4ee8-a2ec-39570747fab2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"list-container slds-m-top_xx-large\">\n        <div class=\"slds-m-bottom_x-small\" style=\"color:#333333;font-size: 21px;font-weight:700;\">User Manual</div><br/>\n        <div class=\"slds-m-left_x-small slds-m-bottom_small\" style=\"font-size: 16px;line-height:22px;\">\n            <p class=\"slds-m-bottom_xx-small\">\n                <a style=\"color:#666666\" href=\"{!Global.PathPrefix}/community-home\">\n               <i class=\"fa-regular fa-file-pdf\"></i>  &nbsp; ECOHOME User Manual (PDF)</a>\n            </p><br/>\n\t\t\t<p>\n                <a style=\"color:#666666\" href=\"{!Global.PathPrefix}/help-center\">\n                <i class=\"fa-regular fa-file-pdf\"></i> &nbsp; Installation Guide (PDF)</a>\n            </p>\n        </div>\n    </div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "ad109636-49d1-48a8-bd78-4f22139835f5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"list-container slds-m-top_xx-large\">\n        <div class=\"slds-m-bottom_x-small\" style=\"color:#333333;font-size: 21px;font-weight:700;\">Video Tutorials</div><br/>\n        <div class=\"slds-m-left_x-small slds-m-bottom_small\" style=\"font-size: 16px;line-height:22px;\">\n            <p class=\"slds-m-bottom_xx-small\">\n                <a style=\"color:#666666\" href=\"{!Global.PathPrefix}/community-home\">\n                <i class=\"fa-regular fa-brands fa-youtube\"></i> &nbsp; ECOHOME YouTube Channel</a>\n            </p><br/>\n\t\t\t<p>\n                <a style=\"color:#666666\" href=\"{!Global.PathPrefix}/help-center\">\n                <i class=\"fa-regular fa-brands fa-youtube\"></i> &nbsp; Popular Reviews Playlist</a>\n            </p>\n        </div>\n    </div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "78091b17-62b0-48f3-819a-2e12f3f34e6c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"list-container slds-m-top_xx-large\">\n        <div class=\"slds-m-bottom_x-small\" style=\"color:#333333;font-size: 21px;font-weight:700;\">Community Support</div><br/>\n        <div class=\"slds-m-left_x-small slds-m-bottom_small\" style=\"font-size: 16px;line-height:22px;\">\n            <p class=\"slds-m-bottom_xx-small\">\n                <a style=\"color:#666666\" href=\"{!Global.PathPrefix}/community-home\">\n                <i class=\"fa-regular fa-comments\"></i> &nbsp; ECOHOME Forum</a>\n            </p><br/>\n\t\t\t<p>\n                <a style=\"color:#666666\" href=\"{!Global.PathPrefix}/help-center\">\n                <i class=\"fa-regular fa-comments\"></i> &nbsp; Recorded Q&amp;A Sessions</a>\n            </p>\n        </div>\n    </div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "73887ab9-5067-4c92-8394-cdcc1bd8aef3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c3c62c6b-76cd-4fa3-9c17-3af8da3813ed",
+        "regionLabel" : "Column 2",
+        "regionName" : "cd69f",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "250b2553-6db6-429f-bcc0-a7ef8dd11690",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "{!Record.Summary}",
+        "title" : "{!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4b914aa3-ad33-4d88-97af-889b5a84e359",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "22e76f0f-720b-4b35-94ea-6f1a4889fffd",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "article"
+}

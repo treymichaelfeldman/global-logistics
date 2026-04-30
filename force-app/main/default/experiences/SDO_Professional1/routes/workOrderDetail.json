@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c85f7e1f-14f4-4b4b-b1af-d8edc08b1384",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Work_Order_Detail__c",
+  "id" : "ee535e40-e19f-4888-a3cd-c1931bf20a8b",
+  "label" : "Work Order Detail",
+  "routeType" : "detail-0WO",
+  "type" : "route",
+  "urlPrefix" : "workorder"
+}

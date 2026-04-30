@@ -1,0 +1,16 @@
+{
+  "type" : "sfdc_cms__image",
+  "title" : "Solar Panel Installation Image",
+  "contentBody" : {
+    "altText" : "Solar Panel Installation on Roof",
+    "sfdc_cms:media" : {
+      "source" : {
+        "mimeType" : "image/jpeg",
+        "ref" : "0sNKX000000QNBN",
+        "type" : "file",
+        "size" : 1365713
+      }
+    }
+  },
+  "urlName" : "solar-panel-installation-image"
+}

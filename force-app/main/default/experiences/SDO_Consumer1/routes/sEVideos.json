@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "d4c4c51c-c5c7-4860-afb7-0b2fe6001da6",
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "configurationTags" : [ ],
+  "devName" : "SE_Videos__c",
+  "id" : "367656e6-a34a-4f83-8c53-9316b9b92bfb",
+  "label" : "SE - Videos",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-videos",
+  "type" : "route",
+  "urlPrefix" : "videos"
+}

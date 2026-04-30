@@ -1,0 +1,213 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "75994d98-58f0-4567-8c1f-3f491bb8bff3",
+  "label" : "Campaign Marketplace",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "0de3e237-6b27-4d64-a0fe-821674561d04",
+          "columns" : [ {
+            "UUID" : "b09093a2-75c9-4366-b1e7-72299852751b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "0de3e237-6b27-4d64-a0fe-821674561d04",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "19bea6ad-6d99-484f-bdb1-dfe57733705c",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "fa9e0ba1-ae7a-4449-8148-726e4596392d",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Campaigns"
+              }, {
+                "UUID" : "9ec6a1cf-db67-4c2a-a27e-477f63c6421b",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "My Budget"
+              }, {
+                "UUID" : "28e196f8-0038-4412-ae96-561e580d4aa8",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "3",
+                "tabName" : "Fund Requests"
+              }, {
+                "UUID" : "13efc7ee-7740-43eb-92e6-32872efcfde2",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "b2128",
+                "tabName" : "Fund Claim"
+              } ],
+              "useOverflowMenu" : false
+            }
+          },
+          "componentName" : "forceCommunity:tabset",
+          "id" : "19bea6ad-6d99-484f-bdb1-dfe57733705c",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "bodyField" : "Description",
+                "categoryField" : "Type",
+                "dataFieldsConfig" : "",
+                "highlight" : "__",
+                "highlightColor" : "#007DB8",
+                "listLabel" : "",
+                "listViewName" : "SDO_All_Campaigns",
+                "showImage" : false,
+                "sortBy" : "Name",
+                "sortOrder" : "Ascending",
+                "titleField" : "Name"
+              },
+              "componentName" : "forceCommunity:campaignTileList",
+              "id" : "5f8a7b30-8fcd-4cd3-8e13-fcb8a75ee85c",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "fa9e0ba1-ae7a-4449-8148-726e4596392d",
+            "regionLabel" : "Campaigns",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "00B7g000005SrLNEA0",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "PartnerMarketingBudget",
+                "showActionBar" : false,
+                "showChartsPanel" : false,
+                "showDisplay" : "showall",
+                "showFilterPanel" : false,
+                "showImageIcon" : false,
+                "showManualRefreshButton" : false,
+                "showObjectName" : false,
+                "showPinnedList" : true,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "04a6ef9a-9723-411e-ac7d-e38e96aad1b7",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "9ec6a1cf-db67-4c2a-a27e-477f63c6421b",
+            "regionLabel" : "My Budget",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "00B7g000005SrLTEA0",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "PartnerFundRequest",
+                "showActionBar" : false,
+                "showChartsPanel" : false,
+                "showDisplay" : "showall",
+                "showFilterPanel" : false,
+                "showImageIcon" : false,
+                "showManualRefreshButton" : false,
+                "showObjectName" : false,
+                "showPinnedList" : true,
+                "showSearchBar" : false
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "b8201e3f-ad3a-4b47-a5c3-e2590b0d2568",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "28e196f8-0038-4412-ae96-561e580d4aa8",
+            "regionLabel" : "Fund Requests",
+            "regionName" : "3",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "00B7g000005SrLVEA0",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "PartnerFundClaim",
+                "showActionBar" : false,
+                "showChartsPanel" : false,
+                "showDisplay" : "showall",
+                "showFilterPanel" : false,
+                "showImageIcon" : false,
+                "showManualRefreshButton" : false,
+                "showObjectName" : false,
+                "showPinnedList" : true,
+                "showSearchBar" : false
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "d9477652-3c1b-4d55-95c0-46e217d347c2",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "13efc7ee-7740-43eb-92e6-32872efcfde2",
+            "regionLabel" : "Fund Claim",
+            "regionName" : "b2128",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b09093a2-75c9-4366-b1e7-72299852751b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d7ee6daf-2120-461f-a674-316bfbea3936",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Campaign Marketplace"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0e4fbae4-015c-4f3a-92ce-e50ade310776",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f6286319-92b3-42ca-be8a-6ffa24f8563e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "f8pFGPSSlDiwf2mPU6Xc4MGMnnEAvE",
+  "type" : "view",
+  "viewType" : "custom-campaign-marketplace"
+}

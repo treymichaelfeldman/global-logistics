@@ -1,0 +1,1192 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "3baa4d42-84c9-4608-974e-9bd6092e6db4",
+  "label" : "Home - Professional",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "4ff216d9-5f32-476b-8130-f28c3d393f3f",
+          "columns" : [ {
+            "UUID" : "4697e1e7-a481-40f2-8897-384dc4209a0e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "0ddee61c-18bc-41a8-ad0a-519c8608dfd6",
+            "columnKey" : "d9d14",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4ff216d9-5f32-476b-8130-f28c3d393f3f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.sfbuilderlogo.1}\"></p>\n<h1 style=\"text-align: center;\">Builder Notes</h1>\n<p style=\"text-align: center;\"><em>Builder Notes are exclusive to 'Builders' and is not visible on the published site.</em></p>\n<p><br></p>\n<h2>Overview:</h2>\n<p>The Professional site is built for customers of Self-Service and Portal use cases. Use the SDO - B2B Commerce Enhanced site to access the storefront for B2B Commerce use cases.</p>\n<p><br></p>\n<p>When building a site using Experience Cloud you have access to no-code, low-code, and pro-code tools. This site is using no-code with standard components, low-code with flows, pro-code with custom LWC, and some CSS &amp; HTML. You can also leverage the AppExchange for pre-built solutions to extend this experience.</p>\n<p><br></p>\n<h2>Getting Started:</h2>\n<ul>\n <li>Navigate to the <a href=\"https://solutionscentral.io/posts/e8761850-c4f4-11eb-b03a-d74fe002f75f\" rel=\"noopener noreferrer\" target=\"null\"><strong>Experience Cloud | SDO</strong></a> Solution Central page for best practices around changing and demoing this site.</li>\n <li>If needed, setup and configure Embedding Messaging (MIAW) with an Embedded Web Deployment that supports either an Enhanced Bot or an Agentforce Bot in the footer. See <a href=\"https://salesforce.quip.com/MwbwAebgzewk\" rel=\"noopener noreferrer\" target=\"null\">QuickStart to Create an Agentforce Service Agent (ASA) with GA License in the SDO</a> for more details.</li>\n <li>To modify/remove the CSS (fonts, hero style, etc.), navigate to Settings &gt; Advanced &gt; Edit Head Markup</li>\n</ul>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "53643718-218d-4805-a8f6-28f722444859",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong>Featured Topics</strong></h2><p>Explore our top topics, the resource for energy professionals. From getting started to solar, storage, wind, installation, and maintenance. Join discussions, engage with peers, and view FAQs.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "8e9fa4db-b65d-454c-8420-c6a20fb1a4b7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "maxWidth" : 100,
+            "overlayColor" : "rgba(0, 0, 0, 0)",
+            "overlayHoverColor" : "rgba(0, 0, 0, 0)",
+            "radius" : 4,
+            "showTitle" : false,
+            "textAlignment" : "center",
+            "textBgColor" : "rgba(0,0,0,0)",
+            "textBgHoverColor" : "rgba(0,0,0,0)",
+            "textColor" : "rgb(102, 102, 102)",
+            "textHoverColor" : "rgb(51, 51, 51)",
+            "textPosition" : "bottom center",
+            "title" : "Featured Topics"
+          },
+          "componentName" : "forceTopic:featuredTopics",
+          "id" : "b2358a40-b2e4-4fda-8e47-0ef3c3f91707",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4697e1e7-a481-40f2-8897-384dc4209a0e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.sfbuilderlogo.1}\"></h2>\n<h2 style=\"text-align: center;\"><strong>Custom LWC</strong></h2>\n<p>This is a custom Lightning Web Component (LWC), a great example of a pro-code solution for a bespoke self-service use case. This component is grabbing record count of various objects related to the logged in user. You can customize this component in the configuration panel to display only relevant objects for your use case.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e9906794-1947-45d4-b171-2a385d121724",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundColor" : "rgba(255, 255, 255, 0)",
+            "casesOn" : true,
+            "displayGreeting" : true,
+            "displayimage" : "Left",
+            "leadsOn" : false,
+            "oppsOn" : false,
+            "prodsOn" : false,
+            "tasksOn" : true
+          },
+          "componentName" : "c:sdo_Experience_RecordSnapshot",
+          "id" : "1113d068-f157-4a02-97aa-a112fe0f7352",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "align" : "Center",
+            "applyCardBackground" : false,
+            "autoLaunchFlow" : false,
+            "buttonBackgroundColor" : "",
+            "buttonBorderRadius" : "",
+            "buttonHeight" : "46px",
+            "buttonLabel" : "Update Profile & Preferences",
+            "buttonTextColor" : "",
+            "buttonTextSize" : "",
+            "buttonWidth" : "300px",
+            "closeButtonText" : "Close",
+            "fixedButtonWidthHeight" : true,
+            "fixedModalWidthHeight" : false,
+            "flowInputVariablesString" : "",
+            "flowModalHeader" : "",
+            "flowName" : "SDO_Community_Personalization_Flow",
+            "hideButton" : false,
+            "hideFlowTransitionOverlay" : true,
+            "hideModalCloseButton" : false,
+            "modalHeight" : "",
+            "modalWidth" : "",
+            "redirectUrlOnFlowCompletion" : "",
+            "refreshPageOnFlowCompletion" : false,
+            "renderFooter" : false
+          },
+          "componentName" : "sf_flowmodal:ccp_launchFlowModal",
+          "id" : "a948d660-b842-42b5-bbcc-870fbff0b784",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\">Welcome!</h2><p style=\"text-align: center;\">As a guest, you have limited access to this site.</p><p style=\"text-align: center;\">Please login for full access.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "533181b1-a986-48c8-85b3-44e450e82a1a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<!-- Brand button Brand used for primary actions (not links) -->\n<div class=\"slds-grid slds-grid_align-center\">\n    <!-- Change the URL from # to the page or link name -->\n    <a href=\"/professional/s/login\"> \n        <button class=\"slds-button slds-button_brand\" style=\"font-size:14px; height:46px; border-radius:5px; width:300px;\">\n            Log In\n        </button>\n    </a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "aab6ae33-a6c7-4921-8b0b-9ff5bef7bcf5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0ddee61c-18bc-41a8-ad0a-519c8608dfd6",
+        "regionLabel" : "Column 2",
+        "regionName" : "d9d14",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(245,245,245)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b089649f-0c00-4077-b83c-1da1cd104a4d",
+          "columns" : [ {
+            "UUID" : "fcf87c7f-7f02-49fc-94d9-dc4e4e4e137c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b089649f-0c00-4077-b83c-1da1cd104a4d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "contentItemContentKey" : "MCE56FKIBMZRHKXI227PYBRHGQJA",
+              "layoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : "500",
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "Join Us",
+                  "componentHoverEffect" : "imageZoomIn",
+                  "contentWidth" : "100",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{\"title\":{\"linkURL\":\"{!CurrentItem.videoURL}\",\"target\":\"\"}}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "{!CurrentItem.eyebrow}",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "rgba(191, 191, 191, 0.59)",
+                  "flagBorderColor" : "rgba(255, 255, 255, 0)",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"5\",\"isPx\":true},\"borderTopRightRadius\":{\"value\":\"5\",\"isPx\":true},\"borderBottomRightRadius\":{\"value\":\"5\",\"isPx\":true},\"borderBottomLeftRadius\":{\"value\":\"5\",\"isPx\":true}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "{!CurrentItem.flag}",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.image.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : true,
+                  "showCaption" : true,
+                  "showDateTime" : true,
+                  "showEyebrow" : true,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : true,
+                  "showMetadata1" : true,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : true,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "{!CurrentItem.excerpt}",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center left",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.title}",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "h2",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:managedContent",
+          "id" : "891aa24a-3cdf-4f8c-a002-cb634ea58d6d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "fcf87c7f-7f02-49fc-94d9-dc4e4e4e137c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1c483118-8a83-4b0b-86fe-6026ae1b84c3",
+          "columns" : [ {
+            "UUID" : "0040b491-7cd2-4809-b08e-397fa2e8592b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "22c26a0b-91af-4e8a-8aaf-69f2ee00ac60",
+            "columnKey" : "ce2e3",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1c483118-8a83-4b0b-86fe-6026ae1b84c3",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Upcoming Events</h2><p>Discover a diverse array of upcoming events tailored to your interests. From interactive workshops and tech talks to lively networking mixers, there's something for everyone.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4f477890-07d3-413e-a6e8-95837ef5ff32",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "collectionTitle" : "",
+                  "collectionTitleHeadingTag" : "h2",
+                  "columns" : "1",
+                  "rows" : "3",
+                  "showCollectionTitle" : false,
+                  "showViewMoreButton" : false,
+                  "spacing" : "none",
+                  "viewMoreButtonBackgroundColor" : "",
+                  "viewMoreButtonBackgroundColorHover" : "",
+                  "viewMoreButtonBorderColor" : "",
+                  "viewMoreButtonBorderColorHover" : "",
+                  "viewMoreButtonLabel" : "View More Items",
+                  "viewMoreButtonPlacement" : "center",
+                  "viewMoreButtonRadius" : 4,
+                  "viewMoreButtonTextColor" : "",
+                  "viewMoreButtonTextColorHover" : ""
+                },
+                "componentName" : "forceCommunity:dynamicCollectionGrid"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Upcoming_Events"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center left",
+                  "backgroundSize" : "contain",
+                  "borderColor" : "rgba(221, 221, 221, 0)",
+                  "componentBorderStyles" : "",
+                  "componentHoverEffect" : "none",
+                  "componentPadding" : "none",
+                  "contentBackgroundColor" : "rgba(255, 255, 255, 0)",
+                  "contentOffset" : "0",
+                  "contentOffsetBackgroundColor" : "rgba(255, 255, 255, 0)",
+                  "contentOffsetPadding" : "0",
+                  "contentVerticalAlignment" : "start",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagConstraints" : "media",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "imageAlignment" : "left",
+                  "imageAltText" : "",
+                  "imageBorderColor" : "rgba(255, 255, 255, 0)",
+                  "imageBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"5\",\"isPx\":true},\"borderTopRightRadius\":{\"value\":\"5\",\"isPx\":true},\"borderBottomRightRadius\":{\"value\":\"5\",\"isPx\":true},\"borderBottomLeftRadius\":{\"value\":\"5\",\"isPx\":true}}",
+                  "imageUrl" : "{!CurrentItem.alternateImage.url}",
+                  "imageWidth" : "20",
+                  "mediaAspectRatio" : "16:9",
+                  "mediaHeight" : "100",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "",
+                  "metadataTextDecoration" : "",
+                  "showDateTime" : true,
+                  "showExcerpt" : true,
+                  "showEyebrow" : true,
+                  "showEyebrowHighlight" : false,
+                  "showFeaturedMedia" : true,
+                  "showFlag" : true,
+                  "showMetadata1" : true,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : true,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "{!CurrentItem.excerpt}",
+                  "subTitleFontSize" : "regular",
+                  "subTitleTextColor" : "",
+                  "textAlignment" : "left",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.title}",
+                  "titleFontSize" : "small",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextColor" : "rgb(51, 51, 51)",
+                  "titleTextDecoration" : "{\"bold\":true}",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:cardLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "0515b7fc-dbcb-419b-a0b1-e3296be88ab8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0040b491-7cd2-4809-b08e-397fa2e8592b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Secure Your Spot</h2>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "9ba1653a-7686-4c90-91c5-8c511211f668",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "SDO_Experience_Secure_Your_Spot"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "bdf8caf6-3afd-4d44-9382-8975492a9383",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "22c26a0b-91af-4e8a-8aaf-69f2ee00ac60",
+        "regionLabel" : "Column 2",
+        "regionName" : "ce2e3",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(248,248,248)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "ef3af1bd-547a-498c-84c9-b9f3648fa643",
+          "columns" : [ {
+            "UUID" : "3c3fd254-6af6-4967-924b-11679538def8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "9716acde-56b6-4d9d-899e-c4d5c0d07a49",
+            "columnKey" : "c4325",
+            "columnName" : "Column 2",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ef3af1bd-547a-498c-84c9-b9f3648fa643",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sdo-energy-playlist slds-m-top_xx-large\">\n    <h2>Your Energy Playlist</h2>\n\t<p>\n        Explore diverse videos on innovation, industry trends, and expert discussions. \n        From technical guides to success stories, our curated selection offers a visual \n        journey through the dynamic world of energy. Discover and stay ahead with our \n        concise and engaging video content.\n    </p>\n    <div class=\"visit-youtube\">\n        <i class=\"fa-brands fa-youtube fa-lg\"></i>Subscribe to our YouTube Channel!\n    </div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "86afabe0-ff42-4ffb-86c7-f770811e823d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3c3fd254-6af6-4967-924b-11679538def8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "none",
+                  "limitItems" : 5,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "transitionSpeed" : 600,
+                  "transitionType" : "slide"
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarousel"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "YouTube_Playlist"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : "321",
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : "100",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{\"title\":{\"linkURL\":\"{!CurrentItem.videoURL}\"}}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : true,
+                  "imageAltText" : "",
+                  "imageUrl" : "",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : false,
+                  "showCaption" : false,
+                  "showDateTime" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : false,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : "{!CurrentItem.videoURL}"
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "45cb455b-b248-48cc-82d2-56cee147d100",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9716acde-56b6-4d9d-899e-c4d5c0d07a49",
+        "regionLabel" : "Column 2",
+        "regionName" : "c4325",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "250bb323-1cf1-4802-a505-2bd19220d4c5",
+          "columns" : [ {
+            "UUID" : "dc9e9d0a-0953-4a8c-bb52-9e89a34ae95d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "485d3672-e4d8-4b9f-a683-34806275437c",
+            "columnKey" : "95632",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "250bb323-1cf1-4802-a505-2bd19220d4c5",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3><strong style=\"color: rgb(68, 68, 68);\">In the News</strong></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "8624aa2a-894f-4b9b-a2a8-840f85a3a8c6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "collectionTitle" : "In the News",
+                  "collectionTitleHeadingTag" : "h2",
+                  "columns" : "1",
+                  "rows" : "3",
+                  "showCollectionTitle" : false,
+                  "showViewMoreButton" : false,
+                  "spacing" : "none",
+                  "viewMoreButtonBackgroundColor" : "rgba(255, 255, 255, 0)",
+                  "viewMoreButtonBackgroundColorHover" : "rgba(255, 255, 255, 0)",
+                  "viewMoreButtonBorderColor" : "rgba(255, 255, 255, 0)",
+                  "viewMoreButtonBorderColorHover" : "",
+                  "viewMoreButtonLabel" : "View More Items",
+                  "viewMoreButtonPlacement" : "left",
+                  "viewMoreButtonRadius" : "1",
+                  "viewMoreButtonTextColor" : "rgb(102, 102, 102)",
+                  "viewMoreButtonTextColorHover" : "rgb(51, 51, 51)"
+                },
+                "componentName" : "forceCommunity:dynamicCollectionGrid"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "In_the_News"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "bottom center",
+                  "backgroundSize" : "cover",
+                  "borderColor" : "rgba(221, 221, 221, 0)",
+                  "componentBorderStyles" : "",
+                  "componentHoverEffect" : "none",
+                  "componentPadding" : "none",
+                  "contentBackgroundColor" : "rgba(255, 255, 255, 0)",
+                  "contentOffset" : "0",
+                  "contentOffsetBackgroundColor" : "#ffffff",
+                  "contentOffsetPadding" : "0",
+                  "contentVerticalAlignment" : "start",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagConstraints" : "media",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "imageAlignment" : "left",
+                  "imageAltText" : "",
+                  "imageBorderColor" : "rgba(255, 255, 255, 0)",
+                  "imageBorderStyles" : "{\"borderTopWidth\":\"1\",\"borderRightWidth\":\"1\",\"borderBottomWidth\":\"1\",\"borderLeftWidth\":\"1\",\"borderStyle\":\"hidden\",\"borderTopLeftRadius\":{\"value\":\"5\",\"isPx\":true},\"borderTopRightRadius\":{\"value\":\"5\",\"isPx\":true},\"borderBottomRightRadius\":{\"value\":\"5\",\"isPx\":true},\"borderBottomLeftRadius\":{\"value\":\"5\",\"isPx\":true}}",
+                  "imageUrl" : "{!CurrentItem.bannerImage.url}",
+                  "imageWidth" : "20",
+                  "mediaAspectRatio" : "16:9",
+                  "mediaHeight" : "100",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "",
+                  "metadataTextDecoration" : "",
+                  "showDateTime" : false,
+                  "showExcerpt" : true,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFeaturedMedia" : true,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "{!CurrentItem.excerpt}",
+                  "subTitleFontSize" : "regular",
+                  "subTitleTextColor" : "",
+                  "textAlignment" : "left",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.title}",
+                  "titleFontSize" : "small",
+                  "titleHeadingTag" : "h3",
+                  "titleHighlightColor" : "",
+                  "titleTextColor" : "rgb(51, 51, 51)",
+                  "titleTextDecoration" : "{\"bold\":true}",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:cardLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "e900480f-3398-451e-9364-719963366b90",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "dc9e9d0a-0953-4a8c-bb52-9e89a34ae95d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3><strong style=\"color: rgb(68, 68, 68);\">Frequently Asked Questions</strong></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "02cb446c-d555-4dca-a307-0959639fdf09",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "collectionTitle" : "Frequently Asked Questions",
+                  "collectionTitleHeadingTag" : "h2",
+                  "columns" : "1",
+                  "rows" : "8",
+                  "showCollectionTitle" : false,
+                  "showViewMoreButton" : false,
+                  "spacing" : "none",
+                  "viewMoreButtonBackgroundColor" : "rgba(255, 255, 255, 0)",
+                  "viewMoreButtonBackgroundColorHover" : "rgba(255, 255, 255, 0)",
+                  "viewMoreButtonBorderColor" : "rgba(53, 167, 86, 0)",
+                  "viewMoreButtonBorderColorHover" : "rgba(41, 128, 66, 0)",
+                  "viewMoreButtonLabel" : "View More Items",
+                  "viewMoreButtonPlacement" : "left",
+                  "viewMoreButtonRadius" : "1",
+                  "viewMoreButtonTextColor" : "rgb(102, 102, 102)",
+                  "viewMoreButtonTextColorHover" : "rgb(51, 51, 51)"
+                },
+                "componentName" : "forceCommunity:dynamicCollectionGrid"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Support_FAQs"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "borderColor" : "rgb(221, 221, 221)",
+                  "componentBorderStyles" : "{\"borderRightWidth\":\"0\",\"borderTopWidth\":\"0\",\"borderBottomWidth\":\"1\",\"borderLeftWidth\":\"0\",\"borderStyle\":\"solid\",\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "componentHoverEffect" : "none",
+                  "componentPadding" : "small",
+                  "contentBackgroundColor" : "rgba(255, 255, 255, 0)",
+                  "contentOffset" : "0",
+                  "contentOffsetBackgroundColor" : "rgba(255, 255, 255, 0)",
+                  "contentOffsetPadding" : "0",
+                  "contentVerticalAlignment" : "center",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagConstraints" : "media",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "imageAlignment" : "left",
+                  "imageAltText" : "",
+                  "imageBorderColor" : "#ffffff",
+                  "imageBorderStyles" : "",
+                  "imageUrl" : "",
+                  "imageWidth" : 50,
+                  "mediaAspectRatio" : "16:9",
+                  "mediaHeight" : 450,
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "",
+                  "metadataTextDecoration" : "",
+                  "showDateTime" : false,
+                  "showExcerpt" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFeaturedMedia" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "subTitleTextColor" : "",
+                  "textAlignment" : "left",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.Title}",
+                  "titleFontSize" : "small",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:cardLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "42b27304-e35d-4967-8c19-a3a8919686d2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "485d3672-e4d8-4b9f-a683-34806275437c",
+        "regionLabel" : "Column 2",
+        "regionName" : "95632",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(244,244,244)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e285da86-b2c9-47f0-90c4-84b53ac1e500",
+          "columns" : [ {
+            "UUID" : "9edbcce1-bece-4274-b925-6f3d347f9be8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "d4a8dd5f-2ac1-48bb-9609-37ee7a0b4b53",
+            "columnKey" : "80870",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e285da86-b2c9-47f0-90c4-84b53ac1e500",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sdo-home-schedule left-col\">\n    <h2>Need Service?</h2>\n\t<p class=\"font-size-default\">\n        Prevent issues from escalating. Effortlessly schedule maintenance or \n        repairs with our dedicated team.\n    </p>\n    <a class=\"slds-button slds-button_outline-brand\" href=\"{!Global.PathPrefix}/salesforce-field-service/sfs-self-service-scheduling\">Schedule a Service Visit</a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "a4120ff3-6f23-4dc1-86d6-9885a46d3b14",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9edbcce1-bece-4274-b925-6f3d347f9be8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sdo-home-schedule right-col\">\n    <h2>Speak with us Today!</h2>\n\t<p class=\"font-size-default\">\n        Discuss your energy needs directly with our experts. Schedule \n        an appointment and get personalized energy services. \n    </p>\n    <a class=\"slds-button slds-button_outline-brand\" href=\"/professional/s/salesforce-scheduler/authenticated-scheduling\">Schedule an Appointment</a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "80df64cb-1f3a-46bd-8da7-99baded0c694",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d4a8dd5f-2ac1-48bb-9609-37ee7a0b4b53",
+        "regionLabel" : "Column 2",
+        "regionName" : "80870",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(244,244,244)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "cc2d848d-e1c1-43a6-8d2d-ce8b62b85639",
+          "columns" : [ {
+            "UUID" : "1f732837-3675-4212-ad9e-234a8b2a2190",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "f05f21d5-9822-4ad2-9033-7e42ba0ba97e",
+            "columnKey" : "80870",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "cc2d848d-e1c1-43a6-8d2d-ce8b62b85639",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sdo-home-schedule left-col\">\n    <h2>Need Service?</h2>\n\t<p class=\"font-size-default\">\n        Prevent issues from escalating. Effortlessly schedule maintenance or \n        repairs with our dedicated team.\n    </p>\n    <a class=\"slds-button slds-button_outline-brand\" href=\"{!Global.PathPrefix}/salesforce-field-service/guest-appointment/guestscheduling\">Schedule a Service Visit</a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "82729002-e487-43bd-af8b-35d894b02836",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1f732837-3675-4212-ad9e-234a8b2a2190",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sdo-home-schedule right-col\">\n    <h2>Speak with us Today!</h2>\n\t<p class=\"font-size-default\">\n        Discuss your energy needs directly with our experts. Schedule \n        an appointment and get personalized energy services. \n    </p>\n    <a class=\"slds-button slds-button_outline-brand\" href=\"/professional/s/salesforce-scheduler/guest/scheduling\">Schedule an Appointment</a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "f8d6f87b-b13f-4814-a8fd-f4730a353065",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f05f21d5-9822-4ad2-9033-7e42ba0ba97e",
+        "regionLabel" : "Column 2",
+        "regionName" : "80870",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "49475fb0-5e07-4b73-9dd7-91ca4e02798a",
+          "columns" : [ {
+            "UUID" : "5b28fb68-54b3-4ae0-b127-779830811afd",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "1fd5cdd7-3807-497c-b17f-3c289ad8adfa",
+            "columnKey" : "e5184",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "49475fb0-5e07-4b73-9dd7-91ca4e02798a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong>Control Panel</strong></h2><p>Quickly access and manage your account details, preferences and take control of your account, explore self-help and community resources, access training, and more.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ad5bd047-d6b3-4fa3-a798-f29df1eb1633",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<!-- Container for Account Control lists -->\n<div class=\"account-list-container\">\n\n\t<!-- Account Management -->\n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-user\"></i> Account Management</h4>\n        <ul class=\"no-bullets\">\n\t\t\t<li><a href=\"{!Global.PathPrefix}/my-account/personal-settings/profile/home\">Profile</a></li>\n    \t    <li><a href=\"{!Global.PathPrefix}/my-account/settings/home\">Settings</a></li>\n            <li><a href=\"{!Global.PathPrefix}/my-account/account-settings/invoices\">Billing &amp; Payments</a></li>\n\t\t</ul>\n    </div> \n  \n\t<!-- Service Management -->\n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-screwdriver-wrench\"></i> Service Management</h4>\n\t\t<ul class=\"no-bullets\">\n\t\t\t<li><a href=\"{!Global.PathPrefix}/support\">Report an Outage</a></li>\n\t\t\t<li><a href=\"{!Global.PathPrefix}/salesforce-field-service/sfs-self-service-scheduling\">Schedule an Appointment</a></li>\n\t\t\t<li><a href=\"{!Global.PathPrefix}/salesforce-field-service/sfs-self-service-scheduling\">Service Requests</a></li>\n\t\t</ul>\n    </div>\n  \n\t<!-- Knowledge Hub -->\n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-book\"></i> Knowledge Hub</h4>\n\t\t<ul class=\"no-bullets\">\n\t\t\t<li><a href=\"{!Global.PathPrefix}/learning/blog\">Recent Articles</a></li>\n\t\t\t<li><a href=\"{!Global.PathPrefix}/support#faqs\">FAQs</a></li>\n\t\t\t<li><a href=\"{!Global.PathPrefix}/support/documentation\">Documentation</a></li>\n\t\t</ul>\n    </div>\n\n\t<!-- Community -->\n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-people-group\"></i> Community</h4>\n\t\t<ul class=\"no-bullets\">\n\t\t\t<li><a href=\"{!Global.PathPrefix}/community#discussions\">Discussion Forums</a></li>\n    \t    <li><a href=\"{!Global.PathPrefix}/group/CollaborationGroup/Default\">Collaboration Groups</a></li>\n    \t    <li><a href=\"https://trailblazercommunitygroups.com/\" target=\"_blank\">Trailblazer Community <i class=\"fa-solid fa-arrow-up-right-from-square\"></i></a></li>\n\t\t</ul>\n    </div>\n        \n\t<!-- Educational Content -->\n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-graduation-cap\"></i> Educational Content</h4>\n\t\t<ul class=\"no-bullets\">\n\t\t\t<li><a href=\"{!Global.PathPrefix}/learning/sdo-community-training-course/SDO_Community_Training_Course__c/Default\">Training Courses</a></li>\n    \t    <li><a href=\"{!Global.PathPrefix}/learning\">Certifications</a></li>\n            <li><a href=\"https://apps.apple.com/us/app/trailhead-go/id1478801670\" target=\"_blank\">Trailhead Go Mobile App <i class=\"fa-solid fa-arrow-up-right-from-square\"></i></a></li>\n\t\t</ul>\n    </div>\n    \n    \t<!-- Feedback & Support -->\n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-comments\"></i> Feedback &amp; Support</h4>\n\t\t<ul class=\"no-bullets\">\n\t\t\t<li><a href=\"{!Global.PathPrefix}/support/contactsupport\">Customer Support</a></li>\n    \t    <li><a href=\"{!Global.PathPrefix}/support\">Open Cases</a></li>\n            <li><a href=\"{!Global.PathPrefix}/support/register-product\">Product Registration</a></li> \n\t\t</ul>\n    </div>\n\n\t<!-- Alerts & Notifications \n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-bell\"></i> Alerts &amp; Notifications</h4>\n\t\t<ul class=\"no-bullets\">\n\t\t\t<li><a href=\"https://trust.salesforce.com/\" target=\"_blank\">Security &amp; Trust <i class=\"fa-solid fa-arrow-up-right-from-square\"></i></a></li>\n\t\t</ul>\n    </div>\n\t-->\n  \n\t<!-- Mobile App \n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-mobile-screen\"></i> Mobile App</h4>\n        <ul class=\"no-bullets\">\n            <li><a href=\"https://apps.apple.com/us/app/trailhead-go/id1478801670\" target=\"_blank\">Get Trailhead Go Mobile App <i class=\"fa-solid fa-arrow-up-right-from-square\"></i></a></li>\n            <li><a href=\"https://play.google.com/store/apps/details?id=com.mysalesforce.mycommunity.playgroundcommunity&hl=en_IN&pli=1\" target=\"_blank\">Mobile Publisher Playgroud <i class=\"fa-solid fa-arrow-up-right-from-square\"></i></a></li>\n        </ul>\n    </div>\n\t-->\n\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "74ab045f-3254-4b4a-824d-30b3d23476bc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<!-- Container for Account Control lists -->\n<div class=\"account-list-container\">\n  \n\t<!-- Knowledge Hub -->\n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-book\"></i> Knowledge Hub</h4>\n\t\t<ul class=\"no-bullets\">\n\t\t\t<li><a href=\"{!Global.PathPrefix}/learning/blog\">Recent Articles</a></li>\n\t\t\t<li><a href=\"{!Global.PathPrefix}/support#faqs\">FAQs</a></li>\n\t\t\t<li><a href=\"{!Global.PathPrefix}/support/documentation\">Documentation</a></li>\n\t\t</ul>\n    </div>\n\n\t<!-- Community -->\n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-people-group\"></i> Community</h4>\n\t\t<ul class=\"no-bullets\">\n\t\t\t<li><a href=\"{!Global.PathPrefix}/community#discussions\">Discussion Forums</a></li>\n    \t    <li><a href=\"{!Global.PathPrefix}/group/CollaborationGroup/Default\">Collaboration Groups</a></li>\n    \t    <li><a href=\"https://trailblazercommunitygroups.com/\" target=\"_blank\">Trailblazer Community <i class=\"fa-solid fa-arrow-up-right-from-square\"></i></a></li>\n\t\t</ul>\n    </div>\n        \n\t<!-- Educational Content -->\n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-graduation-cap\"></i> Educational Content</h4>\n\t\t<ul class=\"no-bullets\">\n\t\t\t<li><a href=\"{!Global.PathPrefix}/learning/sdo-community-training-course/SDO_Community_Training_Course__c/Default\">Training Courses</a></li>\n    \t    <li><a href=\"{!Global.PathPrefix}/learning\">Certifications</a></li>\n            <li><a href=\"https://apps.apple.com/us/app/trailhead-go/id1478801670\" target=\"_blank\">Trailhead Go Mobile App <i class=\"fa-solid fa-arrow-up-right-from-square\"></i></a></li>\n\t\t</ul>\n    </div>\n  \n\t<!-- Mobile App \n    <div class=\"list-container\">\n        <h4><i class=\"fa-solid fa-mobile-screen\"></i> Mobile App</h4>\n        <ul class=\"no-bullets\">\n            <li><a href=\"https://apps.apple.com/us/app/trailhead-go/id1478801670\" target=\"_blank\">Get Trailhead Go Mobile App <i class=\"fa-solid fa-arrow-up-right-from-square\"></i></a></li>\n            <li><a href=\"https://play.google.com/store/apps/details?id=com.mysalesforce.mycommunity.playgroundcommunity&hl=en_IN&pli=1\" target=\"_blank\">Mobile Publisher Playgroud <i class=\"fa-solid fa-arrow-up-right-from-square\"></i></a></li>\n        </ul>\n    </div>\n\t-->\n\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "97ecf46e-a21d-4382-9812-6222c3d8aba4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.sfbuilderlogo.1}\"></p>\n<h2 style=\"text-align: center;\">HTML Control Panel</h2>\n<p>Interested in customizing this component for your use case? You can!</p>\n<ul>\n <li><strong>Icon</strong>: Q Branch has pro version of FontAwesome, which means you can even use the PRO icons! <a href=\"https://fontawesome.com/search\" rel=\"noopener noreferrer\" target=\"null\">Search FontAwesome</a> for relevant icon to your use case. Copy or make note of the icon title. Replace existing text with new text or phrase.</li>\n <li><strong>Text</strong>: Locate text you’d like to update and overwrite text as desired.</li>\n <li><strong>URL</strong>: You can direct link to whatever you want. To redirect to a different site page, replace <strong>/#</strong> with your page URL. To redirect to an external site, replace <strong>{!Global.PathPrefix}/x </strong>with your URL. And add the target=\"_blank\" after the href tag.</li>\n <li><strong>Number of Sections</strong>: If you want to show fewer sections, just delete the HTML for the corresponding section(s).</li>\n <li>Save your changes!&nbsp;</li>\n</ul>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f3bfcd2c-021e-458c-956a-e12532a1fc76",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5b28fb68-54b3-4ae0-b127-779830811afd",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Want to Learn More?</h2>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "ad71f522-6831-43f8-8684-3ef96d45412d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "SDO_Experience_Request_Information"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "a3c62b8f-50c3-487f-ac2b-9390cc8a84ad",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1fd5cdd7-3807-497c-b17f-3c289ad8adfa",
+        "regionLabel" : "Column 2",
+        "regionName" : "e5184",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fbfa3900-cfdf-4ba7-9a8c-1e39ae72fe8a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "78d73e80-2039-4567-8a71-68e58d8d7aba",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "be3bea35-ee16-421c-9b2c-01bfcc0ad281",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

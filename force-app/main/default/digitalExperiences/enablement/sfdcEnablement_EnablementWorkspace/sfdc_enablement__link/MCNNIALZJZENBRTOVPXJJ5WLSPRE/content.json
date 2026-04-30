@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link - Case article",
+  "contentBody" : {
+    "externalLink" : "https://help.salesforce.com/s/articleView?id=sf.cases_def.htm&type=5",
+    "time" : 10.0
+  },
+  "urlName" : "link---case-article"
+}

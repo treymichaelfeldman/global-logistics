@@ -1,0 +1,58 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "ba0760e5-481c-402e-af3d-f03560a076a3",
+  "label" : "Training",
+  "regions" : [ {
+    "id" : "a4aa2d6e-71a6-4f37-8f16-058b89d253e9",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "683435b5-5933-427d-931d-1ada2fe477eb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "54faa243-a024-44d2-bfdf-309b1e4f0e47",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Training"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "7715f74c-f828-498a-a6f9-1e3cba261cc5",
+      "renditionMap" : {
+        "de" : "58b1f550-dfb4-4779-9b21-48a06ce5594a",
+        "fr" : "1b351093-9b19-49da-9208-65b0a3693d42"
+      },
+      "renditions" : [ {
+        "id" : "58b1f550-dfb4-4779-9b21-48a06ce5594a",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Training"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "1b351093-9b19-49da-9208-65b0a3693d42",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Training"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "c1f0746f-2be8-4ae8-a947-34ae56158500",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-training"
+}

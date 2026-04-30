@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "26f55ce7-d30c-40c5-b69e-2548d2043e53",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Video_External_Detail__c",
+  "id" : "7134264d-381a-45d4-abe4-abd6a08e6fa4",
+  "label" : "Video (External) Detail",
+  "pageAccess" : "UseParent",
+  "routeType" : "managed-content-externalVideo",
+  "type" : "route",
+  "urlPrefix" : "externalvideo"
+}

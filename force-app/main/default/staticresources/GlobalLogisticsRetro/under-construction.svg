@@ -1,0 +1,6 @@
+<svg xmlns="http://soap.sforce.com/2000/svg" viewBox="0 0 200 50">
+    <rect width="200" height="50" fill="#FFFF00" />
+    <path d="M0,0 L20,0 L0,20 Z M40,0 L0,40 L0,50 L10,50 L60,0 Z M80,0 L0,80 L0,100 L20,100 L100,0 Z M120,0 L0,120 L0,140 L40,140 L140,0 Z M160,0 L0,160 L0,180 L60,180 L180,0 Z M200,0 L0,200 L0,200 L80,200 L200,20 Z M200,40 L40,200 L60,200 L200,60 Z M200,80 L80,200 L100,200 L200,100 Z M200,120 L120,200 L140,200 L200,140 Z M200,160 L160,200 L180,200 L200,180 Z" fill="#000" />
+    <rect x="20" y="10" width="160" height="30" fill="#FFF" stroke="#000" stroke-width="2" />
+    <text x="100" y="30" font-family="Arial Black, sans-serif" font-size="14" fill="#FF0000" font-weight="bold" text-anchor="middle">UNDER CONSTRUCTION</text>
+</svg>

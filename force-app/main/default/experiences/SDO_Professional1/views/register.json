@@ -1,0 +1,77 @@
+{
+  "appPageId" : "6f0c470c-3ec3-4269-a2d6-e2a0fbfc2b91",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e0490a73-0cc8-4983-a216-732bd53a9e5c",
+  "label" : "Register",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<!-- Login pages Company Logo as define the site's theme -->\n<p style=\"background-image: var(--dxp-s-site-logo-url); \n          background-position: center; \n          background-repeat: no-repeat; \n          background-size: contain; \n          height: 60px;\n          margin-bottom:10px;\">\n    &nbsp;\n</p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "3c2afaa1-c9eb-4c3a-967c-f31babf82cb3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h2><strong>Registration</strong></h2>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "117f1d63-7686-4093-9730-14808842d31b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "accountId" : "001Hs000038E0GuIAK",
+        "confirmPasswordLabel" : "Confirm Password",
+        "emailLabel" : "Email",
+        "extraFieldsFieldSet" : "SDO_Experience_Registration_Field_Set",
+        "firstnameLabel" : "First Name",
+        "includePasswordField" : false,
+        "lastnameLabel" : "Last Name",
+        "passwordLabel" : "Create Password",
+        "regConfirmUrl" : "./CheckPasswordResetEmail",
+        "startUrl" : "/home",
+        "submitButtonLabel" : "Sign Up"
+      },
+      "componentName" : "salesforceIdentity:selfRegister2",
+      "id" : "cbf26106-ba9b-4a32-a4ff-0f1954031353",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<!-- Back to login page -->\n<p style=\"text-align: center;\"><a href=\"../login\">Already have a login?</a></p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "cfce1aaf-f659-4443-a798-e7a5404099f9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d323e186-ea57-4ec0-9b42-c9f3afddc3e2",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Register"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "fc31219b-a2c2-4753-b7ed-dc5cf4ac2467",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "56c61451-c192-47ba-b46f-267624d5993e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "self-register"
+}

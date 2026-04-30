@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "41262f86-d9fe-4260-887f-738a64ec7f26",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Meet_With_Me__c",
+  "id" : "a10e3ead-c82e-4c0d-83bf-055af3392739",
+  "label" : "Meet With Me",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-meet-with-me",
+  "type" : "route",
+  "urlPrefix" : "meet-with-me"
+}

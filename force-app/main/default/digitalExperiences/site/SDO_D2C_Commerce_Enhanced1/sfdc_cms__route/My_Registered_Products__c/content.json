@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "My Registered Products",
+  "contentBody" : {
+    "activeViewId" : "My_Registered_Products",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-my-registered-products",
+    "urlPrefix" : "my-registered-products"
+  },
+  "urlName" : "my-registered-products"
+}

@@ -1,0 +1,15 @@
+{
+  "type" : "sfdc_cms__image",
+  "title" : "rtaImage (1)",
+  "contentBody" : {
+    "sfdc_cms:media" : {
+      "source" : {
+        "mimeType" : "image/png",
+        "ref" : "0sNKX000000RkKt",
+        "type" : "file",
+        "size" : 365843
+      }
+    }
+  },
+  "urlName" : "rtaimage-1"
+}

@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "34ab81e6-f665-44f5-8396-fb0a47c9ed2b",
+  "headMarkup" : null,
+  "id" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "Partner Central Enhanced Template",
+  "type" : "appPage"
+}

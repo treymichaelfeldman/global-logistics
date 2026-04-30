@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Webinar Reg",
+  "contentBody" : {
+    "externalLink" : "https://www.salesforce.com/resources/webinars/#!page=1&tags=sales",
+    "time" : 5.0
+  },
+  "urlName" : "webinar-reg"
+}

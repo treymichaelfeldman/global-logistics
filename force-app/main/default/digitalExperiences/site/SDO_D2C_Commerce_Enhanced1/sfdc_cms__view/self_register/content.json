@@ -1,0 +1,85 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Register",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"c2346ef2-dfb5-4661-acb5-a623c5672db9\",\"columns\":[{\"UUID\":\"eb8dbec8-24a3-4b2a-9b81-4d866f1b17f3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "imageInfo" : "",
+                "logoWidth" : 250
+              },
+              "definition" : "dxp_content_layout:siteLogo",
+              "id" : "ac551dd8-54ee-455c-b7f2-6e773be76a84",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "cancelLinkLabel" : "Already have an account?",
+                "confirmPasswordLabel" : "Confirm Password",
+                "dxpStyle" : { },
+                "emailLabel" : "Email",
+                "firstnameLabel" : "First Name",
+                "includePasswordField" : true,
+                "lastnameLabel" : "Last Name",
+                "passwordLabel" : "Create Password",
+                "phoneNumberLabel" : "Phone Number",
+                "phoneNumberRequired" : true,
+                "regConfirmUrl" : "./CheckPasswordResetEmail",
+                "showPhoneNumberField" : true,
+                "submitButtonLabel" : "Sign Up"
+              },
+              "definition" : "commerce_builder:selfRegister",
+              "id" : "baaddcf9-3e51-44d9-ab53-3a9d9e0ccf42",
+              "type" : "component"
+            } ],
+            "id" : "eb8dbec8-24a3-4b2a-9b81-4d866f1b17f3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c2346ef2-dfb5-4661-acb5-a623c5672db9",
+          "type" : "component"
+        } ],
+        "id" : "5228ca8d-8f35-4c7e-8b81-9452e58b040a",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Register",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "52e3336c-4d60-46ee-b7c6-edec87752b3c",
+          "type" : "component"
+        } ],
+        "id" : "af947700-ff22-4bca-9c78-eece4a745509",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "2dc25c81-36cc-4ccf-af97-e2a1c2ef0cdc",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "External",
+    "viewType" : "self-register"
+  },
+  "urlName" : "register"
+}

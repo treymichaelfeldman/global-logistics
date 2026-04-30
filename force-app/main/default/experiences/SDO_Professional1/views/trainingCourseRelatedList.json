@@ -1,0 +1,39 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "bea5c7f2-160a-41a3-914a-efb1e7a6bddc",
+  "label" : "Training Course Related List",
+  "regions" : [ {
+    "id" : "e26982e7-0285-4ef8-9cb9-6c6f24ab4601",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "15760f78-03d3-4208-a1c4-1b69c75c10a6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f4b4f7d1-969b-4357-b6e3-9d6d69c3907e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b523c8af-28bb-4e0c-8f5c-40e76f5ab475",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a1R"
+}

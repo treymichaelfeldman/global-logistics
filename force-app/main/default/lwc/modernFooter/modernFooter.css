@@ -1,0 +1,89 @@
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    padding: 4rem 2rem 2rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    height: 40px;
+    margin-bottom: 1rem;
+    filter: brightness(0) invert(1);
+}
+
+.brand p {
+    color: #cccccc;
+    font-size: 0.9rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    margin-bottom: 0.5rem;
+}
+
+.links a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #F26522;
+}
+
+.chat-cta p {
+    color: #cccccc;
+    margin-bottom: 1rem;
+}
+
+.btn-chat {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #F26522;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-chat img {
+    height: 20px;
+    width: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.btn-chat:hover {
+    background-color: #d15116;
+}
+
+.footer-bottom {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #444444;
+    text-align: center;
+    color: #888888;
+    font-size: 0.85rem;
+}

@@ -1,0 +1,66 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "597b3b18-223a-4edd-a58c-450085325fb1",
+  "label" : "Training Course Detail",
+  "regions" : [ {
+    "id" : "9769517d-88f1-4105-a569-b821f23aa995",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "c6b95a89-d2fb-434c-91b0-71390eca3331",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "showLegacyActivityComposer" : false,
+        "tab1Type" : "details",
+        "tab2Type" : "related",
+        "tab3Type" : "chatter",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "dd750302-ca63-4be9-8985-802e1ec0b409",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6a915270-31a8-4c8a-a2f1-0d2a75fb8432",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "aab85214-a840-45f2-81de-3532475e4723",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3d7a93eb-88a1-4c59-b6f7-bb4598007897",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eacabec1-0ea1-4be2-ab13-02ce33a913bb",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a1R"
+}

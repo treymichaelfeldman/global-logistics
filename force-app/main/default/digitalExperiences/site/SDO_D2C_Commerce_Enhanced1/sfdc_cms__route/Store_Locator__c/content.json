@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Store Locator",
+  "contentBody" : {
+    "activeViewId" : "Store_Locator",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-store-locator",
+    "urlPrefix" : "store-locator"
+  },
+  "urlName" : "store-locator"
+}

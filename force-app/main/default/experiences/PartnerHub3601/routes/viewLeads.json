@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "014fbb4c-6038-4222-a3a6-d7e5e9351b3e",
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "configurationTags" : [ ],
+  "devName" : "View_Lead_list",
+  "id" : "01ec26ed-3f30-4521-a80a-dbe2faa77283",
+  "label" : "View Leads",
+  "routeType" : "lead-list",
+  "type" : "route",
+  "urlPrefix" : "lead-list"
+}

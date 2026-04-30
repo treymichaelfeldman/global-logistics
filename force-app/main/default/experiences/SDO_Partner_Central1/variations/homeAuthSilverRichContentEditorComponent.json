@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "eebbfa83-092b-4b7b-bda5-9cd82deb0fb0",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "df170c77-719d-46d7-8f95-68dae7f153e7",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_Auth_Silver_Rich_Content_Editor_Component",
+  "id" : "00856302-0efb-402f-8005-8ca84f61117e",
+  "type" : "experienceVariation"
+}

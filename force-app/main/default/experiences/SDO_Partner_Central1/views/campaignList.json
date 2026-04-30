@@ -1,0 +1,106 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "bf4aab6f-7ee1-4720-abab-b644ccd02a72",
+  "label" : "Campaign List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Campaigns</h1><p>Explore our dynamic campaign hub, where you can manage ongoing initiatives, monitor campaign progress, and discover new opportunities. From targeted emails to engaging events and powerful social media campaigns, our comprehensive platform empowers you to drive results and achieve success. Review start and end dates, campaign types, and take action on My Active Campaigns or discover new ventures in All Active Campaigns.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "77d2d0e0-13dd-46b5-8baa-931e42f03f1b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4e4a9fe0-0fa5-4a5c-aede-1cb41d111308",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "bodyField" : "Description",
+        "categoryField" : "Type",
+        "dataFieldsConfig" : "",
+        "highlight" : "__",
+        "highlightColor" : "#007DB8",
+        "listLabel" : "In Progress",
+        "listViewName" : "SDO_Status_In_Progress",
+        "showImage" : true,
+        "sortBy" : "Name",
+        "sortOrder" : "Ascending",
+        "titleField" : "Name"
+      },
+      "componentName" : "forceCommunity:campaignTileList",
+      "id" : "ffbc1fd3-7bf7-4174-8594-204c00a787e9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h2>Active Campaigns</h2><p>Explore and manage active campaigns here. My Active Campaigns displays initiatives you're currently leading, while All Active Campaigns showcases all available campaigns to participate in or learn more about. Dive in to track progress, view details, and contribute to impactful marketing efforts.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "438113a0-fe27-4604-9354-296ed594aaae",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "MyActiveCampaigns",
+        "layout" : "STANDARD",
+        "pageSize" : 5,
+        "scope" : "Campaign",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "66161420-6147-45b0-bb6f-c572cdcac389",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "AllActiveCampaigns",
+        "layout" : "STANDARD",
+        "pageSize" : 10,
+        "scope" : "Campaign",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "bd23b71a-a554-45b5-ae6d-68d5c07e8187",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7a43ec70-a76a-4a1b-b1ec-e17e495a5e76",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ee7cd938-7d32-4704-b3d1-8e934ddc2ff6",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-701"
+}

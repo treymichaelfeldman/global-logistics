@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 60">
+    <g transform="translate(10, 15)">
+        <path d="M0,15 L15,0 L30,15 L15,30 Z" fill="#F26522" />
+        <path d="M15,0 L30,15 L30,30 L15,15 Z" fill="#D24A00" />
+        <path d="M0,15 L15,30 L15,15 L0,0 Z" fill="#FF8547" />
+    </g>
+    <text x="50" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" fill="#333333" font-weight="800" letter-spacing="-0.5">Global <tspan fill="#F26522">Logistics</tspan></text>
+</svg>

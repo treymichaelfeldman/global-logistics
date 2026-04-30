@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Walkthrough: How to send Basho email to leads",
+  "contentBody" : {
+    "externalLink" : "/lightning/app/c__SDO_Sales_App/o/Lead/list?0.promptId=SDO_Sales_SendBashoEmailtoLeads",
+    "time" : 10.0
+  },
+  "urlName" : "walkthrough-how-to-send-basho-email-to-leads"
+}

@@ -1,0 +1,309 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "dce94816-1e47-44bd-905e-1cb1961113fd",
+  "label" : "Funds and Requests",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e6f4f5e8-9907-42e3-9ee0-ef3e89f18bbb",
+          "columns" : [ {
+            "UUID" : "eb4bd78d-5835-4aae-b879-0d5e88302598",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "9",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "94054b35-ddf2-483d-8f8b-e9341506abd3",
+            "columnKey" : "1e6fc",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e6f4f5e8-9907-42e3-9ee0-ef3e89f18bbb",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Funds and Requests</h1><p>Welcome to the Funds and Requests page, where you can manage marketing funds, submit requests, and track claims. This hub gives you a clear view of your budget, requests, &amp; claims, ensuring support for successful marketing.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "28bf5b59-6e72-45b9-917c-1150ee59eda4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "eb4bd78d-5835-4aae-b879-0d5e88302598",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "Center",
+            "applyCardBackground" : false,
+            "autoLaunchFlow" : false,
+            "buttonBackgroundColor" : "",
+            "buttonBorderRadius" : "",
+            "buttonHeight" : "50px",
+            "buttonLabel" : "Create Fund Request",
+            "buttonTextColor" : "",
+            "buttonTextSize" : "",
+            "buttonWidth" : "100%",
+            "closeButtonText" : "Close",
+            "fixedButtonWidthHeight" : true,
+            "fixedModalWidthHeight" : false,
+            "flowInputVariablesString" : "",
+            "flowModalHeader" : "Create Fund Request",
+            "flowName" : "SDO_Community_Partner_Central_Fund_Request",
+            "hideButton" : false,
+            "hideFlowTransitionOverlay" : true,
+            "hideModalCloseButton" : false,
+            "modalHeight" : "600px",
+            "modalWidth" : "800px",
+            "redirectUrlOnFlowCompletion" : "",
+            "refreshPageOnFlowCompletion" : false,
+            "renderFooter" : false
+          },
+          "componentName" : "sf_flowmodal:ccp_launchFlowModal",
+          "id" : "429f2eb7-c70a-49ba-a5d5-b0899c951008",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "94054b35-ddf2-483d-8f8b-e9341506abd3",
+        "regionLabel" : "Column 2",
+        "regionName" : "1e6fc",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a6a77e41-aefa-400b-8ae2-23df7e1593b1",
+          "columns" : [ {
+            "UUID" : "afe157a0-6275-4295-a6ea-ef976540e9a9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b49bfcfc-f3bc-4972-8b12-dff6301aa8d2",
+            "columnKey" : "2cb6d",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a6a77e41-aefa-400b-8ae2-23df7e1593b1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Fund Requests</h2><p>Submit and track requests for marketing funds to support your campaigns. View request statuses and manage follow-ups with ease using this table.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "63349f65-315a-49e9-b77d-de6839589cf3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "My_Partner_Fund_Requests",
+            "layout" : "STANDARD",
+            "pageSize" : 10,
+            "scope" : "PartnerFundRequest",
+            "showActionBar" : true,
+            "showChartsPanel" : false,
+            "showDisplay" : "grid",
+            "showFilterPanel" : false,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : false,
+            "showPinnedList" : false,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "822796ef-a2f2-4593-962e-b450531dbd71",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "afe157a0-6275-4295-a6ea-ef976540e9a9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>My Budget</h2><p>Monitor allocated marketing funds to maximize your budget. This table breaks down your fund allocations, helping you manage resources.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7f34446c-96b8-47e1-a3c8-2c47f5876b45",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "My_Partner_Fund_Allocations",
+            "layout" : "STANDARD",
+            "pageSize" : 5,
+            "scope" : "PartnerFundAllocation",
+            "showActionBar" : true,
+            "showChartsPanel" : false,
+            "showDisplay" : "grid",
+            "showFilterPanel" : false,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : false,
+            "showPinnedList" : false,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "1f529096-cedf-458a-98fb-c5040bc16294",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Partner Fund Claims</h2><p>Review and manage claims for marketing funds you've used. This table shows your submitted claims, their status, and key details.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ce230103-b9c6-41cd-a780-53a3d4ce7f5b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "My_Partner_Fund_Claims",
+            "layout" : "STANDARD",
+            "pageSize" : 5,
+            "scope" : "PartnerFundClaim",
+            "showActionBar" : true,
+            "showChartsPanel" : false,
+            "showDisplay" : "grid",
+            "showFilterPanel" : false,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : false,
+            "showPinnedList" : false,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "5aa2f33b-5aa4-498a-b236-e2fd70f8e54e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b49bfcfc-f3bc-4972-8b12-dff6301aa8d2",
+        "regionLabel" : "Column 2",
+        "regionName" : "2cb6d",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "3c6f9957-6333-476c-b325-730a4342db24",
+          "columns" : [ {
+            "UUID" : "815a4d9d-cee4-4313-afd4-1ef5b033a648",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3c6f9957-6333-476c-b325-730a4342db24",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong>Active Marketing Campaigns</strong></h2><p>Stay on top of your marketing initiatives with our Active Marketing Campaigns section. Monitor ongoing campaigns, track performance, and manage activities in one place. Access insights for email, social media, and event-driven campaigns to ensure smooth progress and success.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2159df33-d075-422d-ab0b-015fb1bb367a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bodyField" : "Description",
+            "categoryField" : "Type",
+            "dataFieldsConfig" : "",
+            "highlight" : "__",
+            "highlightColor" : "#007DB8",
+            "listLabel" : "",
+            "listViewName" : "SDO_Status_In_Progress",
+            "showImage" : false,
+            "sortBy" : "Name",
+            "sortOrder" : "Ascending",
+            "titleField" : "Name"
+          },
+          "componentName" : "forceCommunity:campaignTileList",
+          "id" : "c6cd838d-9314-4c5c-a3db-a6c430871690",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "815a4d9d-cee4-4313-afd4-1ef5b033a648",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0a6a9561-5e36-48aa-84c4-c8aea5a88fc0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Funds and Requests"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4088c2eb-8183-49ed-9247-40c97d4f762a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6c3f8a50-42d8-4922-8c70-7aecc37b14c4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-funds-and-requests"
+}

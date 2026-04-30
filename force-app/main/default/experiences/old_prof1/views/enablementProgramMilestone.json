@@ -1,0 +1,58 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "c38f5b68-4c84-4d2a-9954-ff5087d4228f",
+  "label" : "Enablement Program Milestone",
+  "regions" : [ {
+    "id" : "192fe081-e158-44ec-996e-73747fbf670d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "212d8405-8b28-4fc0-a7e8-e844d00ce36e",
+          "columns" : [ {
+            "UUID" : "70d3f27e-9a7e-4836-9490-beda45616b6a",
+            "columnKey" : "col1",
+            "columnName" : "column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ {
+              "attributes" : {
+                "sfdc:identifier" : "runtime_ses_ext_contentDetailHeader"
+              },
+              "fqn" : "runtime_ses_ext:contentDetailHeader"
+            } ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "212d8405-8b28-4fc0-a7e8-e844d00ce36e",
+      "regions" : [ {
+        "id" : "70d3f27e-9a7e-4836-9490-beda45616b6a",
+        "regionLabel" : "column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a6c1d3e6-8386-4226-a83e-1a311a554be9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "3449048f-4c68-4360-90f5-f39e1a6f3262",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "enablement-program-milestone"
+}

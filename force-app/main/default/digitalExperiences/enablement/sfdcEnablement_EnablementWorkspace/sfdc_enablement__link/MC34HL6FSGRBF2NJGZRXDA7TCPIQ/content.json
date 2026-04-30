@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link - How to answer cases",
+  "contentBody" : {
+    "externalLink" : "https://www.forbes.com/sites/forbesbusinesscouncil/2022/10/12/why-is-empathy-important-to-customer-success/?sh=6b07f193e12d",
+    "time" : 10.0
+  },
+  "urlName" : "link---how-to-answer-cases"
+}

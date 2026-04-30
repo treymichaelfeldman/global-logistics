@@ -1,0 +1,108 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Error",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "60px",
+                "left" : "",
+                "right" : "",
+                "top" : "40px"
+              }
+            },
+            "sectionConfig" : "{\"UUID\":\"5abf29b1-7aef-421f-b086-41deedebe92b\",\"columns\":[{\"UUID\":\"b9ee206c-919d-45f6-b0f5-419d2125a1dd\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":null},{\"UUID\":\"197c0115-d20a-4f41-8698-669f9ef26a81\",\"columnName\":\"Column 2\",\"columnKey\":\"c3b9a\",\"columnWidth\":\"8\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://sfdc-ckz-b2b.s3.amazonaws.com/SDO/w24-product/error_image.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "0b44735d-7ef9-4824-818e-ee64aef5292d",
+              "type" : "component"
+            } ],
+            "id" : "b9ee206c-919d-45f6-b0f5-419d2125a1dd",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "small",
+                "text" : "Unleashing the Power of Glitches!",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "customCssClasses" : "page-title",
+              "definition" : "dxp_base:textBlock",
+              "id" : "f9d7629e-0b9a-485c-9082-4b5c389fc81c",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<p><span style=\"color: rgb(51, 51, 51);\">Oops! It looks like our energy elves are taking a coffee break. We'll have our power wizards fix this glitch in a jiffy. Please try again later.</span></p>"
+              },
+              "customCssClasses" : "error-content",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "60f745c6-fa4f-4c99-93ab-d97335d61b70",
+              "type" : "component"
+            } ],
+            "id" : "197c0115-d20a-4f41-8698-669f9ef26a81",
+            "name" : "c3b9a",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "error-container",
+          "definition" : "community_layout:section",
+          "id" : "5abf29b1-7aef-421f-b086-41deedebe92b",
+          "type" : "component"
+        } ],
+        "id" : "730e8519-d55c-45b9-a6f0-919a509999be",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Error",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "dc4918fa-b073-4785-8ac1-45ef712db1af",
+          "type" : "component"
+        } ],
+        "id" : "148a09ae-18eb-47bb-88e9-455459df0e9f",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "9edf14ac-6159-41c1-84fc-cc1640ef9bf9",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "error"
+  },
+  "urlName" : "error"
+}

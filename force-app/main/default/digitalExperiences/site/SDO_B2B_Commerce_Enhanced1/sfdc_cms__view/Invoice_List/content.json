@@ -1,0 +1,206 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Invoice List",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1e3309dd-6020-4ed2-adac-5c25633a2f6a\",\"columns\":[{\"UUID\":\"aa707242-9374-4f73-8eed-2fe265572f09\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Account",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "ac6da179-bed5-4e20-9015-b4b33d482149",
+              "type" : "component"
+            } ],
+            "id" : "aa707242-9374-4f73-8eed-2fe265572f09",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "my-account-title",
+          "definition" : "community_layout:section",
+          "id" : "1e3309dd-6020-4ed2-adac-5c25633a2f6a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e4e8dbbd-956c-4887-b412-7e90797429b7\",\"columns\":[{\"UUID\":\"15a223ba-26c8-4064-af66-d95a2eb4ba26\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"7ad08161-d23c-41ee-89a7-eafd31a502a5\",\"columnName\":\"Column 2\",\"columnKey\":\"a1bc5\",\"columnWidth\":\"10\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "navItemSpacing" : "x-small",
+                "navigationLinkSetDevName" : "B2B_My_Account_Menu"
+              },
+              "customCssClasses" : "my-account-data-nav",
+              "definition" : "commerce_builder:navigationMenuItemList",
+              "id" : "e3bc2b06-b4f5-4d7f-a145-5f2d25298e00",
+              "type" : "component"
+            } ],
+            "id" : "15a223ba-26c8-4064-af66-d95a2eb4ba26",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Invoices",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}"
+              },
+              "customCssClasses" : "my-account-title",
+              "definition" : "dxp_base:textBlock",
+              "id" : "f0e2b6d6-cf0b-40d4-bd01-020e3df530c6",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "cardBorderColor" : "#E5E5E5",
+                "cardBorderWeight" : "1",
+                "cardHoverColor" : "#F3F3F3",
+                "cardPadding" : "{\"top\":\"16px\",\"right\":\"16px\",\"bottom\":\"16px\",\"left\":\"16px\"}",
+                "cardSpaceBetweenItems" : "16",
+                "cardTextStyle" : "{\"headingTag\":\"p\",\"textStyle\":\"body-regular\"}",
+                "cellPadding" : "{\"top\":\"16px\",\"right\":\"16px\",\"bottom\":\"16px\",\"left\":\"16px\"}",
+                "columnHeaderBackgroundColor" : "#F3F3F3",
+                "dividerBorderColor" : "#E5E5E5",
+                "dividerBorderWeight" : "1",
+                "dxpStyle" : { },
+                "headerBorderColor" : "#E5E5E5",
+                "headerBorderWeight" : "1",
+                "headerSectionLineSeparator" : "",
+                "recordListData" : "{!Item.recordListData}",
+                "recordListLayoutType" : "CardView",
+                "rowHoverColor" : "#F3F3F3",
+                "showCardLabel" : false,
+                "showHeader" : "true",
+                "showListViewPicker" : "true",
+                "showObjectIcon" : true,
+                "showPagination" : true,
+                "showSearch" : true,
+                "showStatus" : true,
+                "showTitle" : true,
+                "statusSectionLineSeparator" : "",
+                "statusTextDecoration" : "{}",
+                "statusTextDisplayInfo" : "{\"headingTag\":\"p\",\"textStyle\":\"body-small\"}",
+                "tableBorderColor" : "#E5E5E5",
+                "tableBorderWeight" : "1",
+                "tableTextStyle" : "{\"headingTag\":\"p\",\"textStyle\":\"body-regular\"}",
+                "titleSectionLineSeparator" : "",
+                "titleTextDecoration" : "{\"bold\":true}",
+                "titleTextDisplayInfo" : "{\"headingTag\":\"h3\",\"textStyle\":\"heading-medium\"}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "paginatorAttributes" : "{\"nested\":{\"componentName\":\"dxp_content_layout:paginatorStandard\",\"attributes\":{\"prevButtonLabel\":\"Previous\",\"nextButtonLabel\":\"Next\",\"nextButtonTextDecoration\":\"{}\",\"prevButtonTextDecoration\":\"{}\",\"nextButtonStyle\":\"secondary\",\"prevButtonStyle\":\"secondary\",\"size\":\"standard\",\"width\":\"standard\",\"verticalPadding\":\"none\",\"horizontalAlignment\":\"center\",\"disableAutoHidden\": false}}}",
+                    "variant" : "standard"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { }
+                      },
+                      "definition" : "dxp_page_layout:placeHolder",
+                      "id" : "3138549a-1a47-447b-9ec9-e9e97eab1cd1",
+                      "type" : "component"
+                    } ],
+                    "id" : "30919d35-9134-443b-9c5c-b8b4c099a6ed",
+                    "name" : "placeholder",
+                    "title" : "placeholder",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:paginator2",
+                  "id" : "3da4622a-8d7e-454e-8a7c-8cf2b3bb3f9c",
+                  "type" : "component"
+                } ],
+                "id" : "7eaa0490-5c6a-4d78-91b7-3daf68f888d3",
+                "name" : "pagination",
+                "title" : "pagination",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:recordListLayout",
+              "id" : "299f6597-2e96-4090-93b9-389deee54f82",
+              "type" : "component",
+              "dataProviders" : [ {
+                "definition" : "sfdc_cms__recordListLayoutDataProvider",
+                "sfdcExpressionKey" : "Item",
+                "attributes" : {
+                  "listViewApiName" : "All",
+                  "objectApiName" : "SDO_Sales_Invoice_Example__c",
+                  "pageSize" : 6
+                }
+              } ]
+            } ],
+            "id" : "7ad08161-d23c-41ee-89a7-eafd31a502a5",
+            "name" : "a1bc5",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "my-account-data",
+          "definition" : "community_layout:section",
+          "id" : "e4e8dbbd-956c-4887-b412-7e90797429b7",
+          "type" : "component"
+        } ],
+        "id" : "8dd4fddf-533b-48a8-9141-af6aa09d1f87",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "3a035546-b5f7-4153-a62f-0872a1aa80e0",
+          "type" : "component"
+        } ],
+        "id" : "7d5ccf73-7576-4ea3-9c6b-8664c2e55cd6",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "3f7ee760-6b13-4689-9dbd-6cee9d6de89b",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "list-SDO_Sales_Invoice_Example__c"
+  },
+  "urlName" : "invoice-list"
+}

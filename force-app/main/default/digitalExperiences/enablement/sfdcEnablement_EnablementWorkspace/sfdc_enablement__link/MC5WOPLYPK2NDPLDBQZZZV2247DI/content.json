@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Configuration & Setup",
+  "contentBody" : {
+    "description" : "Understand permissions, data access, and governance controls.",
+    "externalLink" : "https://www.salesforce.com/sales/partner-cloud/"
+  },
+  "urlName" : "configuration-setup"
+}

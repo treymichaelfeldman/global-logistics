@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Quote List",
+  "contentBody" : {
+    "activeViewId" : "Quote_List",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "list-0Q0",
+    "urlPrefix" : "quote"
+  },
+  "urlName" : "quote-list"
+}

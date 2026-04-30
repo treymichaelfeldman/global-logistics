@@ -1,0 +1,171 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "30aacee8-4180-48f5-a9bc-3e06740b6e70",
+  "label" : "Resource Center",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "eb4a0e88-5d0e-4dc8-8572-dc55dabd667e",
+          "columns" : [ {
+            "UUID" : "1df5b3a1-07b9-41e3-90ee-021bfaa1e66c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "eb4a0e88-5d0e-4dc8-8572-dc55dabd667e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Resource Center</h1><p>Welcome to the Resources page, your one-stop destination for all marketing collateral and essential files. Here, you will find a comprehensive collection of materials designed to support your marketing efforts and enhance your understanding of our products and services. Browse through our Resource Center to access brochures, whitepapers, case studies, and more. If you need specific resources or assistance, feel free to reach out to our support team.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "9a42e66f-f827-4e6b-835c-f58190f04d58",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1df5b3a1-07b9-41e3-90ee-021bfaa1e66c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(244,244,244)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d41bcdc3-8e31-4114-aafe-0bff48470aa4",
+          "columns" : [ {
+            "UUID" : "08c9a0ad-c733-489f-be98-7a8b373b120f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d41bcdc3-8e31-4114-aafe-0bff48470aa4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "librariesHeaderLabel" : "Resources",
+            "showWorkspaceImage" : true
+          },
+          "componentName" : "forceCommunity:workspacesList",
+          "id" : "ea1bdf67-3e97-42e0-a985-a2bcf5d25ec6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "08c9a0ad-c733-489f-be98-7a8b373b120f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "ffb7cdb8-43c2-4bfe-9a40-5da27771ad68",
+          "columns" : [ {
+            "UUID" : "0eed299c-f36d-438c-ab01-9c1a2835df9e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "a5365c90-0722-4f7d-859a-754acc6937d6",
+            "columnKey" : "dc33c",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ffb7cdb8-43c2-4bfe-9a40-5da27771ad68",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>How-To Guides</h2><p>Step-by-step guides to help you effectively utilize our resources and tools. Whether you’re new to the platform or looking to refine your skills, these guides are designed to make your experience seamless.</p><p><br></p><ul><li><a href=\"#\" rel=\"noopener noreferrer\" target=\"_self\"><strong>Marketing Collateral Usage</strong></a>: Best practices for leveraging our materials.</li><li><a href=\"#\" rel=\"noopener noreferrer\" target=\"_self\"><strong>Navigating the Resource Center</strong></a>: Tips and tricks to find what you need quickly.</li><li><a href=\"#\" rel=\"noopener noreferrer\" target=\"_self\"><strong>Campaign Templates</strong></a>: Ready-to-use templates to kickstart your campaigns.</li></ul><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "46894d57-4410-484e-8482-3b0b2e2899e4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0eed299c-f36d-438c-ab01-9c1a2835df9e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Upcoming Webinars and Events</h2><p>Stay informed about our upcoming webinars and events designed to help you get the most out of our resources. These events are excellent opportunities to learn, ask questions, and connect with other partners.</p><p><br></p><ul><li><a href=\"#\" rel=\"noopener noreferrer\" target=\"_self\"><strong>Webinar Schedule</strong></a>: Join our live sessions for in-depth knowledge.</li><li><a href=\"#\" rel=\"noopener noreferrer\" target=\"_self\"><strong>Event Calendar</strong></a>: Don’t miss out on our special events and workshops.</li><li><a href=\"#\" rel=\"noopener noreferrer\" target=\"_self\"><strong>Registration Links</strong></a>: Easily register for upcoming events directly from here.</li></ul><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "45395c49-e77d-4d0d-a102-165513a43d76",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a5365c90-0722-4f7d-859a-754acc6937d6",
+        "regionLabel" : "Column 2",
+        "regionName" : "dc33c",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d7d75928-8524-448d-8766-c90f9f09e322",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Resources"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5453878b-ea4a-459b-8da4-fe2a5d3a48e9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bb9b2bf5-2a88-402e-ba86-b534455efee7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "files"
+}

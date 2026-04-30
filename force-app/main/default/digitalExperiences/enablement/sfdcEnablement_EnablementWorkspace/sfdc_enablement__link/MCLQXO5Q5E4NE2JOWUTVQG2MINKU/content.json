@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Integrations",
+  "contentBody" : {
+    "description" : "Explore reference architectures and common partner/customer use cases.",
+    "externalLink" : "https://www.salesforce.com/sales/partner-cloud/"
+  },
+  "urlName" : "integrations"
+}

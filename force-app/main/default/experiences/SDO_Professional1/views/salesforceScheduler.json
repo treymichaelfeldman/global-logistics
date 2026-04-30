@@ -1,0 +1,60 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "7eea41cb-6568-40d5-b530-e42b961260ed",
+  "label" : "Salesforce Scheduler",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "9f260479-1f4d-48d8-a528-e7e0a91d4dd6",
+          "columns" : [ {
+            "UUID" : "c87693e8-9624-40d1-b81a-b1623f3b62e7",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "9f260479-1f4d-48d8-a528-e7e0a91d4dd6",
+      "regions" : [ {
+        "id" : "c87693e8-9624-40d1-b81a-b1623f3b62e7",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d4e4cb55-4e2b-4f41-9c1d-fd0c6790fc30",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Salesforce Scheduler"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f6e125c8-3dac-4c79-b517-1cf6a24776df",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9f4cfc9f-5293-4024-b6fb-06e9cfb6861f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-salesforce-scheduler"
+}

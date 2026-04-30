@@ -1,0 +1,10 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Customize Your Email Template",
+  "contentBody" : {
+    "description" : "Customize your email template",
+    "time" : 10.0,
+    "externalLink" : "https://www.salesforce.com"
+  },
+  "urlName" : "customize-your-email-template"
+}

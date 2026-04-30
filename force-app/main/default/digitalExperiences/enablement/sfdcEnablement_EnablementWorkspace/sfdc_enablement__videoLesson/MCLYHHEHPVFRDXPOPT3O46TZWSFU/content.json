@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__videoLesson",
+  "title" : "Welcome to the Cirrus Family!",
+  "contentBody" : {
+    "description" : "Watch our Head of Channel give a quick welcome and overview of the partner program.",
+    "videoUrl" : "https://www.youtube.com/embed/OI0FsSNd1As"
+  },
+  "urlName" : "welcome-to-the-cirrus-family"
+}

@@ -1,0 +1,55 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "9f76ee19-2e9a-44b9-8dd3-d147ae628aed",
+  "label" : "Event Detail",
+  "regions" : [ {
+    "id" : "ffb2e175-f128-40d0-b9d0-58c377904516",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "buttonsOnBottom" : false,
+        "eventDetailButtonText" : "More Info",
+        "hideEventDetailButton" : false,
+        "noHeaderBorder" : false,
+        "recordId" : "{!recordId}",
+        "truncate" : true,
+        "truncateEachLine" : true,
+        "truncateNumberOfLinesToDisplay" : 3
+      },
+      "componentName" : "cccalendar:cceventDetails",
+      "id" : "881951ed-4e90-4a7e-82c2-c7d5e33701e0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b74b5402-11e5-4c9f-ae0c-d3ea7d72fef6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "49589396-df13-4485-81f1-3f184989b36e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "de98005c-932e-468d-b7e3-60f06ca9f578",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e9a96e9f-5755-4450-8cf1-0a11615ecc67",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-00U"
+}

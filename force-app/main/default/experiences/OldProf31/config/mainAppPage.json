@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "ab594958-4ea8-4f33-8a5a-5711f1bceecc",
+  "headMarkup" : "<script>\n    window.addEventListener(\"onEmbeddedMessagingReady\", () => {\n        console.log ('Received the onEmbeddedMessagingReady event...');\n        var userId = $A.get('$SObjectType.CurrentUser.Id');\n        console.log ('Passing HiddenPrechatUserId = userId (currently Logged In User Id, or ' + userId + ')');\n        embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({'HiddenPrechatUserId' : userId});\n    });\n</script>",
+  "id" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "Service Community Template",
+  "type" : "appPage"
+}

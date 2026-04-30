@@ -1,0 +1,15 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "36da50c3-bd4c-42b1-bdca-b268474b8c46",
+  "label" : "Messages",
+  "regions" : [ {
+    "id" : "79b237fb-df58-4f64-b9c2-7b7893fc1fef",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "messages"
+}

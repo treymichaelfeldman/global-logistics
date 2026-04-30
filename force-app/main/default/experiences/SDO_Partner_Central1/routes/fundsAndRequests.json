@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "dce94816-1e47-44bd-905e-1cb1961113fd",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Funds_and_Requests__c",
+  "id" : "05aa37d6-a354-4ec4-b0bf-51392c513253",
+  "label" : "Funds and Requests",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-funds-and-requests",
+  "type" : "route",
+  "urlPrefix" : "marketing/funds-and-requests"
+}

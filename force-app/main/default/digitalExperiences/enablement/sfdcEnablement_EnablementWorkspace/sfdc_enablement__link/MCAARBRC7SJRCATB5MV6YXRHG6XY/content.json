@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Partner Enablement Link",
+  "contentBody" : {
+    "externalLink" : "/partnercentral/s/enablementprogram/EnablementProgram/",
+    "time" : 10.0
+  },
+  "urlName" : "partner-enablement-link"
+}

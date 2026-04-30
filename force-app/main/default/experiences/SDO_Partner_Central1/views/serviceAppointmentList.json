@@ -1,0 +1,100 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b70d7693-b79c-42b1-824d-bcddef3aa23e",
+  "label" : "Service Appointment List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Service Appointments</h1><p>Welcome to your Service Appointment Table. This page is your central hub for managing and tracking your field service appointments efficiently. Here, you can view all relevant information about your appointments in one convenient location. The appointments are divided into key categories to help you stay organized and ensure no appointment is overlooked.&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "43c0d1c4-b32e-46ce-97cd-bc35f044c8ce",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6d7b2b56-c820-4874-bde2-b43906a8f1d1",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "MyScheduledAppointments",
+        "layout" : "STANDARD",
+        "pageSize" : 5,
+        "scope" : "ServiceAppointment",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "27d2842e-1691-43f3-a318-768e2f372fc8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "MyPendingAppointments",
+        "layout" : "STANDARD",
+        "pageSize" : 5,
+        "scope" : "ServiceAppointment",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "c90bf59f-dcdc-438b-9061-1da7bdc2da7b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "All_ServiceAppointments",
+        "layout" : "STANDARD",
+        "pageSize" : 5,
+        "scope" : "ServiceAppointment",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "17eb2970-d5da-45c9-b3c5-f989f23f47ce",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2d0310c6-96b0-4b36-be04-63b5cc1a4104",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d704bb55-3988-4a28-9034-0a5755282815",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-08p"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link: In-App Walkthrough Send List Email to Contacts",
+  "contentBody" : {
+    "externalLink" : "/lightning/app/c__SDO_Sales_App/o/Contact/list?0.promptId=SDO_Sales_SendListEmailtoContacts",
+    "time" : 10.0
+  },
+  "urlName" : "link-in-app-walkthrough-send-list-email-to-contacts"
+}

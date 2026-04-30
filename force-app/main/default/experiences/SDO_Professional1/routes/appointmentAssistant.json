@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "6cb3d010-9392-4224-9a24-c1b87f7b0b6b",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "SFS_Appointment_Assistant__c",
+  "id" : "1e1525b3-72e6-46aa-b172-929532abcebc",
+  "label" : "Appointment Assistant",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sfs-appointment-assistant",
+  "type" : "route",
+  "urlPrefix" : "salesforce-field-service/sfs-appointment-assistant"
+}

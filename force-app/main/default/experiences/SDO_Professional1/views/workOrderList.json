@@ -1,0 +1,65 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "63659c0d-e20f-4e6e-bb6b-033aa529ba7b",
+  "label" : "Work Order List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Work Orders</h1><p>View and manage work orders related to installations, maintenance, and repairs. </p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "10feb1db-e958-4fe1-974c-d60b6e599238",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d7ab1768-dcab-46d2-a3cf-0ae17ca8a200",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2>All Work Orders</h2>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "00f6a27b-9725-4725-bc1c-20773f0e1009",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "All_WorkOrders",
+        "layout" : "STANDARD",
+        "pageSize" : 10,
+        "scope" : "WorkOrder",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "d5b8556c-12d5-433c-b281-c6928cee7756",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "90b5ba28-b24f-4334-85a7-f6369539dcf6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f46f60e2-0c01-461e-91a4-88aa46bd4647",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-0WO"
+}

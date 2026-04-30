@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Grow with Enablement",
+  "contentBody" : {
+    "description" : "Learn where to access co-marketing campaigns, assets, and sales plays.",
+    "externalLink" : "https://www.salesforce.com/sales/partner-cloud/"
+  },
+  "urlName" : "grow-with-enablement"
+}

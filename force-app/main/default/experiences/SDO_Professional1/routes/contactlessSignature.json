@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "3a7d29e0-fddd-4a2c-a479-774c7da867d5",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "SFS_Contactless_Signature__c",
+  "id" : "b7eb2b16-de3b-4bd0-aceb-30985b2ef6bb",
+  "label" : "Contactless Signature",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sfs-contactless-signature",
+  "type" : "route",
+  "urlPrefix" : "salesforce-field-service/sfs-contactless-signature"
+}

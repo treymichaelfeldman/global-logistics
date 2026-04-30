@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Knowledge List",
+  "contentBody" : {
+    "activeViewId" : "Knowledge_List",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "list-kXX",
+    "urlPrefix" : "article"
+  },
+  "urlName" : "knowledge-list"
+}

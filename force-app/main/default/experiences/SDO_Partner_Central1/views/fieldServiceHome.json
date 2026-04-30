@@ -1,0 +1,92 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "61fe70c8-8d70-466d-a8f3-0385accb61f6",
+  "label" : "Field Service Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "7e059097-eef4-46b0-a6be-8e933cc4ae01",
+          "columns" : [ {
+            "UUID" : "1f19ef44-307e-479a-b155-cc155f1a0b0e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7e059097-eef4-46b0-a6be-8e933cc4ae01",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Field Service Appointments</h1><p>Welcome to the Field Service Appointments page. Here, you can manage and schedule appointments for field service technicians, ensuring timely and efficient service delivery to your customers. This page provides a comprehensive overview of all your upcoming and past appointments, making it easy to track service activities, manage resources, and ensure customer satisfaction. Whether it's routine maintenance, urgent repairs, or new installations, our Field Service Appointments page helps you streamline your operations and deliver top-notch service.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "19852b38-ba28-4097-bea0-6f7b1f9a8ab6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_ServiceAppointments",
+            "layout" : "STANDARD",
+            "pageSize" : 10,
+            "scope" : "ServiceAppointment",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "bb0ab1a4-47cf-4b0c-83b8-39b9c29ea9af",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1f19ef44-307e-479a-b155-cc155f1a0b0e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "94e9b464-2043-42df-be6d-a5958b3e131b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Field Service Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "96a78709-dfa1-4448-be09-352a99d4cb3e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dfd18209-17b0-48a3-a52f-7dd284b6e3c3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-field-service-home"
+}

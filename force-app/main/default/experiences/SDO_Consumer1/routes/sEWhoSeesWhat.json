@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "9231af85-1edf-43d4-ae38-f1ff54618512",
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "configurationTags" : [ ],
+  "devName" : "SE_Who_Sees_What__c",
+  "id" : "f8d8004d-988c-444c-a221-134de1200147",
+  "label" : "SE - Who Sees What",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-who-see-what-in-communities",
+  "type" : "route",
+  "urlPrefix" : "who-see-what-in-communities-"
+}

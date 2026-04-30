@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_enablement__textLesson",
+  "title" : "Tandem Solar Cell Price Discount Matrix",
+  "contentBody" : {
+    "sections" : [ {
+      "content" : "<div>Creating a pricing discount matrix involves considering various factors such as quantities purchased, customer loyalty, and other relevant parameters. Below is a simplified example of a pricing discount matrix for tandem solar cells. Keep in mind that actual pricing strategies can vary based on market conditions, competition, and specific business considerations.</div><div><br /></div><div>| Quantity (units) | Discount (%) |</div><div>|-------------------|--------------|</div><div>| 1 - 10      | 0      | </div><div>| 11 - 50      | 5      |</div><div>| 51 - 100     | 10      |</div><div>| 101 - 500     | 15      |</div><div>| 501 - 1000    | 20      |</div><div>| 1001 and above  | Contact Sales|</div><div><br /></div><div>Explanation:</div><div>1.<strong> 1 - 10 units: </strong>No discount for small orders.</div><div>2. <strong>11 - 50 units:</strong> 5% discount for orders between 11 and 50 units.</div><div>3. <strong>51 - 100 units:</strong> 10% discount for orders between 51 and 100 units.</div><div>4.<strong> 101 - 500 units:</strong> 15% discount for orders between 101 and 500 units.</div><div>5.<strong> 501 - 1000 units: </strong>20% discount for orders between 501 and 1000 units.</div><div>6. <strong>1001 and above: </strong>For larger quantities, customers are encouraged to contact the sales team to negotiate custom pricing based on their specific needs and volumes.</div><div><br /></div><div>This matrix is just a starting point and should be adjusted based on your business goals, market conditions, and competitive landscape. It&#39;s also essential to consider other factors like contract length, payment terms, and customer relationship for a comprehensive pricing strategy.</div>",
+      "sectionTime" : 1.0
+    } ],
+    "totalTime" : 1.0
+  },
+  "urlName" : "tandem-solar-cell-price-discount-matrix"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "8b266d4e-b8a5-4e62-b440-0c6bd3d8f237",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "7eac057b-2cfd-40cd-9f39-1d01ded558d6",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Help_Center_Suggested_Actions_Component",
+  "id" : "43446746-0eb4-43e1-8054-b247d7bae105",
+  "type" : "experienceVariation"
+}

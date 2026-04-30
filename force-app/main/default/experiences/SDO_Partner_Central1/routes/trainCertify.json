@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "6db68a19-efe4-4f9c-b6a7-7384f2573bb0",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Train_Certify__c",
+  "id" : "fd1b4af0-d4da-4d0d-b450-4c8ded869692",
+  "label" : "Train + Certify",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-train-certify",
+  "type" : "route",
+  "urlPrefix" : "learning/train-certify"
+}

@@ -1,0 +1,5 @@
+{
+  "apiName" : "Store_Locator__c",
+  "type" : "sfdc_cms__route",
+  "path" : "routes"
+}

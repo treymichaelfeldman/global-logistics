@@ -1,0 +1,52 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Commerce Approval Request Related List",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"72743820-4e7d-442a-8514-73822dba0434\",\"columns\":[{\"UUID\":\"9cd62767-406a-44b8-97ca-d77636137f91\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "9cd62767-406a-44b8-97ca-d77636137f91",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "72743820-4e7d-442a-8514-73822dba0434",
+          "type" : "component"
+        } ],
+        "id" : "0657d6a5-b156-4d1f-9ca5-97c854591b6a",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "1c40d27f-9a6b-456c-9d12-52b82e0238e1",
+          "type" : "component"
+        } ],
+        "id" : "984a46ec-9a95-4ccd-9be8-3795f8730614",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "d3826fff-ba1e-439b-9508-57189f00e452",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "relatedlist-FSL__Custom_Gantt_Action__c"
+  },
+  "urlName" : "commerce-approval-request-related-list"
+}

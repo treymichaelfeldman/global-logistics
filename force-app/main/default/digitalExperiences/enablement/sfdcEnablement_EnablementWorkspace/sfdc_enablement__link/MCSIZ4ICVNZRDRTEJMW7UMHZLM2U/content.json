@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Deal Registration Walkthrough",
+  "contentBody" : {
+    "description" : "Step by step walkthrough on how to register deals in the partner portal.",
+    "externalLink" : "/partnerenhanced/"
+  },
+  "urlName" : "deal-registration-walkthrough"
+}

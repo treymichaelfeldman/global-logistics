@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "59299d82-40fc-4586-8d13-71aba9a6eccf",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Guest__c",
+  "id" : "dc1447bf-0b53-49f0-9c23-9ba1f12a1902",
+  "label" : "Guest",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-guest",
+  "type" : "route",
+  "urlPrefix" : "salesforce-scheduler/guest"
+}

@@ -1,0 +1,172 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "540e1b4d-8b4e-4849-9a5e-3465a2b84e4b",
+  "label" : "Training Course Details",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "38260a35-a708-4d2a-a2d0-9dd81950b5bf",
+          "columns" : [ {
+            "UUID" : "6da26aa1-7d92-4820-944e-cdcf678e423d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "9",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "ebf6a8ba-157b-491e-ac96-a70b1b103e25",
+            "columnKey" : "1fcf2",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "38260a35-a708-4d2a-a2d0-9dd81950b5bf",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "1aa45b20-8a0c-4fe0-8489-f3fec96928ca",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "b7ad65b2-da50-4e1c-a8ba-9e8fff78c212",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Details"
+              }, {
+                "UUID" : "67ababe9-5057-4531-b94b-3d0dd52db99b",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "Register!"
+              }, {
+                "UUID" : "8dd633f2-eb69-431b-9995-40f8959e1d0c",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "3",
+                "tabName" : "Discuss"
+              } ],
+              "useOverflowMenu" : false
+            }
+          },
+          "componentName" : "forceCommunity:tabset",
+          "id" : "1aa45b20-8a0c-4fe0-8489-f3fec96928ca",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "recordId" : "{!recordId}"
+              },
+              "componentName" : "forceCommunity:recordDetail",
+              "id" : "08bf9c30-a130-4177-af4b-7623dc7f5f89",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "b7ad65b2-da50-4e1c-a8ba-9e8fff78c212",
+            "regionLabel" : "Details",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "flowArguments" : "[{\"label\":\"recordId\",\"dataType\":\"String\",\"supportsRecordId\":true,\"value\":\"{!Record.Id}\"}]",
+                "flowName" : "SDO_Service_Register_for_Training_Course"
+              },
+              "componentName" : "forceCommunity:flowCommunity",
+              "id" : "324191ad-b5f1-4f2d-b8ae-e18e9b7feaf4",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "67ababe9-5057-4531-b94b-3d0dd52db99b",
+            "regionLabel" : "Register!",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "context" : "RECORD",
+                "recordId" : "{!recordId}",
+                "width" : "MEDIUM"
+              },
+              "componentName" : "forceCommunity:feedPublisher",
+              "id" : "d1b70fe0-939a-421e-b57c-95c2a3a61540",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "canChangeSorting" : true,
+                "defaultFilter" : "",
+                "defaultSortOrderHomeFeed" : "Relevance",
+                "defaultSortOrderTopicsFeed" : "Relevance",
+                "feedDesign" : "DEFAULT",
+                "hasFeedSearch" : true,
+                "subjectId" : "{!recordId}",
+                "type" : "Record"
+              },
+              "componentName" : "forceCommunity:forceCommunityFeed",
+              "id" : "1eef9e65-5092-4db9-9a3d-86d08abf2ee9",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "8dd633f2-eb69-431b-9995-40f8959e1d0c",
+            "regionLabel" : "Discuss",
+            "regionName" : "3",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6da26aa1-7d92-4820-944e-cdcf678e423d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "ebf6a8ba-157b-491e-ac96-a70b1b103e25",
+        "regionLabel" : "Column 2",
+        "regionName" : "1fcf2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "df74fd01-673b-424a-a62c-1f2957625893",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "da95cfae-5a8e-42e3-b9e1-771c5fbc606e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "012175d2-4a50-40d7-aa92-e34cf43a9be5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a1R"
+}

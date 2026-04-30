@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Users",
+  "contentBody" : {
+    "activeViewId" : "Users",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-users",
+    "urlPrefix" : "users"
+  },
+  "urlName" : "users"
+}

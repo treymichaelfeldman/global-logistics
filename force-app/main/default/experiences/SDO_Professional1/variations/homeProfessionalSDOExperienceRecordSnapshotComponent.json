@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "a958e200-6622-4c38-a5a2-f284077a3722",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "1113d068-f157-4a02-97aa-a112fe0f7352",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_Professional_SDO_Experience_Record_Snapshot_Component",
+  "id" : "b1645404-cb18-4719-ab50-3efc98aaae70",
+  "type" : "experienceVariation"
+}

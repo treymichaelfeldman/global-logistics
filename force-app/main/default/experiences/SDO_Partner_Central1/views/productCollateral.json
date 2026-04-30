@@ -1,0 +1,146 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "6bc430b8-fcaa-4d5c-ba91-f1f4120177c2",
+  "label" : "Product Collateral",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "34d72d82-d899-4017-97bb-60368772770e",
+          "columns" : [ {
+            "UUID" : "18c0ccb4-ebaa-4267-b7e2-5e8eca1f8b50",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "34d72d82-d899-4017-97bb-60368772770e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "b3542b58-34f4-4d75-a85e-8f5ef93d1cd0",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "3f4a8bcf-6890-485b-992f-cd179b024319",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Collateral"
+              }, {
+                "UUID" : "478cdd77-b761-4ee9-887e-fdf17521e608",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "Articles"
+              }, {
+                "UUID" : "3e52c240-4ae7-4b12-940a-e952583e1c4e",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "3",
+                "tabName" : "My Files"
+              } ],
+              "useOverflowMenu" : false
+            }
+          },
+          "componentName" : "forceCommunity:tabset",
+          "id" : "b3542b58-34f4-4d75-a85e-8f5ef93d1cd0",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "librariesHeaderLabel" : "Libraries",
+                "showWorkspaceImage" : true
+              },
+              "componentName" : "forceCommunity:workspacesList",
+              "id" : "999fde82-3a15-48f6-9604-ada434b7104f",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "3f4a8bcf-6890-485b-992f-cd179b024319",
+            "regionLabel" : "Collateral",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "numberOfArticles" : 5,
+                "showTitle" : true,
+                "title" : "Top Articles",
+                "topicList" : [ ]
+              },
+              "componentName" : "forceCommunity:topArticleList",
+              "id" : "33845a0d-a4a7-4923-9ed7-5f12fe731e99",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "478cdd77-b761-4ee9-887e-fdf17521e608",
+            "regionLabel" : "Articles",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "pageSize" : 25
+              },
+              "componentName" : "forceCommunity:filesList",
+              "id" : "ebebe72e-a348-4d27-8805-45a37160ae68",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "3e52c240-4ae7-4b12-940a-e952583e1c4e",
+            "regionLabel" : "My Files",
+            "regionName" : "3",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "18c0ccb4-ebaa-4267-b7e2-5e8eca1f8b50",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "885c702c-f722-4413-9c72-380209092b69",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Product Collateral"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "fc8ebb51-9feb-4da3-934b-c07c7e73f544",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b48c4007-451e-4ff8-9a91-450f0385e7ff",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "qyW0YyspgJPuhMZyAGsOwGoy309Ajz",
+  "type" : "view",
+  "viewType" : "custom-product-collateral"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "8d1d6c59-fe3c-4117-a9ab-63c74a3dc806",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Surveys__c",
+  "id" : "feb55fc4-dc1c-41f9-a6fe-5045a8785285",
+  "label" : "Surveys",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-surveys",
+  "type" : "route",
+  "urlPrefix" : "surveys"
+}

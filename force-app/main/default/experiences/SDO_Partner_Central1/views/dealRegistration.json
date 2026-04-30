@@ -1,0 +1,211 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "4544aec8-4849-4fce-93d0-c88a481aba38",
+  "label" : "Deal Registration",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "367a2268-4d0f-4822-aa6f-7eed534bc52f",
+          "columns" : [ {
+            "UUID" : "58d13a8e-5310-4d03-9a05-874a9a19a5ab",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "367a2268-4d0f-4822-aa6f-7eed534bc52f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Deal Registration</h1><p>Welcome to the Deal Registration page. Here, you can register your deals quickly and efficiently, ensuring you receive the benefits and protections that come with being an official partner. Please review the terms and conditions below before submitting your registration. If you have any questions or need assistance, explore our helpful links or reach out to us directly.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d7c5fcd8-5e8b-452f-944c-976f5ee11dc3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "58d13a8e-5310-4d03-9a05-874a9a19a5ab",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1b17fd40-b6ec-498b-8cb2-08c577e057a2",
+          "columns" : [ {
+            "UUID" : "12d1b5d2-0990-4d9a-a767-5dfcf3ec3bc8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "571d61ff-653f-4745-a55c-fb499a1f88c6",
+            "columnKey" : "56608",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1b17fd40-b6ec-498b-8cb2-08c577e057a2",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "[]",
+            "flowName" : "SDO_PRM_Partner_Deal_Registration"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "4a6ee2ea-bd58-4538-b35b-2ec19c9454da",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "12d1b5d2-0990-4d9a-a767-5dfcf3ec3bc8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Why Register?</h3><ul><li><strong>Protection:</strong> Secure your opportunity with exclusive deal protection.</li><li><strong>Recognition:</strong> Gain acknowledgment for your pre-sales efforts and contributions.</li><li><strong>Support:</strong> Receive dedicated support from our team to ensure your success.</li><li><strong>Priority:</strong> Be the first to register and protect your deals, ensuring priority access to resources and support.</li></ul><p><br></p><h3>Helpful Links</h3><ul><li><a href=\"#\" rel=\"noopener noreferrer\" target=\"null\">Deal Registration FAQs</a></li><li><a href=\"#\" rel=\"noopener noreferrer\" target=\"null\">Contact Support</a></li><li><a href=\"#\" rel=\"noopener noreferrer\" target=\"null\">Partner Resources</a></li><li><a href=\"#\" rel=\"noopener noreferrer\" target=\"null\">Training and Certification</a>&nbsp;</li></ul>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "1eb7707e-3dca-4870-a94d-b5aa8c445042",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "571d61ff-653f-4745-a55c-fb499a1f88c6",
+        "regionLabel" : "Column 2",
+        "regionName" : "56608",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(244,244,244)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "cabb4ed1-db1b-4975-a546-3185e5da3019",
+          "columns" : [ {
+            "UUID" : "92154e3b-7e04-48bb-8244-0e3e6fb9d132",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "e58a77fc-6947-41a7-a174-acbc6ac4abf5",
+            "columnKey" : "3dcf9",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "cabb4ed1-db1b-4975-a546-3185e5da3019",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Deal Registration Guidelines</h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "df6914e1-3f29-45c7-8381-c8a8504c9e73",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h4><strong>Eligibility:</strong></h4><ul><li>The opportunity is for direct partners/resellers only.</li><li>The opportunity is not registered by another partner.</li><li>The partner has made significant pre-sales efforts related to the deal, such as meeting with decision-makers, qualifying the opportunity, helping the customer quantify the project budget with Pacifica products or services, and assisting the customer in defining project requirements to include Pacifica products or services.</li></ul><p><br></p><h4>&nbsp;<strong>Dispute Resolution:</strong></h4><ul><li>Submit any disputes arising from this deal registration program via the portal experience.</li></ul>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7c0f70ce-a117-47ea-b05b-f30cc6858369",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "92154e3b-7e04-48bb-8244-0e3e6fb9d132",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><br></h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "da16e0ed-6ca4-48ac-8d68-058ec97fea6a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h4><strong>Registration Process:</strong></h4><ul><li>Submit the deal for review via the deal registration form [here].</li><li>The first partner to submit a deal meeting all eligibility criteria will be approved for that customer opportunity.</li><li>Approved partners will be notified via the portal experience.</li><li>Declined partners will be notified via the portal experience, including reasons for the decision.</li></ul><p><br></p><h4>&nbsp;<strong>Deal Protection:</strong></h4><ul><li>Approved deals will be protected for three months from the date of approval.</li><li>If a material change to the solution is proposed, a new registration for the opportunity must be submitted.</li></ul>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ca19bd11-90be-43ad-b826-11e94c70d037",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e58a77fc-6947-41a7-a174-acbc6ac4abf5",
+        "regionLabel" : "Column 2",
+        "regionName" : "3dcf9",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ee93db50-919b-4bf0-b934-d3bb2499ef26",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Deal Registration"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2020deec-2a71-4bb5-8723-31b3cba8ddc9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4cb2b6a0-87e1-460e-baa6-7ca380ce0851",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-deal-registration"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__videoLesson",
+  "title" : "Video - Best Practice Call",
+  "contentBody" : {
+    "time" : 10.0,
+    "videoUrl" : "https://play.vidyard.com/dYBe3SBNaAGKsUwrjiVxT5"
+  },
+  "urlName" : "video---best-practice-call"
+}

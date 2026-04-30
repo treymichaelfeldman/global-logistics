@@ -1,0 +1,65 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "7c83ebe2-274a-48d0-a382-5ff73eb13b69",
+  "label" : "Work Order List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"font-size: 28px;\">Work Orders</span></h1><p>Welcome to the Work Orders page, your hub for managing and tracking essential tasks and services within the energy business. Here, you can view and manage work orders related to installations, maintenance, and repairs. Streamline operations, track progress, and ensure efficient service delivery using our comprehensive work order management system.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "2d8d1b04-b8f0-4138-b641-c29481961995",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6eba544a-c5ef-4f14-81e6-f85cbf6e9216",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2><strong>All Work Orders</strong></h2>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c37be5f8-00ef-4c7f-9be6-cc34210dbc5b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "All_WorkOrders",
+        "layout" : "STANDARD",
+        "pageSize" : 10,
+        "scope" : "WorkOrder",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "91892622-03d3-4431-9f26-5204328d61fc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0c117118-baba-422a-ae87-a8455c6f7e0c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "41548ecf-b9bf-48a7-bcce-d4d26aa0c712",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-0WO"
+}

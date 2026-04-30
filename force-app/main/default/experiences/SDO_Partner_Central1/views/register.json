@@ -1,0 +1,77 @@
+{
+  "appPageId" : "5d2865d8-ea34-49f2-a9c1-c9696cb5a9de",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "87f3a3de-dfb2-4851-8e96-e7fcfb92974b",
+  "label" : "Register",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<!-- Login pages Company Logo as define the site's theme -->\n<p style=\"background-image: var(--dxp-s-site-logo-url); \n          background-position: center; \n          background-repeat: no-repeat; \n          background-size: contain; \n          height: 60px;\n          margin-bottom:10px;\">\n    &nbsp;\n</p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "b4bc604f-3d04-4369-935e-ed89ccfc0b37",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h2><strong>Registration</strong></h2>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "054599cf-a250-4600-a1ab-294c4902cff3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "accountId" : "<button type=\"button\" class=\"slds-button slds-button--brand uiButton--none uiButton\" style=\"width: 100%; border-radius: var(--border-radius-lg);padding:6px 0px;\" data-aura-class=\"uiButton--none uiButton\">     <span class=\" label bBody\"><a href=\"./\" style=\"color:inherit\">Back to Login</a></span> </button>",
+        "confirmPasswordLabel" : "Confirm Password",
+        "emailLabel" : "Email",
+        "extraFieldsFieldSet" : "SDO_Experience_Registration_Field_Set",
+        "firstnameLabel" : "First Name",
+        "includePasswordField" : false,
+        "lastnameLabel" : "Last Name",
+        "passwordLabel" : "Create Password",
+        "regConfirmUrl" : "./CheckPasswordResetEmail",
+        "startUrl" : "/home",
+        "submitButtonLabel" : "Sign Up"
+      },
+      "componentName" : "salesforceIdentity:selfRegister2",
+      "id" : "a69b44ea-def3-467e-9a2a-4c541818ff56",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<!-- Back to login page -->\n<p style=\"text-align: center;\"><a href=\"../login\">Already have a login?</a></p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "5c95591d-26c1-4e98-a777-b2fd85d338ca",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "11d86bfd-7efd-4a45-9358-7ab6e8025164",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Register"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "17b1074c-c304-468c-8277-75bd826cc784",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4cb7ab41-413c-4b66-b6ed-ed8c114345ee",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "self-register"
+}

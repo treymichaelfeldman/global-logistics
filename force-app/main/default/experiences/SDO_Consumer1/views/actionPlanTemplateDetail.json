@@ -1,0 +1,119 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "1d9903ff-f260-4285-9872-91386e491d4c",
+  "label" : "Action Plan Template Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "runtime_industries_actionplan:highlightsPanel",
+      "id" : "3a764df5-867a-46b0-89d0-de9c90f6419c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "49c47976-4b3d-4791-97c2-bf62193c6b47",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "e61ec51c-7929-4f88-813c-41b422f7ce28",
+          "activeTab" : "tab1",
+          "tabs" : [ {
+            "UUID" : "d62fa383-a7ee-4699-9970-6d03fa10ecb5",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : { },
+              "fqn" : "runtime_industries_actionplan:taskManager"
+            }, {
+              "attributes" : { },
+              "fqn" : "runtime_industries_actionplan:checklistItemManager"
+            } ],
+            "tabKey" : "tab1",
+            "tabName" : "Items"
+          }, {
+            "UUID" : "c4f63de0-d6f7-4d10-bb3f-d19bafd62f09",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : { },
+              "fqn" : "forceCommunity:recordDetail"
+            } ],
+            "tabKey" : "tab2",
+            "tabName" : "Details"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "e61ec51c-7929-4f88-813c-41b422f7ce28",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "runtime_industries_actionplan:taskManager",
+          "id" : "f2e179b3-f6c2-4743-b287-4cd1923f528f",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "runtime_industries_actionplan:checklistItemManager",
+          "id" : "f0ad49c7-c6f6-410a-92f3-2c7ff591d722",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d62fa383-a7ee-4699-9970-6d03fa10ecb5",
+        "regionLabel" : "Items",
+        "regionName" : "tab1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:recordDetail",
+          "id" : "e3d80cc1-e812-44e9-ac64-fbca0742d2f1",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c4f63de0-d6f7-4d10-bb3f-d19bafd62f09",
+        "regionLabel" : "Details",
+        "regionName" : "tab2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0981ac5b-6d9b-44e5-b2b4-16cb9298507a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "05d42685-b70d-4c7d-806f-7ad38338f1ef",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "615879e5-0a6c-43a5-b7ec-d94e5e4d1588",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5c9221da-b74a-41a4-846a-04f67c6560f8",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0PR"
+}

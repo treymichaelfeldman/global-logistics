@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "fdfd40a6-13cf-4a3d-b41a-4765f634c956",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "f630cc71-4f6f-45c3-bb9b-8f88045a1371",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_Guest_Flexible_Layout_Rich_Content_Editor_2_Component",
+  "id" : "1a9141f7-6e6d-415c-a87f-513366b4d5a9",
+  "type" : "experienceVariation"
+}

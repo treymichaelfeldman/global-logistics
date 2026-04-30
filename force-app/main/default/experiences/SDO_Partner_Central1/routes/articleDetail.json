@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "a167582b-067b-4b0d-ae8e-9e08eb1ef4a2",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Article_Detail",
+  "id" : "8d2f0849-a1fb-4302-a851-96f085561d47",
+  "label" : "Article Detail",
+  "routeType" : "article",
+  "type" : "route",
+  "urlPrefix" : "learning/article"
+}

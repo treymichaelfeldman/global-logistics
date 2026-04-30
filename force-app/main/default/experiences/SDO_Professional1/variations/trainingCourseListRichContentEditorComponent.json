@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "0ac94e97-9703-40ca-8025-78f7fe15c1e2",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "5ab093d2-b530-4b01-822b-0bb808926099",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Training_Course_List_Rich_Content_Editor_Component",
+  "id" : "30d34be7-8acb-4722-986f-f07e5249ffa8",
+  "type" : "experienceVariation"
+}

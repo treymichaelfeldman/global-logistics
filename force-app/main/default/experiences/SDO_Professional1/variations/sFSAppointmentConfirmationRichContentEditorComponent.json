@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "8d6af6a1-95fd-4739-9ec4-db58da6fa44d",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "afcab2e2-a817-4d75-91a4-22e355dccb42",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "SFS_Appointment_Confirmation_Rich_Content_Editor_Component",
+  "id" : "704fbdb1-65ed-4df8-8578-adea6c4ae2da",
+  "type" : "experienceVariation"
+}

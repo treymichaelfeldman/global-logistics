@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "f2a9ab71-13aa-4fa9-b4cd-88a45d19fd63",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Scheduling__c",
+  "id" : "af48bca7-015e-4825-8cd0-ad855462b0d6",
+  "label" : "Scheduling",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-scheduling",
+  "type" : "route",
+  "urlPrefix" : "salesforce-scheduler/guest/scheduling"
+}

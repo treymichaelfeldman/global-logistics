@@ -1,0 +1,10 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Marketing Walkthrough",
+  "contentBody" : {
+    "description" : "Link to site walkthrough on marketing.",
+    "externalLink" : "/partnercentral/s/marketing-home?0.promptId=MarketingWalkthrough",
+    "time" : 3.0
+  },
+  "urlName" : "marketing-walkthrough"
+}

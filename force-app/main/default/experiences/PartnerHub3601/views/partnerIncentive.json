@@ -1,0 +1,70 @@
+{
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "32605814-1e41-462c-9da0-2799a99d3953",
+  "label" : "Partner Incentive",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "2ff5bfeb-6727-41bd-8baf-2e8429d4a20d",
+          "columns" : [ {
+            "UUID" : "937d39cc-2fe2-4cb7-bb55-301b7649c1e2",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "2ff5bfeb-6727-41bd-8baf-2e8429d4a20d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<img src=\"https://sfdc-ckz-b2b.s3.us-east-1.amazonaws.com/SDOPartnerCloud/PartnerSpiff2.png\"/>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "8f0fa892-d9b9-4d6e-849a-f9d6e2bb6389",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "937d39cc-2fe2-4cb7-bb55-301b7649c1e2",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9974b44f-24a9-41f4-84c7-e9f9fcb6bbb6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Partner Incentive"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e7c0ecf5-9d7c-4e38-93ab-611ed044d493",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7d2c7cd6-c7cd-472a-aa3b-67488733a31b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-partner-incentive"
+}

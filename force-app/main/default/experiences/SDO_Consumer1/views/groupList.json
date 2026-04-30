@@ -1,0 +1,140 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "33fd379b-d0ad-43cd-8658-628f0354da35",
+  "label" : "Group List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 95,
+        "sectionConfig" : {
+          "UUID" : "e3168ec2-502d-4357-9779-984646196584",
+          "columns" : [ {
+            "UUID" : "79efed1e-f79a-4de0-8357-cd70d10485c9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e3168ec2-502d-4357-9779-984646196584",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\">Community Groups</h1><p>Groups provide regular updates from key experts, people with interets similar to your own, and important content on our products, services, and practices. Browse the groups and join a few today!</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b6bf9fe7-f00e-4056-87e8-84f30e8ed8a9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "28aefde7-4a5c-4fbb-b928-1b02ca5c15a6",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "95830489-b7dc-4aa2-b292-f6e65d95158b",
+                "allowGuestUser" : true,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "All Groups"
+              }, {
+                "UUID" : "9228bce3-85cb-4a89-9fac-b5afe92d3de1",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "My Groups"
+              } ],
+              "useOverflowMenu" : false
+            }
+          },
+          "componentName" : "forceCommunity:tabset",
+          "id" : "28aefde7-4a5c-4fbb-b928-1b02ca5c15a6",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "All_ChatterGroups",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "CollaborationGroup",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "grid",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : false,
+                "showPinnedList" : false,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "ec60a912-2285-4a09-88f5-561512596d81",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "95830489-b7dc-4aa2-b292-f6e65d95158b",
+            "regionLabel" : "All Groups",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "My_ChatterGroups",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "CollaborationGroup",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "showall",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : false,
+                "showPinnedList" : false,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "a43ac030-6859-4517-b5f7-adc798bcd89c",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "9228bce3-85cb-4a89-9fac-b5afe92d3de1",
+            "regionLabel" : "My Groups",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "79efed1e-f79a-4de0-8357-cd70d10485c9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ef198037-ea97-49d6-9e4a-371ae2568327",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-0F9"
+}

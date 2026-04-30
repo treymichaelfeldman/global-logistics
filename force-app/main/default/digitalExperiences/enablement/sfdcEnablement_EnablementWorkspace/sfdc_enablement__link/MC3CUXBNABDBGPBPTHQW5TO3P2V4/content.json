@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Walkthrough: Account Plan Walkthrough",
+  "contentBody" : {
+    "externalLink" : "/lightning/app/c__SDO_Sales_App/o/Account/list?0.promptId=SDO_Sales_AccountPlanWalkthrough",
+    "time" : 10.0
+  },
+  "urlName" : "walkthrough-account-plan-walkthrough"
+}

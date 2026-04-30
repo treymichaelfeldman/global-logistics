@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "031635c1-d782-4e3a-9984-6923b693994d",
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "configurationTags" : [ ],
+  "devName" : "Knowledge__c",
+  "id" : "0223c9b3-ad40-4dc0-9e75-f1a37e5fa496",
+  "label" : "Knowledge",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-knowledge",
+  "type" : "route",
+  "urlPrefix" : "knowledge"
+}

@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "5e08d791-80a1-47e5-94b2-5cb13237a578",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "config/dataProviderDefinition/attributes/dataProviderInfo/apiName" : "Home_Service_News"
+      }
+    },
+    "targetId" : "3baf6a0e-6f3b-4fe3-a96b-adadfaf7c79e",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_Flex_CMS_Collection_2_Component_Properties",
+  "id" : "dfa3fcfb-fad1-455f-892f-577685b480ec",
+  "type" : "experienceVariation"
+}

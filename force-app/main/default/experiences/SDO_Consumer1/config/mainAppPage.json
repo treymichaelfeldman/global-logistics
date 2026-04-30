@@ -1,0 +1,18 @@
+{
+  "cmsSettings" : {
+    "footerName" : "",
+    "footerPersonalization" : false,
+    "footerUrl" : "",
+    "headerName" : "",
+    "headerPersonalization" : false,
+    "headerUrl" : ""
+  },
+  "currentThemeId" : "5f536e00-c8e8-405b-b0f8-9cb9ad03b00f",
+  "headMarkup" : "<script>\n    window.addEventListener(\"onEmbeddedMessagingReady\", () => {\n        console.log ('Received the onEmbeddedMessagingReady event...');\n        var userId = $A.get('$SObjectType.CurrentUser.Id');\n        console.log ('Passing HiddenPrechatUserId = userId (currently Logged In User Id, or ' + userId + ')');\n        embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({'HiddenPrechatUserId' : userId});\n    });\n</script>",
+  "id" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "Service Community Template",
+  "type" : "appPage"
+}

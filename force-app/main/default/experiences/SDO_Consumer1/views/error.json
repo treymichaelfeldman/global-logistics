@@ -1,0 +1,60 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "ed137d56-cbb0-4b72-ba78-5514ea09c48b",
+  "label" : "Error",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Oops! Something went wrong.</h1><p>An error has occured. Support has been informed, and you can continue using the community.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "ebf33fd6-d395-4dc1-8775-2b9d5a3f2c7a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "73651632-8427-4192-98f6-79441950c5bc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Error"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d1e46ae2-ef15-4563-bbe9-42cc0266cf50",
+      "renditionMap" : {
+        "de" : "b609cac2-5e37-4b2c-b8ce-6e88621ade03",
+        "fr" : "7be72c36-fb99-49ff-a664-6fc63a51fb2f"
+      },
+      "renditions" : [ {
+        "id" : "b609cac2-5e37-4b2c-b8ce-6e88621ade03",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Error"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "7be72c36-fb99-49ff-a664-6fc63a51fb2f",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Error"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "8449be92-9164-467f-8c05-b0b109d9c8ab",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "error"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "ede86d9d-a553-442c-8dc4-cf8e679843af",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Order_History__c",
+  "id" : "19eb0701-0b6f-4420-ad3e-4da0e01857e3",
+  "label" : "Order History",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-order-history",
+  "type" : "route",
+  "urlPrefix" : "comm-my-account/account-settings/order-history"
+}

@@ -1,0 +1,218 @@
+<template>
+    <div class="gl-site">
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">
+                <svg class="logo-mark" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="36" height="36" rx="8" fill="#F26522"/>
+                    <path d="M9 18L18 10L27 18" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9 23L18 15L27 23" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+                </svg>
+                <span class="logo-wordmark">Global Logistics</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Industries</a></li>
+                <li><a href="#">Tracking</a></li>
+                <li><a href="#">Company</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="../" class="nav-link-plain">Classic portal</a>
+                <button class="btn btn-outline" onclick={handleOpenChat}>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    Ask GLO anything
+                </button>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-inner">
+                <div class="hero-text">
+                    <div class="eyebrow">End-to-End Supply Chain</div>
+                    <h1>Your Cargo.<br/>Our Commitment.</h1>
+                    <p>From single parcels to full container loads, Global Logistics moves your freight across 220+ countries with real-time visibility and guaranteed delivery times.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary btn-lg">Track a Shipment</button>
+                        <button class="btn btn-outline-light btn-lg">Explore Services</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <!-- GLO Chat Panel -->
+                    <div class="glo-panel">
+                        <div class="glo-panel-header">
+                            <div class="glo-panel-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                                <div class="glo-panel-pulse"></div>
+                            </div>
+                            <div class="glo-panel-title">
+                                <h3>Shipment issue? Customs question? Ask GLO.</h3>
+                                <p>GLO can track orders, generate quotes, and resolve issues — or connect you with a specialist in seconds.</p>
+                            </div>
+                        </div>
+                        <div class="glo-panel-body">
+                            <div class="glo-panel-input" onclick={handleOpenChat}>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                                <span>Ask anything — shipment status, quotes, customs, claims...</span>
+                                <button class="glo-panel-send">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                </button>
+                            </div>
+                            <div class="glo-panel-chips">
+                                <button class="glo-panel-chip" onclick={handleOpenChat}>Track a shipment</button>
+                                <button class="glo-panel-chip" onclick={handleOpenChat}>Get a freight quote</button>
+                                <button class="glo-panel-chip" onclick={handleOpenChat}>Report a delivery issue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Services Section -->
+        <section class="services">
+            <div class="section-header">
+                <div class="eyebrow">What We Do</div>
+                <h2>End-to-End Supply Chain Solutions</h2>
+                <p>From origin to destination, every link in your supply chain covered.</p>
+            </div>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="svc-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="26" height="26"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                    </div>
+                    <h3>Freight Forwarding</h3>
+                    <p>Air, ocean, and ground freight solutions optimised for speed, cost, and compliance across every major trade lane.</p>
+                    <a href="#" class="card-link">Learn more →</a>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="26" height="26"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    </div>
+                    <h3>Warehousing &amp; Distribution</h3>
+                    <p>Strategically located fulfilment centres with intelligent inventory management and last-mile delivery.</p>
+                    <a href="#" class="card-link">Learn more →</a>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="26" height="26"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    </div>
+                    <h3>Customs Brokerage</h3>
+                    <p>Expert import/export compliance, duty optimisation, and clearance management in 220+ countries.</p>
+                    <a href="#" class="card-link">Learn more →</a>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="26" height="26"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    </div>
+                    <h3>Real-Time Tracking</h3>
+                    <p>Live visibility from pick-up to proof of delivery with automated alerts and milestone notifications.</p>
+                    <a href="#" class="card-link">Learn more →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo footer-logo">
+                        <svg class="logo-mark" viewBox="0 0 36 36" fill="none">
+                            <rect width="36" height="36" rx="8" fill="#F26522"/>
+                            <path d="M9 18L18 10L27 18" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 23L18 15L27 23" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+                        </svg>
+                        <span class="logo-wordmark">Global Logistics</span>
+                    </div>
+                    <p>Moving the world's freight with precision, speed, and care.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Freight Forwarding</a></li>
+                            <li><a href="#">Warehousing</a></li>
+                            <li><a href="#">Customs Brokerage</a></li>
+                            <li><a href="#">Last-Mile Delivery</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Locations</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#" onclick={handleOpenChat}>Chat with GLO</a></li>
+                            <li><a href="#">Help Centre</a></li>
+                            <li><a href="#">Track Shipment</a></li>
+                            <li><a href="#">Submit a Claim</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Global Logistics Inc. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Chat Widget (open state) -->
+        <template if:true={isChatOpen}>
+            <div class="chat-widget">
+                <div class="chat-header">
+                    <div class="chat-title">
+                        <div class="chat-avatar">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>GLO</h4>
+                            <span class="online-status">Online</span>
+                        </div>
+                    </div>
+                    <button class="close-btn" onclick={handleCloseChat}>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                </div>
+                <div class="chat-body">
+                    <div class="chat-intro">
+                        <div class="intro-avatar">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                        </div>
+                        <p>Hi, I'm <strong>GLO</strong> — your Global Logistics Operator. I can help you track shipments, get quotes, and resolve issues instantly.</p>
+                    </div>
+                    <div class="option-group">
+                        <p class="option-group-label">What can I help you with?</p>
+                        <button class="option-btn">Track a shipment</button>
+                        <button class="option-btn">Get a freight quote</button>
+                        <button class="option-btn">Report a delivery issue</button>
+                        <button class="option-btn">Customs documentation</button>
+                        <button class="option-btn escalate">Connect me with a specialist</button>
+                    </div>
+                </div>
+                <div class="chat-input-area">
+                    <input type="text" placeholder="Type your question..." />
+                    <button class="send-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </button>
+                </div>
+            </div>
+        </template>
+
+    </div>
+</template>

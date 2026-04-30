@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_cms__site",
+  "title" : "ESW_SDO_Messaging_for_Web_1777467377169",
+  "contentBody" : {
+    "authenticationType" : "AUTHENTICATED_WITH_PUBLIC_ACCESS_ENABLED",
+    "geoBotsAllowed" : false
+  },
+  "urlName" : "esw-sdo-messaging-for-web-1777467377169"
+}

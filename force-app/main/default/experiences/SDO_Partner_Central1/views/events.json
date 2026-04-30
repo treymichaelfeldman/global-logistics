@@ -1,0 +1,171 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "07e9664a-9453-460c-8a41-3a55176b55e8",
+  "label" : "Events",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "024806a4-05ba-43dd-bdf8-1265b626751d",
+          "columns" : [ {
+            "UUID" : "015abb2e-7e85-4d60-b566-ac8f89ce557b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 157
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "024806a4-05ba-43dd-bdf8-1265b626751d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><span style=\"font-size: 28px; color: rgb(68, 68, 68);\">Events</span></h1><p>Explore our calendar of current and upcoming events. Stay informed about engaging workshops, webinars, and seminars tailored for professionals in the energy sector. Discover opportunities to network, learn, and stay updated on industry trends. Join us for insightful discussions and valuable experiences.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4861b66e-4120-4670-9284-a135e5a71af0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "015abb2e-7e85-4d60-b566-ac8f89ce557b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "25bdd9f9-595a-48ba-914a-55e383d18502",
+          "columns" : [ {
+            "UUID" : "a7c05ecf-5dfe-47e6-a9fd-b60fc7e7f33c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "d470ad1f-275a-4274-a5c6-d491faf6f461",
+            "columnKey" : "47983",
+            "columnName" : "Column 2",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "25bdd9f9-595a-48ba-914a-55e383d18502",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3><strong style=\"color: rgb(68, 68, 68);\">Upcoming Events</strong>&nbsp;</h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b2ce8ee1-ffe6-41b4-b494-5ee65e46bb98",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonsOnBottom" : true,
+            "eventDetailButtonText" : "More Info",
+            "eventLimit" : 2,
+            "hideEventDetailButton" : false,
+            "ownerId" : "",
+            "timezoneLabelsJSON" : "{\"America/Los_Angeles\":\"US Pacific Time\",\"America/Chicago\":\"US Central Time\",\"America/Denver\":\"US Mountain Time\",\"America/Indianapolis\":\"US Eastern Time\",\"GMT\":\"GMT\",\"Asia/Jakarta\":\"Western Indonesian Time\",\"Asia/Makassar\":\"Central Indonesian Time\",\"Asia/Jayapura\":\"Eastern Indonesian Time\",\"Asia/Kolkata\":\"India Standard Time\",\"Asia/Tokyo\":\"Japan Time\",\"Australia/Sydney\":\"Australian Eastern Standard Time\",\"Australia/Darwin\":\"Australian Central Standard Time\",\"Australia/Perth\":\"Australian Western Standard Time\",\"Europe/London\":\"British Time\",\"Europe/Paris\":\"Central European Time\"}",
+            "truncate" : false,
+            "truncateEachLine" : false,
+            "truncateNumberOfLinesToDisplay" : 3,
+            "whatId" : "",
+            "whoId" : ""
+          },
+          "componentName" : "cccalendar:ccUpcomingEvents",
+          "id" : "54259895-9ecd-42f0-874e-307f735c9974",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a7c05ecf-5dfe-47e6-a9fd-b60fc7e7f33c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "buttonsOnBottom" : true,
+            "eventDetailButtonText" : "More Info",
+            "eventLimit" : 50,
+            "futureMonths" : 6,
+            "hideDayView" : false,
+            "hideEventDetailButton" : true,
+            "hideListView" : true,
+            "hideMonthView" : false,
+            "hideTimezonePicklist" : true,
+            "hideWeekView" : false,
+            "listofTimezonesOverride" : "America/Los_Angeles,America/Chicago,America/Denver,America/Indianapolis,GMT,Europe/London,Europe/Paris,Asia/Jakarta,Asia/Makassar,Asia/Jayapura,Asia/Kolkata,Asia/Tokyo,Australia/Sydney,Australia/Darwin,Australia/Perth",
+            "overrideTimezoneList" : false,
+            "ownerId" : "",
+            "pastMonths" : 1,
+            "rangeFrequency" : "MONTH",
+            "showWeekends" : false,
+            "timezoneLabelsJSON" : "{\"America/Los_Angeles\":\"US Pacific Time\",\"America/Chicago\":\"US Central Time\",\"America/Denver\":\"US Mountain Time\",\"America/Indianapolis\":\"US Eastern Time\",\"GMT\":\"GMT\",\"Asia/Jakarta\":\"Western Indonesian Time\",\"Asia/Makassar\":\"Central Indonesian Time\",\"Asia/Jayapura\":\"Eastern Indonesian Time\",\"Asia/Kolkata\":\"India Standard Time\",\"Asia/Tokyo\":\"Japan Time\",\"Australia/Sydney\":\"Australian Eastern Standard Time\",\"Australia/Darwin\":\"Australian Central Standard Time\",\"Australia/Perth\":\"Australian Western Standard Time\",\"Europe/London\":\"British Time\",\"Europe/Paris\":\"Central European Time\"}",
+            "truncate" : false,
+            "truncateEachLine" : false,
+            "truncateNumberOfLinesToDisplay" : 2,
+            "whatId" : "",
+            "whoId" : ""
+          },
+          "componentName" : "cccalendar:cccalendar",
+          "id" : "3ac9af98-43c5-4e4a-bc76-76faa025e0db",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d470ad1f-275a-4274-a5c6-d491faf6f461",
+        "regionLabel" : "Column 2",
+        "regionName" : "47983",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "207e4946-14bc-4101-b746-19d82c8afb4b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Events"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "7a3bd72b-ed1e-4462-b10f-d79a6ede9e26",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a0b9748c-014b-4b23-96a2-7db26ebe0505",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-events"
+}

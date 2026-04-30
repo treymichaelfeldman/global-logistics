@@ -1,0 +1,290 @@
+{
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "549bc889-02bd-43d3-b1fe-d63e7e6e3c2a",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "fe2ee33f-150e-44d3-b157-91e9b665094b",
+          "columns" : [ {
+            "UUID" : "a3814f20-e4fb-4e91-b895-e6dc366d77af",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "838bef05-0123-47b5-8e4d-45894bd2662c",
+            "columnKey" : "4cffb",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "fe2ee33f-150e-44d3-b157-91e9b665094b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "ctaAlignment" : "left",
+            "ctaLabel" : "View More",
+            "ctaMode" : "query-more",
+            "ctaTarget" : "_self",
+            "ctaUrl" : "",
+            "defaultFilter" : "AvailableForSelfEnrollment",
+            "displayAsCard" : false,
+            "layout" : "list",
+            "limit" : 3,
+            "pageSize" : 3,
+            "showAllFilter" : true,
+            "showAssignedFilter" : true,
+            "showAvailableForSelfEnrollmentFilter" : true,
+            "showCompletedFilter" : true,
+            "showDescription" : true,
+            "showDueDate" : false,
+            "showFilters" : false,
+            "showIcon" : true,
+            "showInProgressFilter" : true,
+            "showSelfEnrolledFilter" : true,
+            "title" : "Available Programs",
+            "titleHeadingLevel" : "h2",
+            "titleStyle" : "medium"
+          },
+          "componentName" : "runtime_ses_ext:programCollectionCard",
+          "id" : "5df3ba4e-271a-41c2-83a3-a52b9983c536",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "listViewIdForNavigation" : "Hot_Leads",
+            "navigateToListView" : true,
+            "pageSize" : 5,
+            "sortBy" : "CreatedDate",
+            "title" : "Lead Inbox"
+          },
+          "componentName" : "forceCommunity:leadInbox",
+          "id" : "d1e8b111-6b0b-45cb-964a-adc4f0a09d57",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "height" : "1000",
+            "recordId" : "Partner_Community_Dashboard1"
+          },
+          "componentName" : "forceCommunity:dashboard",
+          "id" : "910c1204-ebe1-4c5d-a695-fdd0bf16badc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a3814f20-e4fb-4e91-b895-e6dc366d77af",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "runtime_sales_prm:jointBusinessPlansDetails",
+          "id" : "70f29506-7266-4c4a-b7a0-7c4d97c8b8aa",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "NavigationMenuEditorRefresh" : "Default_Tile_Menu",
+            "titleOnTop" : false
+          },
+          "componentName" : "runtime_sales_prm:tileMenuWrapperPRM",
+          "id" : "db5b9b0f-87e8-4d0a-8905-d1183f961b89",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div\n  style=\"\n    width:320px;\n    background:#ffffff;\n    border:1px solid #e5e7eb;\n    border-radius:16px;\n    box-shadow:0 4px 14px rgba(2,6,23,0.06);\n    padding:16px;\n    color:#0f172a;\n    font-family: Arial, Helvetica, sans-serif;\n    margin: 20px auto; /* centers the card */\n  \"\n>\n  <!-- Tier badge -->\n  <div style=\"display:flex; align-items:center; gap:8px; margin-bottom:10px;\">\n    <span\n      title=\"Tier badge\"\n      style=\"\n        width:26px; height:26px; border-radius:8px; flex-shrink:0;\n        display:flex; align-items:center; justify-content:center;\n        background:#f8fafc; border:1px solid #e5e7eb; font-size:14px;\n      \"\n      >🏅</span>\n    <span style=\"font-weight:800; letter-spacing:0.02em;\">SILVER LEVEL</span>\n  </div>\n\n  <!-- Partner name -->\n  <div style=\"font-weight:800; font-size:22px; line-height:1.2; margin-bottom:12px;\">\n    CTW Partners\n  </div>\n\n  <!-- Benefits list -->\n  <ul style=\"list-style:none; padding:0; margin:0;\">\n    <li style=\"display:flex; gap:10px; align-items:flex-start; margin-bottom:10px;\">\n      <span style=\"line-height:1.5;\">\n        Access to extra marketing and development funds\n      </span>\n    </li>\n    <li style=\"display:flex; gap:10px; align-items:flex-start; margin-bottom:10px;\">\n      <span style=\"line-height:1.5;\">\n        Joint account planning with executive sponsorship\n      </span>\n    </li>\n    <li style=\"display:flex; gap:10px; align-items:flex-start;\">\n      <span style=\"line-height:1.5;\">\n        Priority sales referral\n      </span>\n    </li>\n  </ul>\n\n  <!-- Optional soft info panel (toggle by removing if not needed) -->\n  <div\n    style=\"\n      margin-top:14px;\n      padding:12px;\n      border:1px solid #e5e7eb;\n      background:#F2FAFF;\n      border-radius:12px;\n      font-size:14px;\n      color:#475569;\n    \"\n  >\n    Tip: Benefits increase with higher tiers. Ask Agentforce how to reach the next level.\n  </div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "c7e41c51-dd64-426a-9177-7fdcd539a5d1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div\n  style=\"\n    width:320px;\n    background:#ffffff;\n    border:1px solid #e5e7eb;\n    border-radius:16px;\n    box-shadow:0 4px 14px rgba(2,6,23,0.06);\n    padding:16px;\n    color:#0f172a;\n    font-family: Arial, Helvetica, sans-serif;\n    margin: 20px auto; /* this centers it */\n  \"\n>\n  <!-- Header -->\n  <div style=\"font-weight:800; font-size:18px; margin-bottom:12px;\">\n    Partner Scorecard\n  </div>\n\n  <!-- Pipeline row -->\n  <div style=\"display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;\">\n    <span style=\"font-weight:600;\">Pipeline</span>\n    <span style=\"font-weight:700;\">$230 k</span>\n  </div>\n\n  <!-- Renewals -->\n  <div style=\"display:flex; justify-content:space-between; align-items:center; margin:10px 0 6px;\">\n    <span style=\"font-weight:600;\">Renewals</span>\n    <span style=\"font-weight:700;\">75/100</span>\n  </div>\n  <div style=\"height:10px; background:#e5edf7; border-radius:999px; overflow:hidden; border:1px solid #dbe3ef;\">\n    <div style=\"height:100%; width:75%; background:#2a81ff; border-radius:999px;\"></div>\n  </div>\n\n  <!-- Training -->\n  <div style=\"display:flex; justify-content:space-between; align-items:center; margin:14px 0 6px;\">\n    <span style=\"font-weight:600;\">Training</span>\n    <span style=\"font-weight:700;\">50 %</span>\n  </div>\n  <div style=\"height:10px; background:#e5edf7; border-radius:999px; overflow:hidden; border:1px solid #dbe3ef;\">\n    <div style=\"height:100%; width:50%; background:#14b8a6; border-radius:999px;\"></div>\n  </div>\n\n  <!-- Ask Agentforce bubble -->\n  <div\n    style=\"\n      margin-top:14px;\n      padding:12px;\n      border:1px solid #bae6fd;\n      background:#f0f9ff;\n      border-radius:12px;\n      display:flex;\n      gap:10px;\n      align-items:flex-start;\n    \"\n  >\n    <div\n      style=\"\n        width:28px; height:28px; border-radius:999px;\n        background:#e0f2fe; display:flex; align-items:center; justify-content:center;\n        font-weight:700; color:#0b6efd; flex-shrink:0;\n      \"\n      title=\"Agentforce\"\n    >◎</div>\n    <div>\n      <div style=\"font-weight:700; margin-bottom:2px;\">Ask Agentforce</div>\n      <div style=\"color:#475569; line-height:1.4;\">Show me my upcoming renewals.</div>\n    </div>\n  </div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "41444908-da25-4166-b103-ad4e51e958ec",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "runtime_sales_prm:channelProgramDetailsWrapper",
+          "id" : "658e6a13-1eed-424d-ac3a-32e9b5941e6c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "838bef05-0123-47b5-8e4d-45894bd2662c",
+        "regionLabel" : "Column 2",
+        "regionName" : "4cffb",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d080b3db-00b3-49bf-97ac-50bc780a43ab",
+          "columns" : [ {
+            "UUID" : "8de37bcd-9897-4c3a-ab56-9c1814c7426c",
+            "columnKey" : "col1",
+            "columnName" : "Main Content",
+            "columnWidth" : "8",
+            "seedComponents" : [ {
+              "attributes" : {
+                "height" : "1065",
+                "recordId" : "CompanyPerformanceDashboard",
+                "sfdc:identifier" : "runtime_sales_prm_dashboard"
+              },
+              "fqn" : "forceCommunity:dashboard"
+            }, {
+              "attributes" : {
+                "ctaAlignment" : "left",
+                "ctaLabel" : "View More",
+                "ctaMode" : "query-more",
+                "ctaTarget" : "_self",
+                "ctaUrl" : "",
+                "defaultFilter" : "AvailableForSelfEnrollment",
+                "displayAsCard" : "false",
+                "layout" : "list",
+                "limit" : "3",
+                "pageSize" : "3",
+                "sfdc:identifier" : "runtime_ses_ext_programCollectionCard2",
+                "showAllFilter" : "true",
+                "showAssignedFilter" : "true",
+                "showAvailableForSelfEnrollmentFilter" : "true",
+                "showCompletedFilter" : "true",
+                "showDescription" : "true",
+                "showDueDate" : "false",
+                "showFilters" : "false",
+                "showIcon" : "true",
+                "showInProgressFilter" : "true",
+                "showSelfEnrolledFilter" : "true",
+                "title" : "Available Programs",
+                "titleHeadingLevel" : "h2",
+                "titleStyle" : "medium"
+              },
+              "fqn" : "runtime_ses_ext:programCollectionCard"
+            } ]
+          }, {
+            "UUID" : "66ad8449-c320-4ffe-8378-36252f5bcaf5",
+            "columnKey" : "col2",
+            "columnName" : "Sidebar",
+            "columnWidth" : "4",
+            "seedComponents" : [ {
+              "attributes" : {
+                "sfdc:identifier" : "runtime_sales_prm:jointBusinessPlansDetails"
+              },
+              "fqn" : "runtime_sales_prm:jointBusinessPlansDetails"
+            }, {
+              "attributes" : {
+                "sfdc:identifier" : "forceCommunity_leadInbox"
+              },
+              "fqn" : "forceCommunity:leadInbox"
+            }, {
+              "attributes" : {
+                "sfdc:identifier" : "runtime_sales_prm_channelProgramDetailsWrapper"
+              },
+              "fqn" : "runtime_sales_prm:channelProgramDetailsWrapper"
+            } ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d080b3db-00b3-49bf-97ac-50bc780a43ab",
+      "regions" : [ {
+        "id" : "8de37bcd-9897-4c3a-ab56-9c1814c7426c",
+        "regionLabel" : "Main Content",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "66ad8449-c320-4ffe-8378-36252f5bcaf5",
+        "regionLabel" : "Sidebar",
+        "regionName" : "col2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "4475fcad-d681-44b3-a079-35fd4ef1bab5",
+          "columns" : [ {
+            "UUID" : "4c71848a-0233-4ba1-a379-5723d4285c04",
+            "columnKey" : "col1",
+            "columnName" : "Footer Column",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4475fcad-d681-44b3-a079-35fd4ef1bab5",
+      "regions" : [ {
+        "id" : "4c71848a-0233-4ba1-a379-5723d4285c04",
+        "regionLabel" : "Footer Column",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1be94b59-fcc0-4d13-9e25-4e87ff652c54",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "18e1746f-cb66-464d-916c-cc074fb84fb1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7776d6d7-d61a-4ab7-88b2-1b7175f902ed",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

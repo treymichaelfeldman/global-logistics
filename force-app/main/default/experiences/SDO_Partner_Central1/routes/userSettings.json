@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c67268c7-0ac4-4b96-b3e2-4009990ab6af",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "User_Settings",
+  "id" : "97b6c932-1a90-483d-9339-9aaa9dbc1a62",
+  "label" : "User Settings",
+  "routeType" : "usersettings",
+  "type" : "route",
+  "urlPrefix" : "comm-my-account/personal-settings/settings"
+}

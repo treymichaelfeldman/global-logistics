@@ -1,0 +1,155 @@
+.legacy-container {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #000080; /* Navy blue background */
+    color: #FFFF00; /* Yellow text */
+    padding: 10px;
+    border: 5px ridge #C0C0C0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.legacy-header {
+    text-align: center;
+    border-bottom: 3px solid #FF0000;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.legacy-header marquee {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.legacy-header h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px #FF0000;
+    margin: 10px 0;
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+
+.legacy-nav {
+    background-color: #C0C0C0;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+}
+
+.legacy-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.legacy-nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.legacy-nav a {
+    color: #0000FF;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.legacy-nav a:hover {
+    color: #FF0000;
+}
+
+.legacy-main {
+    display: flex;
+    margin-top: 15px;
+}
+
+.legacy-content {
+    flex: 3;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 15px;
+    border: 3px inset #C0C0C0;
+}
+
+.legacy-sidebar {
+    flex: 1;
+    background-color: #00FFFF;
+    color: #000000;
+    padding: 10px;
+    margin-left: 10px;
+    border: 3px outset #C0C0C0;
+}
+
+.tracking-form {
+    background-color: #E0E0E0;
+    padding: 10px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+}
+
+.tracking-form input {
+    margin: 0 10px;
+}
+
+.error-msg {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.phone-huge {
+    font-size: 2.5em;
+    color: #FF0000;
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: blink;
+}
+
+.pixel-img-placeholder {
+    width: 200px;
+    height: 150px;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border: 5px dashed #FFFF00;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.new-badge {
+    color: #FF0000;
+    font-weight: bold;
+    animation: blinker 0.5s linear infinite;
+}
+
+.sidebar-demo-link {
+    color: #0000FF;
+    font-weight: bold;
+}
+
+.hit-counter {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    background-color: #000000;
+    color: #00FF00;
+    padding: 5px;
+    border: 2px solid #808080;
+}
+
+.legacy-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 3px solid #FF0000;
+    font-size: 0.8em;
+}

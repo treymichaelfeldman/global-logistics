@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "42a87920-ce0c-4b12-b271-dcf2953f9bfa",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Authenticated_Scheduling__c",
+  "id" : "0bac6e7c-4e39-4063-ab0f-4c6a8d1dd181",
+  "label" : "Authenticated Scheduling",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-authenticated-scheduling",
+  "type" : "route",
+  "urlPrefix" : "salesforce-scheduler/authenticated-scheduling"
+}

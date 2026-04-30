@@ -1,0 +1,144 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "031b766c-48ce-40da-b348-11954ca51b53",
+  "label" : "User Profile",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "knowledgeableAboutTitle" : "Knowledgeable About",
+        "maxTopics" : 5,
+        "showKnowledgeableAbout" : true,
+        "showReputationInInfluenceCard" : true,
+        "userId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:userProfileBody",
+      "id" : "e5119d8e-a700-42a4-b29e-a5c9cb57c6fb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "de" : "f383120d-a686-49d6-a920-5ea38235e048",
+        "fr" : "1aed69be-96ef-42bf-be99-3f0ee0852d72"
+      },
+      "renditions" : [ {
+        "id" : "1aed69be-96ef-42bf-be99-3f0ee0852d72",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "knowledgeableAboutTitle" : "Knowledgeable About",
+            "maxTopics" : "5"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "f383120d-a686-49d6-a920-5ea38235e048",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "knowledgeableAboutTitle" : "Experte zu",
+            "maxTopics" : "5"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "caseCreateLabel" : "Create Case",
+        "casesTabLabel" : "Cases",
+        "feedTabLabel" : "Activity",
+        "filterName" : "Submitted_Cases",
+        "headerLabel" : "My Cases",
+        "userId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:userProfileTabs",
+      "id" : "85187eed-c5e4-49bc-b138-72547bca1cbd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "de" : "0df3ec54-6ca4-42f8-bf9b-f947eccae13c",
+        "fr" : "a8811b68-2086-4170-93ef-8501a0b4a92d"
+      },
+      "renditions" : [ {
+        "id" : "a8811b68-2086-4170-93ef-8501a0b4a92d",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "caseCreateLabel" : "Nouvelle requête",
+            "casesTabLabel" : "Requêtes",
+            "feedTabLabel" : "Activités",
+            "headerLabel" : "Mes Requêtes"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "0df3ec54-6ca4-42f8-bf9b-f947eccae13c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "caseCreateLabel" : "Einen Kundenvorgang erstellen",
+            "casesTabLabel" : "Kundenvorgänge",
+            "feedTabLabel" : "Aktivität",
+            "headerLabel" : "Meine Kundenvorgänge"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "58df4aea-2db4-41e0-b3dc-a490d58d6227",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f02890e1-329e-46d1-9bd3-f7e662f8bf85",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : 100,
+        "buttonRadius" : 50,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "recordId" : "{!recordId}",
+        "showNotificationMenu" : false
+      },
+      "componentName" : "forceCommunity:follow",
+      "id" : "5462935e-d554-4df2-a48c-ba3d36aa6b25",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "knowledgeableAboutTitle" : "Knows About",
+        "maxTopics" : 5,
+        "userId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:userProfileKnowledgeableAbout",
+      "id" : "e6af58be-7e28-43d1-92e7-d924453de90c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "buttonLabel" : "Give Badge",
+        "userBadgesTitle" : "Recognition Badges",
+        "userId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:userRecognitions",
+      "id" : "0a0f2bba-2cce-4dc6-9bfc-1c33c75c9d6e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a486fbdf-5de8-475a-ba16-b8dd2dc25eb1",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "a9e11ad4-ad3d-4e5d-8122-4da524f14557",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-005"
+}

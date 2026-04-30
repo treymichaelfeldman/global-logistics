@@ -1,0 +1,55 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Product Registration",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"7733296a-4db9-4759-aaa6-fc09085e7c01\",\"columns\":[{\"UUID\":\"b2d0e8f8-3c82-4fe5-bacb-5d156172d0e0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "b2d0e8f8-3c82-4fe5-bacb-5d156172d0e0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7733296a-4db9-4759-aaa6-fc09085e7c01",
+          "type" : "component"
+        } ],
+        "id" : "231f747f-8c93-4a06-992f-e495de5cb95f",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Product Registration",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "6ad13f51-ce5a-4321-8f5c-496324321026",
+          "type" : "component"
+        } ],
+        "id" : "e3e5a3ab-9733-4a65-9324-9bc37194e2f8",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "e0ac07eb-071e-48be-8a77-ccc7de19be53",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-product-registration"
+  },
+  "urlName" : "product-registration"
+}

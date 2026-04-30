@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "360a16ca-a93d-4a17-9f44-8228d10082c3",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Feed_Detail",
+  "id" : "cf4fdaaf-7f44-46ec-992f-d4165e4d8109",
+  "label" : "Feed Detail",
+  "routeType" : "feeditem-generic",
+  "type" : "route",
+  "urlPrefix" : "feed"
+}

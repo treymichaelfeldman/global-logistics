@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "ddefe1a7-262c-41b3-a146-479c6ecf43b2",
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "configurationTags" : [ ],
+  "devName" : "Feed__c",
+  "id" : "1e54b037-fb0b-4451-9545-9d9050b5a69f",
+  "label" : "Feed",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-feed",
+  "type" : "route",
+  "urlPrefix" : "feed"
+}

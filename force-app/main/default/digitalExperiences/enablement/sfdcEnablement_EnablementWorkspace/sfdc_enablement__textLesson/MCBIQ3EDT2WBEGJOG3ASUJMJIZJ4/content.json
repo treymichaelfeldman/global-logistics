@@ -1,0 +1,13 @@
+{
+  "type" : "sfdc_enablement__textLesson",
+  "title" : "How to Build your Account Plan",
+  "contentBody" : {
+    "description" : "Go through how to build an Account Plan at our company",
+    "sections" : [ {
+      "content" : "<div>1. Foundational Information:</div><ul><li>The current state of the customer - How are they currently handling the problem you’re solving for?</li><li>Challenges</li><li>What is the main goal of using a solution like yours?</li><li>Org structure and the different teams you would be involved with</li><li>Business requirements</li></ul><div>2. Compelling Business Trigger:</div><ul><li>Why now?</li><li>What keeps them up or stresses them out?</li></ul><div>3. Decision Criteria:</div><ul><li>What can we do to separate ourselves from the competition?</li><li>What is making them move from their current state?</li></ul><div>4. Use Cases for the Demo or Service Overview:</div><ul><li>Core requirements</li><li>What is Critical?</li><li>What is nice to have versus a “need”? How can other teams benefit?</li><li>Can it replace/enable a consolidation (tech focus)?</li></ul><div>5. Key Takeaways</div><ul><li>Key information around internal bandwidth, who’s driving the initiative, how they process information/change, etc.</li><li>Is there a legal or infosec process?</li></ul><div><br /></div>",
+      "sectionTime" : 1.0
+    } ],
+    "totalTime" : 1
+  },
+  "urlName" : "how-to-build-your-account-plan"
+}

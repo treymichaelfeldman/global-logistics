@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link: ILT management package page",
+  "contentBody" : {
+    "externalLink" : "https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GcfdCUAR",
+    "time" : 10.0
+  },
+  "urlName" : "link-ilt-management-package-page"
+}

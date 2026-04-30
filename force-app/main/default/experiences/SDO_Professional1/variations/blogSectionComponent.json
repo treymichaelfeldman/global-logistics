@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "875e2a82-4e55-40f6-ae59-c18246d31c01",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "79919965-023c-4297-9016-d21e4b550081",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Blog_Section_Component",
+  "id" : "089df3f4-928d-4d4a-895a-3de099343c5d",
+  "type" : "experienceVariation"
+}

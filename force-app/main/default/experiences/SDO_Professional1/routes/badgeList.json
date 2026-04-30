@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "474e2f5e-6f95-48c8-8754-dad561af604b",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Badge_List__c",
+  "id" : "fdfa4459-6f50-463e-bd5e-583ea0195e18",
+  "label" : "Badge List",
+  "routeType" : "list-0W1",
+  "type" : "route",
+  "urlPrefix" : "workbadgedefinition"
+}

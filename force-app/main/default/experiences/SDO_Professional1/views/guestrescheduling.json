@@ -1,0 +1,141 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "0531b0c4-e525-4fde-9c10-e432a8c159d5",
+  "label" : "guestrescheduling",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "90ee3a22-ed17-4f3e-8096-06e6744f910b",
+          "columns" : [ {
+            "UUID" : "402f7a78-97d9-4dc7-b3ec-0c7fb084d052",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "90ee3a22-ed17-4f3e-8096-06e6744f910b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Modify your Existing Appointment</h1><p>Easily modify your existing appointment using the form below. Select a new date and time that works best for you, and we'll take care of the rest. If you need assistance, please don't hesitate to contact our support team.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "cec7946f-ba4f-43bf-bb79-79ba85a6e6da",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "402f7a78-97d9-4dc7-b3ec-0c7fb084d052",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "adb207d3-70ff-4d24-87e0-029c0a019035",
+          "columns" : [ {
+            "UUID" : "8d64dc14-ca4e-4db6-a57d-83a737aba12f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "a23e1572-5ce0-4c5b-80cb-b7366507a9cd",
+            "columnKey" : "9eccb",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "adb207d3-70ff-4d24-87e0-029c0a019035",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"anum\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!anum}\"}]",
+            "flowName" : "SDO_Scheduler_Inbound_Modify_Guest_Appointment"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "68df7975-632e-4fdb-b790-19c27b3ce102",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8d64dc14-ca4e-4db6-a57d-83a737aba12f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Your Safety is our #1 Priority</h3><p>On the day of your service visit, you will receive a photo of your assigned technician for your security and peace of mind.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "34f6f8d5-963d-4240-bdf4-d81a7c0329e3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Need Extra Assistance?</h3><p>Need assistance scheduling your service appointment? No problem. You can text or call us using the \"?\" bubble at the bottom of your screen.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "6de6b255-68bf-4d44-a8c3-686dddf5ecc7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a23e1572-5ce0-4c5b-80cb-b7366507a9cd",
+        "regionLabel" : "Column 2",
+        "regionName" : "9eccb",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c940b0d6-ef06-4b8f-bda9-b64bcbbfcb43",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Guest Rescheduling"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "69381e0d-fc43-401b-88f6-ca2e6779946b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "53873a7a-2536-452e-9226-b696aac1bcfa",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-guestrescheduling"
+}

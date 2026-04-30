@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Invoice Detail",
+  "contentBody" : {
+    "activeViewId" : "Invoice_Detail",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "detail-SDO_Sales_Invoice_Example__c",
+    "urlPrefix" : "sdo-sales-invoice-example"
+  },
+  "urlName" : "invoice-detail"
+}

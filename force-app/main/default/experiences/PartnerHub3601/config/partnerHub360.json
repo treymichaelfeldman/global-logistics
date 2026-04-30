@@ -1,0 +1,24 @@
+{
+  "forgotPasswordRouteId" : "5620b5ff-cc6b-4239-b767-615e0a1b7fae",
+  "isAvailableToGuests" : false,
+  "isFilteredComponentsView" : false,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "dbb8aaee-b4b1-4c47-ac7c-78110b23b3c7",
+  "mainAppPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "1f7c6ea8-1324-4b6c-a540-83dfe127a11b",
+  "trustedSitesForScript" : [ {
+    "id" : "dd35f3c5-77be-4a09-8de6-f2997a44dff3",
+    "isActive" : true,
+    "trustedSiteName" : "Spiff",
+    "trustedSiteUrl" : "https://us1.spiff.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "ddd8fc77-c8c5-473d-be81-8a3d020e7ec5",
+    "isActive" : true,
+    "trustedSiteName" : "Tableau Public",
+    "trustedSiteUrl" : "https://public.tableau.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

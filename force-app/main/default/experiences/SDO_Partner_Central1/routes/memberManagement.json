@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "a5934707-7b3b-4b89-ab99-6aa5d3dd164a",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Member_Management__c",
+  "id" : "e3066241-758a-49f4-81fd-9cce7791ec54",
+  "label" : "Member Management",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-member-management",
+  "type" : "route",
+  "urlPrefix" : "comm-my-account/account-settings/member-management"
+}

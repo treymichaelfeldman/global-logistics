@@ -1,0 +1,43 @@
+.retro-header-container {
+    font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
+    border: 5px solid #000;
+}
+.retro-header-table {
+    border-collapse: collapse;
+}
+.retro-header-table td {
+    border: 3px outset #ccc;
+}
+.phone-banner {
+    color: #FF0000;
+    font-size: 1.5em;
+    font-family: "Arial Black", Arial, sans-serif;
+}
+.header-title {
+    color: #FFFF00;
+    font-size: 2.5em;
+    text-shadow: 2px 2px #000;
+    margin: 10px 0;
+}
+.nav-links a {
+    color: #00FFFF;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+.nav-links a:hover {
+    color: #FF00FF;
+}
+.spin-logo {
+    animation: spin 5s linear infinite;
+}
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+.blink {
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50% { opacity: 0; }
+}

@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "ebdd23b4-cf02-4efd-bdbd-977aef623acd",
+  "headMarkup" : "<!-- Demo Team Custom Stylesheet -->\n<!-- <link rel=\"stylesheet\" href=\"/sfsites/c/resource/SDO_Experience_SiteStyles\" /> -->\n\n<!-- Font Awesome Free kit -->\n<!-- <script src=\"https://kit.fontawesome.com/5914ba5c9f.js\" crossorigin=\"anonymous\"></script> -->\n<!-- Font Awesome Free kit -->\n<script src=\"https://demo-studio-cdn.s3.us-west-2.amazonaws.com/fontawesome/fontawesome-free-6.6.0-web/js/all.min.js\"></script>\n\n\n<!-- Style Options -->\n<style>\n:root {\n    /* To hide the hero's dark background, set the value to 0 (default 60% or .6) */\n    --hero-background-transparency: 60%;\n    \n    /* There is also a box shadow.  To remove it, set the value to 0 (default 28% or .28) */\n    --hero-box-shadow-transparency: 28%;\n    \n    /* to have square edges on the background, set the border radius to 0 */\n    --hero-border-radius: 10px;\n}\n</style>\n\n<!-- Variables: Change site-wide values such as border radius, font sizes, etc. -->\n<link rel=\"stylesheet\" href=\"/sfsites/c/resource/SDO_Experience_SiteStyles/css-variables.css\" />\n\n<!-- Find page specific styles here -->\n<link rel=\"stylesheet\" href=\"/sfsites/c/resource/SDO_Experience_SiteStyles/content-pages.css\" />\n\n<!-- Styles specific to the header and footer of the site, such as the shadow under the header -->\n<link rel=\"stylesheet\" href=\"/sfsites/c/resource/SDO_Experience_SiteStyles/header-footer.css\" />\n\n<!-- Styles specific to the hero element -->\n<!-- To remove the hero, comment out this style -->\n<link rel=\"stylesheet\" href=\"/sfsites/c/resource/SDO_Experience_SiteStyles/hero.css\" />\n\n<!-- Various styles that impact every page of the site -->\n<link rel=\"stylesheet\" href=\"/sfsites/c/resource/SDO_Experience_SiteStyles/global.css\" />",
+  "id" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "PRM Community Template",
+  "type" : "appPage"
+}

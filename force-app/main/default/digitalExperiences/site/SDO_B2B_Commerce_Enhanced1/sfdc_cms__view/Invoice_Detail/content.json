@@ -1,0 +1,155 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Invoice Detail",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"05931a2e-a419-47ae-9f55-4f64a94f8b51\",\"columns\":[{\"UUID\":\"c5464a48-55cb-417c-bf5b-14fe38c4aaa4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "dxpStyle" : { },
+                "sectionConfig" : "{\"UUID\":\"35ada25c-46eb-49a3-b66b-0227ed70a356\",\"columns\":[{\"UUID\":\"7d426d04-bd2b-4228-be06-df624619dc94\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"d752d889-9e29-44b2-8195-08304e2855bf\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : { },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Invoice Detail",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "c6c1cec0-bb26-4780-8648-83802ea13cc7",
+                  "type" : "component"
+                } ],
+                "id" : "7d426d04-bd2b-4228-be06-df624619dc94",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "right",
+                    "dxpStyle" : { },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Pay Now",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "d0b28f22-8837-4122-a30c-114cace11a29",
+                  "type" : "component"
+                } ],
+                "id" : "d752d889-9e29-44b2-8195-08304e2855bf",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "35ada25c-46eb-49a3-b66b-0227ed70a356",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Here you will find a breakdown of all crucial information related to this invoice, including itemized charges, payment status, and relevant dates. Please browse through the sections below to learn about the details of each transaction. If you have any questions or need further clarification, please feel free to contact our finance team. We are dedicated to ensuring transparency and answering any questions you may have regarding your invoice.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "11d4c387-f9a4-42da-9435-bb21f935737a",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "layout" : "{!Item._layout}",
+                "mainTitlePaddingHorizontal" : "none",
+                "mainTitlePaddingVertical" : "none",
+                "mainTitleText" : "Bill",
+                "mainTitleTextDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}",
+                "metadata" : "{!Item._metadata._context}",
+                "recordIdFromDataProvider" : "{!Item.Id}",
+                "showTitle" : true
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "142fda2d-e4a4-4108-81c9-a51775c36428",
+                  "type" : "component"
+                } ],
+                "id" : "9dc7564e-6325-4db6-ba1a-b6fa3bcfc797",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_records:detailPanel",
+              "id" : "9e68afce-69dd-45e2-bb92-52203c99a34d",
+              "type" : "component"
+            } ],
+            "id" : "c5464a48-55cb-417c-bf5b-14fe38c4aaa4",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "05931a2e-a419-47ae-9f55-4f64a94f8b51",
+          "type" : "component"
+        } ],
+        "id" : "aeef5993-f736-48f8-bbc5-40d0d5812fb6",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "{!Record._Object}: {!Record._Title}",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "95f98de0-784b-476f-9bd3-324c1f754db4",
+          "type" : "component"
+        } ],
+        "id" : "064afaec-dbad-49e6-af53-fddb506e3091",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "8fd38cce-ac99-4e3d-b91c-03fca1e5a4d4",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "detail-SDO_Sales_Invoice_Example__c"
+  },
+  "urlName" : "invoice-detail"
+}

@@ -1,0 +1,55 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Product Registration Confirmation",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"ee8e20a9-1215-4b08-be8b-6fa7f4cbbbaa\",\"columns\":[{\"UUID\":\"899e081d-e9bc-4d3f-8dd7-31539ce9ee73\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "899e081d-e9bc-4d3f-8dd7-31539ce9ee73",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ee8e20a9-1215-4b08-be8b-6fa7f4cbbbaa",
+          "type" : "component"
+        } ],
+        "id" : "556521a7-87e1-47c6-b829-e5c86d7285b1",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Product Registration Confirmation",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "1ec5f064-9c5a-4417-93f9-5acea946c427",
+          "type" : "component"
+        } ],
+        "id" : "a156018e-9778-46f6-822c-c787b04561e5",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "e8251226-04ae-4919-baa8-497fe8315bc8",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-product-registration-confirmation"
+  },
+  "urlName" : "product-registration-confirmation"
+}

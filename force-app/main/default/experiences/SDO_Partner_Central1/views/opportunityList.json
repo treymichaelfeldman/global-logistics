@@ -1,0 +1,121 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "24bf5733-b5ff-4ba6-98af-223c37035508",
+  "label" : "Opportunity List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Opportunities</h1><p>Welcome to the Opportunities page, your central hub for tracking and managing potential sales deals. Here, you can view, analyze, and update your ongoing opportunities, helping you stay organized and focused on closing deals. Utilize the tools and resources available to optimize your sales pipeline and drive your business forward. Dive into detailed records, collaborate with your team, and keep your sales momentum strong. Let's turn prospects into successes!</p><p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "a91871d4-16fb-44a5-bdbe-1e54e8b8fb94",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b5b1d490-1924-4e87-8be5-6a93c4cd99c2",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "17573142-efbe-4624-8d55-938a16f446ed",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "73fb1b05-7f3c-435b-92a7-3eb2aa5f053e",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Open Opportunities"
+          }, {
+            "UUID" : "ac44ee37-b82d-44f7-9782-7292d93f1018",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Closed Opportunities"
+          } ],
+          "useOverflowMenu" : true
+        }
+      },
+      "componentName" : "forceCommunity:tabLayout",
+      "id" : "17573142-efbe-4624-8d55-938a16f446ed",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "SDO_Experience_Open_Opportunities",
+            "layout" : "STANDARD",
+            "pageSize" : 5,
+            "scope" : "Opportunity",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "ddec30d4-e113-4680-9512-46beeade9593",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "73fb1b05-7f3c-435b-92a7-3eb2aa5f053e",
+        "regionLabel" : "Open Opportunities",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "SDO_Experience_Closed_Won_Opportunities",
+            "layout" : "STANDARD",
+            "pageSize" : 5,
+            "scope" : "Opportunity",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "97e416f4-5788-428c-8f91-6ac4461e028f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ac44ee37-b82d-44f7-9782-7292d93f1018",
+        "regionLabel" : "Closed Opportunities",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c43b34b0-0a01-4e6a-afab-36abe8899c94",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8c6bf341-2e1d-4508-a96a-fe6e032cb7ea",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-006"
+}

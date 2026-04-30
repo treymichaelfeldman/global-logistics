@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Walkthrough: How to manage opportunities",
+  "contentBody" : {
+    "externalLink" : "/lightning/app/c__SDO_Sales_App/page/home?0.promptId=SDO_Sales_SalesHowtoManageOpportunities",
+    "time" : 10.0
+  },
+  "urlName" : "walkthrough-how-to-manage-opportunities"
+}

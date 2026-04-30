@@ -1,0 +1,79 @@
+{
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "3388f57d-2a19-4efa-bc6a-045b574656f2",
+  "label" : "Marketing Analytics",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "0f9b6999-e4c0-4809-8216-3e673d581e28",
+          "columns" : [ {
+            "UUID" : "a35a7394-0540-4bb3-aef1-7cb25d21701c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "0f9b6999-e4c0-4809-8216-3e673d581e28",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "customQueryParameters" : "",
+            "debugMode" : false,
+            "forceRefresh" : false,
+            "height" : "700",
+            "showTabs" : false,
+            "showToolbar" : false,
+            "siteId" : "",
+            "uafDefinitionNamesStr" : "",
+            "useJwt" : false,
+            "vizUrl" : "https://public.tableau.com/views/DigitalMarketingCampaignAnalytics/Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+          },
+          "componentName" : "tableau:tableauViz",
+          "id" : "ce215b63-743a-452a-97eb-fbb23a38ecf9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a35a7394-0540-4bb3-aef1-7cb25d21701c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5445fca8-fee5-4e0f-bdfa-53db6c1a1f41",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Marketing Analytics"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3d0c1a66-a240-43f6-842a-aa46b07db67e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c75ec44a-e612-4d24-90fc-9ae1fce36bee",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-marketing-analytics"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "9d6f935c-91b3-44a0-a2dd-01df51486c97",
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "configurationTags" : [ ],
+  "devName" : "Cobranded_Assets__c",
+  "id" : "a45afe1a-0159-4b8f-a46a-b57b24937658",
+  "label" : "Cobranded Assets",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-cobranded-assets",
+  "type" : "route",
+  "urlPrefix" : "cobranded-assets"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "940feefa-294e-4c7e-b71f-09e89b92f496",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "7ceeb7e4-bd21-4dff-9632-90d939454df7",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Community_Home_Message_Notification_Component",
+  "id" : "f8662201-62d4-4e8b-b59e-7c58fea17ee1",
+  "type" : "experienceVariation"
+}

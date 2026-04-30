@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "9e7e2892-bb70-4510-ac93-27f3aab26f0b",
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "configurationTags" : [ ],
+  "devName" : "Post_Chat_Survey__c",
+  "id" : "50f111df-c162-4c0b-9cbf-381a4e7e1190",
+  "label" : "Post Chat Survey",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-post-chat-survey",
+  "type" : "route",
+  "urlPrefix" : "post-chat-survey"
+}

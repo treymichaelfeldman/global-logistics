@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "ff9b8ef8-f993-452a-950c-9460f5e69fb5",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "f71a9c64-4dd9-478e-9653-1b386b6a5726",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Support_Tab_Layout_New_Component",
+  "id" : "97eaa38f-046b-4d87-b9cd-eeb47fa94bf5",
+  "type" : "experienceVariation"
+}

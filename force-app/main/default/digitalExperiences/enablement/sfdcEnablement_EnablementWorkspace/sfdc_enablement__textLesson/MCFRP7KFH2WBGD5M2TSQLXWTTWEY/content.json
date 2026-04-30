@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_enablement__textLesson",
+  "title" : "Lesson - Pitch Script",
+  "contentBody" : {
+    "sections" : [ {
+      "content" : "<div><em style=\"font-size: inherit; font-family: inherit;\">Hi [prospect’s name], this is [your name] from [your company name].</em></div><div><br /></div><div><em style=\"font-size: inherit; font-family: inherit;\">I’ve been doing some research on [prospect’s company name] and I’d love to learn more about how you&#39;re handling some of the challenges our Product A solutions can solve for.</em></div><div><br /></div><div><em style=\"font-size: inherit; font-family: inherit;\">At [your company name] we work with people like you to help with [value proposition 1, value proposition 2, and value proposition 3.]</em></div><div><br /></div><div><em style=\"font-size: inherit; font-family: inherit;\">Is this something you think could help with [common buyer persona challenges]?</em></div><div><br /></div>",
+      "sectionTime" : 1.0
+    } ],
+    "totalTime" : 1
+  },
+  "urlName" : "lesson---pitch-script"
+}

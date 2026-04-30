@@ -1,0 +1,30 @@
+{
+  "forgotPasswordRouteId" : "9ff5d0e9-6afc-4a97-a5d4-cc27559396f6",
+  "isAvailableToGuests" : true,
+  "isFilteredComponentsView" : true,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "6f0c470c-3ec3-4269-a2d6-e2a0fbfc2b91",
+  "mainAppPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "ed732e13-9a83-47cd-b8d3-ecf3d0191194",
+  "trustedSitesForScript" : [ {
+    "id" : "4086662e-4ea2-4613-aa6d-8808fd16a310",
+    "isActive" : true,
+    "trustedSiteName" : "Unsplash Images",
+    "trustedSiteUrl" : "https://images.unsplash.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "0653191d-4cac-45b9-ab74-ea5a60ad2593",
+    "isActive" : true,
+    "trustedSiteName" : "Salesforce Live Agent",
+    "trustedSiteUrl" : "https://*.salesforceliveagent.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "97e0fdd8-1437-49cb-bb36-6fdea3f3c021",
+    "isActive" : true,
+    "trustedSiteName" : "MySite",
+    "trustedSiteUrl" : "https://*.my.site.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

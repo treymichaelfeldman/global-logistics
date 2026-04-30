@@ -1,0 +1,15 @@
+{
+  "type" : "sfdc_cms__styles",
+  "title" : "theme2.css",
+  "contentBody" : {
+    "sfdc_cms:media" : {
+      "source" : {
+        "type" : "file",
+        "ref" : "0sNKX000000RinP",
+        "size" : 30249,
+        "mimeType" : "text/css"
+      }
+    }
+  },
+  "urlName" : "theme2-css"
+}

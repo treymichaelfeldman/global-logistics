@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "f79aa125-0ca1-4b25-88ed-b3d4fb01cdce",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "SDO_SCH_Lobby_Self_Checkin__c",
+  "id" : "8fb9c1a7-4f42-4b57-8ba1-5e799a47ce42",
+  "label" : "Self Check-In",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-lobby-self-check-in",
+  "type" : "route",
+  "urlPrefix" : "lobby-self-check-in"
+}

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Product Registration",
+  "contentBody" : {
+    "activeViewId" : "Product_Registration",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-product-registration",
+    "urlPrefix" : "product-registration"
+  },
+  "urlName" : "product-registration"
+}

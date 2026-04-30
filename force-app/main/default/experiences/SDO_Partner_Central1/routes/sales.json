@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "e0108df3-c2a6-4d57-8e1e-b067ce894772",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Sales__c",
+  "id" : "9f395fba-23f1-42b3-bca0-b6ebb6863cd2",
+  "label" : "Sales",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sales",
+  "type" : "route",
+  "urlPrefix" : "sales"
+}

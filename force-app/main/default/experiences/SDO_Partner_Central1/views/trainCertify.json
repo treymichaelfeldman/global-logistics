@@ -1,0 +1,105 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "6db68a19-efe4-4f9c-b6a7-7384f2573bb0",
+  "label" : "Train + Certify",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "49126fd2-4aae-4dd7-a92e-582de11d1fc0",
+          "columns" : [ {
+            "UUID" : "0bff1ece-50d7-4fc7-8b32-7f1ac6f4b58a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b215c213-df2e-4311-9408-bb6a4956908f",
+            "columnKey" : "15488",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "49126fd2-4aae-4dd7-a92e-582de11d1fc0",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All",
+            "layout" : "STANDARD",
+            "pageSize" : 25,
+            "scope" : "SDO_ChannelPartner_Certification__c",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "76b23efb-a9a7-477b-9a9f-13f61b4c62f7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0bff1ece-50d7-4fc7-8b32-7f1ac6f4b58a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 16px;\">CERTIFIED PARTNER&nbsp;EXPERTISE!</strong></p>\n<p style=\"text-align: center;\">Certifications are the hallmark of our top&nbsp;ecosystem partners. Your partner tier is determined by sales success&nbsp;and&nbsp;the number of certified individuals at your company. Access the best training courses and certification content here!<a href=\"https://trailhead.salesforce.com/\" rel=\"noopener noreferrer\" target=\"_blank\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.course.1}\"></a></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d78e1f98-5b6a-4e58-bd9e-7f34912b9f49",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b215c213-df2e-4311-9408-bb6a4956908f",
+        "regionLabel" : "Column 2",
+        "regionName" : "15488",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "791ee92b-2a14-4f0c-8f7c-d7220aa65936",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Train + Certify"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f4c6b7ad-ab7e-4521-ba07-13e277f671d6",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c51d696f-193b-4ea2-a846-31afff960f52",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-train-certify"
+}

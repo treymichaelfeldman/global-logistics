@@ -1,0 +1,33 @@
+<template>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="brand">
+                <img src={logoUrl} alt="Global Logistics Logo" class="footer-logo" />
+                <p>Delivering excellence, worldwide.</p>
+            </div>
+            <div class="links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="javascript:void(0);">About Us</a></li>
+                    <li><a href="javascript:void(0);">Careers</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="javascript:void(0);">Help Center</a></li>
+                    <li><a href="javascript:void(0);">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="chat-cta">
+                <h4>Need help now?</h4>
+                <button class="btn-chat" onclick={handleChatClick}>
+                    <img src={chatIconUrl} alt="Chat Icon" /> Chat With Us
+                </button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Global Logistics. All rights reserved.</p>
+        </div>
+    </footer>
+</template>

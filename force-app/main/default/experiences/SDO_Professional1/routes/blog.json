@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "57f88833-257a-4a38-8a0a-87b3f11eb972",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Blog__c",
+  "id" : "89dfefa4-2433-458b-b258-e33f80511b77",
+  "label" : "Blog",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-blog",
+  "type" : "route",
+  "urlPrefix" : "learning/blog"
+}

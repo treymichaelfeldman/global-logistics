@@ -1,0 +1,48 @@
+{
+  "forgotPasswordRouteId" : "9ff5d0e9-6afc-4a97-a5d4-cc27559396f6",
+  "isAvailableToGuests" : true,
+  "isFilteredComponentsView" : true,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "6f0c470c-3ec3-4269-a2d6-e2a0fbfc2b91",
+  "mainAppPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "ed732e13-9a83-47cd-b8d3-ecf3d0191194",
+  "trustedSitesForScript" : [ {
+    "id" : "36a61253-b4b5-4a95-803b-a29dbdab3215",
+    "isActive" : true,
+    "trustedSiteName" : "*.salesforceliveagent.com",
+    "trustedSiteUrl" : "https://*.salesforceliveagent.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "61a0f618-e78d-4cc7-bfcb-f74fcde76d9f",
+    "isActive" : true,
+    "trustedSiteName" : "*.my.site.com",
+    "trustedSiteUrl" : "https://*.my.site.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "4086662e-4ea2-4613-aa6d-8808fd16a310",
+    "isActive" : true,
+    "trustedSiteName" : "Unsplash Images",
+    "trustedSiteUrl" : "https://images.unsplash.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "34c55819-1e10-4fa7-b691-903823c9b6b7",
+    "isActive" : true,
+    "trustedSiteName" : "Amazon AWS",
+    "trustedSiteUrl" : "https://*.amazonaws.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "42cba740-7b92-4dce-bb3a-889d71396ee7",
+    "isActive" : true,
+    "trustedSiteName" : "Renewable Energy",
+    "trustedSiteUrl" : "https://www.renewableenergyhub.co.uk",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "74d2a10a-a21d-4f8a-98fe-db51010bf028",
+    "isActive" : true,
+    "trustedSiteName" : "lh3 image",
+    "trustedSiteUrl" : "https://lh3.googleusercontent.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

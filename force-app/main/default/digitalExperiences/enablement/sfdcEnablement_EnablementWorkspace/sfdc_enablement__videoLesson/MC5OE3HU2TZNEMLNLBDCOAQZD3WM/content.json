@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__videoLesson",
+  "title" : "Welcome to the Cirrus Family!",
+  "contentBody" : {
+    "time" : 8.0,
+    "videoUrl" : "https://www.youtube.com/embed/OI0FsSNd1As"
+  },
+  "urlName" : "welcome-to-the-cirrus-family"
+}

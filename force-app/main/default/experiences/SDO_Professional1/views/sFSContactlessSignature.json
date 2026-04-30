@@ -1,0 +1,110 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "3a7d29e0-fddd-4a2c-a479-774c7da867d5",
+  "label" : "SFS Contactless Signature",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "3742e217-5719-48a8-9aea-e3f877d138ca",
+          "columns" : [ {
+            "UUID" : "fec5b122-ada7-45e5-a498-b819277db512",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3742e217-5719-48a8-9aea-e3f877d138ca",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Review and Sign</h1><p>Thank you for choosing our services! Please review the completed work by tapping on the Service Report icon. Once reviewed, you can easily sign off on the service using your own device. Your satisfaction and convenience are our top priorities.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c951a482-d71d-468f-810f-7aa13dbb8738",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "fec5b122-ada7-45e5-a498-b819277db512",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "ff631307-6482-4a41-9fcc-7150fbee01c0",
+          "columns" : [ {
+            "UUID" : "ca4f7cb4-833e-448f-868b-380d0ede371f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ff631307-6482-4a41-9fcc-7150fbee01c0",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "legalText" : "I agree to sign this request digitally, and I acknowledge that such digital signature shall be considered legally binding.",
+            "pageTitle" : ""
+          },
+          "componentName" : "FSAA:tsPreviewAndSignServiceReportLWC",
+          "id" : "57e8e4e0-0ca9-4a1c-825f-92c7e2b35bb6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ca4f7cb4-833e-448f-868b-380d0ede371f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9a93daf7-649b-4fad-b80f-973468d990fe",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SFS Contactless Signature"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "466aca30-4ce9-415d-bc57-3b5215222a4e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fa6025a1-bebb-498d-8b5f-2a8278d5f5ab",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sfs-contactless-signature"
+}

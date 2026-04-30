@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "ce14335c-5ebe-4d8d-a521-5d844ffca6ed",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "SFS_Appointment_Confirmation__c",
+  "id" : "94268b9c-5fd7-4141-84a1-5b0d0a0bb421",
+  "label" : "Appointment Confirmation",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sfs-appointment-confirmation",
+  "type" : "route",
+  "urlPrefix" : "salesforce-field-service/sfs-appointment-confirmation"
+}

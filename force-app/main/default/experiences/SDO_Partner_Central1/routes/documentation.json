@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "9838da64-3bbc-4c06-932a-da8c834d216d",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Documentation__c",
+  "id" : "7f25d225-2584-4def-bb1c-9325dba4e39a",
+  "label" : "Documentation",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-documentation",
+  "type" : "route",
+  "urlPrefix" : "support/documentation"
+}

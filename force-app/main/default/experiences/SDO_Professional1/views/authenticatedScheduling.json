@@ -1,0 +1,154 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "42a87920-ce0c-4b12-b271-dcf2953f9bfa",
+  "label" : "Authenticated Scheduling",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "4f7ba0c7-2a3c-4211-8b42-5b3d5833b5ba",
+          "columns" : [ {
+            "UUID" : "2de198b4-d595-4d7c-bd1e-d232a709bb02",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4f7ba0c7-2a3c-4211-8b42-5b3d5833b5ba",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Service Appointments</h1><p>Easily book your appointments. Quickly, efficiently, and at the time you want.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "1b3dfed3-bb93-4bb9-a9eb-5955af84b374",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2de198b4-d595-4d7c-bd1e-d232a709bb02",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "80f7117d-9a0e-41c7-ba17-aff0a0c246cf",
+          "columns" : [ {
+            "UUID" : "04768ff8-19a0-4b39-9875-fb199b1c679e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "ec5f6d69-535f-491e-9581-942aac886eea",
+            "columnKey" : "188a7",
+            "columnName" : "Column 2",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "80f7117d-9a0e-41c7-ba17-aff0a0c246cf",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><strong>My Appointments</strong></h2>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "cb09c4f0-790c-433f-bcb4-b0884cd4285a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "My_ServiceAppointments",
+            "layout" : "COMPACT",
+            "pageSize" : 4,
+            "scope" : "ServiceAppointment",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "1b919360-8c4f-4804-85f4-3fdd397a47fa",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "04768ff8-19a0-4b39-9875-fb199b1c679e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "[]",
+            "flowName" : "SDO_SCH_Inbound_New_Appointment"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "754978e8-ce68-490b-b186-9526fb2ef8bc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ec5f6d69-535f-491e-9581-942aac886eea",
+        "regionLabel" : "Column 2",
+        "regionName" : "188a7",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "167ae563-9802-45bb-8659-2c221e84c371",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Authenticated Scheduling"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d44358aa-826c-4b57-9c14-bcfb634007a9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4f229ace-62f7-480c-9544-712edfc3609e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-authenticated-scheduling"
+}

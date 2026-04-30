@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "32605814-1e41-462c-9da0-2799a99d3953",
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "configurationTags" : [ ],
+  "devName" : "Partner_Incentive__c",
+  "id" : "945eb540-c8be-4608-99a7-bfb6d55d98fe",
+  "label" : "Partner Incentive",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-partner-incentive",
+  "type" : "route",
+  "urlPrefix" : "partner-incentive"
+}

@@ -1,0 +1,72 @@
+{
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "9b46f863-1b6e-443f-b2ae-a8e141ec5ca6",
+  "label" : "Spiff",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "55781433-97dc-46f8-ab79-0230c46baae6",
+          "columns" : [ {
+            "UUID" : "a1933be2-1559-49a0-997d-dbb4f6bbfc17",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "55781433-97dc-46f8-ab79-0230c46baae6",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "height" : "750",
+            "pageName" : "SDO_PartnerCloud_Spiff",
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:visualforcePage",
+          "id" : "9db369ed-e51e-4b17-8e80-60632809d934",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a1933be2-1559-49a0-997d-dbb4f6bbfc17",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c4309837-52c1-4f54-b478-671efe750c5f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Spiff"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5e25c978-7506-47b0-82a7-a7098a400704",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "49fe67f8-a33d-4000-a7ee-9d9f7333b8b2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-spiff"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Link - Pitch Deck, Product Brochure",
+  "contentBody" : {
+    "externalLink" : "https://www.salesforce.com/content/dam/web/en_ie/www/documents/industries/Net-ZeroCloud-Datasheet.pdf?d=cta-header-2",
+    "time" : 10.0
+  },
+  "urlName" : "link---pitch-deck-product-brochure"
+}

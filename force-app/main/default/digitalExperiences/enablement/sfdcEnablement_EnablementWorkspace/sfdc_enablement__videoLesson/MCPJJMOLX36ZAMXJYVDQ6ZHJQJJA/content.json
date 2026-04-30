@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__videoLesson",
+  "title" : "Discovery Call",
+  "contentBody" : {
+    "time" : 30.0,
+    "videoUrl" : "https://player.vimeo.com/video/875274758?badge=0&amp;autopause=0&amp;quality_selector=1&amp;progress_bar=1&amp;player_id=0&amp;app_id=58479"
+  },
+  "urlName" : "discovery-call"
+}

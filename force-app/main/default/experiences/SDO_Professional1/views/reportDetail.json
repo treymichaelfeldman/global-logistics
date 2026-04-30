@@ -1,0 +1,58 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "df73e0a7-7bb8-4e65-bdda-dc2d469f8808",
+  "label" : "Report Detail",
+  "regions" : [ {
+    "id" : "c1c363e2-5047-4c63-bf98-fdf3b63b98bc",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:reportPage",
+      "id" : "3b8e56c2-8646-4989-9a44-dac9d7c28207",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "93cedc23-5e48-4908-9581-b453f6b42e6e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<!-- Support Center -->\n<h3 class=\"slds-m-bottom_xx-small slds-align_absolute-center\">Have a question or need help?</h3>\n<div class=\"slds-align_absolute-center align-span-vertical-centered\">\n    <i class=\"fa-solid fa-headset\"></i>\n    <span>&nbsp; <a href=\"{!Global.PathPrefix}/support\">Visit the Support Center</a></span>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "13c8c4bb-a3cf-4327-8a68-72c006e2b38f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "13aeffc0-ece9-489e-8252-d1f38df9442d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ffa197ed-4b84-4ef1-b340-81d76c628ba9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7c6f1f46-0394-4889-9dbf-9258d0ae2285",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-00O"
+}

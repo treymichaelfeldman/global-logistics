@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "cc1a1de3-fb1a-4dbf-b5fa-630e79c095bc",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "config/dataProviderDefinition/attributes/dataProviderInfo/apiName" : "Home_Marketing_News"
+      }
+    },
+    "targetId" : "3baf6a0e-6f3b-4fe3-a96b-adadfaf7c79e",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_Flex_CMS_Collection_1_Component_Properties",
+  "id" : "87155b47-d432-4771-8c30-f91015f8a2e9",
+  "type" : "experienceVariation"
+}

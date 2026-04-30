@@ -1,0 +1,199 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "18f4f992-3ae5-49f0-8999-6ea4ae50bdbe",
+  "label" : "Leads",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c5eb875d-4f39-425c-bb59-674e2e5c8849",
+          "columns" : [ {
+            "UUID" : "33f76528-365e-4ac1-9d26-410c4ba1036e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c5eb875d-4f39-425c-bb59-674e2e5c8849",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Sales Leads</h1><p>Welcome to the Leads page, your gateway to discovering and nurturing potential clients. This section allows you to track, qualify, and convert leads into valuable opportunities. Use the available tools to manage your lead pipeline efficiently, ensuring no prospect slips through the cracks. Stay organized, prioritize your follow-ups, and collaborate with your team to maximize your conversion rates. Start transforming your leads into loyal customers today!</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "542822b0-0451-4455-b253-17f9316fc98a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "33f76528-365e-4ac1-9d26-410c4ba1036e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c988dd45-3b0b-4033-ae67-a313f6174db5",
+          "columns" : [ {
+            "UUID" : "382eafd4-0fde-4984-9d98-ce79ff3fe1ed",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c988dd45-3b0b-4033-ae67-a313f6174db5",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "3525a8c1-3d1f-4e6e-8e5f-d77abab0840d",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "000d4870-866a-4412-b423-fa4fa556a610",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Deal Registration"
+              }, {
+                "UUID" : "4e8f5083-2552-4ddb-a283-60c0061fc5f9",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "Rejected Leads"
+              }, {
+                "UUID" : "f81c69ef-0788-438b-b1f2-960410f7c6e1",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "3",
+                "tabName" : "Lead Inbox"
+              } ],
+              "useOverflowMenu" : true
+            }
+          },
+          "componentName" : "forceCommunity:tabLayout",
+          "id" : "3525a8c1-3d1f-4e6e-8e5f-d77abab0840d",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "SDO_Deal_Registrations",
+                "layout" : "STANDARD",
+                "pageSize" : 5,
+                "scope" : "Lead",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "showall",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : true,
+                "showPinnedList" : true,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "e45458c5-b8b6-4463-bf73-85ad0d8f40d0",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "000d4870-866a-4412-b423-fa4fa556a610",
+            "regionLabel" : "Deal Registration",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "My_Rejected_Registrations",
+                "layout" : "STANDARD",
+                "pageSize" : 10,
+                "scope" : "Lead",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "showall",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : true,
+                "showPinnedList" : true,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "33d3ae78-57be-46f3-bb3e-1698a1a4fd25",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "4e8f5083-2552-4ddb-a283-60c0061fc5f9",
+            "regionLabel" : "Rejected Leads",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "listViewIdForNavigation" : "Hot_Leads",
+                "navigateToListView" : true,
+                "pageSize" : 5,
+                "sortBy" : "CreatedDate",
+                "title" : "Lead Inbox"
+              },
+              "componentName" : "forceCommunity:leadInbox",
+              "id" : "6f99a2fa-e108-4c74-8318-a694ceda7019",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "f81c69ef-0788-438b-b1f2-960410f7c6e1",
+            "regionLabel" : "Lead Inbox",
+            "regionName" : "3",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "382eafd4-0fde-4984-9d98-ce79ff3fe1ed",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8bec0897-40bc-4091-974b-ffca6f906fa1",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-00Q"
+}

@@ -1,0 +1,126 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Split Shipment",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"35d73470-1286-41ee-94f7-9386acfb1d99\",\"columns\":[{\"UUID\":\"af5b99ba-8724-4d5f-99ed-8d467ee2999e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : { },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Split Shipment",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "6bc1a459-18d4-42fd-b686-ce1db2e75b4d",
+                  "type" : "component"
+                } ],
+                "id" : "09da1520-d00e-4d46-838a-ca3fd0c9a9ad",
+                "name" : "splitShipmentTitle",
+                "title" : "splitShipmentTitle",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "size" : "standard",
+                    "text" : "Save & Checkout",
+                    "variant" : "primary",
+                    "width" : "stretch"
+                  },
+                  "definition" : "commerce_builder:actionButton",
+                  "id" : "4838e47b-a1e1-4ba0-a1f6-e4cd1b6e7604",
+                  "type" : "component"
+                } ],
+                "id" : "3473abc2-1a3b-4205-a987-2650430cd6d4",
+                "name" : "saveAndCheckoutButton",
+                "title" : "saveAndCheckoutButton",
+                "type" : "region"
+              } ],
+              "definition" : "commerce_builder:splitShipmentHeader",
+              "id" : "5f051d22-7e94-4d87-905a-386e0d4e2417",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "addresses" : "{!SplitShipment.Addresses.items}",
+                "deliveryGroups" : "{!SplitShipment.DeliveryGroups.items}",
+                "dxpStyle" : { },
+                "incrementValueGuideText" : "Sold in increments of {0}",
+                "maximumValueGuideText" : "Maximum quantity is {0}",
+                "minimumValueGuideText" : "Minimum quantity is {0}",
+                "priceTextSize" : "small",
+                "products" : "{!SplitShipment.Cart.items}",
+                "showProductImage" : true,
+                "showProductVariants" : true,
+                "showSku" : false,
+                "skuLabel" : "SKU# {0}",
+                "splitShipPagination" : "{!SplitShipment.Cart.pagination}"
+              },
+              "definition" : "commerce_builder:splitShipmentCartContents",
+              "id" : "7d328eb2-8fb1-4a43-b3c3-9b1a93b01e02",
+              "type" : "component"
+            } ],
+            "id" : "af5b99ba-8724-4d5f-99ed-8d467ee2999e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "35d73470-1286-41ee-94f7-9386acfb1d99",
+          "type" : "component"
+        } ],
+        "id" : "5f3e3dd3-11c6-48ff-9371-767bd3871943",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "d71f8eb7-d62a-4121-b422-fd0e9809b8c0",
+          "type" : "component"
+        } ],
+        "id" : "f202c5a0-d083-4b5c-85bd-953de4ec1514",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "dbab9032-00c3-4252-ba81-5f87ae800511",
+      "type" : "component"
+    },
+    "dataProviders" : [ {
+      "definition" : "sfdc_cms__commerceSplitShipmentDataProvider",
+      "sfdcExpressionKey" : "SplitShipment",
+      "attributes" : { }
+    } ],
+    "themeLayoutType" : "Checkout",
+    "viewType" : "split-shipment"
+  },
+  "urlName" : "split-shipment"
+}

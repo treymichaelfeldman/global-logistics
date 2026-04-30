@@ -1,0 +1,66 @@
+.contact-container {
+    font-family: "Verdana", Geneva, sans-serif;
+    background-color: #C0C0C0;
+    padding: 20px;
+    border: 4px outset #FFFFFF;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.warning-banner {
+    background-color: #FF0000;
+    color: #FFFF00;
+    text-align: center;
+    padding: 10px;
+    border: 3px dashed #FFFF00;
+    margin-bottom: 20px;
+}
+
+.warning-banner h2 {
+    margin: 0 0 10px 0;
+    font-family: "Arial Black", Arial, sans-serif;
+}
+
+.retro-form fieldset {
+    border: 2px groove #FFFFFF;
+    padding: 15px;
+}
+
+.retro-form legend {
+    font-weight: bold;
+    color: #0000FF;
+    background: #C0C0C0;
+    padding: 0 5px;
+}
+
+.retro-input, .retro-textarea, .retro-select {
+    border: 2px inset #FFFFFF;
+    background-color: #FFFFFF;
+    font-family: "Courier New", Courier, monospace;
+    padding: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.submit-btn, .reset-btn {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin: 10px 5px;
+    border: 3px outset #FFFFFF;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: #0000FF;
+    color: #FFFFFF;
+}
+
+.reset-btn {
+    background-color: #808080;
+    color: #000000;
+}
+
+.submit-btn:active, .reset-btn:active {
+    border-style: inset;
+}

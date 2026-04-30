@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "aad77dd6-22cc-4d22-acd5-dca13fc688b9",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Rescheduling__c",
+  "id" : "1df3b4f2-82c9-4f3a-b183-d525258f4019",
+  "label" : "Rescheduling",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-rescheduling",
+  "type" : "route",
+  "urlPrefix" : "salesforce-scheduler/guest/rescheduling"
+}

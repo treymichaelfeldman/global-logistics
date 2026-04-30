@@ -1,0 +1,80 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "ede7a761-a85c-42d0-9dac-886da3407073",
+  "label" : "Register Product",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 95,
+        "sectionConfig" : {
+          "UUID" : "8f180bc6-3c9d-42b4-9e3e-8b30ca7e0e10",
+          "columns" : [ {
+            "UUID" : "e13a077b-dec3-4b7f-a88a-f9bb385dcfe2",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "8f180bc6-3c9d-42b4-9e3e-8b30ca7e0e10",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 20px;\">Register Your Product</span></p><p style=\"text-align: center;\">Please take a moment to register your product with us. Registering provides you with faster support and issue resolution, proactive alerts, and an upgrade notifications.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "421b407a-e146-47b3-90e2-864d3195fbb8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "SDO_Service_Register_New_Product"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "534f8f5b-34ec-4e8c-bf09-9c7527b22021",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e13a077b-dec3-4b7f-a88a-f9bb385dcfe2",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fcaa708a-9a1d-4c31-bd8b-586dda72e0bb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Sample page illustrating how to embed a flow on a community page. Allows a customer to register a new product, creating an asset on their Contact & Account records.",
+        "title" : "Register New Product"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c7aedda4-530a-4431-8818-2fa0a44f76f1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5238c9e0-d019-4094-ae42-e2fc89e29c8d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-register-product"
+}

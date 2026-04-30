@@ -1,0 +1,103 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "dataProviders" : [ ],
+  "id" : "0a3f0be4-c821-4a30-be28-3b889ce31e2f",
+  "label" : "Contact Support",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Contact Support</h1><p>If you need assistance our dedicated support team is here to help<span style=\"font-size: 14px;\">. </span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "0e179926-527c-4427-9dd1-216054d72e88",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "aa1bf34c-ac8b-4491-b53e-8d0c41df7d72",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowAttachments" : true,
+        "attachmentLabel" : "Upload File",
+        "buttonAlignment" : "left",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : 34,
+        "buttonRadius" : 4,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "callToAction" : false,
+        "callToActionButtonText" : "",
+        "callToActionText" : "",
+        "callToActionUrl" : "",
+        "confirmationSubtext" : "We’ll get back to you soon.",
+        "confirmationText" : "Your case was created.",
+        "guestQuickActionName" : "SDO_Community_NewCaseUnauthenticated",
+        "headerSubtitle" : "Briefly describe your issue and what you've tried to fix it. Include relevant details like screenshots or error messages. Providing this information helps the support team to diagnose and resolve your issue efficiently.",
+        "headerTitle" : "Describe the Problem",
+        "quickActionName" : "SDO_Community_New_Case",
+        "requestSummaryText" : "Case summary"
+      },
+      "componentName" : "forceCommunity:contactSupportForm",
+      "id" : "0d3a21e9-cca8-4936-8511-f15dc9abaa57",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bcc0ff50-b6e9-403e-98e9-f38d1a013bdb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "askConfirmationQuestion" : true,
+        "confirmationMessageLabel" : "Got it!",
+        "deflectionSubtitle" : "Explore curated articles for quick solutions on renewable energy, troubleshooting, and installation tips. If you need more assistance, our support team is ready to help. Empower yourself with knowledge and get the answers you need.",
+        "deflectionTitle" : "Need Answers Fast?",
+        "firstQuestion" : "Did this content solve your issue?",
+        "maxResults" : 6,
+        "measureDeflection" : true,
+        "redirectUrl" : "",
+        "secondQuestion" : "Stop creating your case?",
+        "showArticles" : true,
+        "showDiscussions" : false,
+        "topicId" : ""
+      },
+      "componentName" : "forceCommunity:caseDeflection",
+      "id" : "cf93e2e2-6e73-43e2-a367-7844db92abc9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ebef84b6-b7b9-4d1b-a983-daacf498d3c6",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "a6fdf6b5-11f9-4ccf-b023-aa91396d400d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Contact Support"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "21786db1-e206-4269-a616-28a07c01eb4d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c17b42ee-100f-411a-a57a-10242e723ea5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "contactsupport"
+}

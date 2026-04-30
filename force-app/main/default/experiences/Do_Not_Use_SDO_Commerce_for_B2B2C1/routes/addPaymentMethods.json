@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "e89eb9f6-6a10-4d20-8406-ef57be9ee3ad",
+  "appPageId" : "3a241bdb-3c0c-4a4f-b277-1b94130c2d69",
+  "configurationTags" : [ ],
+  "devName" : "AddPaymentMethods",
+  "id" : "ae903d11-4965-438b-8081-fee457d3a58a",
+  "label" : "Add Payment Methods",
+  "routeType" : "add-payment-methods",
+  "type" : "route",
+  "urlPrefix" : "add-payment-methods"
+}

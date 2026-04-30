@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "f47b831a-fd08-4e7a-9f6e-1f1b30da9b69",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "f081b60e-18be-4794-81d6-09be2fc73fa2",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Measure_Rich_Content_Editor_Component",
+  "id" : "3e504199-e695-467a-ab6d-3dd0c4517a8e",
+  "type" : "experienceVariation"
+}

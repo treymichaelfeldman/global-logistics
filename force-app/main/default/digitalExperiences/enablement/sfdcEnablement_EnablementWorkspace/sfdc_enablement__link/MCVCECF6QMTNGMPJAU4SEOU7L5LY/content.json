@@ -1,0 +1,10 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Executive Email Best Practices",
+  "contentBody" : {
+    "description" : "Leaders are busy. Learn how to cut through the noise",
+    "time" : 10.0,
+    "externalLink" : "https://www.salesforce.com"
+  },
+  "urlName" : "executive-email-best-practices"
+}

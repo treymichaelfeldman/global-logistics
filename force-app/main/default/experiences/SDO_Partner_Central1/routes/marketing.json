@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "88cbc214-4ca9-48bc-a7ba-bb0af8c558f6",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Marketing_Home__c",
+  "id" : "a585c861-9c04-4f75-a7f1-a2940e528756",
+  "label" : "Marketing",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-marketing-home",
+  "type" : "route",
+  "urlPrefix" : "marketing"
+}

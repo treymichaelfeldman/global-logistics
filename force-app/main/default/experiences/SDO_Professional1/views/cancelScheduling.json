@@ -1,0 +1,140 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "8e0c4318-0fe6-49c9-b02a-4539a8248fc3",
+  "label" : "Cancel Scheduling",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "29f8d0e4-7865-4b23-bb8a-9b762c6af95e",
+          "columns" : [ {
+            "UUID" : "646fc673-1acd-4679-bd3b-b2b67037b675",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "29f8d0e4-7865-4b23-bb8a-9b762c6af95e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Cancel My Appointment</h1><p>No longer need to meet with us? You can go ahead and cancel your appointment using the form below. If you need assistance, please don't hesitate to contact our support team.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "427f3e9b-215e-4380-ad7a-1db68f045716",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "646fc673-1acd-4679-bd3b-b2b67037b675",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "4643aaff-fe5c-442d-93cd-e9da95f01754",
+          "columns" : [ {
+            "UUID" : "c791b560-6ae7-42e3-91f7-650b2ec61396",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "db6a8e1a-2fcf-4618-9bb9-6599c1f31f4f",
+            "columnKey" : "6d357",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4643aaff-fe5c-442d-93cd-e9da95f01754",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "[]",
+            "flowName" : "SDO_Scheduler_Inbound_Cancel_Appointment"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "abf92db0-9f49-4a4e-9036-d52d907b7fb3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c791b560-6ae7-42e3-91f7-650b2ec61396",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Your Safety is our #1 Priority</h3><p>On the day of your service visit, you will receive a photo of your assigned technician for your security and peace of mind.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "6d4afa66-89d3-4e86-9442-57b4e2961cb9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Need Extra Assistance?</h3><p>Need assistance scheduling your service appointment? No problem. You can text or call us using the \"?\" bubble at the bottom of your screen.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4fb3ef65-5e22-45ba-af15-d9b7d7b6af59",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "db6a8e1a-2fcf-4618-9bb9-6599c1f31f4f",
+        "regionLabel" : "Column 2",
+        "regionName" : "6d357",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a148f00a-78d9-4ffa-b58f-4c9bb3de2d55",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "title" : "Template"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3f65b171-f04a-4281-a8cf-e2e7c16166d8",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "658217dc-712b-4ae5-ab77-2308cfbef214",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-cancel-scheduling"
+}

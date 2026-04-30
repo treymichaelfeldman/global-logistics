@@ -1,0 +1,114 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "4288283c-1c3b-4695-adee-7a77e72b8b9f",
+  "label" : "Too Many Requests (Flex)",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "28150d28-ee74-4c17-b93f-08a5ca32d278",
+          "columns" : [ {
+            "UUID" : "5c3a2779-4876-4e68-aea1-4cd9699ddeaf",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "5",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b7d211b1-2018-4c89-bb84-b02c3dbf3cd7",
+            "columnKey" : "1897a",
+            "columnName" : "Column 2",
+            "columnWidth" : "7",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "28150d28-ee74-4c17-b93f-08a5ca32d278",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.tooManyRequests.1}\" style=\"width: 399.766px; height: 267.234px;\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2bc9a866-751b-42cd-8bbd-3c6992c027c1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5c3a2779-4876-4e68-aea1-4cd9699ddeaf",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><span style=\"font-size: 28px;\">Power Surge Alert!</span></h1><p><span style=\"font-size: 14px;\">Uh-oh! Our energy servers are feeling the buzz from all of these requests. Give them a moment to recharge, and we'll have you back in the energy flow shortly. Thank you for your enthusiasm!</span></p><p><br></p><p><span style=\"font-size: 14px;\">We will redirect you in a moment...</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "07d4826e-780a-404d-8216-b7e4419733be",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b7d211b1-2018-4c89-bb84-b02c3dbf3cd7",
+        "regionLabel" : "Column 2",
+        "regionName" : "1897a",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "73a5a587-6eb9-4653-90a0-50bb74962cf1",
+          "columns" : [ {
+            "UUID" : "9627bd71-5b93-4029-9dcc-304d97d1d76f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 40
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "73a5a587-6eb9-4653-90a0-50bb74962cf1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "forceCommunity:autoRefresh",
+          "id" : "cfc9eee2-bb23-44f3-b20b-1fedfda8fa9c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9627bd71-5b93-4029-9dcc-304d97d1d76f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "325e9f8e-9756-4097-9c5b-147c30592917",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ServiceNotAvailable",
+  "type" : "view",
+  "viewType" : "too-many-requests"
+}

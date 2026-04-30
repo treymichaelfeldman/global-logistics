@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Content for B2B and D2C Sites on Enhanced LWR Sites</description>
+    <digitalExperienceFolderShares/>
+    <label>All Commerce - Enhanced</label>
+</DigitalExperienceBundle>

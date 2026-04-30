@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Deal Reg Walkthrough",
+  "contentBody" : {
+    "externalLink" : "/partnercentral/s/sales?0.promptId=DealRegistrationWalkthrough",
+    "time" : 5.0
+  },
+  "urlName" : "deal-reg-walkthrough"
+}

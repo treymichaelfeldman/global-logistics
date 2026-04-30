@@ -1,0 +1,75 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "bf55911a-bc22-4566-b7b7-4b8837b728cf",
+  "label" : "Group Detail",
+  "regions" : [ {
+    "id" : "56c94ac4-8122-4113-aa88-7b9f65a6125b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "feedTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related"
+      },
+      "componentName" : "forceCommunity:groupRecordHomeTabs",
+      "id" : "d55854e6-210b-49a7-b720-8843030cd100",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "de" : "d279f267-ccf4-4ff4-adaa-e7684439258b",
+        "fr" : "76bb5d03-2db5-43d8-8974-be4429c2333f"
+      },
+      "renditions" : [ {
+        "id" : "d279f267-ccf4-4ff4-adaa-e7684439258b",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "detailsTabLabel" : "Details",
+            "feedTabLabel" : "Feed",
+            "relatedTabLabel" : "Verwandt"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "76bb5d03-2db5-43d8-8974-be4429c2333f",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "detailsTabLabel" : "Détails",
+            "feedTabLabel" : "Fil",
+            "relatedTabLabel" : "Lié"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "9d1b17f9-f91e-4753-b6d4-068554c51722",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b34b25ad-c537-4c4d-be17-9b97620f3872",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "db708c6c-011c-437a-84a7-36b67a049131",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2bd2b6af-d147-49a4-b1f2-c2cfcc8958cc",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0F9"
+}

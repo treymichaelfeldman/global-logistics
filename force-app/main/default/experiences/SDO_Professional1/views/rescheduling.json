@@ -1,0 +1,132 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "aad77dd6-22cc-4d22-acd5-dca13fc688b9",
+  "label" : "Rescheduling",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "0a2957d6-c785-4faa-97a6-8e54faa40cac",
+          "columns" : [ {
+            "UUID" : "74a2d540-7ef0-4e0c-9827-6d44c75d4d23",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "0a2957d6-c785-4faa-97a6-8e54faa40cac",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Modify your Existing Appointment</h1><p>Easily modify your existing appointment using the form below. Select a new date and time that works best for you, and we'll take care of the rest. If you need assistance, please don't hesitate to contact our support team.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "92b71ac7-c49b-4c22-9b9d-fb8c0533e5ec",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "74a2d540-7ef0-4e0c-9827-6d44c75d4d23",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f7e0bcd5-a69b-41fe-9dc2-402015308d55",
+          "columns" : [ {
+            "UUID" : "f6dcfb63-47a7-4ca3-ba9b-d7bff6e08e99",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "e2c7bea0-f44d-4095-a4c1-69b7623bf1e5",
+            "columnKey" : "1d3cd",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f7e0bcd5-a69b-41fe-9dc2-402015308d55",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"isUserModifyingAppointment\",\"dataType\":\"Boolean\",\"supportsRecordId\":false,\"value\":true},{\"label\":\"svcApptToken\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!svcApptToken}\"}]",
+            "flowName" : "SDO_SCH_Modify_Guest_Service_Appointment"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "ff1511ba-0e11-423e-9c49-1f26ae1f246c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f6dcfb63-47a7-4ca3-ba9b-d7bff6e08e99",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Need Extra Assistance?</h3><p>Need assistance scheduling your service appointment? No problem. You can text or call us using the \"?\" bubble at the bottom of your screen.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "496232f0-3cea-4ca5-b780-e3e384a71077",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e2c7bea0-f44d-4095-a4c1-69b7623bf1e5",
+        "regionLabel" : "Column 2",
+        "regionName" : "1d3cd",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "92f0cef8-6ab5-4105-8eeb-69daf0db8ee6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Rescheduling"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "162a8ff6-de06-46b4-af0d-4d6039d8a5c7",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f81c6859-3edf-42dd-8e72-284090b11424",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-rescheduling"
+}

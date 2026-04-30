@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "3388f57d-2a19-4efa-bc6a-045b574656f2",
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "configurationTags" : [ ],
+  "devName" : "Marketing_Analytics__c",
+  "id" : "f98287d0-ad9b-4d81-b6e8-fbe917f71f4d",
+  "label" : "Marketing Analytics",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-marketing-analytics",
+  "type" : "route",
+  "urlPrefix" : "marketing-analytics"
+}

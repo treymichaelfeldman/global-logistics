@@ -1,0 +1,55 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "My Registered Products",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"79864a69-3c4e-4ade-b8b3-88a0d72310c0\",\"columns\":[{\"UUID\":\"3c1a5fff-04dc-4c4c-950a-ba6ea6d1d43e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "3c1a5fff-04dc-4c4c-950a-ba6ea6d1d43e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "79864a69-3c4e-4ade-b8b3-88a0d72310c0",
+          "type" : "component"
+        } ],
+        "id" : "67133a87-7e83-4c76-95d7-8e58b1c543d3",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "My Registered Products",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "8eaba8cd-3f7c-428b-b081-8f754645483e",
+          "type" : "component"
+        } ],
+        "id" : "4b456133-b27e-4b25-a6b1-2246539b66f0",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "2cb19c9d-c835-4f92-bae2-a1cd632b40b2",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "MyAccount",
+    "viewType" : "custom-my-registered-products"
+  },
+  "urlName" : "my-registered-products"
+}

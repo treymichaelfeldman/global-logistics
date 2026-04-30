@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "63cf87bb-74e2-4839-94f2-a93d7a3b7696",
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "configurationTags" : [ ],
+  "devName" : "Community_Home__c",
+  "id" : "db0c75d7-20b4-4a6d-af22-e259b4f05f4f",
+  "label" : "Community Home",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-community-home",
+  "type" : "route",
+  "urlPrefix" : "community-home"
+}

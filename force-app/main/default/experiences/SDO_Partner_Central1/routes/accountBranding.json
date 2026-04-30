@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "995a3bf5-c2ed-4091-8020-9a452b5c02fd",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "Account_Branding__c",
+  "id" : "9e49d52b-c66b-443a-a1af-834c41d843ce",
+  "label" : "Account Branding",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-account-branding",
+  "type" : "route",
+  "urlPrefix" : "comm-my-account/account-settings/account-branding"
+}

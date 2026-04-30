@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "d0efd144-d13e-4c37-83a2-14593b479ccf",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "template__c",
+  "id" : "59c3de89-4645-4cf1-a0ab-92970ff8415c",
+  "label" : "Template",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-template",
+  "type" : "route",
+  "urlPrefix" : "template"
+}

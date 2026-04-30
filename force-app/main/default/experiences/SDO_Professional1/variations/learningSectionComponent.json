@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "1f14573f-6ecd-408c-91e9-e8fcd31c0299",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "27488fe6-9af2-452d-978a-191aff8fd733",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Learning_Section_Component",
+  "id" : "c0d83196-fdaf-4657-ac26-63e341391372",
+  "type" : "experienceVariation"
+}

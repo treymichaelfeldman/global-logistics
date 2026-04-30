@@ -1,0 +1,158 @@
+{
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "6cb3d010-9392-4224-9a24-c1b87f7b0b6b",
+  "label" : "SFS Appointment Assistant",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "85d1c838-3c86-4251-b042-303cbd962998",
+          "columns" : [ {
+            "UUID" : "3f00c109-f88d-4ef1-a262-da2b4b0faaf9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "85d1c838-3c86-4251-b042-303cbd962998",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>Appointment Assistant</h1><p>Welcome to the Appointment Assistant! This powerful tool provides a real-time location map and time estimates for your team members, ensuring efficient field service management. Stay informed with up-to-the-minute details, making it easier to coordinate and complete your service appointments. Maximize your productivity and enhance customer satisfaction with our advanced field service solutions.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b6f41bb2-e1b8-4ba4-b1ab-b7e8a69dd36e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3f00c109-f88d-4ef1-a262-da2b4b0faaf9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c4b0f724-a26a-4da8-8134-be2b9ebdd7d2",
+          "columns" : [ {
+            "UUID" : "f0721c85-ce78-4d93-81e1-ca0cd27f89eb",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "9d3fc833-e07f-4eeb-b6f5-851d250568e0",
+            "columnKey" : "e2f01",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c4b0f724-a26a-4da8-8134-be2b9ebdd7d2",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bShowContactTechBtn" : false,
+            "customerMarkerIconLink" : "",
+            "sContactCenterPhoneNumber" : "",
+            "showETA" : true,
+            "showMap" : true,
+            "showTech" : true,
+            "showTechImage" : true,
+            "teamMemberMarkerIconLink" : "",
+            "unMaskTechLocation" : false
+          },
+          "componentName" : "FSAA:appointmentAssistantMain",
+          "id" : "d4bf0857-811b-402b-b51d-6dc6cc25b4f3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f0721c85-ce78-4d93-81e1-ca0cd27f89eb",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3>Upcoming Events</h3><p>From industry conferences to training workshops, this section keeps you updated on essential events that can enhance your skills, expand your network, and keep you at the forefront of the energy industry. Don’t miss out on these valuable opportunities to learn, grow, and connect.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "253ed2d7-6e09-4650-a1c2-0c2745f4f023",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonsOnBottom" : false,
+            "eventDetailButtonText" : "More Info",
+            "eventLimit" : 3,
+            "hideEventDetailButton" : false,
+            "ownerId" : "",
+            "timezoneLabelsJSON" : "{\"America/Los_Angeles\":\"US Pacific Time\",\"America/Chicago\":\"US Central Time\",\"America/Denver\":\"US Mountain Time\",\"America/Indianapolis\":\"US Eastern Time\",\"GMT\":\"GMT\",\"Asia/Jakarta\":\"Western Indonesian Time\",\"Asia/Makassar\":\"Central Indonesian Time\",\"Asia/Jayapura\":\"Eastern Indonesian Time\",\"Asia/Kolkata\":\"India Standard Time\",\"Asia/Tokyo\":\"Japan Time\",\"Australia/Sydney\":\"Australian Eastern Standard Time\",\"Australia/Darwin\":\"Australian Central Standard Time\",\"Australia/Perth\":\"Australian Western Standard Time\",\"Europe/London\":\"British Time\",\"Europe/Paris\":\"Central European Time\"}",
+            "truncate" : false,
+            "truncateEachLine" : false,
+            "truncateNumberOfLinesToDisplay" : 3,
+            "whatId" : "",
+            "whoId" : ""
+          },
+          "componentName" : "cccalendar:ccUpcomingEvents",
+          "id" : "b39f7338-6d6e-422e-aeb6-e30aa5631e36",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9d3fc833-e07f-4eeb-b6f5-851d250568e0",
+        "regionLabel" : "Column 2",
+        "regionName" : "e2f01",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7d10a84f-e5ed-4c12-9ca7-1ad4b7274b7e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Appointment Assistant"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9e54998c-4269-48eb-a98c-87aab71ff3f4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "83881431-1484-4537-9190-da3eeddd0c7a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sfs-appointment-assistant"
+}

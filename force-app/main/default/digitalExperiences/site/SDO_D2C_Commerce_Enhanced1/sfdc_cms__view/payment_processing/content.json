@@ -1,0 +1,114 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Payment Processing",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"8e6b35ef-5693-45e7-99cc-2cf22b63a378\",\"columns\":[{\"UUID\":\"b43dba5e-5bfe-4f2e-ab6a-6275c9c4906c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
+                  "definition" : "commerce_unified_checkout:processingIndicator",
+                  "id" : "7a3f4f04-a6ea-4261-a616-9f4a1b32f86a",
+                  "type" : "component"
+                } ],
+                "id" : "ebfc0e87-f66e-4ce4-a4ae-a672e36ff634",
+                "name" : "processingIndicator",
+                "title" : "processingIndicator",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : { },
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "small",
+                    "text" : "Payment Processing",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-large\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "c0dd27d4-5831-4244-b8e3-d49c2e58bd0b",
+                  "type" : "component"
+                } ],
+                "id" : "ed50cc05-ec94-4e32-a600-f4c7f9fda8ef",
+                "name" : "paymentProcessingHeader",
+                "title" : "paymentProcessingHeader",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : { },
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "small",
+                    "text" : "This only takes a few seconds. Don’t refresh or leave this page.",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"p\", \"textStyle\": \"body-regular\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "e8f08711-d706-4872-8216-3b9293fce057",
+                  "type" : "component"
+                } ],
+                "id" : "f22e777f-440c-4a89-bb95-e371949cfce6",
+                "name" : "informationalText",
+                "title" : "informationalText",
+                "type" : "region"
+              } ],
+              "definition" : "commerce_builder:paymentProcessing",
+              "id" : "a8043d29-f1a7-457e-a802-f1fbaf7e260e",
+              "type" : "component"
+            } ],
+            "id" : "b43dba5e-5bfe-4f2e-ab6a-6275c9c4906c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8e6b35ef-5693-45e7-99cc-2cf22b63a378",
+          "type" : "component"
+        } ],
+        "id" : "f4cfd9e4-270b-474d-8367-d3dd2b34ffcd",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "b67b8a1a-e173-44dd-ada5-3bfb7e22251c",
+          "type" : "component"
+        } ],
+        "id" : "2d4f5138-19d2-412e-97f4-9fd8907bb97e",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "ce0a18d8-8758-4712-b5c6-cc88066a8039",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "External",
+    "viewType" : "payment-processing"
+  },
+  "urlName" : "payment-processing"
+}

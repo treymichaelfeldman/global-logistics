@@ -1,0 +1,164 @@
+{
+  "appPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "b6272751-ef13-431b-81ff-5871c2098bc4",
+  "label" : "My Feed",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 95,
+        "sectionConfig" : {
+          "UUID" : "678a5df1-2f78-4aad-bb70-405a641322a6",
+          "columns" : [ {
+            "UUID" : "9e05c9bb-8adb-4fc0-a809-329316e50881",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "43888e48-937e-41ed-b970-befadaa439bd",
+            "columnKey" : "0895d",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "678a5df1-2f78-4aad-bb70-405a641322a6",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "8afd52cb-e0e3-44fa-a96f-9ed6e7f39e51",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "7255895b-76a1-4034-91a1-0628d535918f",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "My Feed"
+              }, {
+                "UUID" : "945060f2-f861-4525-80da-61353f8759aa",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "My Bookmarks"
+              } ],
+              "useOverflowMenu" : false
+            }
+          },
+          "componentName" : "forceCommunity:tabset",
+          "id" : "8afd52cb-e0e3-44fa-a96f-9ed6e7f39e51",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "canChangeSorting" : true,
+                "defaultFilter" : "",
+                "defaultSortOrderHomeFeed" : "Relevance",
+                "defaultSortOrderTopicsFeed" : "Relevance",
+                "feedDesign" : "DEFAULT",
+                "hasFeedSearch" : true,
+                "subjectId" : "",
+                "type" : "News"
+              },
+              "componentName" : "forceCommunity:forceCommunityFeed",
+              "id" : "8979f7d9-0d43-4827-8b86-11f2538b5da2",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "7255895b-76a1-4034-91a1-0628d535918f",
+            "regionLabel" : "My Feed",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "canChangeSorting" : true,
+                "defaultFilter" : "",
+                "defaultSortOrderHomeFeed" : "Relevance",
+                "defaultSortOrderTopicsFeed" : "Relevance",
+                "feedDesign" : "DEFAULT",
+                "hasFeedSearch" : true,
+                "subjectId" : "",
+                "type" : "Bookmarks"
+              },
+              "componentName" : "forceCommunity:forceCommunityFeed",
+              "id" : "e5060687-cd62-45cb-9d80-f058e05cc30e",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "945060f2-f861-4525-80da-61353f8759aa",
+            "regionLabel" : "My Bookmarks",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9e05c9bb-8adb-4fc0-a809-329316e50881",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "display" : "KNOWLEDGE_POINTS",
+            "excludeInternalUsers" : false,
+            "knowledgeLabel" : "Knows about",
+            "numberOfUsers" : 5,
+            "showContextUser" : false,
+            "showTooltip" : false,
+            "showUserRank" : false,
+            "title" : "Leaderboard",
+            "tooltipText" : "Earn points and climb to new levels when you contribute in the experience!"
+          },
+          "componentName" : "forceCommunity:reputationLeaderboard42",
+          "id" : "c5ae59a4-3a80-47fc-8898-c6e546bd845c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "43888e48-937e-41ed-b970-befadaa439bd",
+        "regionLabel" : "Column 2",
+        "regionName" : "0895d",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e40ef3cc-8492-4607-8cf9-8210799ad48f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My Feed"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b7c66301-e62b-4224-aade-02fa5f729ae2",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f62761f8-a24b-4426-934f-b4ab49bb280e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-my-feed"
+}

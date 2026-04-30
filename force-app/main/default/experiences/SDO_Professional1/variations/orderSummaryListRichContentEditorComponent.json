@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "a0abcfc7-da74-458e-aa2e-08079ae698b3",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "2aa8754f-e6b5-4beb-8740-44b166ae4cdd",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Order_Summary_List_Rich_Content_Editor_Component",
+  "id" : "c0aaddb6-472c-4f1b-b9ee-13332f8bb62b",
+  "type" : "experienceVariation"
+}

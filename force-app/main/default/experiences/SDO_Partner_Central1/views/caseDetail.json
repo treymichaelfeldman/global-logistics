@@ -1,0 +1,179 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "dataProviders" : [ ],
+  "id" : "cc45c053-d7c8-42e1-814b-4a9a7d340f42",
+  "label" : "Case Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"font-size: 28px;\">Case Detail</span></h1><p><span style=\"font-size: 14px;\">Discover comprehensive details about the case, including its status, priority, and crucial information. Navigate through various sections to gain insights into updates, actions taken, and any additional notes. For further assistance or inquiries, don't hesitate to contact our dedicated support team. We're dedicated to resolving your case efficiently and effectively.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "f4251f16-a7ae-44f1-91c3-49a00bb3fb57",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "5fd37f34-dcfd-45cc-bb98-58c1ab03c403",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><strong style=\"font-size: 18px; color: rgb(68, 68, 68);\">Where is My Case Now?</strong></p><p><br></p><p><span style=\"font-size: 14px;\">Designed to provide real-time insights into your case's progress, this interactive tool offers a visual representation of your case's active process. Expand the chart to access detailed guidance at each stage, empowering you to stay informed and effectively navigate through your case journey.</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "b6fd8990-39bf-4c30-b3da-f059bad7e946",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:pathAssistant",
+      "id" : "a6ef727b-adec-44be-9278-de2889aa2935",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><strong style=\"font-size: 18px; color: rgb(68, 68, 68);\">Case Details</strong></p><p><br></p><p>Review and edit the various details associated with the case, such as case, survey and entitlement information. Additionally, read and post updates to keep stakeholders informed about the latest developments and progress on the case. This section offers a comprehensive view and interactive capabilities to manage the case effectively.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "8c60e5c2-d364-48bd-b3b1-cdae14a87a3e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "07698aa9-7280-4d16-ba50-68ce543edf90",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "9a1bac21-8c49-46ba-ac1d-44e08cecec3c",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "2a2f1215-958f-423f-a2bd-4722030bcf0e",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Details"
+          }, {
+            "UUID" : "7ff8def0-198b-4c2b-9710-4ef353e9bbb5",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Related"
+          } ],
+          "useOverflowMenu" : true
+        }
+      },
+      "componentName" : "forceCommunity:tabLayout",
+      "id" : "9a1bac21-8c49-46ba-ac1d-44e08cecec3c",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:recordDetail",
+          "id" : "a78c6e2a-d3bc-48c4-95eb-3f2713f9c57d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2a2f1215-958f-423f-a2bd-4722030bcf0e",
+        "regionLabel" : "Details",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}",
+            "width" : "MEDIUM"
+          },
+          "componentName" : "forceCommunity:relatedRecords",
+          "id" : "cd9bdb6a-a61f-474b-8346-5f0f82044f79",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7ff8def0-198b-4c2b-9710-4ef353e9bbb5",
+        "regionLabel" : "Related",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eac734d5-6990-4598-9868-79d3b9798ff3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "97a6f827-b7d1-483b-b8da-f3a312f88ec9",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f1806ded-458f-44a3-b0e0-b88e23cb2488",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fedf277f-cdaa-44e1-8145-c3c2fcbf2853",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "context" : "RECORD",
+        "recordId" : "{!recordId}",
+        "width" : "MEDIUM"
+      },
+      "componentName" : "forceCommunity:feedPublisher",
+      "id" : "41203bd9-61bf-4019-8095-3351cf790c35",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "canChangeSorting" : true,
+        "defaultFilter" : "",
+        "defaultSortOrderHomeFeed" : "Relevance",
+        "defaultSortOrderTopicsFeed" : "Relevance",
+        "feedDesign" : "DEFAULT",
+        "hasFeedSearch" : true,
+        "subjectId" : "{!recordId}",
+        "type" : "Record"
+      },
+      "componentName" : "forceCommunity:forceCommunityFeed",
+      "id" : "1ba98761-b9ca-4b9f-a9f2-83d5d696b757",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "360b0499-4dc4-46de-bca0-217205fbca53",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-500"
+}

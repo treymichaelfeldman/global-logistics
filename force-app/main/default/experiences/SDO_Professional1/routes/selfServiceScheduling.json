@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "fcfbc76d-4787-40d1-b63a-ad04acaa811c",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "SFS_Self_Service_Scheduling__c",
+  "id" : "2c26d928-a009-4483-80e6-8c26b6af58a1",
+  "label" : "Self-Service Scheduling",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sfs-self-service-scheduling",
+  "type" : "route",
+  "urlPrefix" : "salesforce-field-service/sfs-self-service-scheduling"
+}

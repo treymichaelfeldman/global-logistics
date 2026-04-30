@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_enablement__textLesson",
+  "title" : "Solar Panel Comparison Cheat Sheet",
+  "contentBody" : {
+    "sections" : [ {
+      "content" : "<div>| Criteria       | Monocrystalline Panels | Polycrystalline Panels | Tandem Solar Cells |</div><div>|-----------------------|------------------------|------------------------|---------------------|</div><div>| Energy Efficiency (%) | 22           | 19           | 25         |</div><div>| Installation Costs ($) | 4,500         | 3,800         | 6,000        |</div><div>| Price per Watt ($)  | 3.00          | 2.50          | 3.50        |</div><div>| Upkeep Costs (%)   | 0.5          | 0.8          | 0.3         |</div><div>| Return on Investment (%) | 12         | 10           | 15         |</div><div>| Lifespan (years)    | 25          | 20           | 30         |</div><div>| Warranty Period (years)| 10          | 5           | 15         |</div><div><br /></div><div>Notes:</div><div>1. <strong>Energy Efficiency (%): </strong>The percentage of sunlight converted into electricity.</div><div>2. <strong>Installation Costs ($): </strong>The estimated cost of installing a solar panel system per watt.</div><div>3. <strong>Price per Watt ($):</strong>The cost of the solar panels per watt of capacity.</div><div>4. <strong>Upkeep Costs (%):</strong> Annual maintenance costs as a percentage of the initial installation cost.</div><div>5. <strong>Return on Investment (%): </strong>The percentage return on the initial investment over the system&#39;s lifespan.</div><div>6. <strong>Lifespan (years): </strong>The expected operational lifespan of the solar panels.</div><div>7. <strong>Warranty Period (years): </strong>The manufacturer&#39;s warranty period for the solar panels.</div><div><br /></div><div>Please replace the values in this table with accurate and up-to-date information based on your research or specific product details. Additionally, you may want to include additional criteria based on your project&#39;s requirements.</div>",
+      "sectionTime" : 1.0
+    } ],
+    "totalTime" : 1.0
+  },
+  "urlName" : "solar-panel-comparison-cheat-sheet"
+}

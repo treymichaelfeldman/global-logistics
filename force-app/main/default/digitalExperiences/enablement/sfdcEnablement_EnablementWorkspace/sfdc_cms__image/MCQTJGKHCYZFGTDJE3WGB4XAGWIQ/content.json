@@ -1,0 +1,16 @@
+{
+  "type" : "sfdc_cms__image",
+  "title" : "Solar Panel Marketing Image",
+  "contentBody" : {
+    "altText" : "Row of solar panels",
+    "sfdc_cms:media" : {
+      "source" : {
+        "mimeType" : "image/jpeg",
+        "ref" : "0sNKX000000QNBO",
+        "type" : "file",
+        "size" : 2734763
+      }
+    }
+  },
+  "urlName" : "solar-panel-marketing-image"
+}

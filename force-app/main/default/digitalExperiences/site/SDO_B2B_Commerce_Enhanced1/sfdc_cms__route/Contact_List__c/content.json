@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Contact List",
+  "contentBody" : {
+    "activeViewId" : "Contact_List",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "list-003",
+    "urlPrefix" : "contact"
+  },
+  "urlName" : "contact-list"
+}

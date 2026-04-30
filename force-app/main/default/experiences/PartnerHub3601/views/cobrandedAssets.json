@@ -1,0 +1,80 @@
+{
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "9d6f935c-91b3-44a0-a2dd-01df51486c97",
+  "label" : "Cobranded Assets",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f319354b-302a-499b-a0e8-a7e6eb4fcacf",
+          "columns" : [ {
+            "UUID" : "b8495934-c55c-4654-bfe0-d10c5bf8741e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f319354b-302a-499b-a0e8-a7e6eb4fcacf",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bodyField" : "Description",
+            "categoryField" : "Type",
+            "dataFieldsConfig" : "",
+            "highlight" : "__",
+            "highlightColor" : "#007DB8",
+            "listLabel" : "",
+            "listViewName" : "SDO_All_Partner_Campaigns",
+            "showImage" : true,
+            "sortBy" : "StartDate",
+            "sortOrder" : "Ascending",
+            "titleField" : "Name"
+          },
+          "componentName" : "forceCommunity:campaignTileList",
+          "id" : "1745b7df-8156-4b8f-b85f-672526ca9b1b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b8495934-c55c-4654-bfe0-d10c5bf8741e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "526260a9-9440-49b1-95ab-7ff0074f9fbf",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Cobranded Assets"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "14a6d7a5-6141-4e50-abef-350179c4a9d5",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "153b70cb-cd38-4877-94ce-cbc758da43fa",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-cobranded-assets"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "7eea41cb-6568-40d5-b530-e42b961260ed",
+  "appPageId" : "5a281a09-63a1-4755-befc-2f68e2516654",
+  "configurationTags" : [ ],
+  "devName" : "Salesforce_Scheduler__c",
+  "id" : "9b84dcf9-831d-403b-8e9b-3783b48c5098",
+  "label" : "Salesforce Scheduler",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-salesforce-scheduler",
+  "type" : "route",
+  "urlPrefix" : "salesforce-scheduler"
+}

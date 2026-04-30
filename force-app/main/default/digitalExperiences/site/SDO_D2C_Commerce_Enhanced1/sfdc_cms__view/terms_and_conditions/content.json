@@ -1,0 +1,105 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Terms And Conditions",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"436cd23c-8dd8-42e5-b9b3-505b82a24cc2\",\"columns\":[{\"UUID\":\"c5457125-d333-458c-a0d6-7f60016aa320\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "large",
+                "text" : "Terms and Conditions",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "06a7ea66-6204-467f-8880-2067452af763",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "2rem",
+                    "left" : "0rem",
+                    "right" : "0rem",
+                    "top" : "1rem"
+                  }
+                },
+                "imageInfos" : "",
+                "richTextValue" : "<p>Effective Date: [Policy Effective Date]</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "45c2ea63-e972-4bea-8c2c-fa55958132f5",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p>Disclaimer: This is an automatically generated space intended as a starting point to help you add terms and conditions for the use of your site and services. You are responsible for the accuracy and compliance of any such terms with all applicable laws and regulations.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "1871c36c-016d-4f89-9ba1-ef3379625923",
+              "type" : "component"
+            } ],
+            "id" : "c5457125-d333-458c-a0d6-7f60016aa320",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "436cd23c-8dd8-42e5-b9b3-505b82a24cc2",
+          "type" : "component"
+        } ],
+        "id" : "e254d8f7-dbe0-4700-878f-04031d552345",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Terms And Conditions",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "04806e0c-6ccc-4522-9880-4a258136d884",
+          "type" : "component"
+        } ],
+        "id" : "0e116967-ed53-472c-937f-8b0562184b78",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "e78b9476-fa6a-4a66-8bf3-f0fe6fb0e014",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "terms-and-conditions"
+  },
+  "urlName" : "terms-and-conditions"
+}

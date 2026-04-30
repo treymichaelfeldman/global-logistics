@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_enablement__link",
+  "title" : "Joined Account Plan",
+  "contentBody" : {
+    "description" : "Work with Cirrus on a shared partner joined account plan to drive success together.",
+    "externalLink" : "/partnerenhanced/"
+  },
+  "urlName" : "joined-account-plan"
+}

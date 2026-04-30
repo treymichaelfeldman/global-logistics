@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ee4e7fbd-2188-4c7f-a40e-c996d67452bc",
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "configurationTags" : [ ],
+  "devName" : "AccountPlan",
+  "id" : "f522593a-7231-4aa1-9fad-a6a769dc7161",
+  "label" : "Account Plan",
+  "routeType" : "detail-252",
+  "type" : "route",
+  "urlPrefix" : "accountplan"
+}

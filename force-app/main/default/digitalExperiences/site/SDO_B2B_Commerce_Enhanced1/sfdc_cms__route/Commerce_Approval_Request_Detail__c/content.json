@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Commerce Approval Request Detail",
+  "contentBody" : {
+    "activeViewId" : "Commerce_Approval_Request_Detail",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "detail-FSL__Custom_Gantt_Action__c",
+    "urlPrefix" : "sdo-scom-ooa-commerce-approval-requests"
+  },
+  "urlName" : "commerce-approval-request-detail"
+}

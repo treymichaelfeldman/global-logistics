@@ -1,0 +1,43 @@
+{
+  "activeBrandingSetId" : "c987afd8-944f-447a-9889-aaaa3d394d23",
+  "customCSS" : "",
+  "developerName" : "b2c-commerce",
+  "id" : "a7e15fb8-ac78-4dd7-a2a2-e48e9e0dbe1d",
+  "label" : "B2C Commerce",
+  "layouts" : {
+    "Inner" : "424b9068-184b-4990-a3f3-fee07dc47748",
+    "ServiceNotAvailable" : "cf921a8a-44c7-4219-b21e-1eb5ad1b15ea"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "commerce:layoutSite",
+    "id" : "424b9068-184b-4990-a3f3-fee07dc47748",
+    "label" : "Commerce Layout",
+    "regions" : [ {
+      "id" : "e507432f-7c9b-4302-9364-9fb47f39deaf",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "d4c4555f-425e-4825-b3a0-14ee4763dbde",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : { },
+    "componentName" : "community_layout:simpleThemeLayout",
+    "id" : "cf921a8a-44c7-4219-b21e-1eb5ad1b15ea",
+    "label" : "Service Not Available Theme Layout",
+    "regions" : [ {
+      "id" : "1ff86d29-0e4d-4c6f-b569-b2d70db79256",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "c5e8c213-e9d1-42a8-b396-752d80d1754b",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

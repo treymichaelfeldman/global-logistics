@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Product Registration Confirmation",
+  "contentBody" : {
+    "activeViewId" : "Product_Registration_Confirmation",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-product-registration-confirmation",
+    "urlPrefix" : "product-registration-confirmation"
+  },
+  "urlName" : "product-registration-confirmation"
+}

@@ -1,0 +1,52 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Knowledge Related List",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"07c287a2-2a15-4247-8cf0-60346c3582b9\",\"columns\":[{\"UUID\":\"3184b426-544a-48cc-a960-f9bd01e8cb5b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "3184b426-544a-48cc-a960-f9bd01e8cb5b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "07c287a2-2a15-4247-8cf0-60346c3582b9",
+          "type" : "component"
+        } ],
+        "id" : "28ae5397-4a6b-41c3-a750-741e6dd6fc08",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "0b314910-89b7-4698-b88c-d0df7aaa9ca2",
+          "type" : "component"
+        } ],
+        "id" : "06b59b37-aa60-47e0-a62a-c797420990ff",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "d3d40d29-de88-48cd-82e3-19140333ec9e",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "relatedlist-kXX"
+  },
+  "urlName" : "knowledge-related-list"
+}

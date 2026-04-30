@@ -1,0 +1,131 @@
+{
+  "appPageId" : "e0fc7900-a10c-4a56-88d5-3300b25fd224",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "9c795680-8886-439c-83a3-457bb83e4a1f",
+  "label" : "My Account",
+  "regions" : [ {
+    "id" : "9e03a960-7470-4c77-984f-eb72d8817b9e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "afaa4559-b028-40ae-ad3f-e9ac392e6911",
+          "columns" : [ {
+            "UUID" : "50e46152-39ff-494e-b7c4-062b2ce4a9b5",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "270f6d85-f737-413b-a7ec-2475af996261",
+            "columnKey" : "ef6d0",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "afaa4559-b028-40ae-ad3f-e9ac392e6911",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Personal Settings</h2><p>Explore and update your personal preferences and details.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b93c76a0-fc53-4100-9dcc-19e027bf8516",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "rgba(55, 126, 81, 0)",
+            "bannerPosition" : "right",
+            "bannerSizePercent" : 90,
+            "borderRadius" : 0,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgba(255, 255, 255, 0)",
+            "iconSize" : "small",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "icon",
+            "tileMenuEditor" : "SDO_Partner_Personal_Settings",
+            "titleColor" : "rgb(102, 102, 102)",
+            "titleFontSize" : "medium",
+            "titleHorizontalAlign" : "left"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "5415e08e-54fb-4961-baae-eadb0149d726",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "50e46152-39ff-494e-b7c4-062b2ce4a9b5",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Account Settings</h2><p>Manage settings related to your corporate account.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "63f026ab-6a98-4e1d-92ce-a1d7de1546bc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "rgba(55, 126, 81, 0)",
+            "bannerPosition" : "right",
+            "bannerSizePercent" : 90,
+            "borderRadius" : 0,
+            "boxShadow" : false,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgba(255, 255, 255, 0)",
+            "iconSize" : "small",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "icon",
+            "tileMenuEditor" : "SDO_Partner_Account_Settings",
+            "titleColor" : "rgb(102, 102, 102)",
+            "titleFontSize" : "medium",
+            "titleHorizontalAlign" : "left"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "aabf9b7c-0374-401c-aadd-9ecd2a0eb6be",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "270f6d85-f737-413b-a7ec-2475af996261",
+        "regionLabel" : "Column 2",
+        "regionName" : "ef6d0",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "875be091-ce56-4785-a821-890c7687133a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c599c2fc-b68f-436f-8f42-568accde22f1",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "q9ZLQKP7xpnFkg1zPwRJoGxVRU3wz0",
+  "type" : "view",
+  "viewType" : "my-account"
+}

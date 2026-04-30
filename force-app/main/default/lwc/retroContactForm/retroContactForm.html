@@ -1,0 +1,45 @@
+<template>
+    <div class="contact-container">
+        <div class="warning-banner">
+            <h2>⚠️ CALL US FIRST! 1-800-GLOBAL-99 ⚠️</h2>
+            <p>Filling out this form will delay your response by 4-6 weeks.</p>
+        </div>
+
+        <form class="retro-form" onsubmit={handleSubmit}>
+            <fieldset>
+                <legend>Send an Electronic Mail</legend>
+                
+                <table cellpadding="5" width="100%">
+                    <tr>
+                        <td align="right"><b>Name:</b></td>
+                        <td><input type="text" class="retro-input" required /></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><b>Email:</b></td>
+                        <td><input type="email" class="retro-input" required /></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><b>Subject:</b></td>
+                        <td>
+                            <select class="retro-select">
+                                <option>I want to complain</option>
+                                <option>I need a quote</option>
+                                <option>Just saying hi</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" valign="top"><b>Message:</b></td>
+                        <td><textarea rows="5" cols="30" class="retro-textarea" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button type="submit" class="submit-btn">SEND E-MAIL</button>
+                            <button type="reset" class="reset-btn">CLEAR FORM</button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</template>

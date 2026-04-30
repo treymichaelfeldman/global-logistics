@@ -1,0 +1,36 @@
+{
+  "forgotPasswordRouteId" : "5a86b783-dcef-43f0-9f60-c76fbaeb1a8f",
+  "isAvailableToGuests" : true,
+  "isFilteredComponentsView" : true,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "0aa1833f-211a-419b-9aa6-055ab5e53898",
+  "mainAppPageId" : "e4bd7437-87f9-492f-bb9b-cca60c9128dd",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "686b1905-fa56-4023-adaa-1202109f7971",
+  "trustedSitesForScript" : [ {
+    "id" : "fa9e71a2-0a80-4908-8d45-c1868a034380",
+    "isActive" : true,
+    "trustedSiteName" : "salesforceliveagent.com",
+    "trustedSiteUrl" : "https://*.salesforceliveagent.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "fa9e71a2-0a80-4908-8d45-c1868a034381",
+    "isActive" : true,
+    "trustedSiteName" : "force.com",
+    "trustedSiteUrl" : "https://*.force.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "fa9e71a2-0a80-4908-8d45-c1868a034384",
+    "isActive" : true,
+    "trustedSiteName" : "amazonaws.com",
+    "trustedSiteUrl" : "https://*.amazonaws.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "548d8a1b-4d00-4c1e-98af-491cf6d3cb0a",
+    "isActive" : true,
+    "trustedSiteName" : "https://s3.console.aws.amazon.com",
+    "trustedSiteUrl" : "https://s3.console.aws.amazon.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}
