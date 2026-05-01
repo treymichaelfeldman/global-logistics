@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="win-title">&#9632; SERVICE CLOUD CONTACTS &mdash; IDENTITY RESOLUTION TEST DATA</div>
+<div class="win-body">
+
+  <div class="panel" style="background:#cce0ff; border-color:#0066cc;">
+    <div class="panel-label" style="color:#003399;">&#9658; Identity Resolution Test Note</div>
+    <div style="font-size:10px;">
+      This table shows the <strong>salesforce_service_contacts.csv</strong> — 200 Service Cloud records.<br>
+      <strong>~50 records</strong> intentionally share an <strong>email_address</strong> or <strong>phone_number</strong>
+      with the ERP shipments table to trigger Data Cloud Identity Resolution merge rules.
+    </div>
+  </div>
+
+  <div class="searchbar">
+    <label for="q">&#9658; SEARCH:</label>
+    <form method="GET" action="{{ url_for('contacts') }}" style="display:flex; gap:6px; flex:1;">
+      <input type="text" id="q" name="q" value="{{ search }}" placeholder="Email / Last Name..." style="flex:1;">
+      <button type="submit" class="btn btn-primary">[SEARCH]</button>
+      {% if search %}<a href="{{ url_for('contacts') }}" class="btn">[CLEAR]</a>{% endif %}
+    </form>
+  </div>
+
+  <div style="font-size:10px; color:#444; margin-bottom:4px;">
+    &#9658; {{ rows|length }} record(s) returned
+  </div>
+
+  <div class="panel" style="padding:0; overflow-x:auto;">
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>SALESFORCE ID (18-CHAR)</th>
+          <th>LAST NAME</th>
+          <th>FIRST NAME</th>
+          <th>EMAIL</th>
+          <th>PHONE</th>
+          <th>ACCOUNT</th>
+          <th>SOURCE</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+        <tr>
+          <td style="color:#808080;">{{ loop.index }}</td>
+          <td style="font-family:'Courier New'; font-size:10px; color:#006600; font-weight:bold;">{{ row.salesforce_id }}</td>
+          <td>{{ row.last_name }}</td>
+          <td>{{ row.first_name }}</td>
+          <td style="font-size:10px;">{{ row.email_address }}</td>
+          <td style="font-size:10px; white-space:nowrap;">{{ row.phone_number }}</td>
+          <td style="font-size:10px;">{{ row.account_name }}</td>
+          <td><span class="badge badge-delivered">{{ row.source }}</span></td>
+        </tr>
+        {% else %}
+        <tr><td colspan="8" style="text-align:center; padding:12px; color:#808080;">NO RECORDS FOUND</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div style="margin-top:6px;">
+    <a href="{{ url_for('dashboard') }}" class="btn">[ESC] MAIN MENU</a>
+  </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{
+  "_comment": "Trust Policy for the IAM Role assumed by Salesforce Data Cloud. Replace <SALESFORCE_DATA_CLOUD_AWS_ACCOUNT_ID> with the AWS Account ID published by Salesforce for your Data Cloud pod (found in Setup → Data Cloud → Connected Sources). Replace <EXTERNAL_ID> with a value you generate and store in Data Cloud connector settings — this prevents the Confused Deputy attack.",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowSalesforceDataCloudAssumeRole",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::<SALESFORCE_DATA_CLOUD_AWS_ACCOUNT_ID>:root"
+      },
+      "Action": "sts:AssumeRole",
+      "Condition": {
+        "StringEquals": {
+          "sts:ExternalId": "<EXTERNAL_ID>"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="win-title">&#9632; MAIN MENU &mdash; SHIPMENT OPERATIONS CENTER</div>
+<div class="win-body">
+
+  {% with messages = get_flashed_messages() %}
+    {% for msg in messages %}<div class="flash">&#9888; {{ msg }}</div>{% endfor %}
+  {% endwith %}
+
+  <!-- System banner -->
+  <div class="panel" style="background:#000080; color:#00ff00; font-size:11px; padding:8px; border:none;">
+    <pre style="font-family:'Courier New',monospace; line-height:1.4;">
+ ______  __      ______  ______  ______
+/\  ___\/\ \    /\  ___\/\  == \/\  == \
+\ \ \__ \ \ \___\ \  __\ \ \__< \ \  _-/
+ \ \_____\ \_____\ \_____\ \_\ \_\ \_\
+  \/_____/\/_____/\/_____/\/_/ /_/\/_/
+
+  GLOBAL LOGISTICS INC. | ERP SYSTEM v2.1
+  SHIPMENT TRACKING &amp; CUSTOMER OPERATIONS
+    </pre>
+  </div>
+
+  <table style="width:100%; border-collapse:collapse;">
+    <tr style="vertical-align:top;">
+      <td style="width:50%; padding-right:6px;">
+
+        <!-- Shipment Status Summary -->
+        <div class="panel">
+          <div class="panel-label">&#9658; Shipment Status Summary</div>
+          <table class="grid">
+            <tr>
+              <th>STATUS</th>
+              <th style="text-align:right;">COUNT</th>
+              <th style="text-align:right;">PCT</th>
+            </tr>
+            {% for status, count in stats.items() %}
+            <tr>
+              <td>
+                {% if status == 'In Transit' %}<span class="badge badge-transit">{{ status }}</span>
+                {% elif status == 'Delayed' %}<span class="badge badge-delayed">{{ status }}</span>
+                {% elif status == 'Delivered' %}<span class="badge badge-delivered">{{ status }}</span>
+                {% else %}<span class="badge badge-callback">{{ status }}</span>{% endif %}
+              </td>
+              <td style="text-align:right; font-weight:bold;">{{ count }}</td>
+              <td style="text-align:right;">
+                {% if total > 0 %}{{ "%.1f"|format(count / total * 100) }}%{% else %}—{% endif %}
+              </td>
+            </tr>
+            {% endfor %}
+            <tr style="background:#e0e0e0; font-weight:bold;">
+              <td>TOTAL</td>
+              <td style="text-align:right;">{{ total }}</td>
+              <td style="text-align:right;">100.0%</td>
+            </tr>
+          </table>
+        </div>
+
+      </td>
+      <td style="width:50%; padding-left:6px;">
+
+        <!-- Quick Navigation -->
+        <div class="panel">
+          <div class="panel-label">&#9658; System Modules</div>
+          <table style="width:100%; font-size:11px; border-collapse:collapse;">
+            <tr>
+              <td style="padding:4px;">
+                <a href="{{ url_for('shipments') }}" class="btn" style="width:100%; text-align:center; display:block;">
+                  [F1] SHIPMENT INQUIRY
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:4px;">
+                <a href="{{ url_for('contacts') }}" class="btn" style="width:100%; text-align:center; display:block;">
+                  [F2] CUSTOMER CONTACTS
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:4px;">
+                <a href="{{ url_for('api_stats') }}" class="btn" style="width:100%; text-align:center; display:block;">
+                  [F9] API STATUS DUMP
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:4px;">
+                <a href="{{ url_for('logout') }}" class="btn btn-danger" style="width:100%; text-align:center; display:block;">
+                  [ESC] LOG OFF SYSTEM
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- System Info -->
+        <div class="panel">
+          <div class="panel-label">&#9658; System Information</div>
+          <table style="font-size:10px; width:100%;">
+            <tr><td style="color:#666; width:140px;">ERP Version</td><td>glERP v2.1.4903</td></tr>
+            <tr><td style="color:#666;">Database</td><td>global_logistics_iceberg_db (AWS Glue)</td></tr>
+            <tr><td style="color:#666;">Data Connector</td><td>Amazon S3 File Federation (Zero Copy)</td></tr>
+            <tr><td style="color:#666;">DC Integration</td><td>Salesforce Data Cloud — Active</td></tr>
+            <tr><td style="color:#666;">Identity Res.</td><td>Party ID + Contact Point EMR Ruleset</td></tr>
+          </table>
+        </div>
+
+      </td>
+    </tr>
+  </table>
+
+</div>
+{% endblock %}

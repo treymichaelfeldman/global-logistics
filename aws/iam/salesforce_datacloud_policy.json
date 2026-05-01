@@ -1,0 +1,71 @@
+{
+  "_comment": "Attach this identity-based policy to the IAM Role that Salesforce Data Cloud will assume via the Zero-Copy (Amazon S3 File Federation) connector. Replace <BUCKET_NAME> and <AWS_ACCOUNT_ID> with real values.",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowS3BucketList",
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListBucket",
+        "s3:GetBucketLocation"
+      ],
+      "Resource": "arn:aws:s3:::global-logistics-erp-mock-<BUCKET_SUFFIX>"
+    },
+    {
+      "Sid": "AllowS3ObjectRead",
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:GetObjectVersion",
+        "s3:GetObjectAttributes"
+      ],
+      "Resource": "arn:aws:s3:::global-logistics-erp-mock-<BUCKET_SUFFIX>/*"
+    },
+    {
+      "Sid": "AllowGlueCatalogRead",
+      "Effect": "Allow",
+      "Action": [
+        "glue:GetDatabase",
+        "glue:GetDatabases",
+        "glue:GetTable",
+        "glue:GetTables",
+        "glue:GetPartition",
+        "glue:GetPartitions",
+        "glue:BatchGetPartition"
+      ],
+      "Resource": [
+        "arn:aws:glue:*:<AWS_ACCOUNT_ID>:catalog",
+        "arn:aws:glue:*:<AWS_ACCOUNT_ID>:database/global_logistics_iceberg_db",
+        "arn:aws:glue:*:<AWS_ACCOUNT_ID>:table/global_logistics_iceberg_db/*"
+      ]
+    },
+    {
+      "Sid": "AllowAthenaQueryExecution",
+      "Effect": "Allow",
+      "Action": [
+        "athena:StartQueryExecution",
+        "athena:GetQueryExecution",
+        "athena:GetQueryResults",
+        "athena:StopQueryExecution",
+        "athena:GetWorkGroup",
+        "athena:ListWorkGroups"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "AllowAthenaTempS3",
+      "Effect": "Allow",
+      "Action": [
+        "s3:PutObject",
+        "s3:GetObject",
+        "s3:AbortMultipartUpload",
+        "s3:ListMultipartUploadParts",
+        "s3:ListBucket"
+      ],
+      "Resource": [
+        "arn:aws:s3:::global-logistics-erp-mock-<BUCKET_SUFFIX>/athena-tmp/*",
+        "arn:aws:s3:::global-logistics-erp-mock-<BUCKET_SUFFIX>"
+      ]
+    }
+  ]
+}

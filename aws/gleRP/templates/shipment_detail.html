@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="win-title">&#9632; SHIPMENT RECORD DETAIL &mdash; MODULE SHP-002</div>
+<div class="win-body">
+
+  <div style="display:flex; gap:8px; flex-wrap:wrap;">
+
+    <!-- Order Info -->
+    <div class="panel" style="flex:1; min-width:280px;">
+      <div class="panel-label">&#9658; Order Information</div>
+      <table style="font-size:11px; width:100%;">
+        <tr><td style="color:#666; width:130px; padding:2px 0;">Order ID</td><td style="font-family:'Courier New'; font-size:10px;">{{ row.order_id }}</td></tr>
+        <tr><td style="color:#666; padding:2px 0;">ERP Party ID</td><td style="font-weight:bold; color:#000080; font-size:13px;">{{ row.erp_party_id }}</td></tr>
+        <tr><td style="color:#666; padding:2px 0;">Status</td>
+          <td>
+            {% if row.status == 'In Transit' %}<span class="badge badge-transit">{{ row.status }}</span>
+            {% elif row.status == 'Delayed' %}<span class="badge badge-delayed">{{ row.status }}</span>
+            {% elif row.status == 'Delivered' %}<span class="badge badge-delivered">{{ row.status }}</span>
+            {% else %}<span class="badge badge-callback">{{ row.status }}</span>{% endif %}
+          </td>
+        </tr>
+        <tr><td style="color:#666; padding:2px 0;">Quote Amount</td><td style="font-weight:bold; font-size:14px;">${{ "%.2f"|format(row.quote_amount|float) }}</td></tr>
+        <tr><td style="color:#666; padding:2px 0;">Sentiment</td>
+          <td>
+            {% if row.sentiment_flag == 'Positive' %}<span class="sent-pos">&#9650; Positive</span>
+            {% elif row.sentiment_flag == 'Frustrated' %}<span class="sent-fru">&#9660; Frustrated</span>
+            {% else %}<span class="sent-neu">&#9644; Neutral</span>{% endif %}
+          </td>
+        </tr>
+        <tr><td style="color:#666; padding:2px 0;">Last Updated</td><td style="font-size:10px;">{{ row.last_updated[:19] if row.last_updated else '—' }}</td></tr>
+      </table>
+    </div>
+
+    <!-- Customer PII -->
+    <div class="panel" style="flex:1; min-width:280px;">
+      <div class="panel-label">&#9658; Customer PII &mdash; Identity Resolution Mapping</div>
+      <table style="font-size:11px; width:100%;">
+        <tr><td style="color:#666; width:130px; padding:2px 0;">First Name</td><td>{{ row.first_name }}</td></tr>
+        <tr><td style="color:#666; padding:2px 0;">Last Name</td><td>{{ row.last_name }}</td></tr>
+        <tr>
+          <td style="color:#666; padding:2px 0;">Email Address</td>
+          <td>
+            <span style="font-weight:bold;">{{ row.email_address }}</span><br>
+            <span style="font-size:9px; color:#000080;">&#10142; Maps to: Contact Point Email DMO</span>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#666; padding:2px 0;">Phone Number</td>
+          <td>
+            <span style="font-weight:bold;">{{ row.phone_number }}</span><br>
+            <span style="font-size:9px; color:#000080;">&#10142; Maps to: Contact Point Phone DMO</span>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#666; padding:2px 0;">ERP Party ID</td>
+          <td>
+            <span style="font-weight:bold; color:#000080;">{{ row.erp_party_id }}</span><br>
+            <span style="font-size:9px; color:#000080;">&#10142; Maps to: Party Identification DMO (externalSourceId)</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- DC Mapping note -->
+  <div class="panel" style="background:#ffffcc; border-color:#cccc00;">
+    <div class="panel-label" style="color:#666600;">&#9888; DATA CLOUD IDENTITY RESOLUTION NOTE</div>
+    <div style="font-size:10px; line-height:1.6;">
+      This record will be ingested by Salesforce Data Cloud via the <strong>Amazon S3 File Federation (Zero Copy)</strong> connector.<br>
+      &bull; <strong>erp_party_id</strong> &rarr; <em>Party Identification DMO</em> (partyIdentificationType = ERP, sourceSystemId)<br>
+      &bull; <strong>email_address</strong> &rarr; <em>Contact Point Email DMO</em><br>
+      &bull; <strong>phone_number</strong> &rarr; <em>Contact Point Phone DMO</em><br>
+      Match rules evaluate these Contact Point DMOs to merge this ERP Individual with matching Service Cloud Contacts.
+    </div>
+  </div>
+
+  <div style="margin-top:6px; display:flex; gap:6px;">
+    <a href="{{ url_for('shipments') }}" class="btn">[F3] BACK TO LIST</a>
+    <a href="{{ url_for('dashboard') }}" class="btn">[ESC] MAIN MENU</a>
+  </div>
+
+</div>
+{% endblock %}

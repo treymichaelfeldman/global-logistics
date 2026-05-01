@@ -1,0 +1,1001 @@
+order_id,erp_party_id,first_name,last_name,email_address,phone_number,status,quote_amount,sentiment_flag,last_updated
+62e1e21e-d260-44c5-a8b7-24910ba6b390,ERP-AJI0Y6DP,Kevin,Brown,kevin.brown@yahoo.com,+17178161434,Delayed,3608.5,Frustrated,2025-10-01 09:22:44.190972+00:00
+a382ec86-5b8e-4ec2-a653-016481f4f3e5,ERP-QK51FPKH,Donald,Davis,donald_davis@hotmail.com,+12995676635,Delivered,4054.93,Frustrated,2025-11-03 14:27:05.191005+00:00
+23132718-9aa6-4ae2-a0f3-2ef85fe8e431,ERP-9NT3W5UZ,Andrew,Brown,andrew.brown@globallogisticsinc.com,+14962814814,In Transit,1962.62,Neutral,2025-08-27 03:35:35.191021+00:00
+e717a38f-fdd7-46b9-ba1a-cc1c0da70853,ERP-NHJ7XVG0,Betty,Garcia,betty.garcia60@outlook.com,+18559044598,Delivered,4229.97,Positive,2026-02-01 01:43:08.191034+00:00
+45d89b38-7592-474c-b31c-df6e50364ccd,ERP-LJH75LXO,David,Sanchez,davidsanchez@outlook.com,+13424529830,Delivered,3760.37,Neutral,2025-05-17 08:17:09.191047+00:00
+3ed023af-66e2-4473-bc7a-51d70e214f84,ERP-N9ER14FF,Donna,Gonzalez,donnagonzalez@hotmail.com,+15908108668,Delivered,4858.28,Positive,2025-08-09 19:54:02.191058+00:00
+7b59cb71-7196-4b31-8da2-8da3e1254ffa,ERP-YTJXEPQ8,Timothy,Brown,timothybrown@protonmail.com,+13088405889,Delayed,848.91,Positive,2025-10-03 13:13:29.191071+00:00
+c153473d-4a22-4fdd-8421-669ee1349e60,ERP-TALA753L,Stephanie,Robinson,stephanie.robinson@gmail.com,+19496972133,Delayed,729.12,Neutral,2025-09-29 12:03:38.191081+00:00
+cdc40243-748b-415b-8f0a-f705f14036d7,ERP-SV871YZO,Richard,Rodriguez,richardrodriguez84@hotmail.com,+17296622982,Delayed,1201.02,Neutral,2026-04-22 20:32:53.191092+00:00
+1830b636-946e-481a-8d66-48efccd39982,ERP-IHCWI64C,Donna,Moore,donna.moore36@yahoo.com,+17523358744,Delayed,3944.64,Neutral,2026-02-16 01:51:09.191102+00:00
+37f795ec-f38f-43bb-ad01-5abc0604b721,ERP-XMO5BXXC,Robert,Brown,robertbrown@yahoo.com,+13963949786,Pending Callback,786.89,Positive,2026-01-12 20:22:21.191111+00:00
+2a32e374-3294-4a06-8fe7-fe4b4aca9952,ERP-5C34DXTA,Ashley,Davis,ashley.davis@yahoo.com,+16166978886,Delayed,4336.79,Positive,2026-02-26 02:04:20.191121+00:00
+8d71dfca-f150-4ef1-b50a-7c367a57f65a,ERP-9J2QP89U,Anthony,Smith,anthonysmith@yahoo.com,+15034221958,In Transit,3765.08,Positive,2026-04-11 13:14:28.191131+00:00
+3ebef462-f3b4-4d62-b3db-c8048daa20c2,ERP-S4F8CGVY,Donna,Thomas,donna.thomas@protonmail.com,+14527921651,In Transit,2154.2,Frustrated,2025-09-23 12:18:17.191140+00:00
+71da8e3e-a157-4872-a82d-8cf33c453701,ERP-7HZIOYKL,Kimberly,Hernandez,kimberly.hernandez2@protonmail.com,+17763022200,Delayed,2578.84,Positive,2025-05-03 13:59:37.191149+00:00
+bad81995-1bda-45ec-a513-8c783e150c84,ERP-CIKPTK93,Matthew,Lewis,matthewlewis2@icloud.com,+13063375333,In Transit,4459.59,Frustrated,2025-09-28 04:11:00.191159+00:00
+6e2bf2d1-193f-4f9e-8c1f-9e29fd8f6900,ERP-KHMY4SJ6,Patricia,Rodriguez,patricia.rodriguez12@globallogisticsinc.com,+14832451058,Delivered,3878.48,Frustrated,2026-01-19 07:00:05.191168+00:00
+2ee19c83-899f-4f8d-a14b-1cab35bfc3f9,ERP-PZUE8YFB,Richard,White,richard_white@hotmail.com,+13302426050,Delivered,4505.01,Positive,2025-05-16 22:01:00.191177+00:00
+83da87a1-0f99-49a1-9bbe-3271ef175fd8,ERP-YYMU5907,Matthew,Miller,matthew.miller@hotmail.com,+12253836442,Pending Callback,4030.95,Frustrated,2025-06-20 03:52:13.191188+00:00
+d4352507-e8ea-4f29-9c85-76901e9fbd7f,ERP-FZNBQH7M,Jessica,Rodriguez,jessica.rodriguez@icloud.com,+13976086378,Delivered,4335.33,Neutral,2025-12-15 15:40:57.191197+00:00
+75bcc881-25fb-432a-bb5a-7008cc9fd13e,ERP-O9T7E8G8,Carol,Taylor,carol_taylor@protonmail.com,+16445536139,Pending Callback,3070.42,Frustrated,2026-03-17 02:42:17.191208+00:00
+bc638035-aafe-47b4-8912-94a554ff63f0,ERP-UJZA7TZ0,Anthony,Lewis,anthonylewis26@hotmail.com,+12718806409,Delivered,3350.6,Positive,2025-07-25 12:00:20.191218+00:00
+3bf66607-6703-4265-8e19-bb0c075e892b,ERP-LOOKEP7Y,Lisa,Taylor,lisa.taylor79@hotmail.com,+17612005978,Delivered,1129.9,Frustrated,2025-09-07 10:06:21.191227+00:00
+ba12b03d-bcc5-4545-bba7-ed72b183832f,ERP-QPHR62GD,Carol,Hernandez,carolhernandez85@gmail.com,+19694406085,Delayed,4052.16,Positive,2026-04-21 12:56:25.191236+00:00
+7afb0864-d6a1-4d30-8905-9db85c74ebff,ERP-9W1Q5UZN,David,Davis,david_davis@icloud.com,+19042052746,Pending Callback,1172.32,Frustrated,2025-10-11 20:53:07.191248+00:00
+cd10bc46-782d-408d-aadc-e9b19b6293ec,ERP-U7EEQTUL,Ashley,Johnson,ashley_johnson79@globallogisticsinc.com,+17616563607,Pending Callback,2305.34,Positive,2025-06-08 20:30:43.191258+00:00
+a1d17849-57cc-490a-a0e1-caf1cf054460,ERP-1SWJCKJL,Kevin,Rodriguez,kevinrodriguez@yahoo.com,+14365923503,Delayed,414.72,Neutral,2025-12-23 12:33:48.191267+00:00
+b6903bb8-61d4-44f5-ae3b-e7823e4a6657,ERP-OHP6VZ41,Andrew,Anderson,andrew_anderson@outlook.com,+15059717389,Pending Callback,2737.28,Frustrated,2025-09-30 22:16:46.191276+00:00
+d1ea749e-0a46-4d6c-a2f8-84a792ca2bf1,ERP-HHPBMYOF,Joshua,Lewis,joshua_lewis@hotmail.com,+18067771444,In Transit,3249.47,Positive,2025-05-29 08:57:41.191285+00:00
+b51458af-e06e-4a0d-94ee-09f5bcd717f2,ERP-BNHL1N13,Ashley,Garcia,ashley_garcia11@gmail.com,+19677521853,Delivered,1198.69,Positive,2025-07-01 14:58:54.191294+00:00
+4fa0afa3-65b9-445a-a3e8-a6fafd03b486,ERP-18HAFEYU,Carol,Johnson,carol.johnson60@globallogisticsinc.com,+15773712876,Delayed,4827.13,Positive,2025-09-18 06:52:08.191303+00:00
+c395a5f8-329d-4bb0-af62-5fd94aba77a4,ERP-LY8OZCYW,Maria,Robinson,maria.robinson90@globallogisticsinc.com,+19008142983,In Transit,1801.3,Neutral,2025-08-17 02:46:33.191312+00:00
+9738e842-9cd2-4ece-90a4-ec5369ced9c4,ERP-SM43D8W3,Betty,Williams,bettywilliams20@yahoo.com,+19517345425,Pending Callback,2377.88,Frustrated,2025-09-12 22:20:16.191322+00:00
+b646b431-c49c-49e5-a04e-8c137825879a,ERP-43D5IQVN,Karen,Hernandez,karen.hernandez64@yahoo.com,+16994176813,Delivered,1767.66,Frustrated,2025-08-01 17:05:43.191330+00:00
+27f970fe-8bbb-47c7-81a4-0ecc253e0b75,ERP-A8DZR1YX,Karen,Moore,karen_moore@gmail.com,+15014267625,Delayed,1600.41,Frustrated,2025-12-08 17:04:54.191339+00:00
+3fa511a7-31ed-4663-9681-3839ae9d2af3,ERP-TP0LZJJE,Paul,Moore,paul.moore@icloud.com,+17489804033,Delayed,1160.28,Neutral,2026-01-13 15:26:18.191349+00:00
+347a589c-b900-496f-986e-59b0a7a12ebb,ERP-9SKDGIGA,Timothy,Jackson,timothyjackson17@gmail.com,+12557665786,Delayed,3225.56,Neutral,2026-03-22 04:24:55.191358+00:00
+fa21bf52-0a78-40c1-ac8c-c03a9264e206,ERP-KRM8J5EC,James,Jackson,james_jackson@yahoo.com,+13527765978,In Transit,4970.2,Positive,2025-09-26 06:59:02.191367+00:00
+bbf78a40-e739-4159-8e12-701d81d9e82a,ERP-V2ISQP49,Ronald,Wilson,ronald_wilson@protonmail.com,+19573014404,Delayed,1396.77,Positive,2026-03-01 00:43:24.191376+00:00
+6526ad69-4cc5-42a8-843a-e5b88949aa75,ERP-TFOYQBKK,Jessica,Garcia,jessica_garcia@outlook.com,+18408034241,Pending Callback,662.4,Positive,2025-08-22 12:12:30.191385+00:00
+08adca28-c72a-4d64-b7d3-b0107127e58d,ERP-JFC2V37P,Patricia,Robinson,patricia_robinson89@icloud.com,+16124789199,Pending Callback,2245.02,Frustrated,2026-04-15 13:04:20.191394+00:00
+9e39b013-8a50-4a85-9fd4-69a6d92fee39,ERP-LJD84U89,Sandra,White,sandrawhite@globallogisticsinc.com,+19743798708,Pending Callback,4588.76,Positive,2025-09-15 16:56:02.191403+00:00
+c491f5a7-ead7-44d5-93a8-b17f71a0ff31,ERP-38QOLDFO,Sandra,Lee,sandra_lee37@globallogisticsinc.com,+19787631601,Pending Callback,531.49,Neutral,2025-12-26 11:28:17.191412+00:00
+209f5d9d-98dc-42df-a612-afdee5d606cf,ERP-OS9XTOGN,Linda,Harris,linda_harris81@globallogisticsinc.com,+12524085375,Delayed,4645.6,Neutral,2025-05-23 22:30:58.191421+00:00
+195eaef4-98c2-43d4-b59a-84b2c852f9b9,ERP-E9VIFTTD,George,Thomas,george.thomas@icloud.com,+13577105781,Delivered,2135.9,Neutral,2025-10-29 15:11:39.191434+00:00
+70399c60-53ab-4cff-bdc4-7a7b744e1719,ERP-TN7S55J2,Jessica,Anderson,jessica_anderson44@globallogisticsinc.com,+12024895891,Pending Callback,4339.78,Neutral,2025-10-03 20:40:00.191446+00:00
+bd1ecfdf-b0bd-4d05-a7a4-b4a122492823,ERP-L1N759IN,Paul,Lopez,paul_lopez6@icloud.com,+16849227246,Pending Callback,4943.23,Frustrated,2026-03-02 22:52:38.191456+00:00
+984f573e-a8b3-4dd1-bb20-2e5dd5527520,ERP-E8LD4D6A,Dorothy,Johnson,dorothy.johnson@gmail.com,+16804716546,Pending Callback,3284.2,Neutral,2025-06-04 00:12:16.191466+00:00
+fd3d02b0-07ba-4e40-9cfe-6959a047d5da,ERP-T8W5RTWI,Amanda,Ramirez,amandaramirez@icloud.com,+12926442612,In Transit,2274.02,Frustrated,2026-01-04 17:22:31.191475+00:00
+cf8fa0e4-e2ea-438e-b4af-6ec9e88474bf,ERP-LCMPIOYG,Maria,Johnson,maria.johnson11@protonmail.com,+18994469153,Delayed,1237.72,Frustrated,2026-01-22 09:21:40.191485+00:00
+43d83f14-8304-4614-9d11-07004a81c212,ERP-Y6QKTC89,Ashley,Rodriguez,ashley_rodriguez82@icloud.com,+14566675949,Delayed,4996.93,Neutral,2026-03-20 14:31:16.191494+00:00
+b3727910-7dd0-4165-8ed5-208b714e4785,ERP-UU9K9XJU,Jessica,Gonzalez,jessicagonzalez@protonmail.com,+19637085689,Delayed,3074.62,Neutral,2026-02-04 23:19:53.191503+00:00
+18ff457c-b578-4e81-a434-1d452cf5e4fa,ERP-WYZX4W6X,Kevin,Miller,kevin_miller@protonmail.com,+15739493153,In Transit,4557.18,Neutral,2025-07-14 17:34:30.191512+00:00
+dbe88580-f60d-4d17-a689-0265cd447652,ERP-H25NSJF6,Donald,Garcia,donald_garcia38@globallogisticsinc.com,+13176792233,Delayed,3795.34,Positive,2025-05-31 23:30:36.191522+00:00
+4cef680f-d15d-45f6-9191-6222e026a162,ERP-YO4UDOJE,Amanda,White,amanda_white87@protonmail.com,+15908537086,In Transit,3406.7,Neutral,2026-04-21 07:21:18.191531+00:00
+77562100-f237-4a19-85c2-ca153ec55d23,ERP-7LVXWQZX,Michelle,Lewis,michelle.lewis@gmail.com,+15117042902,In Transit,1250.52,Frustrated,2026-03-09 08:07:15.191541+00:00
+e5022f03-5c35-4455-8479-f048dbf11bf6,ERP-N8ZTV05X,Anthony,Anderson,anthony_anderson79@outlook.com,+12339067070,Delayed,2272.58,Positive,2025-06-02 19:13:40.191549+00:00
+9abc9757-154a-4f22-91c4-fd8db8284e57,ERP-9N6XCJ88,Betty,Brown,betty_brown@icloud.com,+18548111349,In Transit,3955.29,Positive,2026-03-13 02:54:21.191559+00:00
+6248e95e-d85c-4054-83cb-59fa0574bec3,ERP-C1HH5LF6,Kenneth,Miller,kenneth.miller@yahoo.com,+17534563858,In Transit,3339.18,Positive,2026-03-10 20:06:23.191568+00:00
+71d8994b-9efa-4c81-98bd-c35f0c4f7cd6,ERP-2ILGB0S0,James,Lopez,james_lopez58@protonmail.com,+18073118405,Delayed,4732.54,Positive,2025-07-22 14:12:20.191577+00:00
+2a99d823-78e0-4159-8b9a-a69df528d537,ERP-KXB94PDZ,Brian,Taylor,brian_taylor@outlook.com,+18223512076,Delayed,1447.58,Frustrated,2025-09-15 16:36:26.191586+00:00
+ff6697e7-4a8f-4d88-9d2b-bc44f1ef5e27,ERP-L9TQVDZ4,Emily,Thompson,emilythompson@hotmail.com,+16624337779,Delivered,4154.35,Neutral,2025-11-20 11:17:49.191595+00:00
+b4a802d5-7ab9-47f4-9caa-a2e1c2a82f1e,ERP-LLJ8YRDD,Timothy,Brown,timothy_brown13@globallogisticsinc.com,+13337691982,Delivered,3383.06,Neutral,2025-12-14 16:49:43.191604+00:00
+3cae7943-a1ae-463f-a00f-273aa9ce9983,ERP-P6BKLDSF,Brian,Harris,brian_harris@outlook.com,+17695762882,Delivered,2913.09,Neutral,2025-06-06 19:11:04.191613+00:00
+d5da4b0d-478d-4ec1-bb4e-926d39d5d82f,ERP-3WXA73JG,Emily,Harris,emilyharris98@outlook.com,+15592063972,Delayed,2874.97,Neutral,2026-04-04 00:01:06.191623+00:00
+4808f41c-46be-491c-87c9-f5d783442258,ERP-WB0HPMNZ,Patricia,White,patriciawhite@gmail.com,+13593611815,In Transit,1433.3,Frustrated,2025-11-17 08:29:51.191633+00:00
+f5b926a5-c450-41b5-8d9d-24d45ad200aa,ERP-PJ1EPKYR,Dorothy,Martin,dorothymartin@yahoo.com,+16048131897,In Transit,1101.67,Positive,2025-07-07 00:23:08.191641+00:00
+009d98b6-884b-4339-b76a-e554446e3974,ERP-JLA0GNZS,William,Harris,williamharris@hotmail.com,+19592438147,In Transit,2352.8,Positive,2025-05-31 05:09:14.191651+00:00
+f35d0afb-a8a3-4a7d-9a46-8f727aad9a15,ERP-POXKO8G8,Daniel,Jackson,daniel_jackson89@gmail.com,+16473084986,Pending Callback,2985.47,Frustrated,2026-03-31 11:33:27.191660+00:00
+af11d54f-50a2-4de9-a54e-6d0ad9b71dc1,ERP-LMLGSES6,Margaret,Ramirez,margaret_ramirez@yahoo.com,+13053495193,Delayed,950.15,Positive,2025-07-09 18:52:53.191669+00:00
+accacb76-3dbf-4737-8a28-cfdfc9a72293,ERP-C8WQUUY5,Ronald,Lee,ronaldlee82@globallogisticsinc.com,+18425233473,Pending Callback,434.6,Neutral,2025-08-28 19:39:56.191678+00:00
+cab7db35-2d18-498b-ab8b-ffbdfc4260ce,ERP-JCSLQC3C,Lisa,Sanchez,lisa.sanchez79@hotmail.com,+17947671672,Pending Callback,4554.34,Frustrated,2025-08-20 21:02:10.191688+00:00
+224977fb-1a61-4201-8036-de07a3a946b8,ERP-VS8Q349D,Joseph,Hernandez,josephhernandez@yahoo.com,+19246488199,Delayed,1883.1,Neutral,2025-12-01 13:37:03.191697+00:00
+1b7ddd7f-2f72-4710-9347-8e90a3d91bdf,ERP-MV2XCDYK,Donald,Harris,donaldharris@outlook.com,+12837963317,Delivered,1620.14,Frustrated,2025-08-02 18:17:47.191707+00:00
+aa83c2ed-a8c3-4da5-9d11-cf2e1b4302ee,ERP-EZDUXLEZ,Brian,Gonzalez,briangonzalez@icloud.com,+18866339331,Delivered,189.33,Neutral,2026-02-20 00:25:46.191716+00:00
+1ba31da4-883c-473a-a1af-270debd3d4ce,ERP-8RIEC4D1,Susan,Hernandez,susanhernandez@icloud.com,+15449843147,Pending Callback,855.84,Positive,2025-06-12 03:54:14.191725+00:00
+22dfe1dc-8614-462f-adcd-226d210b9487,ERP-W6ZBNZ8V,George,Harris,georgeharris@protonmail.com,+14445168684,Delayed,1902.42,Frustrated,2025-11-10 21:56:10.191735+00:00
+4a8eeb56-0edf-4515-9b14-ea816507954e,ERP-KNS832EJ,Ashley,Harris,ashleyharris62@protonmail.com,+13059289452,In Transit,1496.81,Positive,2026-01-15 02:00:08.191745+00:00
+db88f840-98ce-43c9-a49d-e87e8e8f79ad,ERP-S3D6357O,Mark,Lewis,mark_lewis65@yahoo.com,+15952837142,Delayed,238.12,Positive,2025-06-09 02:54:42.191753+00:00
+c6b31a9a-5054-4beb-8209-c0a305adb58e,ERP-MFB7R31Q,Melissa,Lee,melissalee@gmail.com,+14624203449,Pending Callback,644.82,Neutral,2026-01-28 17:38:03.191763+00:00
+6b38b171-ce75-4a51-aed0-209f01520781,ERP-BP2QD6VA,Lisa,Brown,lisabrown@icloud.com,+13474988032,In Transit,3112.57,Positive,2025-09-21 09:37:49.191771+00:00
+9789da47-baf9-4f90-940c-db0cf4ed0f32,ERP-XD9CSS9T,Donald,Garcia,donald_garcia@icloud.com,+15965825155,In Transit,1849.76,Positive,2025-12-18 02:48:34.191780+00:00
+c5a8205e-a4f2-44b0-9b31-939836420bb0,ERP-XDU1EMMX,Jessica,White,jessicawhite60@icloud.com,+13863382033,Pending Callback,281.22,Positive,2026-04-14 00:17:51.191789+00:00
+15371456-9720-491f-a08b-3f057907ae52,ERP-B7S9TJ1G,Joseph,Lewis,joseph_lewis7@outlook.com,+13275768159,Pending Callback,3742.21,Neutral,2025-12-20 08:33:04.191799+00:00
+ceb258a1-a713-4010-aeea-c48d3165d9e3,ERP-YN2JCPP9,Barbara,Thomas,barbara.thomas70@outlook.com,+13052816372,Delivered,1601.83,Frustrated,2025-07-26 07:29:54.191808+00:00
+4338f5c7-3b42-4aec-8d04-262bf5765328,ERP-YMB5M9J9,Sandra,Garcia,sandra.garcia10@outlook.com,+17259673621,In Transit,799.62,Frustrated,2025-08-10 16:21:19.191818+00:00
+8c015bd8-fd68-4cb7-9f94-9c0cb9814862,ERP-EIXN8BFQ,Mark,Johnson,mark_johnson48@globallogisticsinc.com,+12787873255,Delivered,2050.37,Frustrated,2026-01-12 19:01:29.191828+00:00
+7d7c1981-a1f1-47d6-8ffe-e4aafd67f74e,ERP-AGS6E1ZH,Jessica,Brown,jessicabrown37@yahoo.com,+13253382213,Pending Callback,946.02,Frustrated,2025-11-09 03:51:52.191837+00:00
+a3148502-f543-44f4-a616-6a56af9ef6a3,ERP-Y4LMCT64,Jennifer,Sanchez,jennifersanchez@globallogisticsinc.com,+15707204673,In Transit,4927.15,Positive,2026-01-29 02:03:37.191846+00:00
+d0baa04a-7bb2-41ff-af27-a8c9dba8f8e5,ERP-MUQ9E5CO,Dorothy,Smith,dorothysmith93@protonmail.com,+16209877708,In Transit,714.1,Neutral,2025-08-24 13:34:19.191856+00:00
+16e233e0-a1df-435f-8bf6-735a28a7913f,ERP-QSE3TV1E,Michael,Anderson,michaelanderson@protonmail.com,+13565113697,Delayed,1681.04,Frustrated,2026-02-02 11:03:58.191864+00:00
+15cf8768-6d5f-4a9e-8a51-6c19d77df5a1,ERP-64JWTEKT,Matthew,Taylor,matthewtaylor@protonmail.com,+17943573804,Delivered,4228.4,Frustrated,2026-04-15 00:38:34.191874+00:00
+3f13d9ef-018d-483f-828e-fb150f28ac34,ERP-BXUX1OXR,Maria,Williams,mariawilliams70@icloud.com,+15096945012,Pending Callback,1557.43,Positive,2025-08-06 14:15:28.191883+00:00
+a07653c8-ffa2-4d78-8971-06e959a1af5e,ERP-PRHVLZ04,Sarah,Garcia,sarah_garcia17@protonmail.com,+17753086228,Delayed,2385.72,Neutral,2025-11-07 10:03:47.191892+00:00
+db10bb27-5aab-4493-b1c4-07dda6ca5ef9,ERP-DKNWI5FL,Jessica,Jones,jessicajones93@yahoo.com,+19813639163,Pending Callback,2543.92,Neutral,2025-10-19 20:46:28.191901+00:00
+9e3f84a4-b136-42b1-89c5-51d11c2078c7,ERP-8S8HMBR5,Maria,Williams,mariawilliams87@outlook.com,+17492082761,Pending Callback,756.28,Neutral,2025-07-22 11:44:06.191910+00:00
+237da7c8-f875-4633-b39a-7dd02fc6d363,ERP-OBBUNKNQ,Betty,Harris,bettyharris@yahoo.com,+12996037114,Delivered,2833.38,Neutral,2025-07-11 19:48:58.191919+00:00
+214ddde4-917b-4cbc-9172-94087a2f738a,ERP-VOBBZ2SF,Patricia,Miller,patriciamiller18@protonmail.com,+15263667438,Delivered,3009.25,Frustrated,2025-06-13 08:23:06.191928+00:00
+7cb5718a-dce8-48e9-8b7f-2b22d6df6377,ERP-RURALDOL,Steven,Moore,stevenmoore@protonmail.com,+16854714728,In Transit,2959.26,Positive,2025-10-09 10:24:07.191938+00:00
+3dedf12b-0ee1-4f15-aea5-8557fbb8bd9e,ERP-W4FYB8DA,Kevin,White,kevin_white@hotmail.com,+19074087723,Pending Callback,4376.81,Frustrated,2025-07-22 12:43:21.191947+00:00
+ef081429-2d41-45b7-8764-f02c74e3d36c,ERP-EHLXSLG6,Sarah,Thompson,sarah_thompson70@icloud.com,+19909385331,Pending Callback,1042.09,Positive,2026-01-12 16:04:24.191956+00:00
+7bc04281-ce06-4086-992f-9ad0b74628ed,ERP-I9KKHZLM,Emily,Martinez,emilymartinez36@gmail.com,+17878929899,Pending Callback,4489.23,Neutral,2025-06-17 04:46:15.191964+00:00
+52e6c07a-ff4f-491f-8d43-507d87aafab3,ERP-2KKZMPJR,Matthew,Harris,matthew.harris69@protonmail.com,+19124783249,In Transit,3116.82,Frustrated,2026-01-28 02:19:52.191973+00:00
+613d3bbb-f5f0-4d46-b33d-6602c8848b7e,ERP-YTWBOZD1,Jessica,Johnson,jessica.johnson@hotmail.com,+18686878822,Delayed,3803.96,Neutral,2025-12-27 07:06:06.191983+00:00
+4a5a81eb-cab6-427d-a825-3e8cfe950462,ERP-C1XI04B7,Christopher,Lee,christopher_lee@globallogisticsinc.com,+16067074052,Delivered,4396.04,Positive,2026-01-05 03:23:04.191994+00:00
+e357b067-ae3d-44ee-83dc-064f35bc4eee,ERP-D9K9TR74,Kenneth,Martin,kenneth_martin@globallogisticsinc.com,+13155383662,Pending Callback,3276.6,Frustrated,2026-02-17 17:06:01.192004+00:00
+825ebfc2-7150-4f31-8bbc-94728a308478,ERP-MKYGVWOP,James,White,james_white12@icloud.com,+12973893303,Pending Callback,1685.65,Positive,2026-04-28 08:56:25.192012+00:00
+7de4e7de-2833-49d6-a6ba-ed042c1b8e2a,ERP-I18K0AXY,Charles,Gonzalez,charles.gonzalez@hotmail.com,+15143637642,Delivered,3482.42,Frustrated,2025-05-10 05:38:51.192023+00:00
+9b6afca1-9f86-4779-8842-ac990393b06f,ERP-WHEF0VOT,Christopher,Lopez,christopher_lopez@globallogisticsinc.com,+14538962341,Pending Callback,2688.05,Neutral,2026-03-31 16:37:53.192032+00:00
+1de397f0-6873-42b9-b968-204f033b1be6,ERP-CTSUFLSE,Kenneth,Brown,kenneth.brown92@gmail.com,+17226561911,Pending Callback,746.53,Neutral,2025-11-04 14:55:52.192042+00:00
+cc2c5c68-34f1-4e25-b157-0e402630717d,ERP-UYLAJAHC,Kenneth,Johnson,kenneth_johnson@protonmail.com,+12612708734,In Transit,1506.74,Positive,2025-07-06 09:15:45.192051+00:00
+d1cabac8-480e-43e7-b0f8-12ae099d95c8,ERP-X08N6Q7N,William,Harris,william.harris@icloud.com,+15563213924,Pending Callback,2691.33,Frustrated,2026-02-03 12:58:42.192058+00:00
+57e43837-c733-4f9b-b06e-896896500ee4,ERP-AKYTT3IM,James,Harris,james_harris@gmail.com,+18766291256,Delayed,1109.8,Positive,2025-09-12 08:38:27.192065+00:00
+45df4e19-1d1e-4a76-8ab5-1a1588618255,ERP-VZB0OIH5,David,Anderson,david.anderson18@yahoo.com,+19497896224,Delivered,1260.83,Positive,2025-08-17 14:58:33.192073+00:00
+67ec7ce8-239e-4be7-9079-58c2a2f3a103,ERP-OJUV0GYU,Kimberly,Davis,kimberly.davis45@globallogisticsinc.com,+17375267821,Pending Callback,831.17,Neutral,2026-02-18 14:43:31.192080+00:00
+92e5612a-78c5-405e-9f6d-5218d252d654,ERP-R4KZ36U8,Ronald,Moore,ronaldmoore@hotmail.com,+14484614331,Delivered,3268.86,Neutral,2025-06-06 00:44:46.192087+00:00
+23c04076-f910-4704-99ee-b3ecb5e7784d,ERP-T3BNVBC2,Betty,Williams,bettywilliams@hotmail.com,+14135405967,In Transit,1137.86,Positive,2025-07-17 01:33:06.192094+00:00
+d2dadd42-f5ef-4bd0-8d63-25ae85e8d70e,ERP-9RIVH6T1,Linda,White,linda_white60@outlook.com,+14675689401,Pending Callback,2383.42,Frustrated,2025-10-30 16:38:01.192101+00:00
+fb4cc297-ced4-4921-8056-648aaea3dabc,ERP-LHLB50AT,Ronald,Clark,ronaldclark75@outlook.com,+13564006404,Delayed,1961.21,Positive,2025-10-19 02:46:28.192107+00:00
+21d7c80e-a49a-438a-82e8-e9afd0969317,ERP-7M1R00Q0,Emily,Lee,emily_lee@icloud.com,+17597004015,In Transit,2667.33,Positive,2025-06-17 08:19:37.192116+00:00
+f500ad34-b25b-4144-89fb-088e5d2f3282,ERP-1O4IZASN,Brian,Johnson,brianjohnson82@icloud.com,+16992161108,Pending Callback,158.07,Frustrated,2025-07-24 13:16:39.192123+00:00
+f4769f99-18ed-46c2-9568-022e44a312bc,ERP-9A3Y36DD,Karen,Moore,karen.moore@protonmail.com,+17394586807,Delivered,3995.19,Positive,2025-12-07 03:30:32.192130+00:00
+8ff6e2e1-194b-4c83-9327-ad83dd836d99,ERP-U9IY4X41,Margaret,Anderson,margaret.anderson52@hotmail.com,+17656871919,In Transit,3543.94,Positive,2025-10-18 21:35:01.192137+00:00
+b9b98cb6-fd9c-49f7-8f59-2c034a5e5c9c,ERP-2U4DTBH5,Sandra,Lee,sandralee61@gmail.com,+12769005593,In Transit,978.84,Neutral,2026-04-24 22:39:27.192144+00:00
+a02d2a15-793f-4acd-a4d1-57db8017ec0e,ERP-F337KUU4,Susan,Jackson,susanjackson70@hotmail.com,+19739573292,In Transit,2553.88,Neutral,2026-04-10 04:06:52.192152+00:00
+442ccdf5-a9a4-4b5e-8dba-d3432c31e4e2,ERP-ICVWV8LW,Robert,Wilson,robert_wilson@outlook.com,+17665848075,Delayed,3430.5,Frustrated,2025-12-04 10:04:01.192158+00:00
+e8fabf2b-eb86-4bd5-8a17-2b3bdb394d22,ERP-W2ZCFZW0,Jennifer,Harris,jennifer_harris@gmail.com,+12055158286,Delivered,3830.6,Positive,2026-03-10 13:32:48.192165+00:00
+e78c1fa0-e3b0-44e3-8eaa-5e2197712a8b,ERP-PUSDDTV2,Jennifer,Garcia,jennifer_garcia2@hotmail.com,+15979972387,Delayed,2902.61,Positive,2025-08-07 20:59:37.192172+00:00
+36c83748-e594-424a-ab85-99278c27e6f0,ERP-EKRCPPRC,Anthony,Garcia,anthony_garcia32@protonmail.com,+18314008501,In Transit,763.9,Positive,2025-11-28 08:29:06.192179+00:00
+98bec37a-9185-48e7-a78e-0aae22ed0a03,ERP-W2LM349E,Nancy,Clark,nancy_clark@hotmail.com,+15213817524,Delivered,1528.1,Frustrated,2025-08-28 05:31:23.192186+00:00
+4adc4c0d-eeed-41e6-baf5-2ddc1df7d129,ERP-2LK2N7H9,Dorothy,Jackson,dorothy.jackson@icloud.com,+16729254434,Pending Callback,4008.66,Frustrated,2026-04-04 03:59:46.192194+00:00
+7a75a0a3-5036-4b64-9f25-2f03b8dc3d4c,ERP-RWIXZ2C9,Donald,Perez,donald_perez75@protonmail.com,+17189087853,In Transit,3974.53,Neutral,2025-08-01 12:53:46.192201+00:00
+ec53f91e-ba93-4154-8c1f-4bf963d97301,ERP-WD1XMXB9,Andrew,Martin,andrewmartin83@globallogisticsinc.com,+15396402735,In Transit,583.17,Positive,2025-10-14 16:45:14.192208+00:00
+87aa34cc-e81a-4e24-9b9b-550cff2ed4b4,ERP-UYHNQYYF,Deborah,Taylor,deborah.taylor@outlook.com,+16252872901,Delayed,1806.81,Neutral,2025-11-05 04:35:38.192215+00:00
+6c863f6b-6a95-48b3-805a-730be30ea009,ERP-RRPZLK3E,Susan,Taylor,susan_taylor@icloud.com,+13689584996,Delayed,2804.36,Neutral,2025-09-25 14:25:52.192222+00:00
+07ade8f3-eef7-4293-9afc-b78dcb054ee1,ERP-IOGXPBWH,Sandra,Anderson,sandraanderson55@gmail.com,+19214194371,Delivered,3786.39,Positive,2025-09-18 19:19:44.192229+00:00
+25da46a0-a5a6-400e-ab53-74b0988a62d3,ERP-5GLQJ5SX,Robert,Sanchez,robertsanchez50@protonmail.com,+13165566766,Pending Callback,3125.08,Frustrated,2025-07-30 20:18:47.192236+00:00
+a206d407-41fa-4f17-b7a6-add5e2ecb3dc,ERP-WDEEKGYS,Lisa,Robinson,lisa_robinson@protonmail.com,+15926334043,Pending Callback,3213.96,Frustrated,2025-05-09 01:24:00.192243+00:00
+6cf9931c-bfb9-4a2b-8045-fa68ad1d5f0e,ERP-9TRFLQBM,Carol,Robinson,carol.robinson@yahoo.com,+15937759281,Pending Callback,2104.76,Neutral,2025-11-20 14:38:42.192250+00:00
+befd6449-d876-4694-93d6-02c98d1537e3,ERP-PGU2HBIK,Melissa,Clark,melissa_clark73@protonmail.com,+17233152871,Delivered,3898.05,Neutral,2025-10-02 12:23:28.192257+00:00
+4cb0302c-059f-4aa9-8050-1221c142b09c,ERP-1PHP0XI5,Ronald,Johnson,ronald.johnson58@outlook.com,+12896492923,Delayed,1128.4,Frustrated,2025-09-14 16:45:13.192264+00:00
+06f247a9-b26a-4c23-8dd1-8070d4032728,ERP-4VPW232U,George,Lopez,georgelopez@outlook.com,+19204995740,Delivered,4766.75,Frustrated,2025-05-16 10:32:46.192270+00:00
+be9a4ccc-fa79-4599-960f-9faf776d9c71,ERP-D82795E5,Amanda,Clark,amanda.clark19@globallogisticsinc.com,+14539797434,Pending Callback,796.64,Frustrated,2026-01-16 15:58:34.192278+00:00
+9255f6bc-6ae1-4e9c-932a-7572b5cf650e,ERP-NC21O0Z5,Kevin,Wilson,kevin_wilson63@protonmail.com,+12029922526,Pending Callback,3210.72,Frustrated,2025-12-12 21:43:25.192285+00:00
+ba93e478-68e8-412e-ba41-8b56a4e98516,ERP-THPHJ3MU,Michael,Sanchez,michaelsanchez63@icloud.com,+19802491752,In Transit,3168.28,Neutral,2026-04-24 16:50:54.192292+00:00
+1a3cfb6e-766a-40cd-9a71-cebfc0753799,ERP-4PA8HYEX,Linda,Robinson,linda.robinson@icloud.com,+15694562350,Delivered,3356.09,Frustrated,2026-02-25 17:47:45.192299+00:00
+e028fbb2-fced-4025-9289-a64b2095d8e5,ERP-W01PDDHC,Sarah,Gonzalez,sarahgonzalez29@gmail.com,+12089126629,In Transit,4941.96,Neutral,2025-08-04 11:45:49.192306+00:00
+d3b9a2c3-5bbf-469b-96cf-cc20e8170341,ERP-CN0DL5E1,William,Thomas,william.thomas@gmail.com,+17437761138,Delayed,2256.49,Frustrated,2026-02-07 06:46:51.192313+00:00
+70b0b270-1927-4f48-a343-62ca4d123627,ERP-FOY4DD1V,Kevin,White,kevin_white45@outlook.com,+13434535537,In Transit,1316.02,Frustrated,2025-09-10 00:07:22.192320+00:00
+954f4608-05ba-462f-b877-bb38643b15c6,ERP-K7A45HVG,Timothy,Martin,timothy_martin@globallogisticsinc.com,+14457067322,In Transit,1281.3,Frustrated,2025-09-12 08:46:29.192327+00:00
+e57b4624-81a5-4efd-bd3e-91fa6f659420,ERP-5AMLN4PT,Michael,Taylor,michael.taylor98@globallogisticsinc.com,+12742172106,In Transit,1384.71,Positive,2025-05-07 17:32:21.192333+00:00
+8a1551bf-76c5-4f77-8967-e619d0b27ec1,ERP-OKZ1POXT,Sarah,Sanchez,sarah.sanchez@outlook.com,+12807234329,Delayed,2728.31,Neutral,2025-09-15 06:36:40.192341+00:00
+054f8f54-88a3-444a-b70b-06441b01cb33,ERP-4YCZ04CD,Kevin,Harris,kevin_harris15@protonmail.com,+18232566067,Delayed,685.27,Frustrated,2026-03-08 17:41:42.192347+00:00
+5bb12f29-0946-45ce-9ce8-6aaeb6307a2c,ERP-F8S2ZGE2,George,Smith,george_smith@globallogisticsinc.com,+12305438034,Delivered,2666.89,Neutral,2025-07-28 09:16:04.192354+00:00
+0dd29568-6352-4763-be87-473c75e43a5c,ERP-CQMRUNJD,Kenneth,Lee,kennethlee@yahoo.com,+19587211042,In Transit,4307.58,Positive,2026-01-26 01:13:00.192361+00:00
+46994cf3-0fcc-4230-8c9a-83b14bf2e05d,ERP-N7G8B2ZX,David,Thomas,david.thomas@hotmail.com,+19375275444,In Transit,2900.53,Positive,2025-10-18 01:14:27.192368+00:00
+de6be83b-ccb1-4996-b4b4-c93bc21928eb,ERP-BISBO551,Amanda,Lewis,amanda_lewis@protonmail.com,+16672087044,Delayed,1528.82,Neutral,2025-07-17 19:15:13.192374+00:00
+61d6a97c-3e13-4779-aeac-4a7cb28c2571,ERP-QVR1H61I,Michelle,Davis,michelle.davis@yahoo.com,+17545541157,Delivered,107.16,Frustrated,2025-12-05 21:27:57.192381+00:00
+cc012c7c-5a96-4474-94b3-ce548dc7c59c,ERP-LH9P89FK,Deborah,White,deborah.white30@icloud.com,+15816692391,In Transit,2576.6,Frustrated,2025-06-16 13:59:36.192388+00:00
+1d45efb6-9587-49ee-bb9f-a8c2fb837941,ERP-VCXEK47O,Margaret,Williams,margaretwilliams42@hotmail.com,+14784392223,Delayed,766.95,Frustrated,2026-03-19 16:54:04.192395+00:00
+d0299306-4fc3-408c-9167-4402caa728af,ERP-FQOT8HLJ,Patricia,Brown,patricia.brown@globallogisticsinc.com,+19025111660,Delayed,4196.03,Neutral,2026-03-04 10:07:25.192403+00:00
+ef5fbde0-ec07-420a-b72d-390292c47b1e,ERP-IMSYJ9BO,Jennifer,Thompson,jennifer_thompson@gmail.com,+16733043290,In Transit,158.59,Positive,2026-03-11 06:14:50.192410+00:00
+440401be-2dc4-4481-ae1a-de870351ba7a,ERP-OY7DV7C9,Joseph,Clark,joseph.clark83@globallogisticsinc.com,+13312946432,In Transit,309.21,Neutral,2026-04-11 08:37:26.192417+00:00
+66754c7d-4050-4800-ac50-9113f661ffdb,ERP-U3OBYGHG,Richard,Robinson,richard_robinson@gmail.com,+18288345026,Delivered,2544.57,Frustrated,2025-10-26 23:42:35.192424+00:00
+0aa82d7b-5784-4827-a7dd-7ac83a523c06,ERP-KEH5SW22,Sarah,Williams,sarah_williams92@hotmail.com,+17576966636,Delivered,2003.07,Positive,2026-04-20 21:40:37.192432+00:00
+94fecdf4-df66-4adf-8dee-cca17207b05a,ERP-H62C9T19,Daniel,Martin,daniel.martin@icloud.com,+14464729743,In Transit,3843.84,Positive,2025-09-19 10:45:44.192439+00:00
+f033a00c-6db8-45ae-bb28-b1a56d653e9c,ERP-79GIL0MV,Anthony,Lopez,anthonylopez90@protonmail.com,+17773454084,Pending Callback,2756.41,Positive,2025-10-22 13:24:10.192447+00:00
+b521b6dc-e6fe-4989-a936-62dcf8664aee,ERP-CVARLW3M,David,Williams,david.williams@gmail.com,+13518003320,In Transit,4247.76,Neutral,2026-04-02 20:33:29.192454+00:00
+995f2816-ad79-4c27-9290-b0bc6f1a58be,ERP-7ODKEF82,Betty,Thompson,betty_thompson84@yahoo.com,+19247756846,Delayed,3361.11,Positive,2025-12-05 01:48:22.192461+00:00
+35f97c55-da58-4714-9c3b-7055037a90b1,ERP-YE088O98,Lisa,White,lisa.white24@globallogisticsinc.com,+18264262705,Pending Callback,789.15,Frustrated,2026-03-31 19:23:28.192468+00:00
+1c465a76-e4a8-4128-b275-a813248f5944,ERP-9G5DZX5Q,Jessica,Lopez,jessica_lopez@icloud.com,+12695585205,In Transit,3630.03,Positive,2025-12-02 03:24:25.192475+00:00
+a2e2aa30-e9aa-4fa5-b79f-1d8f7f86982a,ERP-PFO5MN32,Mark,White,markwhite@yahoo.com,+16622751547,Delivered,198.38,Neutral,2026-03-21 08:29:36.192482+00:00
+44f6d688-a503-4b9a-bf17-9bdaa3404545,ERP-GN0T6DVW,Michael,Hernandez,michael_hernandez@hotmail.com,+18693688113,Delayed,362.42,Neutral,2026-02-10 04:43:56.192489+00:00
+c5d4979c-3fce-4d02-9dbf-5c432672e001,ERP-ZZ0JKIBU,Joseph,Wilson,joseph_wilson@outlook.com,+12036372435,Delivered,4137.1,Frustrated,2025-09-09 22:11:14.192496+00:00
+4c24a643-35da-457e-b88e-a6269f07c5a6,ERP-DHW9RE2Q,Paul,Miller,paulmiller@icloud.com,+17575964029,Delivered,4438.91,Neutral,2026-02-17 13:31:21.192503+00:00
+6e6cf220-60cb-469b-a3ac-f296da4049ec,ERP-JQIJC1YD,Mark,Johnson,mark_johnson70@globallogisticsinc.com,+18034321999,Pending Callback,4110.19,Neutral,2025-10-05 01:14:44.192513+00:00
+d122d0cc-0607-4060-8aba-91e6b4cc9502,ERP-7UIKO4BU,Amanda,Ramirez,amandaramirez@gmail.com,+19756593832,Delayed,4863.61,Positive,2026-03-13 00:27:46.192531+00:00
+4e7464f7-c743-47a8-bfd4-f22e0dd8c852,ERP-CYH3FVL0,David,Wilson,david.wilson12@protonmail.com,+16067656343,Delivered,2646.47,Positive,2025-06-29 13:25:06.192578+00:00
+e3585913-9277-4909-b0ac-e4ac54098160,ERP-V2EFUU8D,George,Martin,george.martin@globallogisticsinc.com,+14927486633,Pending Callback,1394.27,Frustrated,2025-10-24 10:37:24.192640+00:00
+7932bb07-5727-48d6-8736-f3a662c02dbf,ERP-RGOWYOO5,Kenneth,Martin,kennethmartin@icloud.com,+16864757102,In Transit,1755.54,Neutral,2025-12-31 06:20:38.192674+00:00
+70637b76-be40-46dc-b58d-779cff528b7b,ERP-RZD5E9P3,Karen,Clark,karen_clark94@protonmail.com,+18612914079,Pending Callback,1135.81,Neutral,2025-07-17 06:29:44.192710+00:00
+f36af8bf-e173-4562-8673-6ebd43577c6f,ERP-SNC2CZO2,Dorothy,Harris,dorothyharris@yahoo.com,+13974051944,Delayed,262.05,Positive,2025-05-09 11:55:54.192721+00:00
+368ae58b-ccca-4604-b690-4bee06eb72f9,ERP-HNQO7YIR,Betty,Thompson,betty_thompson23@protonmail.com,+17645586640,Delayed,4204.5,Neutral,2025-07-14 03:46:40.192729+00:00
+9933dacc-e15b-4ab2-9066-c6c70f6b5df1,ERP-KNFU84XY,George,Williams,george_williams84@protonmail.com,+12209991145,Pending Callback,4566.43,Frustrated,2026-02-22 18:15:16.192736+00:00
+0c4007b5-4942-4d62-9a7f-b87971393f3b,ERP-AJ2K8XPN,Joshua,Sanchez,joshua_sanchez59@yahoo.com,+16775099530,Pending Callback,2963.99,Positive,2025-10-14 08:56:53.192769+00:00
+48cc52fe-c28b-4e65-876d-21f00a044cd3,ERP-4UVKYRMJ,Brian,Clark,brian_clark36@icloud.com,+19288675895,Delayed,834.65,Positive,2025-05-16 14:54:38.192868+00:00
+9385f232-fa37-4df4-8bc0-c5cee3195cfc,ERP-43OLFARK,Sarah,Sanchez,sarah_sanchez52@icloud.com,+12367974111,Delivered,3660.09,Positive,2025-08-07 11:39:11.192877+00:00
+770e9755-7a2b-4cb8-bd72-da0aa9e631fe,ERP-26YS445G,Andrew,Lee,andrew.lee@icloud.com,+14649423999,Delivered,3306.73,Positive,2025-12-14 01:07:13.192885+00:00
+2cea600a-8979-4058-add6-85199b9c3379,ERP-5P5NVQEB,Thomas,White,thomaswhite@hotmail.com,+13997122963,Pending Callback,2696.21,Neutral,2026-04-10 00:42:27.192892+00:00
+fc281c98-9b45-4540-82e6-bdab43b5f475,ERP-9M969F5G,Patricia,Jones,patricia.jones63@icloud.com,+13815201950,In Transit,2315.06,Positive,2025-07-09 09:45:57.192900+00:00
+91925f82-3ab9-4622-9301-22d3cc76d854,ERP-UF22EPPP,Stephanie,Garcia,stephanie_garcia@gmail.com,+17464047112,In Transit,4470.83,Frustrated,2026-02-16 00:17:52.192908+00:00
+5f8f940a-fdf9-436f-93c4-753cd852ab7e,ERP-A0I5LDSL,Maria,Perez,maria.perez6@outlook.com,+16669459524,Delivered,2224.96,Frustrated,2026-03-10 01:35:37.192915+00:00
+cf5286ac-8128-4ea8-8bdb-a379364e03c0,ERP-R1F63AI9,Nancy,Lewis,nancy.lewis@protonmail.com,+17163733017,Delivered,3584.44,Positive,2025-12-06 07:33:17.192922+00:00
+1c64a46e-99e5-4ed5-9fe9-f099194a24ac,ERP-1WVBD4BE,Kevin,Rodriguez,kevin_rodriguez@protonmail.com,+14586853508,Delayed,3506.44,Frustrated,2026-04-27 09:52:37.192929+00:00
+036c2b33-56f2-45d4-a0bf-ca256fe8353b,ERP-XXJVE3DZ,Lisa,Wilson,lisa.wilson@globallogisticsinc.com,+13087094254,Delayed,3912.0,Frustrated,2026-02-11 16:52:16.192936+00:00
+9014bf58-1db6-4161-abc0-b5713df3d8ef,ERP-OFT6YRIA,Matthew,Thompson,matthew.thompson15@yahoo.com,+12929989383,In Transit,3645.46,Positive,2025-05-14 15:26:47.192944+00:00
+cde7a7aa-2616-47a0-b535-96204e3e55be,ERP-I9KQDGBK,Charles,Lee,charleslee41@icloud.com,+13182971751,In Transit,4274.79,Frustrated,2025-08-22 16:16:23.192952+00:00
+694f69ae-2f65-40f8-924a-c6d8350a2966,ERP-MPW5D3GO,Richard,Hernandez,richard_hernandez35@icloud.com,+16896313732,In Transit,749.31,Frustrated,2026-04-08 05:58:39.192959+00:00
+7a02ab7b-5606-4e44-ad76-9b892755e7ca,ERP-OV2YGNMB,Richard,Brown,richardbrown@hotmail.com,+16993157738,Pending Callback,325.26,Neutral,2025-08-19 15:48:19.192966+00:00
+1f5e1673-29ea-46da-9577-239a3730d2e8,ERP-ZY1UU9YM,Daniel,Smith,danielsmith@hotmail.com,+18779445072,Pending Callback,1794.17,Frustrated,2025-08-24 22:16:43.192973+00:00
+94512ca8-00fa-4701-ae71-894277c86481,ERP-4U9BXF44,Anthony,Jones,anthony.jones10@outlook.com,+14465385557,In Transit,2583.95,Frustrated,2025-08-24 04:26:58.192980+00:00
+4e8693fe-dce3-4fd2-afc7-a8fc2ea3d0ff,ERP-3CPUDRL9,Anthony,Gonzalez,anthonygonzalez@gmail.com,+16136221587,In Transit,4146.95,Frustrated,2025-09-02 14:29:12.192988+00:00
+d7794c8a-1f70-40a4-a919-654c68e9a3e0,ERP-6UXQM334,Kevin,Martinez,kevin_martinez72@icloud.com,+18725728414,In Transit,577.44,Frustrated,2026-02-03 21:46:07.192995+00:00
+3cdd53c9-5779-4d99-8773-98f1667868ff,ERP-MW2TND6R,James,Hernandez,jameshernandez96@gmail.com,+14608254209,Delayed,691.65,Neutral,2026-02-06 07:09:42.193002+00:00
+be81cbd6-dcb0-4774-ab7d-b290520a6af6,ERP-2ZDO74V1,Ashley,Clark,ashley_clark@hotmail.com,+12047431795,Pending Callback,4210.2,Neutral,2025-05-07 00:50:26.193010+00:00
+94801d96-0467-43f9-99fb-4a9dfb79503c,ERP-7GU0ENV5,Steven,Harris,stevenharris50@protonmail.com,+19099805067,Delivered,2049.56,Neutral,2026-01-06 18:42:19.193017+00:00
+b0eb6814-e365-455f-933f-b96f6bc2d28a,ERP-EOZ0KZ4Z,Mark,Sanchez,marksanchez@yahoo.com,+14148395760,Delivered,4613.84,Positive,2025-07-29 03:13:36.193024+00:00
+a5b06f5c-2dc0-45dc-add8-42454ef92cfa,ERP-SYLEMRUY,Carol,Garcia,carol_garcia87@globallogisticsinc.com,+16322139564,In Transit,223.83,Positive,2026-04-10 10:00:00.193031+00:00
+ed3722cf-72ae-407a-b8a4-c202b6c8440a,ERP-H1FKJ4YK,Brian,Johnson,brianjohnson5@globallogisticsinc.com,+16633044675,Pending Callback,1264.22,Frustrated,2026-01-09 07:36:54.193039+00:00
+7aa716f0-b1f7-456f-a3e3-925828de93cb,ERP-BNO2Y8B0,George,Perez,george.perez80@globallogisticsinc.com,+14308487025,Delayed,3903.12,Positive,2026-01-06 18:39:59.193047+00:00
+ea183c43-e17b-4418-af8f-a652bca73248,ERP-9C80EBKJ,Mark,Garcia,mark.garcia75@gmail.com,+15386773536,In Transit,853.15,Neutral,2025-09-11 05:16:25.193054+00:00
+7b5db9f2-00e8-464d-8870-54b7cf24880c,ERP-7WXRUM2L,Sarah,Harris,sarah.harris@globallogisticsinc.com,+17173637814,Pending Callback,550.53,Positive,2025-05-22 22:44:50.193061+00:00
+80a07c4a-c40e-4171-81e3-c0e1ed587fbc,ERP-LMH1T939,Susan,Perez,susan.perez15@hotmail.com,+14468574994,In Transit,3444.5,Neutral,2025-12-03 21:57:04.193068+00:00
+a8a22a75-a59b-4b49-967f-19b671593096,ERP-J0AS1SSR,Linda,Gonzalez,linda_gonzalez@outlook.com,+17262842572,Delayed,4860.98,Frustrated,2025-10-05 22:45:47.193075+00:00
+936e0f63-d35e-4718-8e16-2d0b174a7b50,ERP-CY15PDTZ,James,Lee,jameslee@icloud.com,+19023571389,Pending Callback,3612.65,Positive,2026-03-28 00:50:51.193083+00:00
+55b48a4e-84dd-4bd2-b7dd-d2b17df1014a,ERP-GJC36OQO,Michael,Johnson,michael_johnson3@icloud.com,+13217471096,In Transit,3804.21,Frustrated,2026-04-13 08:21:13.193090+00:00
+499f448b-6d7d-4d72-b1b3-d83280f2efb8,ERP-C7D2KD1P,George,Ramirez,george_ramirez@hotmail.com,+13607464602,Delayed,3759.09,Frustrated,2026-01-06 11:12:11.193097+00:00
+fd6d4027-eca3-4022-9c7d-1989d05cd654,ERP-K585X8A5,Kevin,Jones,kevin.jones@gmail.com,+17868107456,In Transit,1592.99,Frustrated,2025-07-17 01:58:07.193104+00:00
+4a7d808d-35a9-4b7b-8850-dffeececedec,ERP-H64FGWJE,Timothy,Lopez,timothylopez@globallogisticsinc.com,+19697628557,In Transit,1524.2,Positive,2026-01-23 16:01:25.193113+00:00
+cd4cec49-facc-49c9-94a1-d289a59a120a,ERP-0RLEXDW6,Robert,Miller,robert_miller63@outlook.com,+18318756008,Delayed,2871.2,Neutral,2025-06-21 08:17:39.193120+00:00
+945b5faa-3bdd-49bd-9146-1543d35635f3,ERP-GL2ZXJMY,Daniel,Wilson,daniel_wilson62@hotmail.com,+15679936004,Pending Callback,2803.19,Positive,2025-08-23 07:37:28.193126+00:00
+85fd58ad-595b-47db-aae9-3f4523da793c,ERP-44FTJ5CC,Joshua,Williams,joshua.williams@globallogisticsinc.com,+17957927637,Delayed,4540.89,Frustrated,2026-01-19 19:28:53.193133+00:00
+e51d255d-d8eb-4297-b7eb-63662ae8ab70,ERP-9Q1NI10K,Andrew,Lewis,andrew_lewis@hotmail.com,+15727141173,Delayed,4255.11,Frustrated,2025-08-08 07:45:10.193140+00:00
+1c8b36bf-2584-4ede-ae67-9530f66acbdb,ERP-SQG8X80R,Richard,Harris,richard_harris@globallogisticsinc.com,+16994372029,Delivered,1910.23,Positive,2025-08-14 08:55:55.193147+00:00
+957a67db-42f6-451e-9b3b-eac5159defec,ERP-6NQQB9LZ,Susan,Taylor,susantaylor82@globallogisticsinc.com,+19594699918,Delayed,1945.63,Neutral,2025-12-10 03:47:20.193154+00:00
+62f5e53e-c25f-46f6-b804-ea42449d2a20,ERP-6CJ9IO3M,Donna,Lee,donna_lee@protonmail.com,+13426503713,Delayed,477.73,Frustrated,2026-01-11 23:16:02.193161+00:00
+62910281-1361-448c-afc6-ca9c828bb1c3,ERP-GNZEI3ZR,Susan,Jones,susan_jones@protonmail.com,+13658627732,In Transit,1293.98,Positive,2025-09-20 07:19:11.193168+00:00
+3e212625-88e9-49b5-88f8-c391fb20859e,ERP-ES6FF7SO,Donna,Garcia,donnagarcia@icloud.com,+19458775644,In Transit,1161.31,Frustrated,2025-10-29 22:42:35.193175+00:00
+e2c69442-7487-4806-b6c1-e01ae8cd3b91,ERP-HOFU1WSG,Paul,Garcia,paulgarcia44@protonmail.com,+18042704765,Pending Callback,1988.76,Positive,2026-04-24 14:13:36.193182+00:00
+fd03e213-4320-4d65-afd1-3cf2ed34c0b5,ERP-4SPFDRWB,Joseph,Taylor,josephtaylor@gmail.com,+16938753135,In Transit,4495.15,Frustrated,2025-08-21 21:19:23.193189+00:00
+62a68911-bfce-4d7d-8d67-ac0a8fbc0ed0,ERP-P5ZP7R1M,Sandra,Taylor,sandrataylor@hotmail.com,+13374608817,Delayed,4559.42,Positive,2026-01-11 00:21:53.193197+00:00
+12a4aeb1-a22a-48c7-bc49-a2fd73ea4566,ERP-TJA0ASSN,Joshua,Lewis,joshua.lewis89@hotmail.com,+15703093535,Pending Callback,3292.72,Neutral,2026-01-19 13:04:55.193205+00:00
+5e1767a6-f199-4916-a73b-0282de6327ce,ERP-UW9OHTUG,Andrew,Wilson,andrewwilson72@outlook.com,+15147916641,Pending Callback,3705.33,Frustrated,2026-03-15 18:38:30.193214+00:00
+aab81430-98ae-4a72-8fae-bb27cf01ccfb,ERP-QZFHOMTZ,Deborah,Davis,deborahdavis@hotmail.com,+18512052492,Delayed,2411.18,Frustrated,2025-11-12 22:35:23.193222+00:00
+738e808a-c0ae-4249-a077-bc1d6f184ed7,ERP-JNV07OXK,Jennifer,Williams,jenniferwilliams@icloud.com,+17066491175,Delayed,4267.78,Frustrated,2026-01-09 22:49:39.193229+00:00
+8c0b8469-4112-4a59-a4f2-063e19656665,ERP-2SZWYMX9,Joseph,Johnson,joseph.johnson36@outlook.com,+18856047642,Delayed,2636.94,Frustrated,2025-07-31 18:22:11.193236+00:00
+5cf7d1df-3140-4c5e-8a1d-1e7d0dd18ba1,ERP-DK36M8JV,Michael,Robinson,michael.robinson59@protonmail.com,+12044673867,Pending Callback,2580.57,Frustrated,2026-04-02 21:54:55.193243+00:00
+63ab01d6-bb5a-4725-abc2-3b3fe1301487,ERP-MESJT2JP,Steven,Martinez,steven_martinez73@globallogisticsinc.com,+14499756565,Pending Callback,3439.81,Frustrated,2025-05-31 05:57:44.193250+00:00
+c6c0a395-9da0-41b4-a998-6342c7857e44,ERP-ECW9YIL8,Maria,Thomas,mariathomas@icloud.com,+14694545706,In Transit,2054.76,Frustrated,2025-06-16 03:37:51.193257+00:00
+a81454d5-50a8-4f40-962e-2418acbe34f6,ERP-TGLHUG07,Nancy,Williams,nancy.williams@yahoo.com,+19534475348,Delayed,1223.12,Positive,2025-06-10 05:23:49.193264+00:00
+fd76d544-f8ba-4988-8fe7-9321d800e09d,ERP-FD7YXW1T,Michelle,Lopez,michelle.lopez62@protonmail.com,+15227045501,Pending Callback,996.07,Frustrated,2026-01-12 04:19:38.193271+00:00
+312b0f3c-d013-4ab4-b28c-e62b5ff77dad,ERP-1ESP7BM4,Margaret,Davis,margaret.davis@icloud.com,+17306716171,In Transit,157.92,Positive,2025-12-04 16:04:34.193278+00:00
+d16535b7-8cb7-40db-8885-3e4e6cd386be,ERP-LWJTIQWN,Donna,Brown,donna_brown@hotmail.com,+19179707099,Delivered,4286.2,Neutral,2025-11-06 23:30:10.193286+00:00
+f3e5908c-5468-4b9c-882e-05b853da225e,ERP-EUIDJIPN,Barbara,Jackson,barbara.jackson@hotmail.com,+12093807906,Pending Callback,758.91,Frustrated,2025-10-12 05:44:50.193294+00:00
+3a7f2c09-4891-4cd5-b259-50a1f099d8d3,ERP-LRJ4BDFH,Andrew,White,andrew_white@hotmail.com,+19625425256,Delivered,1865.5,Frustrated,2025-05-04 03:10:50.193300+00:00
+3ff2694e-eb97-4c71-ab14-416c726e539d,ERP-AE58HUXG,Charles,Lopez,charles_lopez46@icloud.com,+17226998322,In Transit,1967.25,Neutral,2025-11-01 22:07:08.193307+00:00
+3bea6712-32d7-4595-98a9-64cc2086da5f,ERP-5X7PWO6C,Kevin,Jones,kevin_jones30@outlook.com,+18684985382,Pending Callback,1429.12,Neutral,2025-07-01 17:23:45.193314+00:00
+8645eb37-5d3b-44df-a864-4936f47ac19a,ERP-V8OGA0X7,Betty,White,bettywhite@yahoo.com,+13706062687,In Transit,412.58,Neutral,2025-09-30 00:49:43.193323+00:00
+220d63d1-c763-4ff0-9153-881d4f354fb5,ERP-1S9DWD7O,Sarah,Smith,sarah.smith32@hotmail.com,+18413293150,Delayed,240.0,Frustrated,2025-12-13 10:36:00.193330+00:00
+ec16fada-b4ed-44b6-acb3-0dcb101ffdd6,ERP-R9TJQ8ZG,Daniel,Ramirez,danielramirez59@protonmail.com,+18558549745,Delivered,4553.72,Neutral,2025-10-03 10:31:48.193337+00:00
+3abd1a60-7002-4dee-8974-9fef51ecb071,ERP-DLOFAS1E,Thomas,Sanchez,thomas_sanchez@icloud.com,+17039738816,Delivered,144.75,Neutral,2025-06-25 03:01:51.193344+00:00
+738551d9-6476-4931-9df2-dc70e9457d94,ERP-IANOUOF0,Christopher,Martin,christopher_martin@outlook.com,+12816324924,Delivered,1494.92,Frustrated,2025-10-06 10:31:18.193352+00:00
+cb8ba698-5956-4ef7-b909-113e6466a9aa,ERP-GCEDQQZR,Karen,Wilson,karen_wilson@gmail.com,+17472224046,In Transit,1482.36,Positive,2025-07-27 06:29:32.193359+00:00
+c3770088-9309-4aaa-a087-0cf01b48f035,ERP-ADAHP2RN,Mark,White,markwhite5@gmail.com,+19683491918,Delivered,3900.7,Positive,2025-10-02 01:41:08.193367+00:00
+ba39d657-5296-44b1-92cd-3ffceacf6075,ERP-G433E1I1,Paul,Garcia,paul_garcia@yahoo.com,+16719522539,Delayed,2416.85,Frustrated,2025-12-30 19:31:53.193375+00:00
+5f850249-eef4-43ff-9d00-dc690c868178,ERP-WB7SJWH5,Daniel,Garcia,danielgarcia@yahoo.com,+18486446316,In Transit,920.07,Neutral,2025-09-15 22:49:54.193382+00:00
+18166111-6b28-4e8e-8cbd-d816bb3430f8,ERP-2AB2RVND,Linda,Gonzalez,linda.gonzalez@icloud.com,+18335461983,In Transit,1842.04,Positive,2025-08-01 15:44:58.193389+00:00
+0c137d13-21b2-439b-bd3e-dedec35ce9e6,ERP-DRLUXM60,Andrew,Sanchez,andrew.sanchez89@outlook.com,+19413375107,In Transit,2477.98,Neutral,2025-09-25 22:06:46.193396+00:00
+4ad1841a-046b-4077-aa09-750978b85bc4,ERP-ZGGM0J36,Christopher,Moore,christophermoore@protonmail.com,+13586605844,Delivered,2753.87,Neutral,2026-04-30 17:53:32.193403+00:00
+35a705ea-2415-487e-88fb-4fd7bef4e4e2,ERP-S05WNWLC,Stephanie,Lee,stephanielee@protonmail.com,+18997093525,Delivered,1680.74,Frustrated,2025-12-26 23:07:11.193411+00:00
+065b20a1-00e1-4b0c-a783-40493621430f,ERP-SC4E5HRD,Linda,Brown,lindabrown83@icloud.com,+17017385193,In Transit,1895.13,Frustrated,2025-07-26 05:47:58.193418+00:00
+bbccddd9-fbba-4f47-b799-5f7113080de7,ERP-7HR6C2CU,Michael,Smith,michael_smith@globallogisticsinc.com,+18314729667,In Transit,3698.07,Neutral,2026-03-31 18:11:28.193426+00:00
+fef95dad-5236-4b9f-a805-effb05de60b8,ERP-D0TGSIWG,Susan,Taylor,susantaylor72@icloud.com,+13089846864,Pending Callback,3542.5,Neutral,2025-05-23 04:05:07.193433+00:00
+7f520d35-4fb3-4f1a-9954-fe4fe9e3fbef,ERP-2TSXTV76,Robert,Garcia,robertgarcia42@hotmail.com,+19828488054,Delivered,3081.23,Frustrated,2025-10-01 02:59:47.193441+00:00
+fdd0d719-eb5b-4245-99d7-cbee6f5909bd,ERP-17J8QO09,Susan,Gonzalez,susangonzalez@outlook.com,+12065074635,Delayed,4293.03,Positive,2025-07-05 09:29:07.193451+00:00
+5cc7af7b-1063-4772-ada3-65d6adf3b695,ERP-JTU7FBME,George,Clark,george_clark@yahoo.com,+14625072505,Pending Callback,2888.42,Positive,2025-07-19 20:44:48.193459+00:00
+2f758ca1-4361-4aa3-92e2-98b35f38a5bc,ERP-LRR6Z3DX,Michael,White,michael.white94@gmail.com,+19982576478,Delivered,4410.98,Neutral,2025-11-20 06:20:16.193466+00:00
+d66df924-2378-411b-9f97-772d0482e246,ERP-1047WWBS,Linda,Ramirez,linda_ramirez@outlook.com,+17149144617,Delayed,347.55,Frustrated,2025-11-29 10:40:10.193473+00:00
+c3c233ae-f709-4e1f-9330-d10dca5b998f,ERP-VSHKOECU,Mark,Harris,mark.harris71@outlook.com,+12876089221,Pending Callback,3891.74,Positive,2025-07-09 01:56:24.193481+00:00
+a9ce9489-adfa-43a0-b36b-65b289805ab7,ERP-URXHW0IC,William,Thomas,william_thomas@gmail.com,+18876237939,Delivered,1806.71,Neutral,2025-12-18 05:23:48.193489+00:00
+5aa85fd2-b369-4b78-9273-65fbced9f671,ERP-AK9W9PFB,Joshua,Lee,joshua.lee26@yahoo.com,+19759452405,In Transit,3723.95,Positive,2025-09-01 20:26:21.193497+00:00
+798668c6-02a6-4076-b8f1-0a04ea515632,ERP-3KM2KQL0,Patricia,Ramirez,patricia.ramirez27@protonmail.com,+16948373315,In Transit,1945.37,Frustrated,2025-10-08 10:28:41.193505+00:00
+7ca1948f-8ce8-4e88-86a9-c7eac8482953,ERP-GK2WBXAN,David,Rodriguez,david_rodriguez85@globallogisticsinc.com,+13102195792,Pending Callback,1232.73,Neutral,2025-10-15 12:39:44.193512+00:00
+ff6a0fc0-5bed-4567-8376-4f61a1700001,ERP-6RVDH8UZ,Melissa,Brown,melissa.brown32@outlook.com,+17016023572,In Transit,1799.22,Neutral,2025-12-14 00:14:14.193520+00:00
+35194244-df74-4e9c-a317-019f97708c1a,ERP-I9S3W563,Kevin,Martinez,kevin.martinez72@yahoo.com,+13555497436,Delayed,530.2,Neutral,2025-10-10 19:09:34.193527+00:00
+2c7326ee-1175-4586-9107-d440d10c22e2,ERP-5YPUPLVQ,Amanda,Martin,amanda.martin@protonmail.com,+17549004314,Delayed,1614.09,Frustrated,2025-05-17 00:38:24.193534+00:00
+1cb71e4e-a6e7-4753-aa71-e9d890fbffb6,ERP-E99F77LU,Kimberly,Robinson,kimberlyrobinson@outlook.com,+13499441483,Delivered,4412.65,Neutral,2025-11-22 07:27:26.193542+00:00
+7f82bb8a-efb6-4336-8440-782cdd0066ce,ERP-03W0FGEA,Lisa,Anderson,lisaanderson79@protonmail.com,+17808274783,Delayed,1231.47,Positive,2025-12-12 12:02:35.193550+00:00
+8221f318-f0f9-4222-b126-abb5eda6c353,ERP-2E4QXGNR,Jennifer,Thompson,jennifer.thompson@gmail.com,+16189821245,Delivered,4755.97,Positive,2025-07-16 17:14:34.193557+00:00
+77d8627f-f680-4e74-b1f2-709e35711ed0,ERP-1C795RLQ,Brian,Miller,brian.miller55@globallogisticsinc.com,+12428227232,Delivered,2031.34,Frustrated,2025-09-20 21:47:10.193564+00:00
+d1ebae2a-c632-4478-9cb4-3a289a0147f2,ERP-S52SQ3B9,Joshua,Moore,joshuamoore69@icloud.com,+12407717347,In Transit,1030.27,Neutral,2025-11-27 10:36:03.193572+00:00
+3f599f88-6a8a-4f67-bc55-51f5e6b8db98,ERP-3QPWBSF3,Lisa,Harris,lisa_harris@yahoo.com,+19977999952,Delayed,2026.03,Neutral,2025-11-06 22:02:27.193579+00:00
+e414c19e-0b3b-4cc9-a2a5-6f4e8b9dabf0,ERP-Q665DLXZ,Maria,Garcia,maria.garcia@gmail.com,+13169238362,Delivered,518.0,Frustrated,2025-12-02 20:38:52.193587+00:00
+1a9b5ae6-2ed7-4d5b-a864-a35056b4dc59,ERP-9WFTBGM5,Timothy,Sanchez,timothy.sanchez@yahoo.com,+19879291840,Pending Callback,1609.5,Frustrated,2025-07-06 12:26:48.193594+00:00
+9ce8bbde-e8b9-4a8b-984c-56fd2abac3a0,ERP-WEEHWJQ4,Mark,Martinez,markmartinez1@yahoo.com,+14228028794,Pending Callback,2109.74,Positive,2025-09-09 12:51:25.193602+00:00
+786ac57e-495c-4389-9604-b81852f66ed1,ERP-ITWU3BFX,Joshua,Smith,joshua.smith@icloud.com,+17918175889,Delivered,4609.89,Positive,2026-03-19 17:41:42.193609+00:00
+e46effcd-fef3-41c0-bb07-bde23a6c4001,ERP-FKXZUU80,Donald,Garcia,donald_garcia@globallogisticsinc.com,+15065307038,Pending Callback,4119.3,Neutral,2025-06-07 12:23:10.193617+00:00
+c18d82db-aecb-4fd0-a4e5-99c454aba433,ERP-KEZJSSZW,Emily,Williams,emily.williams@hotmail.com,+19419055705,Pending Callback,3083.34,Neutral,2026-01-20 04:23:40.193625+00:00
+56326c51-7192-4b48-a120-2c4148d4042b,ERP-9MEUSWRG,Kimberly,Jackson,kimberlyjackson30@yahoo.com,+12013211392,Pending Callback,3164.76,Positive,2025-07-18 14:53:53.193633+00:00
+5ccc6b1e-56fe-487b-82d0-72632e1966dc,ERP-WOBM3HXY,Susan,Sanchez,susan_sanchez9@outlook.com,+17187636307,In Transit,657.8,Neutral,2025-12-19 10:52:51.193640+00:00
+e15961ae-16e1-4b7f-845f-41568fe5ea89,ERP-U83G47RR,Margaret,White,margaret.white@hotmail.com,+13598428546,Delivered,2366.1,Neutral,2025-05-05 16:58:20.193648+00:00
+cfb5a8e9-af0b-4f6f-b060-471c48c8ee3c,ERP-4K0LTHY2,Deborah,Johnson,deborah_johnson@outlook.com,+12315477147,Delayed,2897.81,Neutral,2026-02-17 06:06:13.193655+00:00
+a517a7ba-f21c-4155-ab4f-94890c6036fe,ERP-51ZLBORI,Joshua,Brown,joshua_brown@protonmail.com,+15093792838,Delivered,3946.23,Positive,2025-05-11 07:31:36.193663+00:00
+478efe03-8401-4fae-aa76-a3835e01ab87,ERP-S26FMR5L,Jennifer,Anderson,jennifer_anderson@globallogisticsinc.com,+17288923174,Delayed,3650.4,Neutral,2025-12-01 12:01:03.193670+00:00
+65cd51ea-e6ae-4bb9-8667-c71a5f53fd66,ERP-SA7YVDQB,Melissa,Ramirez,melissaramirez99@gmail.com,+17919766114,Delayed,1672.31,Positive,2026-01-09 17:36:00.193678+00:00
+100beb65-4f35-44f1-bc8a-afeb7ea6b9d2,ERP-LPEFJAWS,Karen,Moore,karen.moore70@protonmail.com,+15264773319,Delivered,2913.01,Positive,2026-04-03 08:34:11.193685+00:00
+5f0b4e0c-f19d-4196-b4e4-0cd5ee07a4f9,ERP-6TBB6BND,Lisa,Martin,lisa_martin23@protonmail.com,+15645196444,Delayed,3593.2,Frustrated,2025-06-20 17:22:50.193692+00:00
+9dbc1923-b69e-466a-b5bf-f1dc9b55fa10,ERP-91QE37QQ,Andrew,Williams,andrewwilliams83@hotmail.com,+14374293354,Delivered,4573.02,Neutral,2026-02-18 19:37:37.193700+00:00
+0307f012-6aae-4f71-9240-9f3645c041c4,ERP-X25QBRMQ,George,Robinson,george.robinson37@protonmail.com,+17883309322,In Transit,2087.86,Frustrated,2025-06-25 14:16:51.193707+00:00
+b4d0e58f-db5d-46f1-b2af-d582bb39088b,ERP-UCKQVIIF,Robert,Hernandez,robert_hernandez@outlook.com,+14139108063,Pending Callback,2879.33,Neutral,2025-10-01 13:14:35.193715+00:00
+5a217dc9-6b4f-4526-8187-574558999b66,ERP-GY0Z4EVL,George,Davis,george.davis@outlook.com,+16152712781,Pending Callback,1704.3,Frustrated,2025-08-17 15:25:12.193722+00:00
+ff829641-efd0-4a6a-a1a8-b66020fdc423,ERP-HFU131XQ,Sarah,Williams,sarah_williams50@yahoo.com,+14108976187,Delivered,2894.35,Frustrated,2026-01-02 17:59:19.193730+00:00
+dfba6f9c-e52f-4ce3-a1d8-ef1e9db396fd,ERP-9MDA9OEK,Sandra,Thompson,sandra_thompson@gmail.com,+19207736885,In Transit,4320.11,Positive,2026-01-29 15:59:42.193738+00:00
+491f6d9f-afbe-47e5-9204-c8a570135700,ERP-VWZOPHGF,Sandra,Thompson,sandrathompson50@globallogisticsinc.com,+16273575726,Delayed,757.96,Positive,2025-08-22 05:10:33.193745+00:00
+21b716e8-d4e3-4cf6-8154-6e56d8a9401e,ERP-ZRP9DXOQ,Maria,Jones,mariajones78@protonmail.com,+13846659346,Pending Callback,2805.05,Neutral,2025-12-02 14:48:02.193753+00:00
+0bd3de12-ad71-491e-bc1b-632f8b0e6dc6,ERP-GVU4ISOT,Matthew,Davis,matthew_davis@protonmail.com,+16949217038,In Transit,2943.32,Frustrated,2026-03-30 22:21:33.193760+00:00
+448af92b-07b3-484e-aecb-2539d8beb225,ERP-0992QC6D,Patricia,White,patricia_white@icloud.com,+18487526119,In Transit,4527.57,Frustrated,2025-07-02 16:12:10.193768+00:00
+38587afc-8161-4d67-8747-2bf9f9534b04,ERP-Q6ULM9KG,James,Thomas,jamesthomas77@icloud.com,+17774662006,Pending Callback,2932.89,Frustrated,2026-04-10 23:28:10.193775+00:00
+00b5e1b0-8e83-451c-9e6f-1cb665e63daf,ERP-3WKCS4KE,Brian,Martinez,brian_martinez36@gmail.com,+19593143860,Delayed,3329.86,Neutral,2025-06-21 06:58:50.193783+00:00
+832b2acc-7493-4450-ad2a-6303f609a8f8,ERP-2IGSB98V,Barbara,Rodriguez,barbara.rodriguez64@globallogisticsinc.com,+15924438211,Delayed,1133.2,Frustrated,2025-06-08 02:08:56.193791+00:00
+62a4da6c-7556-4889-baba-f41c94490af7,ERP-X1EGOK01,Matthew,Johnson,matthewjohnson30@icloud.com,+19225998775,Delivered,811.23,Neutral,2026-04-26 10:01:48.193798+00:00
+5247c047-ce81-40ed-86a9-cd8454b8c62c,ERP-2NLT8DTM,Christopher,Robinson,christopher_robinson79@outlook.com,+14764732610,Delivered,3306.28,Neutral,2025-11-02 22:45:29.193805+00:00
+aa681171-f637-4929-9b84-aae2a2f76ccf,ERP-00VHMYGT,Stephanie,Perez,stephanieperez@gmail.com,+16213009605,In Transit,3458.95,Neutral,2026-02-04 19:29:35.193813+00:00
+f4221089-0461-4a35-81fb-3cfbb7f352fd,ERP-JBWCV6HV,Timothy,Martinez,timothy.martinez@gmail.com,+18193337159,Delayed,4490.41,Frustrated,2026-02-18 11:08:45.193820+00:00
+c47f947e-8ffc-49fc-abca-94e861eb163c,ERP-Q7W7JP61,Charles,Martinez,charles_martinez@globallogisticsinc.com,+12754832022,Pending Callback,2004.09,Positive,2026-01-20 17:38:36.193828+00:00
+cdeb6b4f-77c8-4973-8e95-d8bf124cd817,ERP-PR7VGRF1,Charles,Garcia,charles.garcia@hotmail.com,+19324652692,In Transit,457.31,Frustrated,2025-07-22 11:23:21.193835+00:00
+f5e2d627-b0ef-4e19-9761-39c68ea8af09,ERP-Q6FX7XJZ,Charles,Harris,charles_harris@protonmail.com,+19249899039,Pending Callback,2236.68,Frustrated,2025-07-01 17:44:27.193843+00:00
+565a26b7-6cb3-42b5-a567-3bb156fa436b,ERP-INY2ET9M,Michael,Moore,michael_moore@icloud.com,+18622926985,Delivered,494.24,Neutral,2025-07-09 16:39:54.193850+00:00
+6f02bed2-dfc5-47ee-8359-10c8577df043,ERP-XGBNGZ6W,Stephanie,Martinez,stephanie_martinez@icloud.com,+16489524104,Delayed,274.92,Positive,2025-07-25 12:08:51.193857+00:00
+ba73bab7-b3ed-47a9-92dc-3dbf9ff30535,ERP-RCTLT4Q9,Donna,Davis,donna.davis@outlook.com,+19382437643,In Transit,1137.22,Frustrated,2025-08-14 20:45:42.193864+00:00
+311c4412-8db2-4a89-98ba-85e3d4c939e4,ERP-75T0IC0R,Kimberly,Anderson,kimberly.anderson@yahoo.com,+19188643138,In Transit,944.02,Positive,2025-05-14 16:32:14.193874+00:00
+eeb1e968-7734-40b6-ba56-5a922d477552,ERP-2QGV3DR2,Lisa,Clark,lisa.clark@hotmail.com,+15459557586,Delivered,691.93,Frustrated,2025-09-19 08:12:00.193881+00:00
+5f08d4d3-62cf-49b9-be5b-6c796d0d882f,ERP-L8HBGCJ1,Andrew,Jones,andrew.jones90@protonmail.com,+13686494991,In Transit,753.52,Frustrated,2025-09-05 04:13:59.193889+00:00
+1f8f0ccd-623a-44d3-aa17-49caacd160f5,ERP-F5CA7ZVK,Anthony,Harris,anthonyharris99@icloud.com,+13294113344,Delivered,2663.13,Neutral,2026-01-28 02:35:42.193896+00:00
+c1ce8b6f-3096-4f1b-8899-6f838170a389,ERP-YVZWD3KP,Barbara,Martin,barbaramartin@gmail.com,+17422976929,Delayed,2374.66,Frustrated,2025-08-17 23:13:37.193904+00:00
+d3904332-1cd0-48a8-b3ec-d068a9060ca1,ERP-BEF46RF7,Susan,Rodriguez,susan.rodriguez83@outlook.com,+14146455118,Delivered,3122.41,Neutral,2026-04-14 04:51:12.193912+00:00
+25d4d830-6d28-4eb3-8184-8d08b612e625,ERP-BTFBSCIQ,Robert,White,robertwhite42@yahoo.com,+19658936336,Delayed,3916.98,Neutral,2026-02-01 13:31:08.193919+00:00
+1d6a094c-c0ce-429e-8f4a-112c020f07f6,ERP-05NHQR6F,Robert,Davis,robertdavis@hotmail.com,+15823398499,Delayed,3196.9,Neutral,2026-02-11 11:51:34.193926+00:00
+f2a329a4-cd82-4f95-bcdf-9f098eaaa67b,ERP-BUKDQP1H,Nancy,Jones,nancy_jones@globallogisticsinc.com,+18538263784,Delayed,523.72,Frustrated,2025-10-23 00:48:08.193934+00:00
+a332eaf0-2ed6-4fb0-9abd-3608b9e4f8f3,ERP-RQAP5IPI,Susan,Jackson,susanjackson@hotmail.com,+12452418711,In Transit,2185.92,Neutral,2025-10-26 21:29:15.193942+00:00
+f32c56fb-c35e-4f75-bb46-87eef743b20b,ERP-DRC1YOHM,George,Clark,george.clark@gmail.com,+16918855994,Delayed,3546.19,Frustrated,2025-07-14 19:23:05.193949+00:00
+26b7078b-f6a9-4422-8119-d446b28b2bf1,ERP-9QEZG5WZ,Donna,Smith,donna.smith@hotmail.com,+19075409698,In Transit,1553.29,Neutral,2025-08-02 22:15:27.193957+00:00
+77ca8b22-bceb-4fd5-9bbf-3a07c48418a4,ERP-UHYWM7S6,Michelle,Moore,michelle_moore@hotmail.com,+15746761669,Delivered,1895.52,Frustrated,2025-09-26 00:17:49.193964+00:00
+6ea5536f-35ac-4bf6-9339-d0c8ac185392,ERP-U1EMTX01,Melissa,Williams,melissawilliams@outlook.com,+15614739250,Pending Callback,1458.01,Positive,2025-12-07 05:43:31.193971+00:00
+4b4c8f30-9f98-498c-af54-1387baa3ddbd,ERP-RSEZYTKW,Matthew,Anderson,matthewanderson@yahoo.com,+16682892313,Pending Callback,4499.93,Neutral,2026-04-01 03:24:02.193979+00:00
+86b0d3b1-615b-4c7c-bef0-eecbe615356e,ERP-JZR5SWK8,Robert,Garcia,robertgarcia17@outlook.com,+16306541351,Delivered,1026.4,Positive,2025-05-27 10:53:43.193987+00:00
+a714d868-e0e0-4c8c-9e51-60c2e3f48d3a,ERP-8XOMXLVZ,Thomas,Clark,thomasclark57@outlook.com,+17803356021,Delayed,3967.41,Positive,2025-10-24 23:07:43.193995+00:00
+7615a27b-6d1c-4297-9fa0-a867a2cd9e3f,ERP-1BMQF7ZK,Betty,Martinez,betty.martinez@yahoo.com,+14433191674,Delivered,2915.17,Neutral,2026-01-19 21:25:50.194002+00:00
+6d5ad666-e324-4eba-9c55-c4c34b82b978,ERP-HZX9FQ9T,Betty,Garcia,betty.garcia4@hotmail.com,+19863488504,Delivered,864.66,Frustrated,2025-09-30 22:09:21.194010+00:00
+ab046466-abbb-4e22-908c-9dd2592716b5,ERP-XK6819Y2,Steven,Hernandez,stevenhernandez57@icloud.com,+13159498847,In Transit,783.17,Frustrated,2026-03-16 15:14:14.194017+00:00
+0692dbee-1da9-495f-a171-8f7dff445a63,ERP-O4QDBXVH,Lisa,Smith,lisa_smith@gmail.com,+17516562431,Pending Callback,1052.81,Neutral,2025-09-08 18:37:56.194025+00:00
+17c318c5-0a30-4707-bec5-2884d9ecc677,ERP-76MF4NNK,Joshua,Taylor,joshua_taylor40@globallogisticsinc.com,+17742894533,Pending Callback,3733.49,Neutral,2025-06-22 21:42:35.194033+00:00
+9ab4b8cc-a75c-4cb4-85a2-44da7ae6fe8c,ERP-F060O4VF,Mark,Martinez,mark_martinez61@gmail.com,+18049747156,In Transit,132.43,Frustrated,2025-05-10 21:40:41.194040+00:00
+978ed44f-d774-43eb-a64e-b8dd8981bf41,ERP-GQU6H3KR,Karen,Wilson,karen_wilson75@hotmail.com,+17729578593,Delayed,231.52,Positive,2026-03-02 04:59:39.194048+00:00
+664efd69-cf54-4eb1-9609-d978aa8a8916,ERP-84RX6PRY,Charles,Martinez,charles.martinez@globallogisticsinc.com,+14837042093,Delivered,2947.22,Frustrated,2025-11-12 16:08:54.194055+00:00
+0f599d42-0f36-48a1-9dbf-3aad334470bd,ERP-Y93N0AJU,Charles,Lee,charles.lee41@icloud.com,+13385653675,In Transit,1436.08,Neutral,2025-08-26 22:20:54.194065+00:00
+2db4862e-83ac-4fa3-b338-5f435b3fa0aa,ERP-KT7S1GD1,Matthew,Johnson,matthewjohnson42@globallogisticsinc.com,+19015085447,Delivered,569.58,Frustrated,2025-12-15 11:10:42.194077+00:00
+254dd148-a4d5-424d-b39b-6ddbb21bc1fd,ERP-EK2O7FHS,Patricia,Smith,patricia.smith@hotmail.com,+16712782909,Delayed,4624.71,Neutral,2025-12-16 19:03:00.194085+00:00
+bcbc21c0-423d-4fa9-905f-0c9e812a8b04,ERP-N36V1MZB,Lisa,Thompson,lisa.thompson@globallogisticsinc.com,+19103454712,Delivered,714.19,Positive,2026-03-31 11:57:01.194093+00:00
+de33fab7-0373-4c7e-b9ad-b5df2209df80,ERP-1EARPHBX,Sandra,Thompson,sandrathompson8@gmail.com,+14592442085,Delivered,3371.17,Positive,2025-07-01 04:22:37.194100+00:00
+47d1d3a6-65e7-479b-8520-76b8e7a2367e,ERP-VVHYBF0J,Linda,Robinson,lindarobinson45@yahoo.com,+17129994962,In Transit,585.62,Frustrated,2025-07-08 14:39:05.194108+00:00
+32a57207-5e65-4767-9e74-db1e05cebad8,ERP-HGK6T9DH,James,Taylor,jamestaylor91@outlook.com,+19148034033,Pending Callback,3400.28,Positive,2026-02-19 18:58:16.194115+00:00
+5d02f2ec-f7fb-4f60-812a-0140d4e23e83,ERP-PSO1LQSR,Matthew,Gonzalez,matthew_gonzalez91@protonmail.com,+19392412347,Delivered,2519.19,Neutral,2026-01-10 21:09:05.194122+00:00
+c8bb8c6e-f7c0-4d99-8eab-e5e4eb4289db,ERP-0Y4IO9P4,Ashley,Martin,ashley_martin87@yahoo.com,+12138909055,In Transit,2042.21,Frustrated,2025-08-18 06:29:13.194130+00:00
+9197b831-6113-4681-8c40-8ab8d5dc0c09,ERP-EOZ906GN,Amanda,Williams,amanda.williams@protonmail.com,+16133254815,Pending Callback,3653.48,Neutral,2025-07-07 23:59:25.194137+00:00
+6824946f-2784-4299-b179-4f70953f0f7d,ERP-UJ2XORVO,Melissa,Harris,melissa_harris66@yahoo.com,+19866652770,In Transit,1328.38,Neutral,2026-01-31 09:11:11.194144+00:00
+92a91ac7-39e3-4bec-b1f3-e7b02fb51f67,ERP-B03RAGVL,Kevin,Jones,kevin_jones@globallogisticsinc.com,+12788769518,Pending Callback,3984.38,Positive,2026-01-07 00:23:48.194151+00:00
+9f832e4f-88a9-4fd2-b4b5-f3c034f8db04,ERP-RJM4T8BP,Brian,Thomas,brian.thomas50@outlook.com,+15856538531,In Transit,261.01,Frustrated,2025-08-17 22:26:43.194158+00:00
+9aad01ad-cb51-44f8-8085-8ef009eb9ee8,ERP-5FPLO1UR,Stephanie,Martinez,stephaniemartinez88@hotmail.com,+17753609301,In Transit,2017.79,Neutral,2025-09-13 11:39:42.194166+00:00
+ffe778e4-1073-447c-b6a0-76dd39bb5bf1,ERP-Y1KCVEN3,Anthony,Martin,anthonymartin4@hotmail.com,+12996386654,Delivered,2118.46,Positive,2025-08-17 05:23:53.194174+00:00
+d36a01d3-81b2-40e9-8adc-901f626d8cfd,ERP-ILDY5EGT,Jessica,Davis,jessica.davis59@protonmail.com,+17276315368,In Transit,3510.2,Frustrated,2026-04-22 09:20:34.194181+00:00
+f215f5e3-b846-4af1-b932-813d68dea66f,ERP-ULDRYHR3,Daniel,Gonzalez,danielgonzalez@protonmail.com,+15065728143,Delayed,2535.06,Positive,2025-06-08 15:41:16.194189+00:00
+0c270df7-b7c6-4f9e-8bf3-563720eb3184,ERP-KB9OI0D4,Andrew,Miller,andrew.miller76@outlook.com,+12687809700,Pending Callback,2192.82,Neutral,2025-06-26 00:35:23.194196+00:00
+9612e538-a12b-4c5c-8896-16a752927bf5,ERP-3SKXLOJS,Michael,Lee,michaellee@gmail.com,+18429209457,Delayed,2926.53,Positive,2025-08-17 09:26:28.194203+00:00
+d4ef48e0-54a7-4634-8a1f-83c480c8c312,ERP-JW34670C,Deborah,Anderson,deborah.anderson47@yahoo.com,+14463545919,Pending Callback,2110.28,Positive,2025-08-27 19:58:09.194211+00:00
+1b69ac22-6d74-4904-863a-8f961fe124c1,ERP-O3XJVOEG,Susan,Ramirez,susan.ramirez40@hotmail.com,+17736467914,In Transit,1089.75,Neutral,2026-03-09 00:58:33.194219+00:00
+726f78c9-53ea-45a2-8ef3-6279baf71cf2,ERP-2JTXB02B,Maria,Rodriguez,maria.rodriguez41@globallogisticsinc.com,+12656166954,In Transit,2044.79,Frustrated,2025-06-07 17:35:59.194226+00:00
+e84c8603-6578-49fd-82ab-36835c90a349,ERP-E07S387J,William,Davis,william.davis@globallogisticsinc.com,+15205377388,Delayed,4683.95,Positive,2026-03-05 23:50:02.194234+00:00
+8402c883-d9ff-48b4-8457-2432bf6ccf76,ERP-HJO5CTZE,Robert,Garcia,robertgarcia55@icloud.com,+14524843374,Delivered,2428.59,Neutral,2025-06-16 00:55:17.194241+00:00
+3f31c9a7-a314-4985-888d-3a68b858e033,ERP-X6B02B7Y,Lisa,Smith,lisa_smith71@outlook.com,+18549176945,In Transit,2721.06,Positive,2025-06-01 22:45:03.194249+00:00
+b4329e16-d0b6-42bc-b908-2eaee7221aec,ERP-A877K71K,Mark,Gonzalez,mark.gonzalez57@globallogisticsinc.com,+19858597656,In Transit,1442.78,Positive,2025-06-15 07:50:32.194256+00:00
+30259ce6-3033-4944-9dd3-4232afa1984d,ERP-QO4Z533Z,Stephanie,Thomas,stephaniethomas9@hotmail.com,+18169469973,Delivered,2320.98,Positive,2025-07-09 02:28:32.194263+00:00
+9c736121-72de-4766-b3f1-6ab26f1c9ea6,ERP-XW2EOWLC,Sarah,Lee,sarah.lee@globallogisticsinc.com,+18089027722,Delivered,2312.3,Frustrated,2026-03-10 04:12:00.194271+00:00
+b4ae0c70-06ab-4605-9889-5614824e3e84,ERP-Y32HOG58,Charles,Garcia,charlesgarcia@gmail.com,+17718624747,In Transit,4873.23,Positive,2026-01-19 08:36:20.194278+00:00
+45d66321-369e-4746-a62c-d875dfaa516c,ERP-GOPJDN8E,George,Ramirez,georgeramirez68@globallogisticsinc.com,+16648899096,In Transit,1199.97,Positive,2026-02-16 00:36:04.194286+00:00
+9a2bc6f0-d5a6-41a7-a90a-f05dc2b33e46,ERP-0NPHH30G,Karen,Martinez,karen.martinez@gmail.com,+14974684858,Pending Callback,4545.91,Neutral,2025-09-16 15:33:04.194293+00:00
+a743b3b6-43ab-48ac-acb6-f5f93f003902,ERP-QAELYYZZ,Amanda,Lee,amandalee77@gmail.com,+12977701962,In Transit,1731.03,Positive,2025-10-30 03:11:36.194301+00:00
+736d46a3-cece-45bb-9738-fff73040d185,ERP-78V0BJWK,Matthew,Martin,matthew_martin86@yahoo.com,+17722423938,Delivered,932.35,Neutral,2025-05-04 17:19:33.194309+00:00
+4ccf06f0-c184-4866-8ccb-c7c75aaa578a,ERP-QDZPJL9R,Nancy,Lewis,nancy_lewis96@hotmail.com,+14894695321,Delivered,2235.3,Positive,2025-12-29 11:31:42.194317+00:00
+f02fa629-c251-47e2-85f1-a531450d50ae,ERP-1F4X2BFI,Deborah,Thomas,deborah.thomas61@yahoo.com,+19226788150,In Transit,4976.49,Neutral,2026-04-15 04:23:43.194324+00:00
+716afc1f-a2c4-4033-a183-e0f20201476c,ERP-9UQEZFMH,Mark,Lopez,mark_lopez@icloud.com,+17204794479,In Transit,2677.48,Frustrated,2026-02-19 21:34:40.194332+00:00
+51ca85a0-53c8-464e-91ba-8bdd7f8f7f72,ERP-C1Y5AYYO,Donald,Robinson,donaldrobinson14@yahoo.com,+12292838540,Pending Callback,2324.87,Neutral,2025-09-12 06:12:59.194339+00:00
+a535ccc8-63f2-4f61-b216-6f5e2bd1087e,ERP-LBWQ8962,Brian,Smith,brian.smith@globallogisticsinc.com,+18594896294,In Transit,3744.62,Frustrated,2025-09-09 02:50:15.194346+00:00
+a277cebf-04b9-449a-a7b7-01e4f428be06,ERP-OG85D4F2,Anthony,Williams,anthony_williams@gmail.com,+15057028083,Delivered,4528.3,Frustrated,2026-03-11 00:55:16.194354+00:00
+f45d04d5-1988-4085-b530-fc5a58050647,ERP-DNHQNJVD,Matthew,Perez,matthew_perez@hotmail.com,+18456362522,In Transit,2615.37,Neutral,2025-08-11 07:43:24.194361+00:00
+bc51c8c7-cb30-43df-bf93-03b25acc6354,ERP-YFRWSKP6,Thomas,Lee,thomas_lee@yahoo.com,+19005075073,Pending Callback,1547.86,Positive,2025-09-29 00:57:44.194370+00:00
+fff229d0-b296-4c64-bdd0-6dd193561209,ERP-BDPDXUJJ,Michael,Robinson,michael.robinson@gmail.com,+19588778583,Delayed,3952.27,Neutral,2026-04-13 10:45:35.194378+00:00
+e5747da7-7c95-4228-ac88-443b62e4d8c4,ERP-5KVQYWJ8,Jennifer,Wilson,jennifer.wilson@gmail.com,+19648185248,In Transit,2225.61,Positive,2026-04-28 18:06:10.194386+00:00
+c595749e-50ef-405b-bedc-57c2400357cd,ERP-AXQOX00K,Margaret,Brown,margaretbrown47@globallogisticsinc.com,+15092893049,Delayed,167.99,Positive,2025-06-18 03:13:35.194394+00:00
+5db149ce-df7c-4681-a18b-3308edf0802c,ERP-84HXXPW2,Maria,Thompson,maria.thompson12@globallogisticsinc.com,+16743518765,Pending Callback,206.9,Positive,2025-05-15 13:28:51.194402+00:00
+4ec35918-bae4-463f-a168-0543df55b281,ERP-Z8Q4VHU4,Patricia,White,patricia.white@gmail.com,+18459308074,Pending Callback,4258.22,Frustrated,2025-09-18 07:05:15.194409+00:00
+a53e43f7-60df-4a59-9be9-9441d8540e8a,ERP-TKRRVWY3,Joshua,White,joshua_white@protonmail.com,+12196326174,In Transit,1412.46,Frustrated,2025-11-20 00:35:55.194416+00:00
+356278cb-25c4-47d9-9aa0-905d7f2606ad,ERP-R7MZAKGM,Paul,Brown,paul.brown@protonmail.com,+19015478675,Delayed,4427.55,Frustrated,2025-07-28 18:00:40.194424+00:00
+19844eb4-dbab-4e72-b38c-b4fa9a3db2e8,ERP-3Y0224WK,Anthony,Wilson,anthonywilson12@yahoo.com,+13774043561,Pending Callback,594.43,Neutral,2025-10-21 06:45:01.194431+00:00
+d76e23d9-922f-49e4-af74-33dfd0344a58,ERP-HBA5MF36,Lisa,Davis,lisa.davis9@hotmail.com,+13168324714,In Transit,2853.71,Neutral,2026-01-20 21:31:30.194439+00:00
+aaa1b2e2-9033-4a12-98fd-dc275c844a7f,ERP-MB5JFYSY,Nancy,Sanchez,nancysanchez7@globallogisticsinc.com,+16689732817,In Transit,3930.1,Frustrated,2025-07-01 06:22:37.194447+00:00
+b89ab88a-8e1a-4493-996e-0ec87d5ceebb,ERP-USGEHN0Z,Robert,Clark,robertclark@yahoo.com,+18625726482,Delayed,702.62,Positive,2025-11-11 11:48:51.194454+00:00
+2db68ca5-2e66-4d37-8a24-0060d306464f,ERP-1I3MSDN1,Donald,Harris,donald_harris@yahoo.com,+19719719677,Pending Callback,3957.36,Positive,2025-06-23 15:34:33.194461+00:00
+8ffbf027-53ff-40ca-b2f7-e0dd7a0ee8b3,ERP-768SY7P1,Sandra,Wilson,sandrawilson@gmail.com,+15465227580,Delayed,2226.95,Neutral,2025-07-10 04:24:56.194470+00:00
+01553f67-07b2-4255-9ee5-fb45179a3f73,ERP-7FU99259,David,Perez,david_perez52@icloud.com,+19605216638,In Transit,4152.32,Frustrated,2025-09-05 23:15:05.194478+00:00
+c4539573-8027-4239-89ef-400ba7415f8e,ERP-OX5WWPM3,Patricia,Thompson,patriciathompson@outlook.com,+12862379805,Delivered,2010.97,Frustrated,2025-07-17 14:48:54.194485+00:00
+e8ae305b-3c74-4af4-ba45-d0f1b9e8fcd5,ERP-9KDTS1FB,William,Taylor,williamtaylor76@yahoo.com,+19925117926,In Transit,3686.73,Neutral,2026-01-20 03:29:45.194493+00:00
+a8849609-bc99-443f-ae01-6ca45e831e3a,ERP-MBXEK0Q9,Kevin,Taylor,kevintaylor@outlook.com,+15064913293,Pending Callback,2646.37,Positive,2026-03-21 03:48:56.194501+00:00
+45c7e50b-ca6f-400b-b232-75c443f945ad,ERP-U3NDZ3CC,Daniel,Taylor,daniel.taylor@hotmail.com,+12795789622,Pending Callback,2982.37,Frustrated,2025-07-02 13:25:44.194508+00:00
+0aeffea3-13f3-49ce-b6a7-4528d0c2528f,ERP-JRPP7R93,Margaret,Ramirez,margaret.ramirez@hotmail.com,+19286683119,In Transit,3502.91,Neutral,2025-10-29 04:36:28.194516+00:00
+0a9489a7-4833-4f00-90b0-c846a869a167,ERP-FU7E4DNK,David,White,davidwhite@outlook.com,+15125835968,Delivered,2481.04,Positive,2026-03-06 19:45:45.194523+00:00
+cd6f5423-2337-47c5-bca4-d0e905af9dc6,ERP-B66H3REM,Donna,Wilson,donna.wilson54@protonmail.com,+15177798411,Delivered,3928.61,Neutral,2025-06-10 22:52:15.194530+00:00
+72a77abf-435c-4871-ac3b-d441d621f232,ERP-V1SQQQ5L,Timothy,Clark,timothyclark86@hotmail.com,+14386046554,In Transit,4794.59,Neutral,2025-07-19 05:23:50.194537+00:00
+7cec45f1-2c90-4059-8432-3f5671a95211,ERP-DFAW1LXX,Karen,Lee,karen.lee@protonmail.com,+17343938796,In Transit,689.39,Frustrated,2026-02-20 05:16:18.194545+00:00
+5148081c-1ce3-4991-908c-99ff22b3fbcd,ERP-2IZ5P3VO,Maria,Rodriguez,maria.rodriguez@outlook.com,+16473847798,In Transit,4312.28,Neutral,2025-12-03 16:00:04.194553+00:00
+be4c0be6-8600-4459-982e-895c624efbb6,ERP-EDGFJDLO,Charles,Williams,charles.williams8@yahoo.com,+12279301958,Delivered,2010.7,Neutral,2026-03-06 16:46:23.194560+00:00
+fdcdbb1d-305e-4c50-8141-6e17935e6ce1,ERP-LN3EH1VR,Donald,Lewis,donaldlewis@outlook.com,+12625258615,Pending Callback,420.75,Positive,2025-11-23 18:29:03.194567+00:00
+96a5f9d3-4432-4bf1-af56-057565a8f34c,ERP-6ATVD1XE,Kevin,Davis,kevindavis53@gmail.com,+18517124333,Delayed,1929.2,Positive,2025-07-01 07:36:46.194574+00:00
+32a412d6-b61b-455a-8652-ea14c82f2f2f,ERP-88TB38WX,Jessica,Moore,jessica.moore@hotmail.com,+14798125110,Pending Callback,4996.29,Frustrated,2026-02-07 09:35:21.194582+00:00
+3376bc6d-6499-4de7-abde-772d98fbca87,ERP-SB0UKOEF,Donna,Clark,donnaclark36@yahoo.com,+18257166215,Delivered,3212.33,Frustrated,2025-11-06 04:57:47.194590+00:00
+e7b2dc2d-2558-4179-b136-4fae6302273d,ERP-XLH8L6E7,Karen,Davis,karendavis@gmail.com,+18883777769,Pending Callback,3836.08,Frustrated,2026-03-30 12:14:24.194598+00:00
+c7277fe5-d107-4e97-8e87-c49ffee6005b,ERP-CB3YYM33,Carol,Lee,carol_lee@globallogisticsinc.com,+19869131138,In Transit,2367.19,Positive,2025-11-09 08:50:15.194621+00:00
+9bc09fac-3619-4ab5-9841-7c9d022d8bab,ERP-01YZG3W3,James,Davis,james.davis30@outlook.com,+12374879074,Delayed,134.96,Frustrated,2025-11-28 04:48:39.194630+00:00
+77ed9ac5-4831-414a-85f0-4a55435a0b7e,ERP-JSGG0YVG,Linda,Ramirez,lindaramirez@yahoo.com,+14657834734,Delivered,1040.07,Frustrated,2026-04-22 01:07:51.194640+00:00
+aa68bad9-0d61-45b6-b832-46e821604c08,ERP-TJUQ7X7B,George,Perez,george_perez56@outlook.com,+13248969491,Pending Callback,2528.32,Frustrated,2025-07-10 06:00:23.194649+00:00
+fa5e7f6a-488a-48fc-9369-d9aa6aa3422a,ERP-ZB7TLOM5,David,Lewis,david.lewis@icloud.com,+16332765095,Delayed,905.96,Neutral,2026-04-06 14:51:07.194656+00:00
+e9c5bfa3-81f2-49b6-b181-91221a28616b,ERP-DR3VWMJD,Kevin,Lee,kevin.lee@globallogisticsinc.com,+15417324878,In Transit,3901.17,Frustrated,2025-11-11 17:12:38.194663+00:00
+50183a61-6ee7-4e97-9941-497288530476,ERP-WUDCBL4C,Ronald,Brown,ronald.brown8@gmail.com,+15088258075,In Transit,598.96,Positive,2025-09-25 19:56:19.194671+00:00
+32d48323-7db2-45aa-bf78-f5552f3bcbd0,ERP-4OWO52WQ,Sarah,Martinez,sarah_martinez@outlook.com,+18668911425,Pending Callback,2634.34,Frustrated,2026-02-15 06:32:44.194678+00:00
+e5f536ff-3570-4e76-8b4e-ff4dad0035d3,ERP-AZV46ESM,Robert,Brown,robert_brown93@yahoo.com,+14483401722,In Transit,725.64,Frustrated,2025-11-12 18:12:09.194687+00:00
+4087f153-c03e-42b1-998a-4f455ad3c7fa,ERP-1L51FLMN,Steven,Lee,steven.lee@gmail.com,+14437191894,Pending Callback,1784.7,Positive,2025-08-25 06:11:53.194695+00:00
+59bfc081-497a-40d5-8af4-7a7fac503017,ERP-CGRYQY4U,Joseph,Sanchez,joseph_sanchez79@hotmail.com,+15363662717,Pending Callback,4392.92,Positive,2025-10-20 10:11:33.194702+00:00
+f8e764bf-c8f5-4c9d-80b6-5d25dcaf5325,ERP-AIIWI08L,Thomas,Robinson,thomasrobinson@hotmail.com,+13882066944,In Transit,461.28,Positive,2025-09-27 14:30:04.194709+00:00
+831785ff-56d9-4a1f-9e99-86a45117c0d9,ERP-KGV1BBHG,Linda,Jones,linda_jones@outlook.com,+17674513925,Delayed,205.31,Neutral,2025-05-12 08:44:17.194716+00:00
+368589df-09b5-4cbb-b3b3-00457893f23f,ERP-3EX5MHQN,Robert,Smith,robert_smith@protonmail.com,+18386442071,In Transit,807.72,Positive,2025-06-26 07:36:51.194724+00:00
+c17f0061-f1a0-4bb1-8363-af0c8b3dd736,ERP-TYLPW71V,Joseph,Miller,josephmiller@outlook.com,+14532545588,Delayed,4272.36,Frustrated,2025-05-22 00:01:39.194731+00:00
+e3ee8662-f09d-4c24-933e-ec97e3f74436,ERP-022WGN51,Dorothy,Miller,dorothy_miller64@yahoo.com,+15299297125,Pending Callback,3606.68,Neutral,2025-10-29 00:51:20.194739+00:00
+8cdc8935-344c-4f9c-866d-64d902103a11,ERP-O7VBHH5O,Karen,Jackson,karen_jackson55@protonmail.com,+13605835170,In Transit,758.22,Positive,2026-01-06 10:33:17.194747+00:00
+311ee697-ab67-4aa7-baef-f198d98b7eba,ERP-MVQWPQO2,Mark,Taylor,mark_taylor35@gmail.com,+13836524830,Delivered,3262.24,Neutral,2025-05-15 22:14:15.194754+00:00
+1449a088-c435-4053-b15d-c38e06dac009,ERP-4SX27DCB,Jennifer,Martinez,jennifer.martinez@icloud.com,+15374565959,Delivered,1034.15,Frustrated,2026-03-08 11:36:20.194761+00:00
+395f0424-2199-4126-8dbe-793ec031dbe3,ERP-06AK32OO,Ronald,Thompson,ronaldthompson@hotmail.com,+18697243445,Pending Callback,1215.13,Frustrated,2025-07-14 02:08:16.194769+00:00
+f47a19ea-14e5-4114-be26-54a745fb5f15,ERP-IVTQ3MD4,Susan,Thomas,susan_thomas99@yahoo.com,+16496601493,Delivered,780.86,Positive,2026-01-02 08:27:53.194776+00:00
+048b14ed-7f0c-46a8-8351-25c80f28ccd3,ERP-RXMIP11Y,Deborah,Smith,deborah_smith@protonmail.com,+12323423518,Delivered,2884.14,Frustrated,2025-05-11 03:48:50.194784+00:00
+63dcc6ac-457d-4a89-a184-b3e1ee6b1b53,ERP-59HOTGDU,Joshua,Jackson,joshua_jackson82@gmail.com,+13753063910,In Transit,4149.73,Frustrated,2025-10-23 06:23:43.194791+00:00
+2c925d57-5736-4a45-a5e9-a9d76d4fde5c,ERP-H6NHKSQN,Maria,Garcia,maria.garcia22@globallogisticsinc.com,+16206003572,In Transit,732.77,Neutral,2025-10-27 06:58:40.194799+00:00
+0d4282bd-689e-438d-984b-77c42c13a036,ERP-O6H5L3XF,Deborah,Williams,deborahwilliams@protonmail.com,+19339018519,Delivered,1088.34,Positive,2025-11-08 22:04:55.194806+00:00
+580d0194-8d4c-4b4a-bbb5-4042ef51ae1a,ERP-O3S65QU0,Michael,Clark,michael_clark83@outlook.com,+19179285873,Pending Callback,3103.83,Positive,2025-11-20 20:01:46.194813+00:00
+13a34ea1-cc2b-4b58-bc14-b4a315291ad4,ERP-60Q6GUO8,Jessica,Garcia,jessica.garcia21@icloud.com,+17504982093,Delayed,4552.81,Neutral,2025-07-09 03:32:39.194821+00:00
+fe4fe11f-8fdc-4278-a3bf-fc9ed69eb894,ERP-9CD1LQJS,Emily,Brown,emily_brown@icloud.com,+19118918567,Pending Callback,1783.92,Neutral,2025-06-02 16:13:04.194828+00:00
+98607220-9204-4045-be73-c43adcc4c005,ERP-BJZEYQQC,Joseph,Gonzalez,josephgonzalez32@yahoo.com,+16824853643,Delayed,4208.63,Frustrated,2026-03-22 23:43:58.194835+00:00
+f8e4d827-9df2-4219-8858-2136a5c27129,ERP-E0GYAJPG,Barbara,Martinez,barbaramartinez@hotmail.com,+19132489566,In Transit,2014.03,Neutral,2025-11-09 14:20:44.194843+00:00
+01a9be62-088d-4918-9f42-134aa0481b71,ERP-A117NIDP,Sarah,Martin,sarah.martin@icloud.com,+18852644613,In Transit,4004.93,Frustrated,2026-02-24 19:49:11.194851+00:00
+a3676e41-5b56-4c3c-b688-4799950e7085,ERP-BS3LWW7O,Timothy,Garcia,timothy_garcia@yahoo.com,+13085656298,Delayed,173.47,Frustrated,2025-12-29 05:01:44.194858+00:00
+cf2e2811-60da-4ef8-a01c-a8f4ff622b09,ERP-HHXKWB5O,James,Gonzalez,jamesgonzalez@icloud.com,+17497823809,Delivered,4799.27,Frustrated,2025-12-26 01:24:02.194865+00:00
+57a577dc-3c1f-4fc8-8b6e-760adfc7631e,ERP-N71EG1Y9,Kevin,Thompson,kevinthompson@outlook.com,+12188238354,Pending Callback,2604.03,Frustrated,2026-01-30 18:14:21.194873+00:00
+c8b5e9bc-81d8-4e42-aaf5-d4fa169c15b4,ERP-ZAA1EIPI,Steven,Jackson,steven.jackson@outlook.com,+17105034309,Delayed,1941.16,Frustrated,2026-04-16 07:17:07.194881+00:00
+8ea07b12-2adb-454d-9c5b-7d955bdf6239,ERP-09P5EL2B,Jessica,Robinson,jessica_robinson83@globallogisticsinc.com,+12244346427,Delivered,1287.02,Frustrated,2026-04-10 00:35:44.194888+00:00
+77c02d88-049d-4474-84a7-e6dd1db756a8,ERP-2ZI5SGWC,Brian,Davis,brian_davis@gmail.com,+18493444345,Delayed,549.62,Frustrated,2025-09-29 20:58:33.194896+00:00
+d64de4ef-f0f8-4c9b-8d61-b2ae91e1ed3e,ERP-SPQFHPVK,Susan,Davis,susandavis@outlook.com,+16922816891,Pending Callback,1950.82,Neutral,2025-11-10 14:40:42.194903+00:00
+d543561f-6350-4af4-9b2a-a0b62fea16a6,ERP-VPF8R1PC,Sandra,Taylor,sandra_taylor@protonmail.com,+19443795215,Pending Callback,2371.89,Neutral,2026-01-11 00:44:46.194911+00:00
+bb28fa4b-7e3f-4151-a301-eefc20279194,ERP-VCEQFGAS,Anthony,Moore,anthonymoore48@hotmail.com,+16256047113,Pending Callback,2498.8,Frustrated,2025-09-14 13:09:51.194920+00:00
+6663a4d9-bcdf-46f4-8ff0-4b9ad9116bbd,ERP-59E7F181,Michael,Wilson,michaelwilson45@icloud.com,+19055771945,Pending Callback,4639.94,Frustrated,2026-01-25 04:20:06.194928+00:00
+bb01ce2d-89f5-493b-b0ae-e9973b342343,ERP-B3WYZXJQ,Jessica,Thomas,jessicathomas19@yahoo.com,+18167923644,In Transit,671.98,Positive,2025-08-23 18:22:57.194935+00:00
+0aade74c-343b-4a1a-b128-ed5f3cc3517d,ERP-NZ9C65FP,Melissa,Robinson,melissarobinson39@protonmail.com,+15159517743,In Transit,635.44,Frustrated,2025-07-03 09:18:56.194943+00:00
+b6963fd1-4b4a-4c4b-a5a1-ed06343cae78,ERP-F07OL93A,Matthew,Clark,matthew.clark90@protonmail.com,+16268705724,Pending Callback,936.11,Neutral,2026-02-17 15:13:38.194951+00:00
+7e8b0af2-5fcf-4151-b0ae-c70a0d15f977,ERP-HG8Q3GCG,Melissa,Jones,melissa.jones34@hotmail.com,+18418392789,Delayed,491.07,Positive,2025-12-05 07:54:59.194958+00:00
+1bc0aedd-5d08-4a18-a91c-72044568e2ba,ERP-CBIR1AJ8,Linda,Rodriguez,lindarodriguez@gmail.com,+14167341118,Pending Callback,3054.63,Neutral,2025-05-04 00:32:07.194967+00:00
+631aea96-4645-4556-8a46-c11edb49bd0e,ERP-1VMYMLIN,Dorothy,Thomas,dorothy_thomas@outlook.com,+15383021050,Pending Callback,4365.65,Neutral,2025-07-23 09:03:34.194975+00:00
+d3ed6829-6ed3-46ca-aec4-2ecda9dc77d9,ERP-V5KZ3NWX,William,Smith,william_smith66@icloud.com,+13922036278,In Transit,3205.51,Positive,2025-06-21 09:37:02.194982+00:00
+8180109b-d9dd-447a-90c0-bf348942ed3e,ERP-YIR02M77,Deborah,Hernandez,deborah_hernandez@icloud.com,+15945004196,Delayed,4362.31,Frustrated,2025-06-30 05:09:29.194990+00:00
+82691fad-31cc-4e52-af12-b5e1bff05a3c,ERP-BRD399Q6,Melissa,Taylor,melissa.taylor@yahoo.com,+14163742465,In Transit,2230.98,Frustrated,2026-04-19 16:14:05.194998+00:00
+49986f3d-ab08-4df4-8419-df935c99d445,ERP-761HJR6E,Richard,Robinson,richard.robinson69@gmail.com,+19085404666,In Transit,3255.53,Neutral,2025-05-12 13:13:45.195006+00:00
+3434d51d-4e5c-4019-ac02-56dc62dc2c29,ERP-0NXU43IE,Melissa,White,melissa.white@outlook.com,+19588064082,In Transit,2906.91,Positive,2025-06-03 14:59:12.195014+00:00
+53d8cbe1-d834-47e7-a2e6-bfb430db2c93,ERP-UACT49LN,Daniel,Gonzalez,danielgonzalez@gmail.com,+16042099819,Pending Callback,1648.04,Neutral,2025-06-09 21:10:36.195022+00:00
+05924b0a-d91f-4d11-befe-d97bcd07ad2b,ERP-YFK043BL,Thomas,Thomas,thomasthomas@outlook.com,+19237878836,Delayed,2525.63,Frustrated,2025-12-05 17:25:21.195029+00:00
+0eaf5227-ff99-4698-bebb-c6eef72d2c4e,ERP-L3H03ZB5,Sarah,Sanchez,sarah.sanchez63@outlook.com,+18753631353,Pending Callback,1753.31,Frustrated,2025-10-29 03:59:32.195037+00:00
+bf2a1672-a06f-4768-a6fb-0441162576a3,ERP-OC0K7ZTD,Matthew,Harris,matthew_harris@globallogisticsinc.com,+19265118496,Delayed,2928.07,Neutral,2025-08-03 17:49:33.195044+00:00
+9ba55fc9-3cce-4f01-a745-93810e1053e4,ERP-6H2HXN4D,Paul,Martinez,paul.martinez49@icloud.com,+13722572573,Delivered,4873.38,Positive,2026-04-10 15:31:33.195052+00:00
+5ff56e6d-66ce-42ae-a157-9573b84c2f71,ERP-XV8WOBIR,Linda,Taylor,lindataylor@icloud.com,+19635842468,Pending Callback,4337.99,Frustrated,2025-12-03 15:09:46.195059+00:00
+112d84c5-2e46-4b4f-9b47-df90c57ddc48,ERP-XNECRYSA,Karen,Lee,karenlee74@outlook.com,+19109632549,Delayed,1981.4,Frustrated,2025-08-01 02:37:05.195067+00:00
+9ff51f43-085c-49b6-98b9-835ea0ceb53e,ERP-UDC62G3A,Sandra,Martinez,sandramartinez69@gmail.com,+17317989830,In Transit,3792.19,Positive,2025-08-18 06:10:08.195075+00:00
+01778afd-44d7-4828-8f5c-42ab630b6751,ERP-5ZAQLBUX,Linda,Garcia,linda.garcia72@globallogisticsinc.com,+19712352386,In Transit,2580.13,Neutral,2025-10-01 14:10:22.195083+00:00
+ff3e6ca6-0011-40ed-b11b-4334083f85cd,ERP-9XIB86KT,Richard,Wilson,richard.wilson74@icloud.com,+15207356769,Delayed,3470.86,Frustrated,2025-06-16 15:51:14.195091+00:00
+57bcbd71-a1ef-4948-8dd1-10eb43c129bb,ERP-BF4HETVJ,David,Davis,daviddavis80@gmail.com,+17634615270,Pending Callback,3283.87,Positive,2025-11-26 15:46:40.195098+00:00
+4ada295e-f5c6-4839-892d-96a03505284f,ERP-8Y7FHWJW,Ashley,Williams,ashleywilliams25@protonmail.com,+18738639379,Delayed,2156.46,Positive,2025-12-29 03:54:34.195106+00:00
+5ea93e37-ea89-4268-87e0-26d08250b5c4,ERP-AVCEDTCX,Sandra,Gonzalez,sandra_gonzalez43@yahoo.com,+14314801161,In Transit,1948.06,Positive,2025-12-04 23:29:32.195113+00:00
+be9cb795-fbc0-497b-8da4-2218bbda811f,ERP-7G0L3RTZ,Robert,Sanchez,robert_sanchez71@protonmail.com,+13012493797,Delivered,4737.9,Neutral,2026-02-19 20:36:43.195121+00:00
+4edbc6ce-f588-406b-997f-ab3fad65c3e1,ERP-08TV4REA,Matthew,Sanchez,matthewsanchez@icloud.com,+13293467206,Delivered,359.04,Frustrated,2025-08-25 18:53:11.195128+00:00
+57b476a1-0d71-4671-b40c-0a0372d368aa,ERP-1YPQPMQK,Betty,Thompson,betty_thompson@outlook.com,+18502896007,Pending Callback,3875.83,Positive,2025-08-27 12:59:10.195137+00:00
+4f35bfea-0229-4c71-9a4c-677b5d6ffecf,ERP-08FC0TR5,Jennifer,Williams,jennifer_williams@hotmail.com,+17097279722,In Transit,2086.81,Frustrated,2026-02-16 03:57:29.195144+00:00
+d918e7bf-0350-4260-92bb-7d0d4e6ec6a2,ERP-ZZ0I0835,Deborah,Smith,deborahsmith@protonmail.com,+16593729577,Delayed,956.59,Neutral,2025-06-09 00:44:35.195152+00:00
+3a8364ef-4016-4827-b646-e09ea757aae6,ERP-MBRG8MY3,William,Taylor,william.taylor38@hotmail.com,+15004714490,In Transit,3716.33,Frustrated,2025-11-29 03:47:00.195159+00:00
+93c6ff2f-0b80-487b-b03e-aed3b5e7d259,ERP-K7X3BQWR,Susan,Robinson,susan_robinson1@outlook.com,+15055622755,In Transit,1813.64,Frustrated,2026-02-17 17:29:09.195166+00:00
+c22fa08f-c11c-46c9-af63-cc0e74084081,ERP-APHT6O6A,Margaret,Lopez,margaretlopez@hotmail.com,+16045835903,Delivered,2198.87,Positive,2025-10-04 16:44:09.195173+00:00
+636b1477-8561-4c37-be02-9a2de790a984,ERP-9XPF0A5Z,Karen,Brown,karen.brown25@gmail.com,+13366047898,Delivered,4514.89,Positive,2025-08-15 07:07:21.195181+00:00
+d239f795-df3a-4ddf-99b4-e3fce7c0f137,ERP-89ERRYE1,Joseph,Thomas,joseph_thomas65@yahoo.com,+13123101346,Delayed,862.16,Frustrated,2026-04-25 17:23:03.195188+00:00
+11f6ef0a-2428-447a-a582-1a3ac97cf80c,ERP-IYM90PKR,Stephanie,Perez,stephanie_perez@icloud.com,+17233915087,Delivered,3856.97,Neutral,2025-08-01 19:13:13.195196+00:00
+17af917c-9845-4308-9622-3518c6616055,ERP-3HZ3ZSG9,Jessica,Perez,jessicaperez@yahoo.com,+13233357574,In Transit,1441.92,Positive,2025-05-05 04:46:39.195203+00:00
+ab178f66-79c5-4b9e-bbbd-84d00b0557be,ERP-AH5NSZ9H,Patricia,Wilson,patricia_wilson@protonmail.com,+16378591846,Delivered,639.27,Neutral,2026-01-12 01:37:50.195210+00:00
+b05460e0-3e3d-492a-b37a-b8bc9fc70bc3,ERP-PLBBB0HQ,Matthew,Thompson,matthewthompson13@yahoo.com,+14587036956,Delivered,1591.35,Positive,2025-08-14 05:33:31.195217+00:00
+0cbb2f72-6845-4ee5-89af-637fa31e6495,ERP-T5L0N2TN,James,Perez,jamesperez@protonmail.com,+15932892742,Delayed,3184.84,Frustrated,2026-03-15 06:49:04.195224+00:00
+29be7f21-eeed-44ed-964d-bbcfebd1d0c0,ERP-853GQD7W,David,Jackson,david_jackson93@globallogisticsinc.com,+14067463517,In Transit,726.38,Neutral,2025-09-29 05:36:36.195232+00:00
+56aced2a-2f5b-4acc-b5f0-45a6a6d574e9,ERP-614UMNWE,Melissa,Rodriguez,melissa_rodriguez9@hotmail.com,+17367151358,Delayed,3035.85,Frustrated,2026-03-11 22:50:50.195239+00:00
+27bd8827-9139-4a61-bfc0-52ec83cd36c1,ERP-8C9G3RTS,Christopher,Johnson,christopher.johnson22@globallogisticsinc.com,+17215937393,Pending Callback,3075.37,Positive,2026-02-18 12:58:44.195247+00:00
+95ad5930-3a7a-4dc0-a947-d2f0e7e144c1,ERP-UVA7SSZJ,James,Garcia,james.garcia38@protonmail.com,+13213754668,In Transit,2714.47,Neutral,2026-04-15 20:15:00.195254+00:00
+4b6c709a-4a8d-4235-ab15-566a1ffbd878,ERP-7JE5B99H,Kevin,Jones,kevin.jones1@icloud.com,+18195776317,In Transit,4737.5,Frustrated,2026-01-18 11:35:14.195261+00:00
+4029138d-9790-40ae-9a11-824887e43ff9,ERP-OWLC33H8,Timothy,Jones,timothy.jones@protonmail.com,+18739962743,Pending Callback,4733.72,Neutral,2025-05-28 03:22:24.195269+00:00
+0afde26b-f688-4c64-a475-b4816eb9c4c5,ERP-VHPLHW4O,Kevin,Lee,kevin_lee30@outlook.com,+13516902535,Pending Callback,989.42,Positive,2025-06-18 06:40:38.195279+00:00
+9baaf820-723e-420d-b890-1654f2530ac1,ERP-U7GKL53Y,Barbara,Miller,barbara.miller@gmail.com,+16364518455,Pending Callback,591.15,Frustrated,2026-03-08 16:57:14.195286+00:00
+43ce6746-4070-454d-8c3f-39524a6163dd,ERP-3VNA31XB,Timothy,Harris,timothy.harris@outlook.com,+13468421221,In Transit,4792.33,Positive,2025-10-02 09:20:43.195295+00:00
+8bcb6491-7893-4470-9e85-b610d397906d,ERP-MZHRUPFL,Deborah,Clark,deborah.clark@protonmail.com,+19084739906,In Transit,203.92,Positive,2026-03-22 02:17:36.195303+00:00
+d3d5fb5e-dcce-4bf2-b2c3-37c7f9c8168b,ERP-D5OAIINM,Andrew,Martinez,andrew_martinez29@icloud.com,+19323159057,Delayed,4954.76,Positive,2026-03-22 12:21:03.195310+00:00
+b34fef81-90a9-40a8-abf1-fea3f0cf3c46,ERP-CMM7DBFP,Christopher,Lopez,christopher_lopez@icloud.com,+16353535940,Delivered,1807.09,Positive,2026-01-15 17:49:45.195318+00:00
+cbb85a63-fe9d-46b3-85e9-bcb8252d9662,ERP-NJ622592,Dorothy,Perez,dorothy.perez@hotmail.com,+16579388838,In Transit,654.5,Neutral,2025-07-22 19:11:40.195325+00:00
+6557f7f6-80a2-4cf0-8216-6e1ea591cfed,ERP-D9GNLPYO,Karen,Jones,karenjones@globallogisticsinc.com,+18694517278,Pending Callback,2791.76,Frustrated,2025-10-05 17:29:55.195333+00:00
+15970a60-3bad-4b0b-9480-6c7b95441ec2,ERP-TIDZS13H,Dorothy,Moore,dorothy.moore31@gmail.com,+14082176937,Pending Callback,4792.32,Positive,2026-04-07 21:18:00.195340+00:00
+617c0b05-b106-449b-9ea4-589c0c51eb85,ERP-453KF486,Matthew,Lopez,matthew.lopez@gmail.com,+19643412920,Delayed,1949.56,Positive,2025-08-03 16:16:09.195347+00:00
+0bd14170-a865-446a-9dd1-7fdc00160719,ERP-BDURVFFF,Sandra,Lopez,sandra.lopez@protonmail.com,+16263533988,Pending Callback,3743.43,Frustrated,2025-10-08 04:24:39.195355+00:00
+865ab89b-b06f-44d3-b1c7-298f0aecc9ca,ERP-Q0PXAECX,George,Martinez,georgemartinez@protonmail.com,+13642117494,Pending Callback,3431.53,Neutral,2025-09-27 19:29:38.195362+00:00
+3f45e312-b02c-4ef6-adf0-7cedcde4f00c,ERP-JULI7JDN,Melissa,Clark,melissa.clark@hotmail.com,+18332574586,Pending Callback,1000.1,Frustrated,2025-09-25 19:36:03.195370+00:00
+192d80b7-a5ce-4888-84e9-309c7edd20e9,ERP-CYRXONBN,Joshua,Clark,joshua_clark25@gmail.com,+13062796942,Delivered,237.44,Neutral,2026-02-26 19:33:53.195377+00:00
+c3cb36c3-b5a1-4c3c-8a50-3d72f4f41920,ERP-CV1LTWBJ,Andrew,Brown,andrewbrown@protonmail.com,+16952461787,Delivered,556.73,Neutral,2026-04-27 17:34:27.195384+00:00
+091402f7-9ac2-4ebb-99b0-d30d9eb3cc71,ERP-KOH109ZD,Matthew,Harris,matthew_harris@protonmail.com,+19933531388,Pending Callback,2437.07,Positive,2026-01-08 08:29:34.195392+00:00
+c9e65fa7-4fb7-432f-a525-49eabb0c0ede,ERP-YCW8IHYF,Richard,Jones,richardjones21@hotmail.com,+13345475765,Delivered,3155.01,Neutral,2026-04-15 11:39:15.195400+00:00
+116f0f6b-0d62-49d9-812a-551e624975db,ERP-YI9V8U9D,Melissa,Harris,melissa.harris19@protonmail.com,+12897102541,Pending Callback,1637.22,Neutral,2026-02-27 07:34:08.195408+00:00
+401069ee-1060-40cd-89dc-94c094bfc2ca,ERP-UMCZQ991,Michael,Rodriguez,michael_rodriguez@gmail.com,+17826991648,Delivered,4309.12,Neutral,2025-11-23 04:08:08.195415+00:00
+d109244b-6e95-40df-8f23-6fcb3381174b,ERP-YPSWLDOQ,Michelle,Robinson,michellerobinson@icloud.com,+14509161130,Delayed,4279.99,Neutral,2025-12-06 01:41:22.195424+00:00
+34be3386-e82f-4d68-8d1d-1e9fc60ffad8,ERP-OCNQDQX6,Richard,Jackson,richard_jackson@yahoo.com,+19493107503,Pending Callback,1077.41,Neutral,2026-04-05 23:41:00.195431+00:00
+6f4364d4-afe4-41a1-8c1c-68f95876aed9,ERP-9RZRKBFQ,Daniel,Hernandez,danielhernandez28@protonmail.com,+12328157230,In Transit,4688.65,Neutral,2025-06-28 09:22:37.195439+00:00
+6dedf076-eb10-4f24-80e3-8cff25a2f593,ERP-HHA1PJGF,Sandra,Thomas,sandra_thomas@outlook.com,+19296627876,Delayed,3381.26,Neutral,2026-02-18 12:52:03.195446+00:00
+5807aff8-9933-4ce5-96cb-defb4d840223,ERP-6P8KH7RT,Sarah,Williams,sarah.williams90@outlook.com,+19097847375,In Transit,2848.45,Frustrated,2026-02-12 21:53:18.195454+00:00
+0aee2c69-ed65-44ab-b5e2-9fc8ce315b63,ERP-YWL9700L,Michael,White,michael.white@hotmail.com,+15243167658,Delivered,2651.39,Positive,2025-11-07 01:05:15.195461+00:00
+822df025-fb0f-43ae-aee0-e9ebc0eb4b91,ERP-Q8DH9PTF,William,Lee,william_lee28@yahoo.com,+13958951235,Delivered,4087.52,Positive,2026-01-03 18:16:30.195469+00:00
+49e094ae-ac79-49e3-bfbf-3924a2a3bf7d,ERP-3ER9OM3P,Lisa,Taylor,lisa_taylor@hotmail.com,+16385823898,Delayed,2759.54,Neutral,2026-01-10 07:56:55.195476+00:00
+9b1346ec-69bb-4d72-9705-e58fda7f969a,ERP-YWZ76DD4,Brian,Thompson,brian.thompson@protonmail.com,+16213069133,In Transit,3204.27,Frustrated,2025-09-17 07:06:43.195484+00:00
+230d66ae-954a-4fe5-bb59-9d7121467265,ERP-KPIQNHQE,David,Perez,david_perez53@gmail.com,+15834299315,Delivered,1411.28,Frustrated,2026-01-18 07:17:29.195492+00:00
+b735a0f8-a577-45ea-b31e-0af536130c55,ERP-66YA6BA2,Lisa,Clark,lisaclark95@outlook.com,+13747858045,Delayed,2823.12,Neutral,2026-02-15 04:52:35.195499+00:00
+5b029be9-df4e-4f2c-98c4-acd0c4408dd9,ERP-OB7P7O0O,Michelle,Lee,michelle_lee@hotmail.com,+14363013069,In Transit,3194.06,Neutral,2025-06-07 14:59:08.195507+00:00
+983caf14-17a9-46a8-be00-177f1a9b0628,ERP-64FLDAA1,Ronald,Lee,ronald.lee@protonmail.com,+15912253138,Pending Callback,3208.87,Neutral,2026-02-17 13:46:53.195514+00:00
+5b23e557-0cb0-4fbf-9abe-3dc7ceaa03c9,ERP-6KTI221X,Jessica,Lee,jessica_lee@icloud.com,+12238532694,In Transit,2349.73,Frustrated,2026-03-14 09:06:03.195522+00:00
+4cbc4cc9-91c5-4451-a30b-9ab736def81f,ERP-K6DRN4OR,Robert,Jones,robert.jones@hotmail.com,+18402784445,Pending Callback,1938.75,Neutral,2025-08-27 23:28:15.195529+00:00
+c84d3250-3493-406c-ada4-4b8cd9234d29,ERP-FK6XW4EM,Mark,Sanchez,mark_sanchez@yahoo.com,+17349595169,In Transit,1044.94,Positive,2025-10-04 21:08:47.195537+00:00
+21ce3691-2f1e-49d7-8098-c8c06a8b9dcf,ERP-SF5EHLH0,Maria,Taylor,maria.taylor35@hotmail.com,+14042946710,Delivered,2388.51,Neutral,2025-11-12 16:12:33.195545+00:00
+8d525161-0a09-43a1-b864-6c39771a5b33,ERP-7JH4Z8D2,Steven,Gonzalez,stevengonzalez@globallogisticsinc.com,+14109398992,Pending Callback,4426.0,Neutral,2025-09-11 10:24:18.195552+00:00
+9b73051f-562c-4b99-a1f5-3a71c8bde99d,ERP-3WVPUNWC,Deborah,Rodriguez,deborah.rodriguez5@protonmail.com,+16195009691,Delivered,2051.7,Positive,2026-02-20 03:46:21.195560+00:00
+bbd3d7f4-d75a-43c6-a235-ce10daad2918,ERP-2MCXN2EL,Daniel,Wilson,daniel.wilson92@yahoo.com,+16767816268,Delayed,2852.04,Neutral,2026-01-10 21:07:30.195567+00:00
+05254cae-a409-4192-8dee-178f91be92e6,ERP-SDKV54C6,Joshua,Miller,joshua_miller88@outlook.com,+15274024229,In Transit,4033.35,Neutral,2026-04-12 20:28:12.195575+00:00
+4676a5cf-9f1b-4d2e-955c-205ac401ea3d,ERP-EQVVIAA2,Karen,Wilson,karenwilson1@outlook.com,+13346121606,In Transit,1753.21,Positive,2026-04-04 01:14:32.195583+00:00
+7b860293-26d8-448b-a679-4c61b39d10ad,ERP-3OKLMC1R,Paul,Brown,paul.brown51@icloud.com,+16657052989,Delivered,4694.75,Positive,2026-04-19 15:36:57.195590+00:00
+e5a9b30a-ab04-4bad-a828-8d6fe6e0ee34,ERP-3E950ID0,Thomas,Johnson,thomas_johnson@icloud.com,+12534651705,In Transit,335.22,Neutral,2026-04-01 21:09:28.195598+00:00
+edd302b7-8c7f-4003-9b52-bb6d8f645a37,ERP-Y2NZ7VEL,Charles,Hernandez,charles.hernandez97@icloud.com,+16578843004,Delayed,2931.64,Frustrated,2025-10-22 16:30:10.195605+00:00
+6d515870-9127-4c45-aa26-012ab42d23e7,ERP-1RD1ZM4I,Karen,Hernandez,karenhernandez@icloud.com,+12792769103,In Transit,1141.13,Frustrated,2026-02-06 02:04:23.195613+00:00
+46780a31-2fe8-4b11-abdc-2c4200d76668,ERP-NRM31SL7,Ashley,Clark,ashleyclark@globallogisticsinc.com,+17163083130,Delayed,4591.82,Neutral,2025-11-06 07:37:50.195620+00:00
+dc4a87b2-6f52-4343-b33d-0fb8e04ecc05,ERP-HOCPY8UD,Michelle,Taylor,michelle_taylor@yahoo.com,+12166714064,Delivered,240.07,Frustrated,2025-10-06 20:23:27.195627+00:00
+ecb4daf2-95b9-4883-af16-c89a27222657,ERP-J7DPFSSB,Mark,Lopez,mark_lopez@gmail.com,+18645917923,Delayed,1540.63,Neutral,2026-02-21 10:08:59.195634+00:00
+39f5be2f-4114-4095-b7e6-eae7dcb6e1c1,ERP-TRPYX8HB,Joshua,Rodriguez,joshua.rodriguez74@yahoo.com,+12677442655,Delivered,1209.68,Frustrated,2025-08-02 08:40:28.195641+00:00
+16e5d61b-3884-4601-ba39-e22ad5cbc3c5,ERP-OD05JH2M,Melissa,Gonzalez,melissa_gonzalez91@icloud.com,+12032964032,Pending Callback,3721.54,Frustrated,2026-01-28 08:30:24.195649+00:00
+41f01c54-058f-4b82-b694-cba82b5b9f0d,ERP-YFLQ8XPA,Richard,Hernandez,richard_hernandez@icloud.com,+19782096769,Pending Callback,2957.48,Neutral,2025-05-26 21:36:53.195656+00:00
+be43b880-7f89-4f09-90d5-725e9dd7b517,ERP-D3U94SGF,Jessica,Thomas,jessica.thomas13@globallogisticsinc.com,+19535438415,Pending Callback,3700.59,Frustrated,2026-01-21 02:01:24.195663+00:00
+ada971ec-9ca7-43b7-b8e1-f9efde84c562,ERP-JQ3KMSX5,Brian,Thomas,brianthomas@outlook.com,+19027311339,Delayed,4895.32,Positive,2025-08-17 22:51:23.195672+00:00
+bab1a1f6-0a1a-42cd-b61a-c1925e419761,ERP-RI09M0G8,Patricia,Lopez,patricialopez14@icloud.com,+18957578360,Delayed,1400.02,Frustrated,2025-12-16 13:07:48.195680+00:00
+bb37d939-9384-462e-b671-c19c5e47a3d6,ERP-V8JGUZ4E,Nancy,Gonzalez,nancy_gonzalez73@outlook.com,+13122089174,Delayed,2384.96,Positive,2025-10-09 20:09:11.195688+00:00
+7336b974-2b77-4c10-8142-112f5168b527,ERP-UFRCKQH3,Christopher,Martin,christopher.martin7@outlook.com,+12056406771,In Transit,344.52,Positive,2025-12-16 00:19:52.195696+00:00
+909b8e16-8276-4e9b-bcc4-cf90bc617dcd,ERP-4X1FDJ9H,Christopher,Sanchez,christophersanchez11@yahoo.com,+12326846810,Delayed,4077.37,Frustrated,2025-12-02 00:34:34.195703+00:00
+0dbd15b4-745b-48a3-885c-6df9f08b0a93,ERP-8DJKLUYL,Sandra,Gonzalez,sandragonzalez@outlook.com,+13386264268,Delivered,1594.48,Neutral,2025-09-22 22:54:00.195710+00:00
+c63ab073-130d-41b2-8842-f96f2c92a495,ERP-TN5PEPL7,Kevin,Anderson,kevinanderson46@outlook.com,+16376777889,Pending Callback,2360.29,Frustrated,2026-04-20 18:19:46.195718+00:00
+93c34dde-3ee7-4596-a90d-f7237628d659,ERP-DF62UNW6,Stephanie,Wilson,stephanie_wilson7@yahoo.com,+16128861097,Pending Callback,4056.66,Frustrated,2025-11-03 07:02:00.195725+00:00
+76cd7230-ac33-4a6d-a0f6-26cd11fee4c4,ERP-B3XMDKRL,Sarah,Williams,sarah.williams@icloud.com,+14097283361,Pending Callback,768.37,Frustrated,2025-08-25 14:27:45.195733+00:00
+1cf369a4-d61a-4491-b48a-0ee9be8d2835,ERP-WZ73WHCF,Patricia,Martinez,patricia.martinez@yahoo.com,+14093068761,In Transit,4180.36,Neutral,2025-11-30 06:53:03.195740+00:00
+714d322d-0dda-4795-9d63-477d1cc78d4a,ERP-EO934T3Y,Sarah,Robinson,sarahrobinson@hotmail.com,+13498511354,Delayed,794.26,Frustrated,2025-08-18 16:34:49.195747+00:00
+e5641dfd-d6f9-42fe-bfa2-bd81180bad25,ERP-SZHRKDVN,Jessica,Garcia,jessica_garcia51@icloud.com,+13096757830,Pending Callback,826.02,Neutral,2025-11-04 12:17:09.195754+00:00
+64a77465-1a47-43ba-ba38-5418bfec668b,ERP-OUBXXQ6M,Linda,Jackson,linda.jackson60@outlook.com,+12093626861,Delayed,1809.29,Frustrated,2025-10-09 02:43:41.195762+00:00
+2bbba47d-8f2d-42d6-9db4-6d0f3c5e9c84,ERP-CXMZMZ2K,Anthony,Taylor,anthonytaylor39@gmail.com,+18606957168,Pending Callback,3068.62,Positive,2025-09-19 07:31:46.195769+00:00
+f6b8d10d-8106-4fa6-bd38-0fd09f225c66,ERP-SXJZVUV3,Melissa,Robinson,melissa.robinson@globallogisticsinc.com,+19503624796,In Transit,3359.78,Neutral,2025-05-03 04:54:37.195776+00:00
+45fa4cf2-e03e-4724-b50f-556467c8053f,ERP-LI172D50,Amanda,Thomas,amanda_thomas97@gmail.com,+12638265103,In Transit,283.35,Frustrated,2026-04-02 17:17:42.195783+00:00
+1ec82b56-021c-4290-88db-a657d5d1c224,ERP-NWBGDQEW,Mark,Harris,markharris@outlook.com,+17026485687,Delayed,1085.84,Positive,2025-11-13 10:50:28.195790+00:00
+ef97d339-370a-412e-bd86-ea52ba5c140c,ERP-2DA8DBFA,Kimberly,Sanchez,kimberly_sanchez@outlook.com,+13898989653,Pending Callback,1031.67,Positive,2025-09-21 12:22:02.195798+00:00
+62e09092-f778-41d2-9cc8-ab40258e5a64,ERP-MWUECPNC,Paul,Taylor,paul.taylor17@gmail.com,+13207104777,In Transit,3047.3,Neutral,2026-04-22 06:29:25.195805+00:00
+860de79d-875f-429b-903e-79124c0637fd,ERP-77JZC58C,Thomas,Clark,thomasclark31@hotmail.com,+18332589944,In Transit,2955.59,Neutral,2025-08-20 08:02:17.195815+00:00
+850a2165-3832-4d61-b69a-9cf2dabb7002,ERP-MJM1FT07,Maria,Johnson,mariajohnson@hotmail.com,+12747771579,Delivered,4907.17,Neutral,2025-09-10 17:27:42.195823+00:00
+d8f7fc58-7b21-4b2e-be16-9521443808a4,ERP-75RE0DRI,Deborah,Martin,deborah_martin56@outlook.com,+14332211906,In Transit,3890.7,Positive,2025-10-05 13:37:42.195830+00:00
+a08273a8-7c10-4d6d-9094-57af1c7fac5c,ERP-NYARNNEZ,Joshua,Ramirez,joshuaramirez@hotmail.com,+13208307024,Delivered,1048.86,Neutral,2025-05-09 11:34:55.195837+00:00
+2d5786ed-22b8-4909-b2ed-2141cb3d4a5c,ERP-IVI052U9,Sarah,Davis,sarah.davis@globallogisticsinc.com,+12582781928,Delayed,2248.92,Neutral,2026-04-14 01:06:25.195845+00:00
+a5cd3f20-f264-450d-b855-80fcdf3bffed,ERP-V69EOXXC,Daniel,Lopez,daniellopez27@icloud.com,+19525654609,Pending Callback,3594.36,Neutral,2025-07-02 00:31:56.195852+00:00
+c0017e59-0013-4835-9342-296c1a77c82f,ERP-5I6LTDMO,Emily,Martinez,emilymartinez63@gmail.com,+14083409535,Delayed,1594.2,Frustrated,2026-02-08 04:05:10.195859+00:00
+7ed9d556-e5ec-4001-a681-4af649b830cf,ERP-02BIP18A,Linda,Lopez,linda.lopez35@protonmail.com,+15935072384,In Transit,1467.55,Frustrated,2025-12-02 22:03:22.195867+00:00
+2b4f12af-cd49-4662-b9b6-4354cba4bcc6,ERP-5NBHGPBK,Dorothy,Smith,dorothysmith98@gmail.com,+18239726508,Delivered,4070.19,Frustrated,2026-02-05 22:15:50.195874+00:00
+6ff31770-f61f-4d16-b42f-29bd8456112e,ERP-M3PP00CD,Ronald,Smith,ronald_smith93@globallogisticsinc.com,+17476747944,Delivered,896.49,Neutral,2025-10-31 12:44:50.195882+00:00
+3fcba9df-1c31-4cd5-9036-0aa35e7541a7,ERP-I6KYJ91K,Deborah,Robinson,deborahrobinson@protonmail.com,+14805705403,Delivered,3933.89,Frustrated,2026-04-26 05:35:33.195889+00:00
+47e11f9d-429e-4197-af56-84c914a66606,ERP-ULJGQPQ8,Linda,Martinez,linda_martinez@hotmail.com,+12597932303,Delivered,4495.52,Frustrated,2025-12-30 01:39:44.195896+00:00
+8acae96a-a987-4f60-ac41-16fb79b3eeaf,ERP-G1J5EWFW,Michael,Anderson,michael.anderson@icloud.com,+12393889302,Pending Callback,2941.46,Positive,2025-09-28 02:28:04.195905+00:00
+6cb66d00-d30c-4907-8afd-5629734ecb63,ERP-CZJJY4MZ,Melissa,Davis,melissadavis31@gmail.com,+12797198271,In Transit,2604.07,Positive,2026-02-10 18:47:35.195912+00:00
+b60564ea-3c9a-44dc-a38b-f3810b895cdb,ERP-N3OX5FL2,Daniel,Jackson,daniel_jackson53@hotmail.com,+15018361510,Delayed,1904.68,Neutral,2025-05-04 17:29:52.195920+00:00
+afa9da1f-a05f-42b7-8a4c-866db90e81b3,ERP-VDHLZ02Z,Patricia,Robinson,patricia.robinson@icloud.com,+19433537243,In Transit,4780.38,Positive,2025-09-23 10:40:10.195927+00:00
+1c99a9e0-8913-4a2d-bfbb-ef74dc30d133,ERP-W0TE52VX,Steven,Jackson,stevenjackson57@outlook.com,+13997895801,Delayed,1710.55,Neutral,2026-01-31 08:32:39.195935+00:00
+19d61590-4889-4980-b435-f821f6496697,ERP-0EI05NMS,Ashley,Hernandez,ashley_hernandez84@protonmail.com,+14356597862,Delayed,2889.78,Positive,2025-05-06 12:17:39.195942+00:00
+7cc65d04-f992-46c2-b20e-6497630028b6,ERP-1OVEJKLC,Andrew,Davis,andrew_davis@protonmail.com,+17068474245,Delayed,4394.39,Positive,2026-02-25 06:11:01.195950+00:00
+4318e545-37f5-41fc-97cf-98f0a0bc0732,ERP-JT70EBPY,Linda,Wilson,linda.wilson17@hotmail.com,+15623307591,Delayed,3588.72,Positive,2025-12-21 05:19:15.195958+00:00
+75776e28-fd19-4983-bd23-4c6772f0c4ed,ERP-VDZC786W,Nancy,Jackson,nancyjackson56@globallogisticsinc.com,+16889163205,Delayed,3646.17,Frustrated,2025-05-10 03:40:35.195965+00:00
+fa38bd81-f025-4fff-89e9-e9d90fa77e02,ERP-FAVYQLG0,Steven,Williams,steven_williams@yahoo.com,+15047056588,In Transit,2864.24,Frustrated,2025-09-17 20:12:39.195972+00:00
+8110e950-f018-4834-9a14-66707a28b97b,ERP-7KN18B85,Steven,Ramirez,stevenramirez27@protonmail.com,+14847886150,In Transit,1801.99,Positive,2026-03-15 23:37:31.195979+00:00
+0a877cf9-ac0b-4cae-8bbc-2f458812f689,ERP-RIG7JVDI,Christopher,Rodriguez,christopher_rodriguez@yahoo.com,+17657203766,In Transit,3032.12,Positive,2025-05-20 03:11:37.195987+00:00
+29f3d9db-4f12-4ff3-9871-bc11817bb347,ERP-2A3AH7U0,Andrew,Moore,andrewmoore17@outlook.com,+13129332965,Pending Callback,4455.51,Neutral,2026-01-18 20:44:13.195994+00:00
+e4be84e1-cc76-4ca2-bca7-84265ffbe5ad,ERP-EKY820IC,Jennifer,Ramirez,jennifer.ramirez65@outlook.com,+16648459402,In Transit,3563.37,Neutral,2025-05-19 12:01:08.196001+00:00
+5cdacaae-4dfc-4ae2-8942-a0fc899d6fe6,ERP-DZSGU4W8,David,Wilson,davidwilson@yahoo.com,+18005854607,Delayed,1399.9,Positive,2025-10-24 20:40:03.196009+00:00
+4d67309e-1356-4afb-8c9b-6bea5c4ca8d1,ERP-REWDS0HP,Barbara,White,barbara_white@icloud.com,+13822397851,Delivered,3105.55,Frustrated,2025-09-16 06:16:08.196016+00:00
+0aa880e6-893e-40f2-b89a-43c79cd66e46,ERP-MT8545YR,Jessica,Lee,jessicalee51@protonmail.com,+16925022581,Delayed,650.6,Neutral,2025-11-19 01:42:06.196024+00:00
+49df123e-372f-44a3-93c0-4b80cfe2da5f,ERP-IPG8XMOE,Mark,Hernandez,mark_hernandez63@icloud.com,+14402295766,Delivered,2586.69,Neutral,2026-04-07 09:52:27.196031+00:00
+4d077f9c-d3cd-4299-8d88-89690595e18e,ERP-LYO3PJBR,Emily,Harris,emily.harris@outlook.com,+16586194625,Delayed,2726.46,Frustrated,2026-03-19 04:23:08.196039+00:00
+65e4567d-7ee5-4f3f-a2cd-a169abe8507f,ERP-LVA02DZ6,Michelle,Martin,michellemartin@protonmail.com,+14155709773,Delayed,4927.56,Frustrated,2025-11-28 10:01:46.196046+00:00
+d04226c2-c7c4-4732-a20d-cb76b4728f1c,ERP-KFNOTIA4,Melissa,Davis,melissadavis14@globallogisticsinc.com,+16962433571,Delivered,1577.19,Positive,2025-08-28 18:04:39.196054+00:00
+e34bd6a4-fbfc-4133-b92f-2e46e014a879,ERP-IJE2XE0J,Stephanie,Thompson,stephanie.thompson@protonmail.com,+19399207805,In Transit,172.23,Frustrated,2025-09-08 02:47:14.196061+00:00
+17fd1af7-0a05-4bf5-b1e2-128caef3ed06,ERP-02GVLLSA,Patricia,Brown,patricia_brown@gmail.com,+14708718723,Pending Callback,1527.07,Positive,2026-02-03 17:03:14.196068+00:00
+6bd9550b-bc55-4443-8541-55e0072a6e7d,ERP-KKZSN908,Donald,Moore,donaldmoore@hotmail.com,+14297911407,Pending Callback,3878.91,Neutral,2025-12-08 09:36:51.196076+00:00
+d0522fe8-dd72-4fd7-8390-758d94175c1f,ERP-DLFWDUH7,Paul,Jackson,pauljackson@yahoo.com,+16128318758,Delayed,388.77,Neutral,2026-01-23 03:34:08.196084+00:00
+b5f8695d-03c1-49b6-bb65-58ed6e5385d0,ERP-04BYV5JH,Donald,Martinez,donaldmartinez63@outlook.com,+18674416272,Pending Callback,3573.45,Frustrated,2025-09-27 13:25:24.196091+00:00
+69de58bc-910b-46de-9e62-f06d38392d13,ERP-CDZN1F0F,Deborah,White,deborah_white@hotmail.com,+17073749594,Pending Callback,785.34,Frustrated,2025-11-19 15:11:09.196099+00:00
+41a38d6d-a8a6-4f67-9df0-90878d1ab609,ERP-KPK7YSWN,Margaret,Smith,margaretsmith@outlook.com,+17359014349,Delivered,2644.96,Neutral,2025-10-29 16:13:01.196106+00:00
+68f079d8-e6d0-43f9-b0c0-9831fb70dd8d,ERP-77Z4ES3A,Ashley,Miller,ashley_miller@hotmail.com,+12682056109,Delayed,1076.41,Positive,2025-10-04 04:34:51.196113+00:00
+c87fc0cc-29c8-484a-86cd-8f887c329414,ERP-DWVCW5MA,Ashley,Hernandez,ashley.hernandez36@globallogisticsinc.com,+16367986009,Delivered,3160.05,Neutral,2025-05-03 04:13:14.196120+00:00
+3383ffce-0736-4726-93e2-c5e681c7f2f3,ERP-TXCF0KJD,Charles,Moore,charlesmoore76@outlook.com,+17899905542,Pending Callback,1125.6,Positive,2025-06-30 19:06:41.196128+00:00
+7dfb7366-fbd2-46b7-9bfd-cc33075605e8,ERP-D2FF5L6B,Thomas,Miller,thomasmiller57@icloud.com,+16835345957,In Transit,1279.79,Neutral,2025-12-05 11:49:18.196136+00:00
+5b75d70e-3931-4dd1-9cc2-d587b68f80aa,ERP-ZM4LCVHF,Stephanie,Gonzalez,stephaniegonzalez@globallogisticsinc.com,+16477738235,Pending Callback,3505.99,Neutral,2025-08-07 20:30:45.196143+00:00
+cbe6a745-159f-4ba7-8b75-a09d32e1959f,ERP-6XG541MP,Linda,Moore,lindamoore@hotmail.com,+15833831174,Delayed,2266.19,Frustrated,2026-02-14 08:06:29.196151+00:00
+e4939e05-c65a-4dee-973c-b6126cdb552a,ERP-LDNJ7VBJ,James,Jackson,james_jackson@icloud.com,+19214595492,In Transit,4858.59,Positive,2025-05-30 19:07:52.196158+00:00
+815a0037-19dc-4bba-be85-85aecf43f6f4,ERP-QVQG0XTD,Melissa,Robinson,melissa_robinson@icloud.com,+19533813156,In Transit,2155.91,Positive,2026-04-09 06:11:47.196166+00:00
+3c081c33-cec7-422c-8f44-58a9d9bed05f,ERP-ZL4J4X0L,Mark,Lee,marklee@protonmail.com,+19395759459,In Transit,4708.67,Neutral,2025-11-20 07:40:14.196173+00:00
+8fed872b-fc1b-4d46-9078-c6a4ca8f83cb,ERP-CG1FJGBV,Brian,Perez,brianperez65@yahoo.com,+18509641052,Delivered,1441.44,Neutral,2026-03-16 07:25:20.196181+00:00
+db7ee18b-4dad-4c73-b0f2-125e151cbc39,ERP-UZUQED0G,Nancy,Anderson,nancyanderson@globallogisticsinc.com,+13732104563,Delivered,2355.71,Frustrated,2026-01-25 04:53:29.196188+00:00
+e5590279-64e3-46fa-b51a-e3aa212b3a93,ERP-Y7500LNK,Lisa,Clark,lisa_clark18@hotmail.com,+14313925469,Delayed,967.85,Neutral,2026-01-20 07:14:46.196196+00:00
+828aa14d-499e-480a-8496-1ff1ec5b90e8,ERP-JRUMXQW3,George,Anderson,george.anderson75@yahoo.com,+17507824451,Pending Callback,1799.92,Frustrated,2025-06-25 18:48:51.196203+00:00
+169a5397-dbe9-484e-b884-67980f9ac072,ERP-M8T0JSHH,Christopher,Miller,christopher_miller@protonmail.com,+18748464054,Pending Callback,785.09,Frustrated,2025-12-26 14:06:27.196210+00:00
+1b13e7be-0b7e-4275-8860-03a471156b26,ERP-NVBZW5AP,Betty,Jackson,betty_jackson@yahoo.com,+15665133666,Pending Callback,2779.21,Positive,2025-11-11 12:44:38.196218+00:00
+64b1b0b0-2a70-4b8d-8610-fd9482a33262,ERP-VZ0RI0VR,Michelle,Anderson,michelle_anderson@yahoo.com,+19817192767,Pending Callback,2186.88,Neutral,2025-09-18 18:01:24.196226+00:00
+dde21d46-baf3-4cb1-a051-b61f18b87cc4,ERP-BS7587H9,Margaret,Jackson,margaret.jackson17@globallogisticsinc.com,+12552926067,Delayed,4027.3,Neutral,2025-11-28 05:40:16.196233+00:00
+6c11c65c-b6bc-4384-a01b-a0c8b1c68aa6,ERP-AF5KCIHD,Richard,Anderson,richard.anderson20@gmail.com,+16883636647,In Transit,2406.92,Frustrated,2025-11-28 23:48:52.196240+00:00
+29d60356-0d21-46ea-aeae-91eace218ff9,ERP-6Y3Z1DE1,George,Miller,george.miller52@outlook.com,+18909477956,Pending Callback,2717.16,Neutral,2025-10-23 09:13:43.196248+00:00
+fe8c1f04-cef2-4ac2-9bc8-4c387e8d2d0d,ERP-8A5GINSA,Brian,White,brianwhite97@gmail.com,+18614353262,Pending Callback,1021.06,Positive,2026-01-03 18:20:10.196256+00:00
+f026fe36-3d70-4e88-bb3b-c63510d5e567,ERP-MXPKN3B8,Sandra,Williams,sandra_williams@hotmail.com,+18987292743,Pending Callback,4050.52,Neutral,2025-08-07 14:00:23.196263+00:00
+6f8e3579-716a-436e-bff7-9bfb48016385,ERP-XO3FESYA,Timothy,Brown,timothybrown86@hotmail.com,+19892555963,Pending Callback,1367.38,Frustrated,2026-03-16 23:47:27.196271+00:00
+7bcde6c2-9be6-4491-9899-fb1fc44d9682,ERP-2QNRMTN2,Joshua,Sanchez,joshua_sanchez69@globallogisticsinc.com,+18902813463,In Transit,1751.87,Frustrated,2025-09-13 19:58:36.196278+00:00
+34019d3e-4fd5-4317-9162-993073eacdd4,ERP-SW5PQB5Q,Charles,Miller,charles.miller77@outlook.com,+16355455852,In Transit,2759.47,Positive,2026-01-07 03:24:34.196286+00:00
+0871a510-06f1-4794-bfe6-e1cbdd252f8b,ERP-ALWVMB0I,Matthew,Wilson,matthew.wilson@yahoo.com,+19443489084,Pending Callback,4474.31,Neutral,2025-11-04 03:26:40.196293+00:00
+a84b56c5-3bf2-4428-a751-32e85c7d462e,ERP-I340SQCN,George,Martin,george.martin@hotmail.com,+17249422290,Delivered,4644.46,Frustrated,2026-01-03 17:53:18.196300+00:00
+33f30337-4e2a-42d8-9c36-7d65671921ce,ERP-A8JX54PE,Sandra,Gonzalez,sandra.gonzalez74@outlook.com,+18307269833,Delayed,3501.86,Positive,2025-12-06 16:27:56.196308+00:00
+cbe88b51-0658-41b9-a151-4d74005451d6,ERP-H7JYGSBO,Kenneth,Thomas,kenneth.thomas87@outlook.com,+12056164393,In Transit,3932.05,Frustrated,2026-03-11 15:05:09.196315+00:00
+cacc52a4-facf-49e8-9cc0-41158a317fb9,ERP-Q2WDIZHW,Karen,Rodriguez,karenrodriguez92@protonmail.com,+16308506386,Pending Callback,2430.45,Frustrated,2026-04-26 03:27:59.196322+00:00
+30e6a62e-7269-48c2-8375-8a76fc468cf0,ERP-L3F4RTGO,Nancy,Hernandez,nancy_hernandez@icloud.com,+16987746657,In Transit,1117.0,Frustrated,2025-12-08 15:29:16.196330+00:00
+efa0e6e2-dd00-47a9-9939-44994919dbdd,ERP-1QQFVWUO,Lisa,Martinez,lisa.martinez97@protonmail.com,+19617024845,Pending Callback,4613.76,Positive,2025-12-05 01:23:21.196337+00:00
+0061f707-9f3d-4f45-ac86-fc4a44609237,ERP-EOHDK519,Joshua,Ramirez,joshua_ramirez71@outlook.com,+19694227851,Delivered,1665.08,Neutral,2025-08-29 06:00:24.196345+00:00
+07cd4837-5103-4e90-9374-d9dbd7ee2f59,ERP-581LTO4R,Robert,Perez,robert_perez37@yahoo.com,+13816095725,In Transit,2710.06,Neutral,2025-07-08 17:31:58.196352+00:00
+44dab4bd-8e5e-4579-b574-e3e3f8eb8af0,ERP-G6NX9OWW,Ashley,Lee,ashley.lee@protonmail.com,+17849497697,In Transit,1692.6,Positive,2026-02-25 09:05:33.196360+00:00
+d0cc2669-9d01-4575-8802-f1893c034693,ERP-QDN05XT5,Kenneth,Lee,kenneth.lee59@icloud.com,+14453798736,Delayed,1681.35,Neutral,2026-04-05 20:30:08.196368+00:00
+55d32aa2-247a-4680-b00d-ebab8e9eff7f,ERP-UQYPIGQX,Maria,Miller,mariamiller@yahoo.com,+16739392144,In Transit,3768.18,Frustrated,2025-08-11 03:41:37.196376+00:00
+f88ad4ec-b1d0-41f8-ba46-cf6584acfaef,ERP-SQN285TZ,Donald,Ramirez,donaldramirez@hotmail.com,+16929431979,Delivered,4077.15,Frustrated,2025-07-06 11:13:29.196383+00:00
+1486f9a4-1006-4794-a9c9-3093a03cb6ce,ERP-O7WP2D41,David,Lopez,davidlopez@icloud.com,+13735757764,Delivered,795.56,Positive,2025-06-26 01:30:33.196390+00:00
+ec71ff45-f93c-4b09-99c4-47f1d7c596db,ERP-JLYQZ11M,Paul,Miller,paulmiller57@globallogisticsinc.com,+16619165225,Delivered,3012.7,Positive,2026-03-04 12:55:05.196397+00:00
+8447af61-4e7e-4200-b4ff-30c815c1f14f,ERP-A5UZLZUK,Kimberly,Martinez,kimberlymartinez57@yahoo.com,+19619113106,Delayed,3076.5,Neutral,2026-01-21 02:20:17.196405+00:00
+3e85a6d4-9264-48b9-ba81-708a6a33426e,ERP-BHKVJZ09,Kevin,Davis,kevin_davis@outlook.com,+18593599209,Delivered,2664.35,Neutral,2025-05-29 22:24:29.196412+00:00
+09627ee4-4c50-4c9a-bccc-5cd939a6752e,ERP-GSG6A8ML,Dorothy,Lee,dorothy.lee20@protonmail.com,+19969462959,Delayed,1846.86,Neutral,2025-09-21 21:20:04.196419+00:00
+6e80caaa-8d89-47ac-8f73-ecac61916918,ERP-A03260NB,Kevin,Robinson,kevinrobinson13@protonmail.com,+12684779761,In Transit,4855.14,Positive,2025-11-08 13:40:54.196427+00:00
+b16298dc-b0f6-4f3c-bdef-5cceb0996bc1,ERP-IJ0YXIYQ,Kenneth,Taylor,kenneth.taylor78@protonmail.com,+14842934113,In Transit,4540.09,Positive,2025-10-10 02:00:39.196434+00:00
+fbc59fc5-9304-4ab6-a5ae-293775899070,ERP-HI1RD5B2,Lisa,Johnson,lisa.johnson26@gmail.com,+16522858799,Delayed,589.39,Frustrated,2026-02-06 12:42:46.196441+00:00
+7224846f-7ae2-4be0-b42c-3141ef6b5242,ERP-KAP6ZPXV,Joshua,Thomas,joshuathomas79@gmail.com,+14579727671,Delivered,2513.77,Positive,2025-12-24 09:27:37.196449+00:00
+a893a39b-6b4d-46b0-9e02-e4903cd5179e,ERP-S8K5IJUL,Steven,Thomas,steven_thomas@hotmail.com,+12065269348,Pending Callback,2529.36,Positive,2026-04-05 13:32:35.196456+00:00
+b33a0b82-5ea2-4a91-b107-b4938c81497f,ERP-YD5MY3GD,Ronald,Wilson,ronald.wilson28@protonmail.com,+15125279690,Pending Callback,604.29,Neutral,2025-05-05 19:11:42.196464+00:00
+7d05f629-2522-4a1e-bef6-d11f8538b2eb,ERP-UFF124VF,Michelle,Miller,michellemiller61@globallogisticsinc.com,+19434754747,Delivered,2412.71,Neutral,2025-12-08 00:34:40.196471+00:00
+0ceba596-a530-4684-b2cc-2f115b33f80a,ERP-MM0QPOP1,Patricia,Martinez,patricia_martinez8@outlook.com,+18613438485,Delivered,195.45,Frustrated,2026-02-11 11:50:20.196478+00:00
+d2adb658-f50b-4618-ab05-4e35de335938,ERP-ZKNL2LUH,Susan,Perez,susan.perez80@globallogisticsinc.com,+14803092219,Delayed,886.05,Frustrated,2025-10-26 17:38:05.196485+00:00
+8536bdd2-6bd6-4e68-a42e-be2392ae4f9c,ERP-Q8BXY6RK,Timothy,Jackson,timothyjackson76@gmail.com,+13032576614,Delivered,2735.69,Neutral,2025-05-07 07:58:08.196493+00:00
+1b13948f-6b31-4a04-a367-278f795bbcc3,ERP-Q5C9035V,Christopher,Brown,christopherbrown@hotmail.com,+14515359955,Delivered,2827.7,Neutral,2025-08-06 05:20:31.196501+00:00
+1db58d3b-f4db-4f74-b6a3-bf2445e1d296,ERP-1C2ZL46Q,Maria,Jones,maria.jones24@hotmail.com,+14336716934,Delivered,1075.03,Frustrated,2026-01-20 10:18:21.196509+00:00
+d2a6f12f-1d36-44f5-9f91-2949a5476ee4,ERP-0AEOORBT,Charles,Martin,charlesmartin@protonmail.com,+16472329261,Delivered,3971.67,Neutral,2026-01-11 06:08:45.196517+00:00
+dba44e08-5d0c-4940-a5bf-8bcc16aaf7fc,ERP-W0U92T24,Kenneth,Hernandez,kenneth.hernandez74@protonmail.com,+18653952197,Pending Callback,4107.0,Neutral,2025-11-06 18:17:13.196525+00:00
+af11e35f-9af8-4f8c-9bb1-44b2b58e4dfd,ERP-XCXMSY3P,Deborah,Jones,deborah.jones52@gmail.com,+18385991309,In Transit,1203.63,Neutral,2026-03-03 13:53:14.196532+00:00
+04275643-3ff0-43e9-94fd-d6ca376bab3e,ERP-IYLQX1UM,Charles,Ramirez,charlesramirez@yahoo.com,+19913514377,Delivered,989.77,Positive,2025-10-05 20:44:52.196539+00:00
+bd84724e-2f88-4d60-be16-428838c19722,ERP-BEMC57XH,Joshua,Ramirez,joshua.ramirez55@yahoo.com,+14229906821,In Transit,772.83,Neutral,2026-03-14 05:07:56.196547+00:00
+5ade53a5-964d-448b-8574-c8845928a3ed,ERP-P00NQOHN,Anthony,Smith,anthony.smith@protonmail.com,+17929419462,In Transit,898.13,Positive,2026-03-15 06:46:50.196554+00:00
+c91f2564-0258-4fe7-9133-2af7cfa51e49,ERP-V0LG92MJ,Dorothy,White,dorothy.white@gmail.com,+15896307558,In Transit,1837.94,Neutral,2025-06-10 03:32:01.196562+00:00
+dd331d30-2ea3-4310-8702-50fae38c985b,ERP-8XIZX35A,Michael,Wilson,michael_wilson94@gmail.com,+13444543905,In Transit,726.95,Positive,2026-03-07 13:39:11.196569+00:00
+eda78a29-6e20-45f1-8435-df596e8e81f1,ERP-1C25XNOF,George,Thomas,george.thomas@icloud.com,+18843856981,In Transit,3954.13,Positive,2025-10-19 19:02:57.196576+00:00
+17f26165-cbb7-42ce-b252-1b76f5bfec19,ERP-ON4WBABQ,Susan,Martinez,susanmartinez19@gmail.com,+17525869604,Delayed,875.05,Positive,2025-12-16 14:47:42.196584+00:00
+437bd3c1-ffcd-415c-a7f6-e19ec66a21ea,ERP-PC8QO6P4,Thomas,Williams,thomaswilliams1@hotmail.com,+16804633100,Delivered,3316.23,Neutral,2025-09-04 17:20:45.196591+00:00
+9b571235-e163-441f-8dff-0bf36013e170,ERP-DR3UES2F,Brian,Thompson,brianthompson@icloud.com,+16134892724,Delayed,1208.49,Positive,2025-07-21 12:13:34.196599+00:00
+82e5d7a1-ffa6-4fa6-87bc-57c8dafa85a2,ERP-L9YSU51E,Brian,Martinez,brian_martinez@protonmail.com,+19542357308,In Transit,3991.55,Positive,2026-04-25 11:06:48.196607+00:00
+54361216-517b-4430-ba6f-32b616671b8b,ERP-B2FLURMW,Patricia,Lee,patricialee52@yahoo.com,+16648365305,Pending Callback,677.31,Neutral,2025-08-19 11:16:01.196615+00:00
+50c7f13b-6915-48cd-ad4f-03d0b9e6f7fe,ERP-7M6J3RTX,Stephanie,Taylor,stephanietaylor44@gmail.com,+15746361416,Delayed,563.46,Neutral,2025-06-12 15:42:51.196622+00:00
+5fc01830-04b8-4697-bfa6-f4fd8cdfc918,ERP-TK5LP9C5,Linda,Brown,lindabrown24@globallogisticsinc.com,+17233993321,Delayed,3901.97,Positive,2025-07-20 04:42:12.196630+00:00
+e81cba08-a2a9-43f1-8df7-e3062f8bf3ed,ERP-S2UTBTTY,Deborah,Lopez,deborahlopez22@yahoo.com,+13028963713,Delayed,4231.87,Frustrated,2026-03-02 23:22:58.196639+00:00
+be802767-40fd-4785-91cd-0f4d414b682e,ERP-PHB8OOSP,Andrew,Martin,andrew_martin60@yahoo.com,+19385071005,In Transit,1331.51,Frustrated,2025-08-14 13:16:13.196647+00:00
+22e94ab4-e987-4517-9a60-a5a591140d9f,ERP-7W8COF31,Lisa,Miller,lisa.miller@icloud.com,+16296004168,Delayed,4188.21,Positive,2026-02-02 03:17:08.196654+00:00
+617151f9-caa0-46da-aeb0-99cbbdd303c3,ERP-6E07FPY1,Karen,Jones,karen.jones@protonmail.com,+15187362681,Pending Callback,1237.69,Neutral,2026-01-04 23:22:36.196661+00:00
+d5e8cf5e-bcb4-47eb-b87c-4b75be3781ba,ERP-0QC96MJ9,Linda,Moore,linda_moore@icloud.com,+16776363759,Pending Callback,3816.45,Positive,2025-10-09 23:23:09.196669+00:00
+d320ec58-c57f-4c9d-918f-0230201c6be1,ERP-9VVN5X48,Robert,Williams,robert_williams@globallogisticsinc.com,+19884865519,Delivered,3237.3,Neutral,2025-11-19 01:13:24.196677+00:00
+3bd41e8f-68ef-4dcd-ae35-735fc3a31ffb,ERP-JMAZRVHP,Brian,Clark,brian_clark14@protonmail.com,+18217797157,Pending Callback,306.3,Positive,2025-09-13 18:12:20.196685+00:00
+1d27d7b9-f57b-43a2-8332-776cd012826f,ERP-UE1MY6PO,Carol,Brown,carolbrown6@icloud.com,+16506719564,In Transit,4706.97,Frustrated,2025-07-15 22:25:05.196692+00:00
+145bebaa-2fd0-4df3-aa5e-796b19524ddc,ERP-YAUA8D72,Stephanie,Wilson,stephaniewilson59@outlook.com,+18995526773,Delayed,1455.5,Positive,2025-12-25 23:55:36.196700+00:00
+e4e11f5d-46cd-437b-97a2-0991ad3d455b,ERP-9J2H1TLO,Ashley,Thompson,ashley_thompson23@globallogisticsinc.com,+12915416763,Delayed,1651.02,Neutral,2026-03-22 16:26:03.196707+00:00
+0d429183-ed02-472f-89c8-af546a4fa58b,ERP-XLRGNJZM,Timothy,Williams,timothy_williams@yahoo.com,+15302162826,Delayed,2951.05,Frustrated,2025-08-02 02:00:03.196715+00:00
+0c0860fe-5ffa-443f-89e3-213c5d2e5f69,ERP-KUGWCDZ6,Carol,Moore,carolmoore52@yahoo.com,+19335489729,Delivered,2044.11,Neutral,2026-03-21 18:44:13.196722+00:00
+a4d00972-b341-4ff0-a602-2ff2dcafd94f,ERP-52W8LI3I,Deborah,Clark,deborah.clark86@gmail.com,+17064294587,Delayed,4388.17,Neutral,2025-08-22 09:46:55.196729+00:00
+6d6e5dcc-6c7c-42c2-a543-2fad60200a9e,ERP-AIAW4OTU,Susan,Jones,susan_jones24@icloud.com,+17895965284,Delivered,4036.79,Neutral,2025-11-14 12:27:26.196737+00:00
+a866f0d4-84f8-4ec9-8ee4-3673e4fa1a37,ERP-67LM8E49,Betty,Lopez,betty.lopez@gmail.com,+17199258794,Delivered,613.56,Frustrated,2026-02-01 13:07:26.196745+00:00
+df63b586-a026-4cc0-8aec-ae2807e6d11d,ERP-ZXT9QUBW,Timothy,Lopez,timothy_lopez76@gmail.com,+13752228347,In Transit,4489.62,Neutral,2025-05-29 02:11:47.196753+00:00
+8f00e454-6e91-4542-990c-e53cd3f5070e,ERP-CM8JJ6AV,Melissa,Jones,melissa_jones@hotmail.com,+14208778407,Delivered,2738.14,Frustrated,2026-01-02 16:57:16.196760+00:00
+aef51a69-0b93-4a65-a633-f63d37b07cca,ERP-U58FTYLA,Nancy,Davis,nancydavis7@protonmail.com,+13229932163,In Transit,2695.88,Frustrated,2026-02-27 10:02:29.196768+00:00
+08b0662f-8049-47eb-b7e3-315c9c4df1a1,ERP-IV1GGXRE,Timothy,Miller,timothy.miller13@protonmail.com,+19179017347,Pending Callback,1968.32,Neutral,2026-03-08 05:35:58.196775+00:00
+55b00b41-46cc-426d-bd8a-bc43d5482ef7,ERP-DMZ5RGOI,Nancy,Garcia,nancygarcia@outlook.com,+16629692540,Delivered,199.96,Frustrated,2026-04-07 08:57:51.196782+00:00
+a750ff42-188c-4ac2-9bce-2bc5ac65212c,ERP-YDA9ALL2,Emily,Johnson,emilyjohnson73@globallogisticsinc.com,+12713764088,Pending Callback,990.75,Positive,2025-12-17 22:39:26.196789+00:00
+d798eaa9-a5eb-43f5-b7ff-2e6690a36aa0,ERP-YFNGP41S,Robert,Ramirez,robert_ramirez@protonmail.com,+13235195774,In Transit,1810.36,Positive,2025-09-13 20:24:43.196797+00:00
+a255c846-18b4-431f-a9c2-bc56f9d3b5ad,ERP-6RV9777T,Kimberly,Garcia,kimberly_garcia@icloud.com,+17672676543,Delayed,1891.9,Positive,2025-06-17 12:09:08.196804+00:00
+3cff1a12-d3bd-4f53-922e-34248ef1591e,ERP-2BC9R4X1,Dorothy,Miller,dorothymiller@icloud.com,+18705289639,Pending Callback,3808.93,Frustrated,2026-02-11 23:46:43.196812+00:00
+661018b0-d681-4140-89fe-b4f421e73ad0,ERP-E1KWONRR,Christopher,Hernandez,christopher_hernandez72@protonmail.com,+15985139152,Delivered,3877.13,Frustrated,2026-04-09 14:53:15.196820+00:00
+6a026d98-e9cc-4e2a-93c6-d7528c0fa94e,ERP-B8LV6TX0,Kimberly,Clark,kimberlyclark@outlook.com,+15943926763,In Transit,4136.36,Frustrated,2025-05-26 17:04:44.196827+00:00
+87fad87f-433e-4768-9986-596c3beb42a3,ERP-S4SYBHQG,Sandra,White,sandra.white92@gmail.com,+19314089114,Delayed,2898.61,Frustrated,2026-04-24 23:16:01.196834+00:00
+9c70f55e-e396-40c6-ab48-2cf2dec97334,ERP-N6EK6X6L,David,Robinson,david.robinson@outlook.com,+16112453554,Delayed,3033.88,Frustrated,2025-08-14 09:25:27.196843+00:00
+0dbd3d7f-bfb9-44b5-a174-8e1fd7e69867,ERP-7YZ6L7X6,Charles,Lewis,charles_lewis@hotmail.com,+16235865556,Delayed,4101.95,Neutral,2026-01-22 14:30:17.196850+00:00
+2b6ef26c-8187-4280-a211-59ea37d2e380,ERP-WOZQXIWE,Joshua,Smith,joshua_smith@protonmail.com,+15353715202,Pending Callback,1495.55,Neutral,2026-01-10 10:57:37.196858+00:00
+cf7fc008-b03c-4409-9117-182a0cd0a479,ERP-DE358TRE,Kenneth,Rodriguez,kenneth.rodriguez61@gmail.com,+13144341623,Pending Callback,1003.94,Frustrated,2025-06-21 20:19:26.196865+00:00
+c86939c8-2004-40ef-85cc-a885e8793ce0,ERP-PN0P1XS9,Michael,Davis,michael.davis93@gmail.com,+17822143502,Delivered,4311.49,Neutral,2025-05-08 00:25:55.196873+00:00
+cb30b4d7-ad4f-42db-b9e0-7aa293e3c1ce,ERP-Q6CN8SIW,Barbara,Lopez,barbara_lopez85@gmail.com,+16512715026,Delivered,2828.58,Positive,2025-09-30 13:02:32.196881+00:00
+54a6786f-17f7-4f61-975c-c333c8a63894,ERP-ECSAZ0LB,Daniel,Johnson,daniel.johnson@gmail.com,+15902031957,Pending Callback,3866.61,Positive,2025-06-02 04:45:16.196888+00:00
+db775a90-f8ba-483b-8103-193e4c131d84,ERP-WUCX67XK,Thomas,Harris,thomasharris50@icloud.com,+14438999037,Delivered,1791.22,Frustrated,2025-11-05 07:50:26.196896+00:00
+77db705f-bdff-40b7-b239-52f381e7039e,ERP-6Q5IK08N,Paul,Robinson,paul_robinson21@icloud.com,+12216425912,Delayed,308.52,Neutral,2025-07-29 00:31:46.196903+00:00
+4d787be1-1de5-498e-b3e1-d5b184b3481f,ERP-IO4M7PP0,Andrew,Ramirez,andrew_ramirez50@outlook.com,+15455337535,Delayed,3644.21,Positive,2026-01-25 11:38:56.196911+00:00
+16470c24-d4a1-474d-aaa9-f7f1950091ee,ERP-GH5XW6T1,Susan,Thompson,susan_thompson48@yahoo.com,+16023448704,In Transit,2759.86,Neutral,2026-01-04 09:24:49.196918+00:00
+496f4bcf-7a75-460d-9b32-fabaed3bb5ec,ERP-WBHTFNSG,Stephanie,Ramirez,stephanie_ramirez@hotmail.com,+17818833823,Delivered,4919.8,Frustrated,2025-09-24 05:40:06.196925+00:00
+fcd491c7-f5a9-40d9-8255-cb4617541ddd,ERP-XU2FLI01,Stephanie,Jones,stephanie_jones@icloud.com,+12992662404,In Transit,142.48,Positive,2025-12-23 06:43:02.196933+00:00
+309740a9-e1fc-4990-95f6-4d29abfe905f,ERP-7M08LCWL,Jennifer,Hernandez,jennifer_hernandez61@icloud.com,+13794965968,In Transit,4031.45,Positive,2025-05-16 04:22:41.196940+00:00
+cfe3f7b0-b490-49f9-a405-584e7b111e2c,ERP-OTWFTQ9Y,Patricia,Garcia,patricia.garcia@hotmail.com,+12999731645,Delayed,4413.14,Neutral,2025-12-04 16:37:09.196947+00:00
+f16e3e41-05c1-4d2c-a654-e6a7e2973857,ERP-1V9NPUQA,Paul,Garcia,paul_garcia86@outlook.com,+12875782128,Delayed,761.22,Neutral,2025-08-10 23:01:34.196957+00:00
+5c223c12-5291-4f4b-8149-fc89e41e0994,ERP-F92Y8LZ8,Margaret,Robinson,margaret.robinson46@gmail.com,+18368047844,Delayed,1889.56,Neutral,2026-02-15 10:48:58.196965+00:00
+1b6afc0d-e01a-42b4-b57b-aecba247ed99,ERP-96ALGXZJ,Steven,Rodriguez,steven_rodriguez@outlook.com,+19679778505,In Transit,1731.3,Positive,2026-03-11 06:51:24.196973+00:00
+620fdf22-3586-4725-bcaf-1cb174dbb161,ERP-0AN6NBYZ,Michelle,Smith,michelle_smith47@hotmail.com,+19245503168,Delivered,3623.67,Frustrated,2026-02-15 02:36:40.196981+00:00
+a6f6e306-bf2e-4fcd-9a39-828edd34138f,ERP-J67DXLSE,Dorothy,Martinez,dorothy.martinez@yahoo.com,+12763817117,In Transit,854.63,Positive,2025-07-02 12:56:41.196988+00:00
+a76e45a7-816c-4792-9e97-337c4d383067,ERP-C00M6CU8,Jennifer,Ramirez,jennifer_ramirez81@globallogisticsinc.com,+18803082998,In Transit,3550.32,Positive,2025-05-09 12:12:04.196995+00:00
+34ac7ffa-87e1-4ccf-96af-b4f041340a23,ERP-CD8A2IBC,Deborah,Robinson,deborah_robinson@hotmail.com,+14029259115,Delayed,2399.13,Frustrated,2025-08-11 10:20:23.197003+00:00
+30d2090e-1903-414e-bff0-fe19163913e3,ERP-4PSC9J5U,Donna,Ramirez,donna.ramirez@icloud.com,+19792774083,Delayed,4258.22,Positive,2026-02-26 22:42:15.197010+00:00
+f086fbed-9771-45a5-97e8-f31848bdc59e,ERP-4KOXHJMI,Margaret,Lee,margaret.lee84@outlook.com,+19723652059,In Transit,407.64,Neutral,2025-05-15 10:53:19.197017+00:00
+4454a80e-309c-47f8-9dd0-a3eba47baf75,ERP-W3C1ZA0D,Timothy,Johnson,timothyjohnson99@icloud.com,+18978202079,Delivered,3663.03,Neutral,2025-11-06 22:57:45.197025+00:00
+0cf1e0a8-755b-4f57-9b2e-dce1b257fff7,ERP-3NKRT0IG,Matthew,White,matthewwhite46@hotmail.com,+16725327606,Pending Callback,4356.54,Neutral,2025-11-06 10:00:43.197033+00:00
+6c2c985e-85e2-49b5-8cf2-5d653f839ffd,ERP-0N852N5F,Patricia,Jones,patricia_jones2@globallogisticsinc.com,+18773763474,Delayed,1163.27,Positive,2025-11-30 01:29:57.197040+00:00
+7f4cdd50-4038-4ea9-818b-eb7305afc293,ERP-JHRF34JG,Paul,Jones,pauljones93@hotmail.com,+16453638984,In Transit,1831.51,Positive,2026-04-05 00:59:30.197048+00:00
+612624fc-3ba3-4298-b337-66605b33e674,ERP-RKI72OAL,Daniel,Thompson,daniel.thompson44@icloud.com,+18336392996,Delayed,2695.22,Neutral,2025-07-23 13:22:44.197055+00:00
+d9bfedfb-a99e-4044-af79-54970a860031,ERP-YEURANI8,Betty,Sanchez,bettysanchez30@icloud.com,+16874876582,Delivered,3521.81,Positive,2025-12-27 00:54:10.197063+00:00
+75cdcd8d-82dd-4206-9d88-af000892659b,ERP-8IVI3RQA,Kevin,Jackson,kevinjackson13@globallogisticsinc.com,+13518386269,In Transit,2693.25,Neutral,2025-09-08 23:57:52.197070+00:00
+78706867-97df-46f8-a9d1-8356b5f9318b,ERP-COG1ZN1R,Timothy,Rodriguez,timothy.rodriguez@outlook.com,+15648358906,Delayed,3940.05,Neutral,2025-10-24 18:53:29.197078+00:00
+5354eaea-5082-4aa8-b6cb-39abc987e00c,ERP-5H3G7VKC,Daniel,Martin,daniel.martin68@yahoo.com,+15856331178,Delivered,1378.84,Positive,2026-01-06 00:43:05.197085+00:00
+65792f0a-5a1c-40a2-b514-c53a4f309b69,ERP-X1CQ6FWT,Maria,Smith,mariasmith57@gmail.com,+14806665521,Delayed,3560.85,Neutral,2026-01-10 10:25:12.197093+00:00
+91304c08-27b7-4894-9fe3-7e618fc4c68b,ERP-E8E5TNLZ,Richard,Jackson,richardjackson4@icloud.com,+15316053916,Delivered,3104.1,Positive,2025-08-24 01:37:09.197100+00:00
+3804cbb0-9c0a-4188-8103-c599eb8f278e,ERP-UU5CZECC,Christopher,Hernandez,christopher.hernandez@icloud.com,+14402946903,Delivered,1756.97,Neutral,2025-12-18 14:16:05.197107+00:00
+fb0cab43-c7a6-4f70-baf9-4c30ecdd3456,ERP-RTSXOF33,Ronald,Williams,ronald_williams@globallogisticsinc.com,+14674324920,In Transit,3259.32,Frustrated,2026-04-21 14:48:23.197114+00:00
+87c94ac3-1644-470e-a370-b6dd4167e75b,ERP-4IBHIF5S,Sarah,Lee,sarah_lee50@gmail.com,+17229835745,Pending Callback,215.21,Frustrated,2025-08-03 06:55:41.197122+00:00
+43ecf95a-e5a0-49c6-a6e3-f07fe88b8c23,ERP-CHBIRMC5,Donald,Moore,donaldmoore22@yahoo.com,+13557491120,Delivered,1401.67,Neutral,2025-10-14 14:51:30.197131+00:00
+062508e2-eb53-460f-a8fb-c39bce737cd8,ERP-41JH6OXQ,Anthony,Garcia,anthony_garcia78@yahoo.com,+13893151682,Pending Callback,4042.72,Frustrated,2025-05-03 15:37:57.197138+00:00
+3d061b01-18ad-4d82-8411-ea856a17b626,ERP-10KYHVKQ,Susan,Miller,susanmiller@protonmail.com,+14584229373,In Transit,1618.52,Positive,2025-06-12 20:17:18.197146+00:00
+e07a4b85-6703-41c0-bca4-4bde5f4a78f8,ERP-MRZZQO17,Barbara,Ramirez,barbara_ramirez72@globallogisticsinc.com,+18834542272,In Transit,4433.62,Positive,2025-09-02 12:31:26.197153+00:00
+f6c82007-2a3c-4cff-bc15-9ef8377ae6e2,ERP-AJAQ08DN,Sarah,Ramirez,sarahramirez25@icloud.com,+15812775587,Pending Callback,3302.77,Neutral,2025-07-05 19:32:45.197160+00:00
+be4b56ac-2fd1-4c50-9ff2-89dc1382184e,ERP-EFQ796EW,David,Lewis,davidlewis4@yahoo.com,+12143152410,Delayed,2330.7,Frustrated,2025-08-04 03:29:27.197169+00:00
+d5f7737e-adde-4782-a8da-7094f8e23160,ERP-JZR0FCYB,Emily,Rodriguez,emily_rodriguez56@hotmail.com,+13792131721,In Transit,4801.2,Neutral,2025-07-29 07:50:16.197176+00:00
+eedeeb0a-b8df-4388-98ad-bdfb83ff71ad,ERP-R2AJ5IQA,Christopher,White,christopherwhite6@protonmail.com,+19197004793,In Transit,1503.93,Positive,2025-09-10 18:22:48.197184+00:00
+fafff390-c5b4-4e19-9c6d-91aa1592e885,ERP-3TN60TLX,Betty,Anderson,betty_anderson23@outlook.com,+16785555791,Delayed,4089.71,Neutral,2025-08-11 14:31:17.197191+00:00
+2ce9ca7b-a68c-4881-a966-af5192a763bd,ERP-MPV5LMQ1,Andrew,Wilson,andrewwilson@outlook.com,+17188403376,Delivered,2747.03,Frustrated,2026-02-28 02:37:31.197200+00:00
+aec6d82b-4428-4824-9f4e-d1b890f215e8,ERP-923O359T,Kenneth,Jones,kennethjones@outlook.com,+17638803698,Delayed,3451.65,Neutral,2025-10-23 01:06:49.197207+00:00
+b24aaef5-b6cf-46d2-8721-90edd95b39f3,ERP-02TOXOU0,Linda,Hernandez,lindahernandez@yahoo.com,+18558598432,Delayed,4188.31,Positive,2025-07-26 21:06:58.197215+00:00
+2984abcc-85ce-4a43-b3f0-bfb06a101d21,ERP-2SDFC8IO,James,Lewis,james.lewis@globallogisticsinc.com,+13952241265,In Transit,1549.34,Positive,2026-02-17 21:37:14.197222+00:00
+9d5f8d21-303c-4400-847e-5b13a01e9c51,ERP-CJ8PMOZK,Stephanie,Perez,stephanie_perez@outlook.com,+16388348838,In Transit,3427.68,Positive,2025-10-18 20:18:42.197230+00:00
+b217f79f-1020-44da-b3ce-a07b7acf5644,ERP-BZ5NTDYW,Daniel,Lopez,daniel_lopez88@gmail.com,+15892398986,In Transit,2426.87,Frustrated,2026-03-26 06:38:39.197237+00:00
+7a413032-feb0-4f71-af08-67fc44539385,ERP-0Z7Q0I9B,Jennifer,Davis,jennifer_davis71@yahoo.com,+18286202555,In Transit,3450.74,Frustrated,2025-05-30 23:29:57.197244+00:00
+f4a97d21-41e5-4597-b6f7-c1ddc360e861,ERP-BSCGJU2T,Amanda,Harris,amandaharris7@protonmail.com,+13209149466,Pending Callback,952.2,Neutral,2026-01-07 02:00:48.197252+00:00
+71a0bd45-933e-41a9-9e99-2c1cd72aed72,ERP-KLDF4HRA,Richard,Johnson,richardjohnson@globallogisticsinc.com,+15852445952,Delayed,1194.77,Frustrated,2025-09-16 09:20:12.197260+00:00
+b49ec9c1-0261-41c6-8a3f-0e7af8179cdf,ERP-Z38EFE9V,Dorothy,Davis,dorothy.davis57@outlook.com,+19156401336,Delivered,3210.68,Positive,2025-11-19 10:44:15.197267+00:00
+20ad2bf2-7e2f-4461-899f-c4aa67d757d8,ERP-KUPCJ8MO,Paul,Johnson,paul.johnson@gmail.com,+13652884060,Delayed,2285.9,Frustrated,2025-12-07 01:02:10.197275+00:00
+217a91da-4b79-4fb2-af1e-2eeec4d21671,ERP-R8XUEBHK,Emily,Rodriguez,emilyrodriguez90@gmail.com,+15802619359,In Transit,652.49,Frustrated,2026-01-17 18:21:01.197282+00:00
+55433eea-e9cf-46cc-8a40-9ec68ebc8d46,ERP-A5E742GR,Donna,Taylor,donna_taylor@yahoo.com,+15977669870,In Transit,815.95,Positive,2025-06-01 20:54:03.197289+00:00
+0f5ec283-a1a5-47e9-b1fe-2282dd9da55e,ERP-5CS9UI14,Steven,Jones,steven_jones29@hotmail.com,+12619708075,In Transit,4366.28,Neutral,2026-04-20 06:44:34.197297+00:00
+9f7776ab-6d1c-4088-abcc-6519de290041,ERP-0NQ4I6R8,Joseph,Perez,josephperez@yahoo.com,+18137335712,Pending Callback,3888.19,Neutral,2025-09-10 01:51:26.197305+00:00
+fce33468-d020-48f0-8462-eece9d28d373,ERP-CD6FXNOQ,Maria,Wilson,maria_wilson39@outlook.com,+16817238991,Pending Callback,3811.35,Frustrated,2025-09-14 01:29:38.197313+00:00
+15109528-de3b-4fd1-babe-7b88a99b3ae3,ERP-7VXUQDRM,George,Moore,georgemoore@outlook.com,+18444745444,Delivered,3012.73,Positive,2025-12-30 10:44:56.197320+00:00
+da777948-ca32-433d-aba8-08bcf261e013,ERP-IG9GMYKV,Daniel,Robinson,danielrobinson@globallogisticsinc.com,+18273425833,Delayed,3466.81,Neutral,2025-07-28 06:29:31.197328+00:00
+b61045ef-3823-4687-91c3-234b4d61920a,ERP-L2UG05WH,Andrew,Moore,andrewmoore@icloud.com,+17085835024,Pending Callback,2473.28,Neutral,2025-05-03 21:13:17.197335+00:00
+74be52e8-3e04-4e32-9722-314e0d2f65e7,ERP-TFVJ839A,Kenneth,Anderson,kenneth.anderson33@hotmail.com,+17637975539,Pending Callback,1076.03,Positive,2025-11-15 22:04:50.197343+00:00
+6f779a59-a1f3-47f6-a79e-0d68672465f5,ERP-VRNEGN2B,Kevin,Thomas,kevin.thomas@protonmail.com,+17484743087,In Transit,4636.16,Frustrated,2025-11-17 15:29:46.197350+00:00
+4d554e9f-2815-4bce-8b65-4622181869fb,ERP-6UAMWJPI,Susan,Johnson,susanjohnson78@protonmail.com,+15624423485,In Transit,2813.18,Neutral,2025-07-08 22:58:23.197358+00:00
+9ebae6c8-89be-4066-a822-bc906dc5fe8e,ERP-33HW8D09,Thomas,Garcia,thomas_garcia@gmail.com,+14526164620,Delayed,2351.58,Positive,2025-05-19 15:37:45.197365+00:00
+b3053d6b-7efa-4a29-98c7-62fc155c21ce,ERP-HDILUVNH,Barbara,Robinson,barbara.robinson11@icloud.com,+16546533463,Pending Callback,4267.87,Neutral,2026-04-22 01:58:41.197372+00:00
+5ddc00f6-ac8d-4626-845d-6bdbec541eba,ERP-J5R2SLRW,Andrew,Harris,andrew_harris@outlook.com,+13479202267,Pending Callback,925.07,Neutral,2026-02-09 14:00:05.197380+00:00
+35deff29-3c34-4c56-ae18-4ffd091d1b27,ERP-MJZ6N58Y,Susan,Hernandez,susanhernandez@hotmail.com,+19302227371,Delivered,1861.65,Positive,2025-10-22 08:32:46.197387+00:00
+faf17c91-9a57-4a95-be15-5ec4feb6993f,ERP-QPPMJ6JF,Sandra,White,sandra.white@globallogisticsinc.com,+12375906973,In Transit,3827.48,Positive,2025-07-30 09:54:34.197395+00:00
+b3053da1-9ea8-4cfc-af23-9c897bd1e6eb,ERP-WTJSJFFP,Richard,Williams,richard.williams30@outlook.com,+13707332094,Delayed,4371.87,Frustrated,2026-04-10 18:33:38.197402+00:00
+00222f4f-7406-4452-a38b-10425d442162,ERP-2550KQPG,Kenneth,Lee,kenneth.lee@gmail.com,+19913035408,Delayed,2716.37,Neutral,2025-09-28 02:10:46.197410+00:00
+19d3fd19-6025-4e79-9cb8-f7548180ca4f,ERP-0F7IA41S,Ronald,Lopez,ronald.lopez@hotmail.com,+13383711792,Pending Callback,863.96,Positive,2026-01-27 01:41:31.197417+00:00
+b84495f3-e1d5-40dc-86c1-0a55767d9293,ERP-N2QQZZFV,Joshua,Clark,joshua.clark9@yahoo.com,+12004948549,Pending Callback,3419.87,Neutral,2025-09-29 07:17:13.197424+00:00
+831f8286-a898-4396-a3d4-4cfc85716a1c,ERP-OS87MVZ0,Andrew,White,andrew_white68@yahoo.com,+17157113068,In Transit,1113.78,Frustrated,2025-12-09 07:14:29.197433+00:00
+f8feb995-a86b-4490-8b1e-e763d25e77a5,ERP-VONNLHAP,Lisa,Brown,lisabrown@hotmail.com,+18049763291,Delivered,2042.17,Positive,2026-04-24 15:56:50.197441+00:00
+7f544fef-6edd-42c9-b56d-d0f3b0593358,ERP-PRQQ5QOB,Thomas,Lewis,thomas.lewis@outlook.com,+15832546743,Pending Callback,4556.02,Frustrated,2025-05-27 07:55:13.197449+00:00
+7ec25050-ed19-4764-bc88-4f9edf6a749b,ERP-VMSR75RM,Sandra,Williams,sandra.williams@gmail.com,+13033495417,In Transit,220.95,Positive,2025-08-29 02:17:21.197456+00:00
+1f432c23-5d26-4cb1-83c2-d271d7085084,ERP-AO2QWKBS,Kimberly,Lopez,kimberly.lopez57@hotmail.com,+19817261592,In Transit,4993.36,Positive,2025-05-03 16:53:59.197464+00:00
+842f8b51-982c-4f7d-ad3e-2382262c05a0,ERP-XP0JF6DN,Anthony,Hernandez,anthony_hernandez@gmail.com,+15102123178,Delayed,2150.04,Positive,2025-11-19 20:23:22.197471+00:00
+84d62203-ee05-4005-92af-464cfde19d78,ERP-TJ6AC4JR,Patricia,Wilson,patricia.wilson29@yahoo.com,+18887052871,In Transit,3380.14,Neutral,2025-09-03 11:37:27.197479+00:00
+c14df71b-6a96-476d-84dd-2738ed9aaf4b,ERP-48JU63LX,Timothy,Lopez,timothylopez20@globallogisticsinc.com,+18089965018,Delayed,4093.17,Neutral,2025-10-25 07:01:28.197487+00:00
+3807612e-0dc8-49bc-9f69-c03ea5508554,ERP-7K99BV2J,Karen,Hernandez,karen.hernandez@globallogisticsinc.com,+14244548607,Delayed,4637.65,Frustrated,2025-10-02 10:50:41.197495+00:00
+5a084f06-c104-47ed-913a-f04640ec8176,ERP-OOUKIW8X,Steven,Lopez,steven_lopez8@hotmail.com,+16423577786,Pending Callback,4893.96,Neutral,2025-05-01 21:35:31.197503+00:00
+86f4dc0b-68bf-4c02-acd3-e14f7082d956,ERP-LR97OHPI,Betty,Brown,betty.brown@outlook.com,+13638126359,Pending Callback,4280.67,Positive,2026-03-30 03:25:19.197511+00:00
+0f6ba330-fc39-4ac8-b6b2-73df3ac5c367,ERP-0FP672ZF,Jennifer,Sanchez,jennifer.sanchez1@yahoo.com,+12333365774,Delivered,3425.82,Frustrated,2025-12-13 06:47:08.197519+00:00
+d2e8aba5-046e-4e97-b9ff-186062a8bebc,ERP-DFLD9CBA,Brian,Jackson,brian.jackson22@globallogisticsinc.com,+17023105379,Delivered,3115.63,Frustrated,2026-04-03 04:27:53.197527+00:00
+eae3f163-f764-4933-b247-bd8db5a01a37,ERP-EQ4F1SRI,Michelle,Martinez,michelle_martinez5@globallogisticsinc.com,+15468803667,Pending Callback,4070.33,Neutral,2025-10-15 09:32:04.197535+00:00
+eb70ee2d-999e-405c-9ca1-7268ac9a3ef7,ERP-X3P724XH,Lisa,Martinez,lisa_martinez@gmail.com,+12812602928,Delayed,627.61,Neutral,2026-03-13 01:10:25.197544+00:00
+a3d485b2-dd2e-48be-bd9c-9c04d66e8aee,ERP-C1YUZPEX,Patricia,White,patriciawhite71@icloud.com,+14146841554,Delivered,867.0,Positive,2025-12-18 00:10:13.197552+00:00
+eb307d6a-62bd-4a90-8073-37ca200914be,ERP-B4JGRXOZ,Michael,Johnson,michael_johnson@globallogisticsinc.com,+15349637919,Delivered,4794.52,Frustrated,2025-05-28 21:00:27.197560+00:00
+360e2710-beb8-4af4-a2b9-808f021502fb,ERP-A28OR9F5,George,Garcia,george.garcia66@outlook.com,+14079383957,Pending Callback,288.4,Positive,2025-08-28 18:14:28.197568+00:00
+bea65921-2899-47e6-8d29-934749bc982e,ERP-MWMD18HF,Betty,Thompson,bettythompson85@protonmail.com,+16007414222,Pending Callback,3871.59,Frustrated,2025-06-24 05:27:23.197576+00:00
+f98e9de9-22b4-4ce7-9211-56843f768836,ERP-8VK9QKAV,David,Anderson,david.anderson61@hotmail.com,+18237854783,Delivered,4190.53,Positive,2025-11-07 13:05:21.197585+00:00
+e53771e1-f79d-4801-b1e1-60a2ea005f1b,ERP-643YUOAI,Charles,Martinez,charles.martinez@hotmail.com,+12026401782,In Transit,4031.72,Neutral,2025-10-05 03:38:20.197593+00:00
+cd583f5d-45ef-4e48-aafa-d4906776fe59,ERP-A50121XR,Andrew,Wilson,andrewwilson28@globallogisticsinc.com,+13184407373,Delivered,968.46,Frustrated,2026-02-12 06:04:13.197602+00:00
+a293d508-e8bb-414d-ae70-04f4e27b9740,ERP-PLIRD70G,James,Perez,james_perez86@hotmail.com,+13656364343,Delayed,1871.01,Neutral,2025-12-31 19:55:23.197610+00:00
+2922bc11-d61d-4741-ae96-6a6aec4fb876,ERP-TC954AI2,Andrew,Thompson,andrew_thompson@globallogisticsinc.com,+16625452989,Pending Callback,2602.82,Neutral,2025-08-14 14:24:19.197618+00:00
+5bbb92f1-b4a9-4e19-a72f-57b7bc091da9,ERP-2MDG3TJA,Michelle,Rodriguez,michellerodriguez@gmail.com,+13663496604,Delayed,2658.22,Frustrated,2025-10-05 07:49:06.197626+00:00
+af5e9d73-2653-491f-b9d3-f118b6a4f23b,ERP-91MMO1DS,Joseph,Thomas,joseph_thomas@yahoo.com,+18358528920,In Transit,4883.07,Frustrated,2026-02-01 23:07:38.197634+00:00
+89a4848b-bd59-4698-960a-1b6f9b07a406,ERP-6R1NXHBQ,Brian,Robinson,brian.robinson74@gmail.com,+18805816549,Pending Callback,3773.69,Positive,2025-12-29 15:00:09.197642+00:00
+979d3cae-b7f3-45a1-8513-88a93fb2304d,ERP-EDS1VRTT,Ashley,Williams,ashley_williams@globallogisticsinc.com,+18535245031,Delivered,2731.7,Neutral,2026-01-07 01:26:13.197651+00:00
+ed154d67-1e47-4460-92f8-40424f468eb0,ERP-D7X9Z39K,David,Ramirez,david_ramirez10@gmail.com,+17105155912,Pending Callback,211.39,Neutral,2025-12-24 17:42:51.197659+00:00
+c7cb57d4-e8da-447e-8533-468fa8223b42,ERP-DESVDE91,Barbara,Thompson,barbara_thompson@protonmail.com,+14177962291,Delayed,340.49,Neutral,2025-06-08 05:33:32.197667+00:00
+ad9e3415-d628-4178-ad41-eff924320335,ERP-16CZ75T6,Ronald,Moore,ronaldmoore@hotmail.com,+19702416110,Pending Callback,555.54,Neutral,2026-01-16 12:53:26.197674+00:00
+6d7bbf55-7b50-418b-ac7f-33245c2492f4,ERP-ED8A6B3O,Deborah,Johnson,deborah.johnson@protonmail.com,+17744532343,Delivered,925.06,Frustrated,2025-05-09 10:42:03.197682+00:00
+da269d28-6fd9-442a-9314-203af3167140,ERP-5WAHZG85,Kenneth,Thompson,kenneththompson31@gmail.com,+18977355477,Delayed,2514.0,Positive,2026-04-07 23:13:03.197691+00:00
+c1709570-1591-48a4-864d-dd3742ca1d0b,ERP-WN3KE9OU,Sandra,Miller,sandra_miller@icloud.com,+16304619153,In Transit,4891.3,Neutral,2025-09-13 14:31:49.197699+00:00
+9ddb6799-70d1-4ab1-b98f-cbc0ac788796,ERP-JEGXEYEB,Joseph,White,joseph.white@icloud.com,+12739007467,Delayed,4829.58,Neutral,2026-03-18 06:58:02.197707+00:00
+0450aab2-d732-4050-9310-0cbb2909bc76,ERP-XZ3ADHF0,Kenneth,Smith,kenneth.smith48@hotmail.com,+15878759501,Delivered,2272.72,Positive,2025-06-01 21:44:02.197715+00:00
+87e05bed-8f08-4cbc-a541-83b77bf7cf41,ERP-HM54XR8P,Kevin,Jones,kevin_jones1@hotmail.com,+13622621976,Pending Callback,2668.98,Positive,2025-11-21 11:23:37.197723+00:00
+264d84b9-dd98-4b89-a539-16d96a39f770,ERP-KKG1R1CQ,Linda,Lewis,linda_lewis@hotmail.com,+14059045515,Pending Callback,4821.19,Neutral,2026-02-27 17:01:19.197731+00:00
+8fa66df9-ab97-4b0d-b798-fb7fc51169b5,ERP-PE2XN9TX,Paul,Davis,paul.davis15@icloud.com,+15797345174,In Transit,1431.88,Frustrated,2025-10-12 10:39:15.197739+00:00
+d86e343a-f005-4139-9636-0114a04f9fbd,ERP-OC8D6JI8,Lisa,White,lisawhite@icloud.com,+17087411055,Delayed,4797.25,Neutral,2025-07-06 13:43:35.197749+00:00
+2430c72b-1c05-42c5-a0bf-dd15abb08813,ERP-TUAGDL1J,George,Harris,george_harris@icloud.com,+16118856847,In Transit,1961.62,Frustrated,2026-02-13 19:14:39.197757+00:00
+62e0ce86-8be2-4f3c-8792-cec74bda4b3d,ERP-BMQIMI8A,Jessica,Hernandez,jessica.hernandez@yahoo.com,+16202444358,Pending Callback,2120.56,Frustrated,2026-04-02 19:53:01.197765+00:00
+de2e45ff-813f-4c8c-ae28-ad040236ea64,ERP-9TZHHNBA,Robert,Perez,robertperez@outlook.com,+18588028370,Delayed,558.07,Positive,2025-09-05 10:27:15.197773+00:00
+31143fd6-3191-4017-8308-e3469a9ac78d,ERP-22TW1BYT,Linda,Williams,lindawilliams@globallogisticsinc.com,+17014217747,Delivered,590.46,Frustrated,2025-09-16 15:46:25.197782+00:00
+56e81a78-bf4d-48f1-ab1c-55c003bea2c1,ERP-UAZ71UF0,Thomas,Robinson,thomasrobinson@icloud.com,+14813973819,Delayed,1247.68,Positive,2025-07-20 13:45:50.197789+00:00
+87e3ed52-407e-4dd7-8d04-6c7e842fcc20,ERP-3HKCQWB0,Barbara,Miller,barbaramiller27@icloud.com,+19749795908,Pending Callback,854.25,Positive,2025-06-11 06:42:11.197797+00:00
+cccf8c84-d5d2-4bf3-a7ae-f278bcb85589,ERP-NGBG4PDF,Richard,Thomas,richard.thomas20@gmail.com,+16454343722,Delivered,3597.12,Frustrated,2025-09-27 11:39:05.197805+00:00
+92d005ab-1a0b-4759-889a-27ff0640ca64,ERP-876795F9,Amanda,Taylor,amandataylor@hotmail.com,+16353768292,Delivered,1647.08,Frustrated,2026-02-06 20:36:21.197813+00:00
+2534b783-477d-4241-83e3-01d4f5b1314e,ERP-1AONT75E,Timothy,Sanchez,timothysanchez@yahoo.com,+19549179741,In Transit,2844.32,Neutral,2025-05-12 21:00:14.197821+00:00
+b007f392-01d6-40c3-8aad-aad7f7986053,ERP-Z3BG52IB,Carol,Jackson,caroljackson@yahoo.com,+17517652369,Delivered,2672.87,Positive,2026-01-20 04:24:41.197829+00:00
+3a194cdc-f71d-479f-a202-0af379193c79,ERP-T3BR4F2Z,Charles,Hernandez,charles.hernandez@protonmail.com,+16522737916,In Transit,3714.93,Neutral,2025-11-03 00:42:34.197837+00:00
+f0302585-1380-4a44-8aaa-6195d1f58fe7,ERP-J4B121Y5,Richard,Perez,richardperez@outlook.com,+13689752328,In Transit,3470.99,Neutral,2025-06-22 05:58:43.197845+00:00
+1ba710fc-9bd9-47e2-af09-eb2577e01413,ERP-2TN20VZ9,Robert,Anderson,robert_anderson@globallogisticsinc.com,+17168615749,Delivered,1377.94,Positive,2025-10-01 01:36:28.197853+00:00
+4911fe2a-8ad8-49c7-a1dc-142b5f019eb9,ERP-YTKS1F3K,Patricia,Martin,patriciamartin6@hotmail.com,+16802419309,Pending Callback,2389.83,Positive,2025-09-10 07:32:39.197861+00:00
+fd5e9780-34c1-49b4-8e3a-5e641fcd5da6,ERP-X5NWD0JF,Sarah,Smith,sarah_smith@yahoo.com,+16223525414,Delayed,4954.27,Neutral,2025-08-17 04:36:57.197869+00:00
+41c5e0f6-a9df-47b7-b3ea-6da166dde70f,ERP-LGU0TBQO,Sarah,Lopez,sarah.lopez53@protonmail.com,+15632179615,Delayed,716.26,Positive,2026-01-17 00:25:30.197878+00:00
+2e14bedb-9656-4d93-99f5-2224a1293717,ERP-EO4EUTAW,Sarah,Robinson,sarah_robinson@protonmail.com,+16857105079,Delayed,1952.63,Positive,2025-10-07 20:17:24.197887+00:00
+c108d51e-9660-4b5a-acff-b21b0f5ac12e,ERP-OIYFOY0S,Carol,Williams,carolwilliams86@hotmail.com,+15043621339,Delayed,4409.29,Frustrated,2026-03-11 08:09:24.197895+00:00
+41721ec3-704b-42d6-b92e-dff3564b296f,ERP-0THL2C53,Betty,White,betty_white81@yahoo.com,+15639687122,Delivered,4344.74,Positive,2026-02-17 13:27:55.197903+00:00
+457cd234-99d7-4f09-85a4-ab79c96b558c,ERP-IYMYK86A,Margaret,Sanchez,margaret.sanchez61@outlook.com,+16214865761,In Transit,3882.98,Frustrated,2026-03-19 16:58:21.197911+00:00
+c0febf6a-511c-401f-a894-874b9b3891e4,ERP-USG9L9Q3,Betty,Davis,betty.davis87@gmail.com,+14969031942,Delivered,1270.2,Positive,2026-02-08 21:09:57.197919+00:00
+8d4649e0-56e3-49ab-bc90-7fd41cddb65d,ERP-M3JLZOHF,Ronald,Clark,ronald.clark@icloud.com,+18146659621,Pending Callback,3634.13,Positive,2025-10-01 14:37:54.197927+00:00
+5d3edc0d-2a68-414e-a63f-743855bb2843,ERP-9IDYREX9,Sarah,Martin,sarah.martin@icloud.com,+12782859272,Pending Callback,3816.15,Neutral,2025-11-30 19:41:00.197935+00:00
+1b28681e-6b2a-443f-b621-c3a655ab7b10,ERP-842ZSA6H,Robert,Anderson,robert.anderson@outlook.com,+19976242835,Delayed,4204.22,Frustrated,2025-05-07 01:15:15.197943+00:00
+7acd495c-6034-41d7-b665-5c809a2de6b7,ERP-YMWR03V8,James,Davis,james_davis@hotmail.com,+15768246665,Delayed,4440.83,Positive,2025-12-31 03:44:52.197951+00:00
+b3f1f914-b582-4cd2-acf0-5bf327c17905,ERP-35XUDKIT,Joshua,Williams,joshua_williams@globallogisticsinc.com,+16173993795,Delayed,4713.84,Frustrated,2025-09-09 05:53:06.197959+00:00
+ae96ca85-74a2-4385-a4fe-267a1967ef93,ERP-CQMPD7Z4,Steven,Jones,steven_jones17@icloud.com,+12435751348,Delivered,1264.48,Neutral,2025-11-15 13:06:43.197967+00:00
+c641ecf4-d2b3-4e52-b32b-ae205852ff08,ERP-0SD0P477,Sandra,Sanchez,sandra.sanchez@outlook.com,+15996072448,In Transit,1992.79,Frustrated,2025-11-05 01:50:01.197975+00:00
+ebe7b0a2-51f9-4e27-902b-d0686cfa95fe,ERP-7H81JMBP,Michael,Hernandez,michaelhernandez24@protonmail.com,+13116978950,Pending Callback,3838.95,Frustrated,2025-05-15 13:27:27.197983+00:00
+6d086d24-a3e2-4c63-ba02-212b02f76423,ERP-HSJ0BI6A,Patricia,Martin,patriciamartin@outlook.com,+15054438813,Delayed,2096.54,Positive,2026-01-30 05:55:02.197992+00:00
+74e70fc8-8833-4d9a-9263-91ada608778d,ERP-WEDNYA3S,Carol,Lopez,carollopez@globallogisticsinc.com,+14964923978,In Transit,3601.8,Neutral,2026-01-21 21:33:18.198000+00:00
+66bbf767-b18d-4f3b-ab6d-2356af2cd3ea,ERP-F1ZWW1UN,Donna,Sanchez,donnasanchez38@gmail.com,+17345023378,Delivered,2938.47,Frustrated,2025-09-22 03:21:46.198008+00:00
+70d47edb-6748-4c93-8bb4-b061c2e79c71,ERP-LDASLW9H,Jessica,Jones,jessica.jones@yahoo.com,+19994285823,Delayed,3903.72,Neutral,2025-11-25 01:04:16.198017+00:00
+9bf9e230-1816-4a24-8121-f7c230deb2bb,ERP-8BWAUFXQ,Kenneth,Moore,kenneth_moore4@yahoo.com,+19674216070,Delayed,2647.97,Positive,2025-12-25 12:07:47.198025+00:00
+6e6bf5a6-8b14-460d-b5de-4994ca7c19bf,ERP-VNI8E614,Brian,Perez,brian_perez1@hotmail.com,+18793203334,Pending Callback,1772.56,Frustrated,2025-06-22 13:19:24.198034+00:00
+20d6d7d6-3f67-417e-afce-8dc279cc12df,ERP-VMYPJ2NN,Patricia,Gonzalez,patricia_gonzalez@globallogisticsinc.com,+14212158895,Pending Callback,581.44,Frustrated,2025-05-23 09:05:30.198042+00:00
+b9c2f0ca-1734-4be7-8c6b-db8336a77a11,ERP-GTU91JGJ,Patricia,Harris,patriciaharris@protonmail.com,+19915189339,Delivered,3167.6,Positive,2025-06-03 02:48:29.198050+00:00
+1d55fafa-3841-49c1-be5d-cebfb5b93084,ERP-8RIA4PO5,Maria,Clark,maria.clark@globallogisticsinc.com,+19815969255,Delayed,467.78,Frustrated,2026-02-14 22:36:30.198057+00:00
+de4d10bb-a8c4-4d03-9337-e7eb9b083009,ERP-33A8NCXC,Michelle,Hernandez,michellehernandez@globallogisticsinc.com,+19555291890,Pending Callback,2098.18,Positive,2025-05-30 21:48:17.198067+00:00
+1685c39e-de56-4408-aa34-4f4c8166893f,ERP-HUPOF0HK,Kevin,Taylor,kevin.taylor64@hotmail.com,+18134887401,Delayed,385.09,Neutral,2025-05-22 03:44:40.198075+00:00
+a7a69883-71e5-4047-8c67-f79d6c01f640,ERP-O5YVMTD5,William,White,williamwhite81@hotmail.com,+12483642094,Delivered,211.4,Frustrated,2025-08-12 00:34:18.198083+00:00
+09276c22-29ce-4ba9-8e05-159aca199601,ERP-CHHI78LZ,Andrew,Rodriguez,andrew.rodriguez26@hotmail.com,+13116789924,In Transit,2374.85,Positive,2025-06-05 02:15:49.198091+00:00
+992e56fc-6313-40af-b4c0-b2201654c517,ERP-DVAE1ISY,Richard,Perez,richard.perez60@protonmail.com,+17875537160,In Transit,1032.9,Neutral,2026-04-02 03:44:22.198099+00:00
+666bc4e4-1494-4f1d-a3e7-c46701827abf,ERP-KJB85LFO,Brian,Moore,brianmoore@hotmail.com,+14824911866,Delayed,2313.52,Frustrated,2026-01-23 21:15:32.198107+00:00
+eea4509e-6310-4935-afc7-affd9295138b,ERP-QDFQ2YGG,Robert,Gonzalez,robert.gonzalez@hotmail.com,+18037493988,In Transit,3178.5,Neutral,2025-10-11 07:12:52.198115+00:00
+6cd253e8-1bef-46cc-ba39-50ed6299abc4,ERP-UM32YP15,Donald,Garcia,donald.garcia@gmail.com,+17273819904,Delivered,2101.28,Neutral,2026-02-01 03:01:18.198124+00:00
+26ff3b67-2406-4755-93da-75b74f85f60d,ERP-Q0RZTWO7,Kenneth,Harris,kenneth.harris59@icloud.com,+12626129134,Delayed,4511.53,Frustrated,2025-07-02 03:32:18.198131+00:00
+d66885af-8c5a-403a-92c2-e154d2dbb4d4,ERP-2NATD4GW,Patricia,Ramirez,patricia_ramirez@gmail.com,+16028956997,In Transit,3908.7,Frustrated,2025-11-08 07:37:41.198139+00:00
+20bba28f-34b8-4916-bfc1-0f5aec1d8c6c,ERP-JU0S1G9E,Robert,Perez,robertperez51@globallogisticsinc.com,+18082409753,Delivered,1252.57,Frustrated,2025-09-06 12:40:16.198148+00:00
+5c285975-c354-41a9-9983-22f78627639f,ERP-258E7428,Andrew,Martinez,andrewmartinez@icloud.com,+17556435108,Delivered,3277.02,Neutral,2025-05-23 07:11:16.198156+00:00
+b184e80d-2f8f-46cc-afbc-8a3b870f9774,ERP-4VTCDMWS,Joshua,Hernandez,joshua.hernandez89@gmail.com,+15653834854,Pending Callback,2293.14,Neutral,2026-02-13 21:51:14.198165+00:00
+07ea4db0-632d-483b-815e-8defeedc28c3,ERP-8G7QNCWZ,Andrew,Harris,andrewharris60@protonmail.com,+17447047299,Delayed,4299.42,Frustrated,2025-05-10 13:13:01.198172+00:00
+a327413a-09e5-4415-86ad-d95e133f1e68,ERP-R44ESH9B,Sandra,Taylor,sandrataylor69@icloud.com,+17362007530,Delayed,3443.46,Positive,2025-12-08 20:14:47.198180+00:00
+a4ede8a8-b26f-4527-bfd1-f5d9c7897ba0,ERP-JB6M9NWY,Sarah,Thompson,sarahthompson@icloud.com,+13273715580,Delayed,3914.06,Neutral,2025-06-03 22:53:50.198188+00:00
+fad581bc-9a9f-4f98-9755-2ae37d0f2c05,ERP-J7OVHM3K,Betty,Rodriguez,bettyrodriguez@icloud.com,+17459575411,Pending Callback,4168.51,Positive,2025-05-29 14:10:25.198196+00:00
+360fa7a6-f45b-4d67-b400-226b435fa602,ERP-877MFCYL,Joseph,Moore,josephmoore98@icloud.com,+16943826625,Pending Callback,921.63,Frustrated,2026-02-23 06:46:35.198204+00:00
+7556d7d4-e9e2-449c-8787-9916efaea857,ERP-HZMVYD47,Margaret,Jackson,margaret.jackson72@outlook.com,+15742269022,Delivered,4785.67,Frustrated,2025-12-26 01:11:41.198212+00:00
+2f00bc43-235a-4b86-af55-6b1567a848b4,ERP-LRY3IGWE,Maria,Martin,mariamartin@globallogisticsinc.com,+13156928933,Delayed,329.76,Frustrated,2025-06-11 12:15:01.198220+00:00
+bdf34df8-fb31-4f89-850e-d5cba907ee72,ERP-UJB4HLLQ,Melissa,Hernandez,melissa_hernandez@gmail.com,+14219463842,Delivered,3134.96,Positive,2025-06-17 12:35:15.198228+00:00
+32827a36-4820-44e9-9198-b6981523a345,ERP-08D2QLAW,Donald,Thomas,donald.thomas@outlook.com,+19882891576,Delivered,968.89,Neutral,2025-09-03 21:41:12.198236+00:00
+43fb2c33-f267-4b21-a311-6a705b4e5041,ERP-ZSUV41AM,Kimberly,Brown,kimberly.brown66@hotmail.com,+13663406421,Pending Callback,2138.81,Neutral,2025-05-30 11:13:01.198245+00:00
+0f9aff28-a982-497e-a720-2fe97f39025a,ERP-S2QPKGRM,Stephanie,Jackson,stephanie_jackson95@protonmail.com,+18475477913,Delivered,4003.35,Neutral,2025-06-29 03:33:54.198253+00:00
+ea3843fa-a266-49a6-98cd-0769b917ffc7,ERP-WGE8683P,Melissa,Clark,melissa_clark@globallogisticsinc.com,+12062401702,Delayed,4027.95,Neutral,2025-08-25 19:09:06.198260+00:00
+d8c3c37f-0695-4b1c-b8dc-b287c8cfde93,ERP-XI8E5532,Thomas,Jackson,thomas_jackson@gmail.com,+15315488872,In Transit,2656.76,Frustrated,2025-08-28 04:33:58.198268+00:00
+4763849b-19d2-414c-95da-4fa6ec106fa3,ERP-0YKKSWNW,Sandra,Moore,sandramoore@hotmail.com,+19064277931,Pending Callback,4504.46,Neutral,2025-07-25 15:40:23.198276+00:00
+37c700d5-656e-477a-82d8-8cf3cdc23052,ERP-O0E49Z7K,Christopher,Lee,christopher.lee@globallogisticsinc.com,+13779249902,In Transit,3711.53,Positive,2025-06-10 05:21:37.198285+00:00
+ff81d54e-ab93-4f1e-ba93-904a030ffde8,ERP-HF4AKDNA,Michael,Jones,michael.jones@hotmail.com,+14687013623,Delayed,3615.97,Neutral,2025-12-18 00:54:08.198292+00:00
+516ec9c5-bb27-42f9-8407-5ffffcaa2271,ERP-FQSDQ26R,Maria,Moore,maria_moore34@protonmail.com,+18424728927,Delayed,1956.66,Frustrated,2026-04-18 07:52:24.198300+00:00
+ac091e09-6145-4e6b-9e5c-3938fd1eefb8,ERP-WS1YQ6T0,Daniel,Jones,daniel_jones@icloud.com,+16503238680,Delayed,410.28,Frustrated,2026-02-06 12:01:03.198309+00:00
+09bf9b33-af72-437e-9d80-8d5b2e62d85f,ERP-207X887L,Joseph,Anderson,joseph.anderson@icloud.com,+16213752651,Pending Callback,4017.07,Frustrated,2025-06-03 09:58:48.198317+00:00
+716ab654-05aa-45ea-a5ca-3c03053e20e2,ERP-XITIFXZI,Donna,Williams,donnawilliams@outlook.com,+17695155370,Pending Callback,698.57,Frustrated,2025-08-23 16:26:01.198325+00:00
+f5a027ce-4092-4053-8bc3-173033a24b23,ERP-0RFOIAL5,Ashley,White,ashleywhite@yahoo.com,+16578188189,In Transit,1015.29,Positive,2025-11-11 02:11:01.198333+00:00
+dff92b8e-9f01-49dc-b420-e4008e11f4b2,ERP-BI6QSRER,Michael,Garcia,michael_garcia@yahoo.com,+13522282614,Delayed,3986.84,Neutral,2025-07-21 19:56:10.198342+00:00
+d06c7d63-f211-48b5-b766-a4e6a26a9625,ERP-BGBB1R3Y,Timothy,Ramirez,timothy_ramirez67@outlook.com,+19004157098,Delivered,1004.82,Frustrated,2025-10-05 06:08:14.198350+00:00
+8d894089-e709-464c-81a4-ec2d47352185,ERP-C4191HKK,Margaret,Robinson,margaret_robinson@globallogisticsinc.com,+17867876254,In Transit,2355.05,Neutral,2025-06-10 16:07:18.198358+00:00
+404222af-6355-4ee6-998c-b7ea442b1a4d,ERP-5U7D2XG7,Richard,Miller,richardmiller96@icloud.com,+12242945960,Delayed,2442.05,Frustrated,2025-05-28 23:35:18.198366+00:00
+ad0134df-87b3-41b6-945f-ec604c66e362,ERP-GWHAOQHV,Deborah,Taylor,deborah.taylor@yahoo.com,+16072493472,Delayed,666.24,Positive,2026-03-16 04:01:25.198374+00:00
+42bf6c09-9189-4c40-94a8-09529c79af55,ERP-ZQQXBV0D,Amanda,Robinson,amanda.robinson49@gmail.com,+13323851685,In Transit,3125.79,Positive,2025-11-08 15:00:13.198382+00:00
+da862a8b-aa86-4ef2-b0f2-d910c674fae1,ERP-M0TPI70H,William,White,william_white@hotmail.com,+15895454414,In Transit,3335.65,Neutral,2025-08-21 08:19:22.198389+00:00
+91aa0275-91e4-4d70-b55c-b036523c96df,ERP-KSF2GDAU,Brian,Sanchez,brian_sanchez@outlook.com,+12087906351,Delayed,835.63,Neutral,2025-12-06 03:58:15.198399+00:00
+2aeda92d-ece8-4891-bc24-4287eadb54e2,ERP-4VZN8Z4C,William,Smith,williamsmith@globallogisticsinc.com,+14199326656,Delayed,3918.17,Frustrated,2025-10-20 04:20:42.198407+00:00
+b58272da-0910-4a36-8dbd-b29ba2f2e355,ERP-D8EJPMLN,Maria,Harris,maria_harris@yahoo.com,+12274652227,Delayed,225.66,Neutral,2025-05-04 18:38:48.198416+00:00
+3b7f7b31-6b52-4fad-89f3-d13471adc579,ERP-EWRUKFWP,Sarah,Wilson,sarahwilson11@hotmail.com,+18042227755,Delayed,736.94,Neutral,2025-10-06 18:52:58.198424+00:00
+206d2337-e44c-479e-9eb7-95f6e1c1ffec,ERP-DL8F5WAZ,Carol,Lewis,carol_lewis@gmail.com,+13272176950,Pending Callback,4787.29,Frustrated,2025-05-10 23:34:44.198432+00:00
+7502577c-7e21-4d93-b652-dac6d8a06df8,ERP-QP2WNV2M,Stephanie,Lee,stephanie_lee@yahoo.com,+14576912743,Delayed,4200.17,Neutral,2025-11-02 16:49:05.198440+00:00
+e5016ca1-8695-4f31-8ed9-d607c68f9935,ERP-DT12SBA6,Sandra,Smith,sandra_smith@gmail.com,+16606085524,In Transit,2496.02,Neutral,2025-10-12 12:31:26.198450+00:00
+cc93c5bf-edea-4f87-8294-a21ca57c84e4,ERP-AD0NDV5D,David,Moore,david_moore@hotmail.com,+12864009329,In Transit,2102.08,Positive,2026-01-25 07:01:37.198458+00:00
+c24fadba-6fa6-4065-8c44-885f94a9e6a1,ERP-ZL83K88R,Sarah,Anderson,sarah.anderson@gmail.com,+19204011406,In Transit,2869.14,Positive,2025-12-16 12:18:18.198466+00:00
+e6faa2fd-4b53-4b57-903a-2124ab0954a4,ERP-TMPPJBEA,Andrew,Ramirez,andrew.ramirez@protonmail.com,+16123608200,Delivered,4207.82,Neutral,2025-11-12 09:14:53.198475+00:00
+f1e29d87-9d0b-4d14-bb8a-5e34ef78672a,ERP-MCIE4ACJ,Patricia,Williams,patricia_williams@outlook.com,+15388411408,In Transit,3996.01,Positive,2025-11-08 10:53:57.198483+00:00
+00ff95a6-7de8-4051-ada6-7f1b160f263e,ERP-XEJAXVT7,Donna,Thomas,donna.thomas92@protonmail.com,+12035225084,In Transit,1651.66,Positive,2026-04-14 14:21:56.198491+00:00
+7a644990-b912-48d1-b3ac-f22ea7d5db1c,ERP-VBVXVR62,Charles,Martin,charlesmartin@icloud.com,+12664038589,Pending Callback,3457.26,Neutral,2025-12-03 14:02:29.198499+00:00
+48896999-431e-4a86-9bfe-9281d2c71c20,ERP-0D68FR8R,Joshua,Moore,joshuamoore@yahoo.com,+13789806280,Pending Callback,996.78,Frustrated,2025-08-06 11:44:08.198507+00:00
+d01e31d8-f05d-42d2-8a40-3d1baca6a051,ERP-VKUEV3C3,Steven,Perez,steven_perez22@globallogisticsinc.com,+18763421431,Delayed,2389.62,Frustrated,2025-11-03 02:10:36.198515+00:00
+94a8c024-61ec-4cef-b783-fcae83712f05,ERP-GDBFXA2W,Andrew,Ramirez,andrew.ramirez@yahoo.com,+15789009404,Pending Callback,4514.08,Positive,2026-03-29 14:19:04.198524+00:00
+63786614-b1e4-4301-83e7-26fb6ed6dba4,ERP-0TW87S34,Mark,Smith,marksmith52@outlook.com,+17473413633,In Transit,2311.33,Neutral,2025-10-10 07:42:34.198532+00:00
+d02e3958-6dc3-4ff6-9c89-608fc2ef8ae5,ERP-7UPSPAG3,Steven,White,steven_white@hotmail.com,+16855278754,In Transit,4161.17,Positive,2025-06-07 23:29:09.198540+00:00
+6bd536bc-7a5f-41c5-a7fe-c85129b075f0,ERP-UKO1Y7SR,Joseph,Gonzalez,josephgonzalez@protonmail.com,+18866339268,Delayed,2370.46,Neutral,2025-09-18 07:41:46.198548+00:00
+da82596c-5c7f-4e5e-b36f-0d688b8e599d,ERP-4XBBMZJ2,Brian,Robinson,brianrobinson@outlook.com,+16372459099,Delayed,967.44,Neutral,2025-08-12 04:40:21.198556+00:00
+baa45950-e475-48f8-bb00-5be813545574,ERP-ULND7U4X,George,Moore,georgemoore@outlook.com,+18552467908,Delivered,4191.92,Neutral,2025-12-02 23:58:21.198564+00:00
+6ce84910-d5a8-4e60-b576-aafe66cfb435,ERP-Z7PJSFPF,Andrew,Davis,andrew_davis14@yahoo.com,+13635644983,Pending Callback,1448.56,Frustrated,2026-03-13 10:58:45.198572+00:00
+593eefc1-20a2-44a2-8e28-c47169ef9eb0,ERP-882JOZIB,James,Taylor,james_taylor18@hotmail.com,+16913549637,Pending Callback,3049.52,Positive,2025-11-17 00:06:43.198580+00:00
+50b48863-baf0-4903-8e66-ef5c1f191d9c,ERP-3DC9E69I,Maria,Martin,mariamartin@globallogisticsinc.com,+14099317674,In Transit,1239.98,Neutral,2025-07-25 12:22:36.198588+00:00
+3e40e667-f3b9-426d-bf00-dd5fa403f98e,ERP-AGI7LSO2,Donald,Lewis,donaldlewis@outlook.com,+14859685949,Pending Callback,808.76,Positive,2025-09-03 16:27:33.198597+00:00
+7d5925fe-c753-4076-b564-a51ba07599a8,ERP-LBGKBUOC,Robert,Wilson,robertwilson@globallogisticsinc.com,+17283295238,In Transit,2778.85,Frustrated,2026-04-29 22:01:23.198606+00:00
+8d025c1b-0ca3-40fa-885a-f1ebaf0b3012,ERP-3FJPO4DI,Margaret,Anderson,margaret_anderson@hotmail.com,+18415855342,Pending Callback,3120.69,Frustrated,2025-09-03 05:57:16.198614+00:00
+709f53c2-8971-4153-9f39-cb882cab776b,ERP-9OWP7NL6,Jessica,Thompson,jessica.thompson42@protonmail.com,+14675211807,In Transit,708.17,Positive,2025-07-24 11:31:02.198622+00:00
+7facb6b1-6421-49fe-805e-2a6b2973f059,ERP-G429I76B,Joshua,Perez,joshua.perez10@gmail.com,+16328992013,Delayed,4179.37,Frustrated,2025-07-12 16:52:12.198630+00:00
+804826df-e0fb-44c0-bc1d-298e2b4c1da5,ERP-3HLOZESJ,Stephanie,Moore,stephanie_moore@hotmail.com,+16972071805,In Transit,3011.18,Frustrated,2025-09-20 17:26:54.198637+00:00
+04e6767f-1152-4940-89b5-3ae868db176f,ERP-ETUGKNN5,Lisa,Sanchez,lisasanchez72@hotmail.com,+17096201819,Delivered,3966.97,Neutral,2026-02-27 04:14:36.198645+00:00
+e86b6826-81b3-4047-b38e-cedb7ca90c0c,ERP-2LPN1M6U,James,Clark,james_clark99@yahoo.com,+13967181473,Pending Callback,741.19,Neutral,2026-01-20 19:02:31.198653+00:00
+d3f3978c-9e0b-4829-a7cd-238e1647bb60,ERP-NEW1MKDW,Margaret,Lewis,margaretlewis78@yahoo.com,+12542097971,Delayed,4292.32,Positive,2026-02-22 02:20:30.198661+00:00
+2c94d61f-3bc7-48da-9b80-7ed70f1aa6c9,ERP-G1Q8RXLE,Patricia,Martinez,patricia_martinez@hotmail.com,+12283062295,Delayed,1476.56,Positive,2026-03-26 04:18:06.198669+00:00
+b7705b51-9425-4b15-b867-54e1b13e0e81,ERP-9S8TSNC1,Betty,Robinson,bettyrobinson@hotmail.com,+18027287489,Pending Callback,3583.74,Frustrated,2026-03-12 08:55:59.198677+00:00
+9a332f9d-81dc-4bde-8474-11994e58c961,ERP-CU5M767J,Joseph,Ramirez,joseph.ramirez92@globallogisticsinc.com,+14693687963,In Transit,821.65,Positive,2025-05-08 22:02:15.198685+00:00
+0acf4de0-84ae-4fac-975b-5a361d594cdf,ERP-HJ05MPZ0,Richard,Johnson,richardjohnson7@protonmail.com,+15588503765,Delivered,4918.67,Frustrated,2026-02-22 03:04:57.198693+00:00
+ffc1dcf5-d153-47d2-afa9-23bdd4e28f3d,ERP-EU1S5N18,Lisa,Jones,lisa.jones5@outlook.com,+15128687019,Delivered,3295.81,Neutral,2025-07-17 17:28:07.198703+00:00
+322d60fe-4cad-4e70-bf07-a6c6bacb6dad,ERP-H5E8FZQ1,Patricia,Ramirez,patriciaramirez98@icloud.com,+18359512390,Pending Callback,2248.1,Neutral,2025-07-08 06:08:22.198711+00:00
+56ba3c9d-a8ec-4251-a9f0-18b65a379996,ERP-XXYFGG3T,Susan,Davis,susandavis@hotmail.com,+15629311206,In Transit,4025.86,Positive,2025-09-07 09:22:12.198719+00:00
+5f369b1b-e539-4ced-8af4-ed16a3970288,ERP-3JZGN99L,Anthony,Davis,anthonydavis@outlook.com,+18394346423,Delayed,4417.37,Positive,2026-04-17 03:15:28.198727+00:00
+2da56420-7042-46d5-aebb-67cfa60c5ce9,ERP-WDC5PSSC,George,Sanchez,george_sanchez@outlook.com,+14604606889,Delivered,1383.25,Positive,2025-06-14 07:06:16.198735+00:00
+a74ef3d1-54af-4f5a-8f88-3826c591cf3f,ERP-35YRWQ2D,Andrew,Miller,andrewmiller88@yahoo.com,+18598103020,Delayed,2729.49,Frustrated,2025-10-13 23:49:36.198744+00:00
+8fc6f317-aeda-4194-9c3b-ec70cf8d1658,ERP-502UPVSF,Brian,Rodriguez,brianrodriguez@outlook.com,+15226923176,Pending Callback,612.81,Neutral,2025-08-09 13:00:01.198752+00:00
+06cee84d-87d8-44b7-aa04-43457c2669e7,ERP-NBD0V0NJ,William,Rodriguez,william_rodriguez@globallogisticsinc.com,+17708644709,Pending Callback,897.4,Positive,2026-01-28 11:47:26.198760+00:00
+bfb42076-cf44-4478-bfa2-27b74f40c4a4,ERP-D99XRO37,Kenneth,Sanchez,kennethsanchez@protonmail.com,+17272504474,Delayed,813.96,Positive,2025-06-18 00:55:57.198769+00:00
+54c73a03-7f1d-4d21-980b-5d69102f0ace,ERP-GGACSQNB,Linda,Smith,linda.smith66@icloud.com,+15953241183,In Transit,4107.37,Positive,2025-12-07 07:03:10.198777+00:00
+c594e905-78c2-4121-bd44-4fc38361230e,ERP-DC06KLI7,Anthony,Sanchez,anthonysanchez@globallogisticsinc.com,+16944827899,Delayed,1055.44,Neutral,2025-11-23 07:32:22.198785+00:00
+79baf4de-1827-4e95-8e42-d567b480c1b3,ERP-32BH1A4O,Donna,Hernandez,donna.hernandez1@globallogisticsinc.com,+14855377212,Pending Callback,4187.05,Neutral,2026-04-23 10:25:39.198793+00:00
+9899868f-efe3-4a9f-923f-4d6bd9f033e9,ERP-P9YPDAX6,George,Johnson,george_johnson@icloud.com,+14304881025,Pending Callback,2754.1,Positive,2025-11-27 03:17:57.198802+00:00
+c2e88db6-8dbc-40c6-91f7-aea98a239a55,ERP-7V1QSA11,Michelle,Clark,michelle_clark@outlook.com,+17673447191,Pending Callback,880.6,Frustrated,2025-11-03 17:21:18.198810+00:00
+f97029ec-4bd0-45ff-a5c2-8943235c8109,ERP-IPT6UR9X,James,Taylor,james_taylor@outlook.com,+12315798024,Delayed,1878.8,Positive,2025-09-21 21:52:40.198818+00:00
+0c2a7a5a-a107-4bbb-89e9-6380f137fe7e,ERP-NYIADPZ9,Ashley,Lewis,ashley_lewis@hotmail.com,+12155092288,In Transit,3829.16,Frustrated,2025-12-08 21:31:29.198826+00:00
+0595e2cf-36f9-466a-ba2b-7fe0c00cc85d,ERP-2NS8ERKD,William,Williams,williamwilliams18@outlook.com,+15948164029,In Transit,573.2,Frustrated,2025-06-25 09:50:10.198835+00:00
+6ff9b902-2874-418d-b6fb-808639f8c2cf,ERP-FDZOEJFV,Carol,Moore,carol_moore@hotmail.com,+12549245330,Delivered,1405.37,Positive,2026-03-21 03:43:58.198843+00:00
+67d23b2d-4d36-45bb-a8b6-adb5cdc5d6fc,ERP-YN4BPSAU,Emily,Lopez,emily.lopez47@globallogisticsinc.com,+12009271295,In Transit,410.51,Neutral,2026-02-04 18:10:45.198851+00:00
+7858f351-338e-4675-bbb3-031eb66185bf,ERP-MJBG3K59,Melissa,Lewis,melissalewis21@icloud.com,+14862051957,In Transit,2478.83,Frustrated,2025-05-11 16:17:12.198860+00:00
+ebfd4935-2d23-4cec-a726-2abb1986ed91,ERP-FJQD9C7T,Kimberly,Garcia,kimberly_garcia1@gmail.com,+12605591966,In Transit,669.23,Neutral,2026-04-30 15:02:29.198869+00:00
+e1183457-0d3e-4a8b-972d-b43a72ae765f,ERP-45D3DGC5,Michelle,Garcia,michellegarcia@globallogisticsinc.com,+16512543230,Delayed,314.87,Neutral,2026-04-03 11:57:02.198879+00:00
+414c356a-40ec-4fda-90e3-972a05099f54,ERP-LA8JZ9DS,Sandra,Jackson,sandra_jackson72@icloud.com,+15004323307,Pending Callback,2124.7,Frustrated,2025-09-20 11:04:06.198888+00:00
+8bdc7383-7ccb-45a1-9dcf-b59270705edf,ERP-4MVKQE4D,Susan,Ramirez,susanramirez@hotmail.com,+14075189821,In Transit,1144.77,Frustrated,2025-07-04 15:33:39.198896+00:00
+1f851838-976b-45fc-b27c-46b33cb85fbf,ERP-JBMUVHGQ,Michael,Johnson,michael_johnson28@hotmail.com,+14627364964,Delivered,4369.65,Positive,2025-11-18 15:36:32.198904+00:00
+b05a2247-6339-4d23-babe-a5ca1686979e,ERP-OJTBPGT9,Kimberly,Johnson,kimberly_johnson@protonmail.com,+15103816208,Delayed,1974.86,Frustrated,2025-06-04 23:48:05.198913+00:00
+f1540342-18b3-41a9-aeb0-ad9675887721,ERP-6TLB37ZO,Lisa,Gonzalez,lisa_gonzalez80@outlook.com,+12815727505,Delayed,1109.35,Positive,2025-07-21 20:05:26.198921+00:00
+6bd7b961-60c6-437a-b8cf-44aa3848f21c,ERP-B76LBWLA,James,Martin,jamesmartin@gmail.com,+12853028580,Pending Callback,564.3,Frustrated,2026-04-23 14:36:30.198929+00:00
+1855c189-6867-4f0d-b1a2-c27c6ceb99d3,ERP-2ZQOYGWO,Patricia,Hernandez,patriciahernandez@outlook.com,+14749152362,Delayed,4991.23,Positive,2025-08-15 01:00:10.198937+00:00
+11fd2eba-f901-4acf-a07f-cb5cd319ef27,ERP-PL2U5CFP,William,Garcia,williamgarcia@outlook.com,+13135454515,Delayed,4541.88,Neutral,2025-06-25 03:11:26.198945+00:00
+db94c12b-0b91-4d9b-9e8a-adffcec234a8,ERP-YJWWBK8R,Carol,Perez,carol_perez@globallogisticsinc.com,+13326741811,Delivered,3570.66,Frustrated,2025-08-12 05:48:02.198953+00:00
+82d8fac5-7b1d-4528-a310-d743adc9efad,ERP-BI1CAO8W,Betty,Lee,betty_lee@yahoo.com,+19067922941,In Transit,1459.43,Positive,2025-05-01 20:43:08.198962+00:00
+4c859df7-0f6e-4fdc-8953-a681f52239ef,ERP-HBW9KCKW,David,Lewis,david.lewis29@protonmail.com,+18313789936,Delivered,1795.93,Positive,2025-05-12 21:17:14.198970+00:00
+0d676224-836d-4c77-8c66-fdceb1f93bf5,ERP-UFNCC8UU,Betty,Perez,bettyperez3@protonmail.com,+16387601963,In Transit,2779.0,Frustrated,2025-11-11 10:39:34.198978+00:00
+512bb45f-d4fc-4846-891c-1c51a7a0f1cb,ERP-BZIRJYZ8,Paul,Rodriguez,paulrodriguez25@outlook.com,+17949157143,Delayed,200.5,Neutral,2025-10-22 10:13:58.198986+00:00
+7c29ffa2-29e2-4409-b84a-273e0449e0bc,ERP-14MAFMAR,Ashley,Gonzalez,ashley_gonzalez41@yahoo.com,+16003885683,In Transit,2350.95,Neutral,2026-02-18 15:44:19.198994+00:00
+8b000fa3-d086-4a7b-bac6-23f947fe79f7,ERP-WXU2HHLD,Donna,Johnson,donna.johnson@protonmail.com,+12408587910,In Transit,1845.23,Positive,2025-08-26 13:24:16.199002+00:00
+17cdaa0f-12f3-493f-b882-48b7f61c9ccf,ERP-UOJA5ENP,Ronald,Moore,ronald.moore@outlook.com,+18945428479,Delivered,3795.76,Frustrated,2025-09-26 21:47:56.199011+00:00
+88784389-c736-494a-a0c4-948c3cb40121,ERP-LUGG01LO,Andrew,Anderson,andrew.anderson31@icloud.com,+13832083317,Pending Callback,1913.22,Frustrated,2026-02-17 13:56:08.199019+00:00
+9e191e7f-006b-4c0b-b54d-aa64aeb62b62,ERP-QQAVAQDM,Michael,Rodriguez,michael.rodriguez@yahoo.com,+13936413756,In Transit,3270.47,Frustrated,2025-07-23 05:55:07.199028+00:00
+7e8e0439-c09e-4554-9668-59f18c01a677,ERP-C6SEURAN,Brian,Garcia,brian.garcia@globallogisticsinc.com,+13147158152,Delayed,2724.1,Neutral,2025-09-29 08:00:39.199036+00:00
+635a6e86-fb87-4b98-a329-9253a6495ba2,ERP-05UQ9GYN,Emily,Williams,emilywilliams@globallogisticsinc.com,+19915474872,Pending Callback,2721.39,Frustrated,2025-09-08 12:05:20.199044+00:00
+a0ffaf5d-3549-4726-bd15-b0c68fb8d16f,ERP-TN7SU62J,Susan,Williams,susan_williams@protonmail.com,+13413728811,Delayed,105.97,Positive,2025-09-28 23:02:48.199052+00:00
+c28aa317-9622-43fb-b975-66c6370923c4,ERP-KE79E8CD,Susan,Martin,susan_martin63@icloud.com,+14169483157,In Transit,423.59,Neutral,2025-09-18 20:00:53.199062+00:00
+da9ada06-6817-49c1-bb34-a22db7a1bafc,ERP-HAEWABHB,Joshua,Thompson,joshuathompson@yahoo.com,+13343338191,Pending Callback,1859.96,Positive,2025-08-03 22:30:49.199071+00:00
+1a9e6a4c-0cda-4b2b-bb27-2129091d948c,ERP-NG61SP5O,Robert,Davis,robert_davis@icloud.com,+12585524781,Pending Callback,2338.9,Neutral,2025-11-27 12:03:25.199079+00:00
+c32a0e2a-c385-4ba7-87db-0980dd48d5d9,ERP-VI1YX9DY,Donna,Brown,donnabrown@hotmail.com,+15055871669,Delayed,2952.0,Frustrated,2026-02-05 07:06:43.199088+00:00
+34b6e591-3d81-4e83-816d-b567edb70f4b,ERP-BI8TJWOF,Linda,Sanchez,linda.sanchez@hotmail.com,+16982149209,In Transit,1897.77,Frustrated,2025-05-22 09:41:08.199096+00:00
+1b3423c2-2162-4f34-9a13-980dc22cfe1a,ERP-P8O85BIO,Betty,Clark,betty.clark11@outlook.com,+15702615967,Delivered,3916.13,Neutral,2026-01-04 07:42:35.199104+00:00
+f115d58d-29b0-4e59-8425-6638dec1306c,ERP-PP9YVGIP,Carol,Johnson,carol.johnson39@yahoo.com,+16643943121,Delayed,1988.17,Neutral,2025-05-23 11:10:02.199112+00:00
+43512e65-5ae2-464f-bb2e-d66b039980fe,ERP-KFHOE3MX,Linda,Williams,lindawilliams42@icloud.com,+13543039432,In Transit,2715.62,Neutral,2025-09-12 07:00:55.199120+00:00
+a7a7f7c3-06c9-4e02-990c-8d818ba22f75,ERP-DWOX06ZX,Amanda,Martin,amandamartin88@outlook.com,+14254056551,Delayed,4448.07,Frustrated,2026-01-11 14:39:19.199128+00:00
+707b3f47-c73c-425f-8fcd-2178e33128f9,ERP-6YNII88B,Ashley,Garcia,ashleygarcia@gmail.com,+19235749667,Pending Callback,2087.77,Neutral,2025-07-25 21:11:54.199136+00:00
+d7faf6a1-f58d-49a5-96b4-69a3457e6ed4,ERP-52OYYR2O,Karen,Lopez,karenlopez93@icloud.com,+19908506496,Delayed,1866.41,Positive,2025-11-12 11:19:26.199145+00:00
+8fe5db0a-cbba-438a-9c30-08bfebb6080f,ERP-Q4O7VS8C,Betty,Jackson,betty.jackson@gmail.com,+13815515678,Delivered,208.42,Frustrated,2025-05-13 07:01:00.199153+00:00
+6d601c8e-c8fd-49b1-8ba1-9b8796e1c460,ERP-L4W7S3GO,James,Jackson,james.jackson42@protonmail.com,+15906065949,Pending Callback,990.45,Positive,2026-04-25 18:20:29.199161+00:00

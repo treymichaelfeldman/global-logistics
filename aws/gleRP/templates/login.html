@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="ISO-8859-1">
+  <title>glERP v2.1 — Secure Login</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: #008080;
+      font-family: "Courier New", Courier, monospace;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .login-box {
+      background: #c0c0c0;
+      border: 4px outset #ffffff;
+      width: 400px;
+    }
+    .login-title {
+      background: #000080;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 4px 8px;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    .login-body { padding: 20px; }
+    .logo {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: #000080;
+      letter-spacing: 4px;
+      margin-bottom: 4px;
+    }
+    .logo-sub {
+      text-align: center;
+      font-size: 10px;
+      color: #444444;
+      letter-spacing: 2px;
+      margin-bottom: 16px;
+      border-bottom: 2px solid #808080;
+      padding-bottom: 12px;
+    }
+    .field { margin-bottom: 12px; }
+    .field label {
+      display: block;
+      font-size: 11px;
+      font-weight: bold;
+      margin-bottom: 3px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .field input[type=password] {
+      width: 100%;
+      border: 2px inset #808080;
+      background: #000000;
+      color: #00ff00;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 13px;
+      padding: 4px 8px;
+      letter-spacing: 3px;
+    }
+    .btn-login {
+      width: 100%;
+      background: #000080;
+      color: #ffffff;
+      border: 2px outset #0000cc;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 6px;
+      cursor: pointer;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .btn-login:hover { background: #0000cc; }
+    .btn-login:active { border: 2px inset #000080; }
+    .error-box {
+      background: #ff0000;
+      color: #ffff00;
+      font-size: 11px;
+      font-weight: bold;
+      padding: 6px 8px;
+      margin-bottom: 12px;
+      border: 2px solid #800000;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    .footer {
+      font-size: 9px;
+      color: #666666;
+      text-align: center;
+      margin-top: 16px;
+      border-top: 1px solid #808080;
+      padding-top: 8px;
+    }
+    .warning {
+      background: #ffff00;
+      border: 1px solid #808000;
+      font-size: 9px;
+      padding: 4px;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="login-box">
+  <div class="login-title">&#9632; SECURE SYSTEM ACCESS &#9632;</div>
+  <div class="login-body">
+    <div class="logo">glERP</div>
+    <div class="logo-sub">GLOBAL LOGISTICS INC. &mdash; ENTERPRISE RESOURCE PLANNING v2.1</div>
+
+    <div class="warning">
+      &#9888; AUTHORIZED PERSONNEL ONLY &#9888;<br>
+      Unauthorized access is a federal offense (18 U.S.C. &sect;1030)
+    </div>
+
+    {% if error %}
+    <div class="error-box">&#9632; {{ error }} &#9632;</div>
+    {% endif %}
+
+    <form method="POST" action="{{ url_for('login') }}">
+      <div class="field">
+        <label for="password">&#9658; System Password:</label>
+        <input type="password" id="password" name="password" autofocus autocomplete="current-password">
+      </div>
+      <button type="submit" class="btn-login">&#9658;&#9658; ACCESS SYSTEM &#9658;&#9658;</button>
+    </form>
+
+    <div class="footer">
+      glERP&#169; 1997-2003 Global Logistics Systems Corp.<br>
+      Build 2.1.4903 &bull; All activity is logged and monitored.
+    </div>
+  </div>
+</div>
+</body>
+</html>

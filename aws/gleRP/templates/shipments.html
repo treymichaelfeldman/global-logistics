@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="win-title">&#9632; SHIPMENT INQUIRY SCREEN &mdash; MODULE SHP-001</div>
+<div class="win-body">
+
+  {% with messages = get_flashed_messages() %}
+    {% for msg in messages %}<div class="flash">&#9888; {{ msg }}</div>{% endfor %}
+  {% endwith %}
+
+  <div class="searchbar">
+    <label for="q">&#9658; SEARCH:</label>
+    <form method="GET" action="{{ url_for('shipments') }}" style="display:flex; gap:6px; flex:1;">
+      <input type="text" id="q" name="q" value="{{ search }}" placeholder="Party ID / Email / Last Name..." style="flex:1;">
+      <select name="limit">
+        {% for n in [25, 50, 100, 250, 500] %}
+        <option value="{{ n }}" {% if limit == n %}selected{% endif %}>{{ n }} rows</option>
+        {% endfor %}
+      </select>
+      <button type="submit" class="btn btn-primary">[SEARCH]</button>
+      {% if search %}<a href="{{ url_for('shipments') }}" class="btn">[CLEAR]</a>{% endif %}
+    </form>
+  </div>
+
+  <div style="font-size:10px; color:#444; margin-bottom:4px;">
+    &#9658; {{ rows|length }} record(s) returned
+    {% if search %} &mdash; filtered by: <strong>{{ search }}</strong>{% endif %}
+  </div>
+
+  <div class="panel" style="padding:0; overflow-x:auto;">
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>ORDER ID</th>
+          <th>ERP PARTY ID</th>
+          <th>LAST NAME</th>
+          <th>FIRST NAME</th>
+          <th>EMAIL</th>
+          <th>PHONE</th>
+          <th>STATUS</th>
+          <th style="text-align:right;">QUOTE $</th>
+          <th>SENTIMENT</th>
+          <th>LAST UPDATED</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+        <tr>
+          <td style="color:#808080;">{{ loop.index }}</td>
+          <td><a href="{{ url_for('shipment_detail', order_id=row.order_id) }}">{{ row.order_id[:8] }}...</a></td>
+          <td style="font-weight:bold; color:#000080;">{{ row.erp_party_id }}</td>
+          <td>{{ row.last_name }}</td>
+          <td>{{ row.first_name }}</td>
+          <td style="font-size:10px;">{{ row.email_address }}</td>
+          <td style="font-size:10px; white-space:nowrap;">{{ row.phone_number }}</td>
+          <td>
+            {% if row.status == 'In Transit' %}<span class="badge badge-transit">{{ row.status }}</span>
+            {% elif row.status == 'Delayed' %}<span class="badge badge-delayed">{{ row.status }}</span>
+            {% elif row.status == 'Delivered' %}<span class="badge badge-delivered">{{ row.status }}</span>
+            {% else %}<span class="badge badge-callback">{{ row.status }}</span>{% endif %}
+          </td>
+          <td style="text-align:right; font-weight:bold;">${{ "%.2f"|format(row.quote_amount|float) }}</td>
+          <td>
+            {% if row.sentiment_flag == 'Positive' %}<span class="sent-pos">&#9650; Positive</span>
+            {% elif row.sentiment_flag == 'Frustrated' %}<span class="sent-fru">&#9660; Frustrated</span>
+            {% else %}<span class="sent-neu">&#9644; Neutral</span>{% endif %}
+          </td>
+          <td style="font-size:10px; white-space:nowrap;">{{ row.last_updated[:19] if row.last_updated else '—' }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="11" style="text-align:center; padding:12px; color:#808080;">NO RECORDS FOUND</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div style="margin-top:6px;">
+    <a href="{{ url_for('dashboard') }}" class="btn">[ESC] MAIN MENU</a>
+  </div>
+
+</div>
+{% endblock %}
