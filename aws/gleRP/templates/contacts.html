@@ -1,21 +1,21 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="win-title">&#9632; SERVICE CLOUD CONTACTS &mdash; IDENTITY RESOLUTION TEST DATA</div>
+<div class="win-title">&#9632; SERVICE CONTACTS &mdash; IDENTITY RESOLUTION TEST DATA</div>
 <div class="win-body">
 
   <div class="panel" style="background:#cce0ff; border-color:#0066cc;">
-    <div class="panel-label" style="color:#003399;">&#9658; Identity Resolution Test Note</div>
-    <div style="font-size:10px;">
-      This table shows the <strong>salesforce_service_contacts.csv</strong> — 200 Service Cloud records.<br>
-      <strong>~50 records</strong> intentionally share an <strong>email_address</strong> or <strong>phone_number</strong>
-      with the ERP shipments table to trigger Data Cloud Identity Resolution merge rules.
+    <div class="panel-label" style="color:#003399;">&#9658; Identity Resolution Note</div>
+    <div style="font-size:10px; line-height:1.6;">
+      200 CRM contacts. Records flagged <strong style="color:#006600;">[ MATCH ]</strong> share
+      an <strong>email_address</strong> or <strong>phone_number</strong> with a record in the
+      ERP shipments table. Data Cloud Identity Resolution will merge these into a Unified Profile.
     </div>
   </div>
 
   <div class="searchbar">
     <label for="q">&#9658; SEARCH:</label>
     <form method="GET" action="{{ url_for('contacts') }}" style="display:flex; gap:6px; flex:1;">
-      <input type="text" id="q" name="q" value="{{ search }}" placeholder="Email / Last Name..." style="flex:1;">
+      <input type="text" id="q" name="q" value="{{ search }}" placeholder="Email / Last Name / Customer ID..." style="flex:1;">
       <button type="submit" class="btn btn-primary">[SEARCH]</button>
       {% if search %}<a href="{{ url_for('contacts') }}" class="btn">[CLEAR]</a>{% endif %}
     </form>
@@ -23,6 +23,7 @@
 
   <div style="font-size:10px; color:#444; margin-bottom:4px;">
     &#9658; {{ rows|length }} record(s) returned
+    &mdash; <span style="color:#006600; font-weight:bold;">{{ rows|selectattr('has_erp_match','equalto','true')|list|length }}</span> with ERP match
   </div>
 
   <div class="panel" style="padding:0; overflow-x:auto;">
@@ -30,26 +31,32 @@
       <thead>
         <tr>
           <th>#</th>
-          <th>SALESFORCE ID (18-CHAR)</th>
+          <th>ERP CUSTOMER ID</th>
           <th>LAST NAME</th>
           <th>FIRST NAME</th>
           <th>EMAIL</th>
           <th>PHONE</th>
           <th>ACCOUNT</th>
-          <th>SOURCE</th>
+          <th>ERP MATCH</th>
         </tr>
       </thead>
       <tbody>
         {% for row in rows %}
         <tr>
           <td style="color:#808080;">{{ loop.index }}</td>
-          <td style="font-family:'Courier New'; font-size:10px; color:#006600; font-weight:bold;">{{ row.salesforce_id }}</td>
+          <td style="font-family:'Courier New'; font-size:10px; color:#000080; font-weight:bold;">{{ row.erp_customer_id }}</td>
           <td>{{ row.last_name }}</td>
           <td>{{ row.first_name }}</td>
           <td style="font-size:10px;">{{ row.email_address }}</td>
           <td style="font-size:10px; white-space:nowrap;">{{ row.phone_number }}</td>
           <td style="font-size:10px;">{{ row.account_name }}</td>
-          <td><span class="badge badge-delivered">{{ row.source }}</span></td>
+          <td style="text-align:center;">
+            {% if row.has_erp_match == 'true' %}
+            <span class="badge badge-delivered" style="font-size:9px;">&#10003; MATCH</span>
+            {% else %}
+            <span style="color:#aaa; font-size:10px;">&mdash;</span>
+            {% endif %}
+          </td>
         </tr>
         {% else %}
         <tr><td colspan="8" style="text-align:center; padding:12px; color:#808080;">NO RECORDS FOUND</td></tr>
