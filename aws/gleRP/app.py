@@ -20,6 +20,9 @@ from datetime import datetime, timezone
 from functools import wraps
 
 import boto3
+import pandas as pd
+import pyarrow as pa
+import pyarrow.parquet as pq
 from flask import (
     Flask,
     render_template,
@@ -55,6 +58,9 @@ SHIPMENTS_CSV = os.path.join(os.path.dirname(__file__), "..", "data_generation",
 VALID_STATUSES = ["In Transit", "Delayed", "Delivered", "Pending Callback"]
 VALID_SENTIMENTS = ["Positive", "Neutral", "Frustrated"]
 
+S3_BUCKET = os.environ.get("S3_BUCKET", "global-logistics-erp-mock-6p9mqdtq")
+S3_DATA_PREFIX = "data/shipments"
+
 
 # ---------------------------------------------------------------------------
 # Auth
@@ -87,6 +93,46 @@ def _write_shipments_csv(rows: list[dict]) -> None:
         writer = csv.DictWriter(fh, fieldnames=rows[0].keys())
         writer.writeheader()
         writer.writerows(rows)
+
+
+def _sync_to_s3(rows: list[dict]) -> None:
+    """
+    Re-write the S3 Parquet partitions (partitioned by status) so Data Cloud
+    always reads the latest data. Also refreshes the combined CSV on S3.
+    Called after every successful edit.
+    """
+    s3 = boto3.client("s3", region_name=AWS_REGION)
+    df = pd.DataFrame(rows)
+    df["quote_amount"] = df["quote_amount"].astype(float)
+
+    # Delete existing partition objects so renamed partitions don't leave stale files
+    existing = s3.list_objects_v2(Bucket=S3_BUCKET, Prefix=f"{S3_DATA_PREFIX}/status=")
+    for obj in existing.get("Contents", []):
+        s3.delete_object(Bucket=S3_BUCKET, Key=obj["Key"])
+
+    # Write one Parquet file per status partition
+    for status_val, partition_df in df.groupby("status"):
+        buf = io.BytesIO()
+        partition_df.to_parquet(buf, index=False, engine="pyarrow")
+        buf.seek(0)
+        safe = status_val.replace(" ", "_")
+        s3.put_object(
+            Bucket=S3_BUCKET,
+            Key=f"{S3_DATA_PREFIX}/status={safe}/part-0.parquet",
+            Body=buf.getvalue(),
+            ContentType="application/octet-stream",
+        )
+
+    # Refresh combined CSV on S3
+    csv_buf = io.BytesIO()
+    df.to_csv(csv_buf, index=False)
+    csv_buf.seek(0)
+    s3.put_object(
+        Bucket=S3_BUCKET,
+        Key=f"{S3_DATA_PREFIX}/shipments_full.csv",
+        Body=csv_buf.getvalue(),
+        ContentType="text/csv",
+    )
 
 
 def _query_athena(sql: str) -> list[dict]:
@@ -244,7 +290,8 @@ def shipment_edit(order_id: str):
         return redirect(url_for("shipments"))
 
     _write_shipments_csv(all_rows)
-    flash(f"RECORD UPDATED — {order_id[:8]}... saved successfully")
+    _sync_to_s3(all_rows)
+    flash(f"RECORD UPDATED — {order_id[:8]}... saved to CSV and synced to S3")
     return redirect(url_for("shipment_detail", order_id=order_id))
 
 
