@@ -3,9 +3,15 @@
 <div class="win-title">&#9632; SHIPMENT RECORD DETAIL &mdash; MODULE SHP-002</div>
 <div class="win-body">
 
+  {% with messages = get_flashed_messages() %}
+    {% for msg in messages %}
+    <div class="flash">&#9658; {{ msg }}</div>
+    {% endfor %}
+  {% endwith %}
+
   <div style="display:flex; gap:8px; flex-wrap:wrap;">
 
-    <!-- Order Info -->
+    <!-- Order Info (read-only) -->
     <div class="panel" style="flex:1; min-width:280px;">
       <div class="panel-label">&#9658; Order Information</div>
       <table style="font-size:11px; width:100%;">
@@ -27,11 +33,11 @@
             {% else %}<span class="sent-neu">&#9644; Neutral</span>{% endif %}
           </td>
         </tr>
-        <tr><td style="color:#666; padding:2px 0;">Last Updated</td><td style="font-size:10px;">{{ row.last_updated[:19] if row.last_updated else '—' }}</td></tr>
+        <tr><td style="color:#666; padding:2px 0;">Last Updated</td><td style="font-size:10px;">{{ row.last_updated[:19] if row.last_updated else '&mdash;' }}</td></tr>
       </table>
     </div>
 
-    <!-- Customer PII -->
+    <!-- Customer PII (read-only) -->
     <div class="panel" style="flex:1; min-width:280px;">
       <div class="panel-label">&#9658; Customer PII &mdash; Identity Resolution Mapping</div>
       <table style="font-size:11px; width:100%;">
@@ -41,21 +47,21 @@
           <td style="color:#666; padding:2px 0;">Email Address</td>
           <td>
             <span style="font-weight:bold;">{{ row.email_address }}</span><br>
-            <span style="font-size:9px; color:#000080;">&#10142; Maps to: Contact Point Email DMO</span>
+            <span style="font-size:9px; color:#000080;">&#10142; Contact Point Email DMO</span>
           </td>
         </tr>
         <tr>
           <td style="color:#666; padding:2px 0;">Phone Number</td>
           <td>
             <span style="font-weight:bold;">{{ row.phone_number }}</span><br>
-            <span style="font-size:9px; color:#000080;">&#10142; Maps to: Contact Point Phone DMO</span>
+            <span style="font-size:9px; color:#000080;">&#10142; Contact Point Phone DMO</span>
           </td>
         </tr>
         <tr>
           <td style="color:#666; padding:2px 0;">ERP Party ID</td>
           <td>
             <span style="font-weight:bold; color:#000080;">{{ row.erp_party_id }}</span><br>
-            <span style="font-size:9px; color:#000080;">&#10142; Maps to: Party Identification DMO (externalSourceId)</span>
+            <span style="font-size:9px; color:#000080;">&#10142; Party Identification DMO</span>
           </td>
         </tr>
       </table>
@@ -63,15 +69,54 @@
 
   </div>
 
+  <!-- ── Edit Form ─────────────────────────────────────────────────── -->
+  <div class="panel" style="border-color:#000080;">
+    <div class="panel-label" style="color:#000080;">&#9658; MODIFY RECORD &mdash; [F5] EDIT MODE</div>
+
+    <form method="POST" action="{{ url_for('shipment_edit', order_id=row.order_id) }}"
+          style="display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end;">
+
+      <div>
+        <label style="display:block; font-size:10px; margin-bottom:3px; text-transform:uppercase; letter-spacing:1px;">Status</label>
+        <select name="status" style="font-family:'Courier New'; font-size:11px; border:2px inset #808080; padding:2px 4px;">
+          {% for s in valid_statuses %}
+          <option value="{{ s }}" {% if s == row.status %}selected{% endif %}>{{ s }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div>
+        <label style="display:block; font-size:10px; margin-bottom:3px; text-transform:uppercase; letter-spacing:1px;">Sentiment</label>
+        <select name="sentiment_flag" style="font-family:'Courier New'; font-size:11px; border:2px inset #808080; padding:2px 4px;">
+          {% for s in valid_sentiments %}
+          <option value="{{ s }}" {% if s == row.sentiment_flag %}selected{% endif %}>{{ s }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div>
+        <label style="display:block; font-size:10px; margin-bottom:3px; text-transform:uppercase; letter-spacing:1px;">Quote Amount ($)</label>
+        <input type="number" name="quote_amount" step="0.01" min="0.01" max="999999"
+               value="{{ "%.2f"|format(row.quote_amount|float) }}"
+               style="width:110px; font-family:'Courier New'; font-size:11px; border:2px inset #808080; padding:2px 4px;">
+      </div>
+
+      <div>
+        <button type="submit" class="btn btn-primary" style="margin-top:2px;">[F5] SAVE CHANGES</button>
+      </div>
+
+    </form>
+  </div>
+
   <!-- DC Mapping note -->
   <div class="panel" style="background:#ffffcc; border-color:#cccc00;">
     <div class="panel-label" style="color:#666600;">&#9888; DATA CLOUD IDENTITY RESOLUTION NOTE</div>
     <div style="font-size:10px; line-height:1.6;">
-      This record will be ingested by Salesforce Data Cloud via the <strong>Amazon S3 File Federation (Zero Copy)</strong> connector.<br>
-      &bull; <strong>erp_party_id</strong> &rarr; <em>Party Identification DMO</em> (partyIdentificationType = ERP, sourceSystemId)<br>
-      &bull; <strong>email_address</strong> &rarr; <em>Contact Point Email DMO</em><br>
-      &bull; <strong>phone_number</strong> &rarr; <em>Contact Point Phone DMO</em><br>
-      Match rules evaluate these Contact Point DMOs to merge this ERP Individual with matching Service Cloud Contacts.
+      <strong>erp_party_id</strong> &rarr; <em>Party Identification DMO</em> &bull;
+      <strong>email_address</strong> &rarr; <em>Contact Point Email DMO</em> &bull;
+      <strong>phone_number</strong> &rarr; <em>Contact Point Phone DMO</em><br>
+      Edits to Status, Sentiment, and Quote Amount are saved to the local CSV immediately.
+      Re-run <code>generate_data.py</code> to also sync changes to S3.
     </div>
   </div>
 
